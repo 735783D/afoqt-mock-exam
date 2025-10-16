@@ -107,7 +107,7 @@ export default function ExamHeader({
         <div>
           <h1 className="text-xl font-bold">AFOQT {sectionName}</h1>
           <p className="text-sm text-blue-200">
-            {sectionName === "Reading Comprehension" ? "Passage" : "Problem"} {currentPassage + 1} of {totalPassages}
+            {sectionName.includes("Reading") ? "Passage" : "Problem"} {currentPassage + 1} of {totalPassages}
           </p>
         </div>
         <div className="text-right">

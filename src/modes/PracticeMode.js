@@ -3,26 +3,120 @@
 // import ExamHeader from '../components/ExamHeader';
 // import ExamQuestion from '../components/ExamQuestion';
 // import ExamResults from '../components/ExamResults';
-// import { readingCompData, EXAM_CONFIG } from '../data/readingCompQuestions';
+// import SubsectionSelector from '../components/SubsectionSelector';
+// import { readingCompData, EXAM_CONFIG as READING_CONFIG } from '../data/readingCompQuestions';
+// import { arithmeticData, ARITHMETIC_CONFIG } from '../data/arithmeticQuestions';
+// import { aviationMilitaryPassages, AVIATION_MILITARY_CONFIG } from '../data/practiceSets/readingComp/aviation-military';
 // import { getTotalQuestions } from '../utils/examLogic';
+// import { physicalSciencePassages, PHYSICAL_SCIENCE_CONFIG } from '../data/practiceSets/readingComp/physical-science';
+// import { technologyEngineeringPassages, TECHNOLOGY_ENGINEERING_CONFIG } from '../data/practiceSets/readingComp/technology-engineering';
+// import { generalTopicsPassages, GENERAL_TOPICS_CONFIG } from '../data/practiceSets/readingComp/general-topics';
+
+
+// // Map section IDs to their names
+// const sectionNames = {
+//   'reading-comp': 'Reading Comprehension',
+//   'arithmetic': 'Arithmetic Reasoning'
+// };
 
 // export default function PracticeMode({ sectionId, onExit }) {
+//   const [selectedSubsection, setSelectedSubsection] = useState(null);
 //   const [examStarted, setExamStarted] = useState(false);
 //   const [currentPassage, setCurrentPassage] = useState(0);
 //   const [answers, setAnswers] = useState({});
 //   const [showResults, setShowResults] = useState(false);
 
-//   // For now, only reading comprehension is available
-//   // We'll add more sections later
+//   // Get section data based on selected section and subsection
 //   const getSectionData = () => {
 //     switch(sectionId) {
 //       case 'reading-comp':
+//         // If subsection selected, load that subsection's data
+//         if (selectedSubsection === 'aviation-military') {
+//           return {
+//             data: aviationMilitaryPassages,
+//             config: { 
+//               timeLimit: READING_CONFIG.timeLimit, 
+//               sectionName: AVIATION_MILITARY_CONFIG.name 
+//             },
+//             name: `Reading Comprehension - ${AVIATION_MILITARY_CONFIG.name}`,
+//             isArithmetic: false
+//           };
+//         }
+//         if (selectedSubsection === 'physical-science') {
+//           return {
+//             data: physicalSciencePassages,
+//             config: { 
+//               timeLimit: READING_CONFIG.timeLimit, 
+//               sectionName: PHYSICAL_SCIENCE_CONFIG.name 
+//             },
+//             name: `Reading Comprehension - ${PHYSICAL_SCIENCE_CONFIG.name}`,
+//             isArithmetic: false
+//           };
+//         }
+//         if (selectedSubsection === 'technology') {
+//           return {
+//             data: technologyEngineeringPassages,
+//             config: { 
+//               timeLimit: READING_CONFIG.timeLimit, 
+//               sectionName: TECHNOLOGY_ENGINEERING_CONFIG.name 
+//             },
+//             name: `Reading Comprehension - ${TECHNOLOGY_ENGINEERING_CONFIG.name}`,
+//             isArithmetic: false
+//           };
+//         }
+//         if (selectedSubsection === 'general-topics') {
+//           return {
+//             data: generalTopicsPassages,
+//             config: { 
+//               timeLimit: READING_CONFIG.timeLimit, 
+//               sectionName: GENERAL_TOPICS_CONFIG.name 
+//             },
+//             name: `Reading Comprehension - ${GENERAL_TOPICS_CONFIG.name}`,
+//             isArithmetic: false
+//           };
+//         }
+//         // If "full" is selected, use all reading comp data
+//         if (selectedSubsection === 'full') {
+//           return {
+//             data: readingCompData,
+//             config: READING_CONFIG,
+//             name: 'Reading Comprehension - Full Section',
+//             isArithmetic: false
+//           };
+//         }
+//         // Default to full section if somehow no subsection selected
 //         return {
 //           data: readingCompData,
-//           config: EXAM_CONFIG,
-//           name: 'Reading Comprehension'
+//           config: READING_CONFIG,
+//           name: 'Reading Comprehension',
+//           isArithmetic: false
 //         };
-//       // Add more sections as we build them
+        
+//       case 'arithmetic':
+//         // If subsection selected, load that subsection's data
+//         // For now, just using main data as placeholder until subsection files exist
+//         if (selectedSubsection === 'full') {
+//           return {
+//             data: arithmeticData.map(q => ({
+//               id: q.id,
+//               questions: [q]
+//             })),
+//             config: ARITHMETIC_CONFIG,
+//             name: 'Arithmetic Reasoning - Full Section',
+//             isArithmetic: true
+//           };
+//         }
+//         // Individual subsections (when files are created)
+//         return {
+//           data: arithmeticData.map(q => ({
+//             id: q.id,
+//             questions: [q]
+//           })),
+//           config: ARITHMETIC_CONFIG,
+//           name: 'Arithmetic Reasoning',
+//           isArithmetic: true
+//         };
+        
 //       default:
 //         return null;
 //     }
@@ -43,6 +137,18 @@
 //           </button>
 //         </div>
 //       </div>
+//     );
+//   }
+
+//   // Show subsection selector if no subsection selected yet
+//   if (!selectedSubsection) {
+//     return (
+//       <SubsectionSelector 
+//         sectionId={sectionId}
+//         sectionName={sectionNames[sectionId]}
+//         onSelectSubsection={setSelectedSubsection}
+//         onBack={onExit}
+//       />
 //     );
 //   }
 
@@ -78,6 +184,14 @@
 //     setShowResults(false);
 //   };
 
+//   const handleBackToSubsections = () => {
+//     setSelectedSubsection(null);
+//     setExamStarted(false);
+//     setCurrentPassage(0);
+//     setAnswers({});
+//     setShowResults(false);
+//   };
+
 //   // Show start screen
 //   if (!examStarted) {
 //     return (
@@ -91,10 +205,10 @@
 //         />
 //         <div className="fixed bottom-4 left-4">
 //           <button
-//             onClick={onExit}
+//             onClick={handleBackToSubsections}
 //             className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg transition"
 //           >
-//             ← Back to Sections
+//             ← Back to Subsections
 //           </button>
 //         </div>
 //       </div>
@@ -112,10 +226,10 @@
 //         />
 //         <div className="fixed bottom-4 left-4">
 //           <button
-//             onClick={onExit}
+//             onClick={handleBackToSubsections}
 //             className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg transition"
 //           >
-//             ← Back to Sections
+//             ← Back to Subsections
 //           </button>
 //         </div>
 //       </div>
@@ -134,6 +248,7 @@
 //         timeRemaining={null} // No timer in practice mode
 //         answeredCount={answeredCount}
 //         totalQuestions={totalQuestions}
+//         sectionName={section.name}
 //       />
 //       <ExamQuestion 
 //         passage={passage}
@@ -145,13 +260,14 @@
 //         onSubmit={handleSubmit}
 //         answeredCount={answeredCount}
 //         totalQuestions={totalQuestions}
+//         isArithmetic={section.isArithmetic}
 //       />
 //       <div className="fixed bottom-4 left-4 z-20">
 //         <button
-//           onClick={onExit}
+//           onClick={handleBackToSubsections}
 //           className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg transition shadow-lg"
 //         >
-//           ← Exit Practice
+//           ← Back to Subsections
 //         </button>
 //       </div>
 //     </>
@@ -164,36 +280,120 @@ import ExamStart from '../components/ExamStart';
 import ExamHeader from '../components/ExamHeader';
 import ExamQuestion from '../components/ExamQuestion';
 import ExamResults from '../components/ExamResults';
+import SubsectionSelector from '../components/SubsectionSelector';
 import { readingCompData, EXAM_CONFIG as READING_CONFIG } from '../data/readingCompQuestions';
 import { arithmeticData, ARITHMETIC_CONFIG } from '../data/arithmeticQuestions';
+import { aviationMilitaryPassages, AVIATION_MILITARY_CONFIG } from '../data/practiceSets/readingComp/aviation-military';
 import { getTotalQuestions } from '../utils/examLogic';
+import { wordKnowledgeData, WORD_KNOWLEDGE_CONFIG } from '../data/wordKnowledgeQuestions';
+import { aviationInfoData, AVIATION_INFO_CONFIG } from '../data/aviationInfoQuestions';
+import { verbalAnalogiesData, VERBAL_ANALOGIES_CONFIG } from '../data/verbalAnalogiesQuestions';
+
+
+// Map section IDs to their names
+const sectionNames = {
+  'reading-comp': 'Reading Comprehension',
+  'arithmetic': 'Arithmetic Reasoning'
+};
 
 export default function PracticeMode({ sectionId, onExit }) {
+  const [selectedSubsection, setSelectedSubsection] = useState(null);
   const [examStarted, setExamStarted] = useState(false);
   const [currentPassage, setCurrentPassage] = useState(0);
   const [answers, setAnswers] = useState({});
   const [showResults, setShowResults] = useState(false);
 
-  // Get section data based on selected section
+  // Get section data based on selected section and subsection
   const getSectionData = () => {
     switch(sectionId) {
       case 'reading-comp':
+        // If subsection selected, load that subsection's data
+        if (selectedSubsection === 'aviation-military') {
+          return {
+            data: aviationMilitaryPassages,
+            config: { 
+              timeLimit: READING_CONFIG.timeLimit, 
+              sectionName: AVIATION_MILITARY_CONFIG.name 
+            },
+            name: `Reading Comprehension - ${AVIATION_MILITARY_CONFIG.name}`,
+            isArithmetic: false
+          };
+        }
+        // If "full" is selected, use all reading comp data
+        if (selectedSubsection === 'full') {
+          return {
+            data: readingCompData,
+            config: READING_CONFIG,
+            name: 'Reading Comprehension - Full Section',
+            isArithmetic: false
+          };
+        }
+        // Default to full section if somehow no subsection selected
         return {
           data: readingCompData,
           config: READING_CONFIG,
           name: 'Reading Comprehension',
           isArithmetic: false
         };
+        
       case 'arithmetic':
+        // If subsection selected, load that subsection's data
+        // For now, just using main data as placeholder until subsection files exist
+        if (selectedSubsection === 'full') {
+          return {
+            data: arithmeticData.map(q => ({
+              id: q.id,
+              questions: [q]
+            })),
+            config: ARITHMETIC_CONFIG,
+            name: 'Arithmetic Reasoning - Full Section',
+            isArithmetic: true
+          };
+        }
+        // Individual subsections (when files are created)
         return {
           data: arithmeticData.map(q => ({
             id: q.id,
-            questions: [q] // Wrap each question as a "passage" with one question
+            questions: [q]
           })),
           config: ARITHMETIC_CONFIG,
           name: 'Arithmetic Reasoning',
           isArithmetic: true
         };
+        
+      case 'word-knowledge':
+        return {
+          data: wordKnowledgeData.map(q => ({
+            id: q.id,
+            questions: [q]
+          })),
+          config: WORD_KNOWLEDGE_CONFIG,
+          name: 'Word Knowledge',
+          isArithmetic: false // Simple question format like arithmetic
+        };
+        
+      case 'verbal-analogies':
+        return {
+          data: verbalAnalogiesData.map(q => ({
+            id: q.id,
+            questions: [q]
+          })),
+          config: VERBAL_ANALOGIES_CONFIG,
+          name: 'Verbal Analogies',
+          isArithmetic: false
+        };
+        
+      case 'aviation-info':
+        return {
+          data: aviationInfoData.map(q => ({
+            id: q.id,
+            questions: [q]
+          })),
+          config: AVIATION_INFO_CONFIG,
+          name: 'Aviation Information',
+          isArithmetic: false
+        };
+        
       default:
         return null;
     }
@@ -214,6 +414,18 @@ export default function PracticeMode({ sectionId, onExit }) {
           </button>
         </div>
       </div>
+    );
+  }
+
+  // Show subsection selector if no subsection selected yet
+  if (!selectedSubsection) {
+    return (
+      <SubsectionSelector 
+        sectionId={sectionId}
+        sectionName={sectionNames[sectionId]}
+        onSelectSubsection={setSelectedSubsection}
+        onBack={onExit}
+      />
     );
   }
 
@@ -249,6 +461,14 @@ export default function PracticeMode({ sectionId, onExit }) {
     setShowResults(false);
   };
 
+  const handleBackToSubsections = () => {
+    setSelectedSubsection(null);
+    setExamStarted(false);
+    setCurrentPassage(0);
+    setAnswers({});
+    setShowResults(false);
+  };
+
   // Show start screen
   if (!examStarted) {
     return (
@@ -262,10 +482,10 @@ export default function PracticeMode({ sectionId, onExit }) {
         />
         <div className="fixed bottom-4 left-4">
           <button
-            onClick={onExit}
+            onClick={handleBackToSubsections}
             className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg transition"
           >
-            ← Back to Sections
+            ← Back to Subsections
           </button>
         </div>
       </div>
@@ -283,10 +503,10 @@ export default function PracticeMode({ sectionId, onExit }) {
         />
         <div className="fixed bottom-4 left-4">
           <button
-            onClick={onExit}
+            onClick={handleBackToSubsections}
             className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg transition"
           >
-            ← Back to Sections
+            ← Back to Subsections
           </button>
         </div>
       </div>
@@ -305,6 +525,7 @@ export default function PracticeMode({ sectionId, onExit }) {
         timeRemaining={null} // No timer in practice mode
         answeredCount={answeredCount}
         totalQuestions={totalQuestions}
+        sectionName={section.name}
       />
       <ExamQuestion 
         passage={passage}
@@ -320,10 +541,10 @@ export default function PracticeMode({ sectionId, onExit }) {
       />
       <div className="fixed bottom-4 left-4 z-20">
         <button
-          onClick={onExit}
+          onClick={handleBackToSubsections}
           className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg transition shadow-lg"
         >
-          ← Exit Practice
+          ← Back to Subsections
         </button>
       </div>
     </>

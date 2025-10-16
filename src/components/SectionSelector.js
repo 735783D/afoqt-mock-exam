@@ -16,7 +16,7 @@
 //     questions: 25, 
 //     time: 29,
 //     description: 'Word problems and calculations',
-//     available: false
+//     available: true
 //   },
 //   { 
 //     id: 'word-knowledge', 
@@ -178,6 +178,7 @@
 //   );
 // }
 
+
 import React from 'react';
 import { ArrowLeft, CheckCircle } from 'lucide-react';
 
@@ -188,7 +189,7 @@ const sections = [
     questions: 25, 
     time: 8,
     description: 'Word relationships and reasoning',
-    available: false
+    available: true
   },
   { 
     id: 'arithmetic', 
@@ -204,7 +205,7 @@ const sections = [
     questions: 25, 
     time: 5,
     description: 'Vocabulary and definitions',
-    available: false
+    available: true
   },
   { 
     id: 'math-knowledge', 
@@ -276,7 +277,7 @@ const sections = [
     questions: 20, 
     time: 8,
     description: 'Aircraft systems and flight principles',
-    available: false
+    available: true
   }
 ];
 
