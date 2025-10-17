@@ -213,7 +213,7 @@ const sections = [
     questions: 25, 
     time: 22,
     description: 'Algebra, geometry, and math concepts',
-    available: false
+    available: true
   },
   { 
     id: 'reading-comp', 

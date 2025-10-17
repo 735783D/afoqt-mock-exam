@@ -284,16 +284,22 @@ import SubsectionSelector from '../components/SubsectionSelector';
 import { readingCompData, EXAM_CONFIG as READING_CONFIG } from '../data/readingCompQuestions';
 import { arithmeticData, ARITHMETIC_CONFIG } from '../data/arithmeticQuestions';
 import { aviationMilitaryPassages, AVIATION_MILITARY_CONFIG } from '../data/practiceSets/readingComp/aviation-military';
-import { getTotalQuestions } from '../utils/examLogic';
-import { wordKnowledgeData, WORD_KNOWLEDGE_CONFIG } from '../data/wordKnowledgeQuestions';
+import { mathKnowledgeData, MATH_KNOWLEDGE_CONFIG } from '../data/mathKnowledgeQuestions';
+import { physicalScienceData, PHYSICAL_SCIENCE_CONFIG } from '../data/physicalScienceQuestions';
+import { tableReadingData, TABLE_READING_CONFIG } from '../data/tableReadingQuestions';
+import { instrumentCompData, INSTRUMENT_COMP_CONFIG } from '../data/instrumentCompQuetions';
+import { blockCountingData, BLOCK_COUNTING_CONFIG } from '../data/blockCountingQuestions';
+import { situationalJudgmentData, SITUATIONAL_JUDGMENT_CONFIG } from '../data/situationalJudgementQuestions';
 import { aviationInfoData, AVIATION_INFO_CONFIG } from '../data/aviationInfoQuestions';
+import { wordKnowledgeData, WORD_KNOWLEDGE_CONFIG } from '../data/wordKnowledgeQuestions';
 import { verbalAnalogiesData, VERBAL_ANALOGIES_CONFIG } from '../data/verbalAnalogiesQuestions';
-
+import { getTotalQuestions } from '../utils/examLogic';
 
 // Map section IDs to their names
 const sectionNames = {
   'reading-comp': 'Reading Comprehension',
-  'arithmetic': 'Arithmetic Reasoning'
+  'arithmetic': 'Arithmetic Reasoning',
+  'word-knowledge': 'Word Knowledge'
 };
 
 export default function PracticeMode({ sectionId, onExit }) {
@@ -391,6 +397,72 @@ export default function PracticeMode({ sectionId, onExit }) {
           })),
           config: AVIATION_INFO_CONFIG,
           name: 'Aviation Information',
+          isArithmetic: false
+        };
+        
+      case 'math-knowledge':
+        return {
+          data: mathKnowledgeData.map(q => ({
+            id: q.id,
+            questions: [q]
+          })),
+          config: MATH_KNOWLEDGE_CONFIG,
+          name: 'Math Knowledge',
+          isArithmetic: false
+        };
+        
+      case 'physical-science':
+        return {
+          data: physicalScienceData.map(q => ({
+            id: q.id,
+            questions: [q]
+          })),
+          config: PHYSICAL_SCIENCE_CONFIG,
+          name: 'Physical Science',
+          isArithmetic: false
+        };
+        
+      case 'table-reading':
+        return {
+          data: tableReadingData.map(q => ({
+            id: q.id,
+            questions: [q]
+          })),
+          config: TABLE_READING_CONFIG,
+          name: 'Table Reading',
+          isArithmetic: false
+        };
+        
+      case 'instrument-comp':
+        return {
+          data: instrumentCompData.map(q => ({
+            id: q.id,
+            questions: [q]
+          })),
+          config: INSTRUMENT_COMP_CONFIG,
+          name: 'Instrument Comprehension',
+          isArithmetic: false
+        };
+        
+      case 'block-counting':
+        return {
+          data: blockCountingData.map(q => ({
+            id: q.id,
+            questions: [q]
+          })),
+          config: BLOCK_COUNTING_CONFIG,
+          name: 'Block Counting',
+          isArithmetic: false
+        };
+        
+      case 'situational-judgment':
+        return {
+          data: situationalJudgmentData.map(q => ({
+            id: q.id,
+            questions: [q]
+          })),
+          config: SITUATIONAL_JUDGMENT_CONFIG,
+          name: 'Situational Judgment',
           isArithmetic: false
         };
         
