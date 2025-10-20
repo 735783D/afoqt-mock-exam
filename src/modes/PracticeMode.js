@@ -862,7 +862,11 @@ export default function PracticeMode({ sectionId, onExit }) {
     'block-counting',
     'situational-judgment'
   ];
-  
+
+    // Determine if section is passage-based or question-based
+const isPassageBased = sectionId === 'reading-comp';
+console.log('Section ID:', sectionId, 'isPassageBased:', isPassageBased);
+
   const handleBackToSubsections = () => {
     // If section has subsections, go back to subsection selector
     if (sectionsWithSubsections.includes(sectionId)) {
@@ -965,9 +969,6 @@ export default function PracticeMode({ sectionId, onExit }) {
     );
   }
 
-  // Determine if section is passage-based or question-based
-  const isPassageBased = sectionId === 'reading-comp';
-
   // Show exam questions (no timer in practice mode)
   const passage = section.data[currentPassage];
   const answeredCount = Object.keys(answers).length;
@@ -993,7 +994,7 @@ export default function PracticeMode({ sectionId, onExit }) {
         onSubmit={handleSubmit}
         answeredCount={answeredCount}
         totalQuestions={totalQuestions}
-        isArithmetic={section.isArithmetic}
+        isPassageBased={isPassageBased}
       />
       <div className="fixed bottom-4 left-4 z-20">
         <button

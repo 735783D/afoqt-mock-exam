@@ -121,7 +121,8 @@ export default function ExamQuestion({
   onSubmit,
   answeredCount,
   totalQuestions,
-  isArithmetic = false
+  isArithmetic = false,
+  isPassageBased = true  // Add this line
 }) {
   return (
     <div className="min-h-screen bg-gray-100 pb-8">
@@ -130,7 +131,7 @@ export default function ExamQuestion({
           {!isArithmetic ? (
             <>
               <h2 className="text-2xl font-bold text-blue-900 mb-4">
-                Passage {passage.id}
+                {isPassageBased ? `Passage ${passage.id}` : `Question ${passage.id}`}
               </h2>
               
               <div className="prose max-w-none mb-8 px-2">

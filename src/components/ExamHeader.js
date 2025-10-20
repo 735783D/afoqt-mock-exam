@@ -153,6 +153,8 @@ export default function ExamHeader({
   sectionName = "Reading Comprehension",
   isPassageBased = true // New prop to indicate if section uses passages
 }) {
+  console.log('ExamHeader received isPassageBased:', isPassageBased, 'sectionName:', sectionName);
+
   const timeWarning = timeRemaining && timeRemaining < 5 * 60;
   
   return (
@@ -161,8 +163,7 @@ export default function ExamHeader({
         <div>
           <h1 className="text-xl font-bold">AFOQT {sectionName}</h1>
           <p className="text-sm text-blue-200">
-            {isPassageBased ? "Passage" : "Question"} {currentPassage + 1} of {totalPassages}
-          </p>
+{console.log('Rendering:', isPassageBased ? "Passage" : "Question") || (isPassageBased ? "Passage" : "Question")} {currentPassage + 1} of {totalPassages}          </p>
         </div>
         <div className="text-right">
           {timeRemaining !== null ? (
