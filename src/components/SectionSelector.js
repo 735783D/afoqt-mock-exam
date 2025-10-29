@@ -229,7 +229,7 @@ const sections = [
     questions: 50, 
     time: 35,
     description: 'Leadership scenarios and decision-making',
-    available: false
+    available: true
   },
   { 
     id: 'self-description', 
@@ -253,7 +253,7 @@ const sections = [
     questions: 40, 
     time: 7,
     description: 'Quick data extraction from tables',
-    available: false
+    available: true
   },
   { 
     id: 'instrument-comp', 

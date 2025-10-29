@@ -12,7 +12,7 @@ import { physicalScienceData, PHYSICAL_SCIENCE_CONFIG } from '../data/physicalSc
 import { tableReadingData, TABLE_READING_CONFIG } from '../data/tableReadingQuestions';
 import { instrumentCompData, INSTRUMENT_COMP_CONFIG } from '../data/instrumentCompQuetions';
 import { blockCountingData, BLOCK_COUNTING_CONFIG } from '../data/blockCountingQuestions';
-import { situationalJudgmentData, SITUATIONAL_JUDGMENT_CONFIG } from '../data/situationalJudgementQuestions';
+import { situationalJudgmentData, SITUATIONAL_JUDGMENT_CONFIG } from '../data/situationalJudgmentQuestions';
 import { aviationInfoData, AVIATION_INFO_CONFIG } from '../data/aviationInfoQuestions';
 import { wordKnowledgeData, WORD_KNOWLEDGE_CONFIG } from '../data/wordKnowledgeQuestions';
 import { verbalAnalogiesData, VERBAL_ANALOGIES_CONFIG } from '../data/verbalAnalogiesQuestions';
@@ -20,6 +20,9 @@ import { physicalSciencePassages } from '../data/practiceSets/readingComp/physic
 import { technologyEngineeringPassages, TECHNOLOGY_ENGINEERING_CONFIG } from '../data/practiceSets/readingComp/technology-engineering';
 import { generalTopicsPassages, GENERAL_TOPICS_CONFIG } from '../data/practiceSets/readingComp/general-topics';
 import { getTotalQuestions } from '../utils/examLogic';
+import SituationalJudgmentQuestions from '../components/SituationalJudgmentQuestions'; 
+import TableReadingQuestion from '../components/TableReadingQuestions';
+
 
 // Helper to get questions for a specific numbered set
 const getQuestionsForSet = (allQuestions, setId, questionsPerSet = 25) => {
@@ -186,8 +189,9 @@ export default function PracticeMode({ sectionId, onExit }) {
         };
         
       case 'table-reading':
+        const trQuestions = getQuestionsForSet(tableReadingData, selectedSubsection, 25);
         return {
-          data: tableReadingData.map(q => ({
+          data: trQuestions.map(q => ({
             id: q.id,
             questions: [q]
           })),
@@ -219,8 +223,9 @@ export default function PracticeMode({ sectionId, onExit }) {
         };
         
       case 'situational-judgment':
+        const sjQuestions = getQuestionsForSet(situationalJudgmentData, selectedSubsection, 25);
         return {
-          data: situationalJudgmentData.map(q => ({
+          data: sjQuestions.map(q => ({
             id: q.id,
             questions: [q]
           })),
@@ -373,7 +378,7 @@ console.log('Section ID:', sectionId, 'isPassageBased:', isPassageBased);
     );
   }
 
-  // Show exam questions (no timer in practice mode)
+// Show exam questions (no timer in practice mode)
   const passage = section.data[currentPassage];
   const answeredCount = Object.keys(answers).length;
 
@@ -382,24 +387,61 @@ console.log('Section ID:', sectionId, 'isPassageBased:', isPassageBased);
       <ExamHeader 
         currentPassage={currentPassage}
         totalPassages={section.data.length}
-        timeRemaining={null} // No timer in practice mode
+        timeRemaining={null}
         answeredCount={answeredCount}
         totalQuestions={totalQuestions}
         sectionName={section.name}
         isPassageBased={isPassageBased}
       />
-      <ExamQuestion 
-        passage={passage}
-        answers={answers}
-        onAnswer={handleAnswer}
-        onNavigate={handleNavigate}
-        isFirst={currentPassage === 0}
-        isLast={currentPassage === section.data.length - 1}
-        onSubmit={handleSubmit}
-        answeredCount={answeredCount}
-        totalQuestions={totalQuestions}
-        isPassageBased={isPassageBased}
-      />
+      
+      {sectionId === 'situational-judgment' ? (
+        <SituationalJudgmentQuestions 
+          scenario={passage}
+          answers={answers}
+          onAnswer={(questionId, responseId, rating) => {
+            setAnswers(prev => ({
+              ...prev,
+              [questionId]: {
+                ...prev[questionId],
+                [responseId]: rating
+              }
+            }));
+          }}
+          onNavigate={handleNavigate}
+          isFirst={currentPassage === 0}
+          isLast={currentPassage === section.data.length - 1}
+          onSubmit={handleSubmit}
+          answeredCount={answeredCount}
+          totalQuestions={totalQuestions}
+        />
+        ) : sectionId === 'table-reading' ? (
+          <TableReadingQuestion 
+            tableQuestion={passage}
+            answers={answers}
+            onAnswer={handleAnswer}
+            onNavigate={handleNavigate}
+            isFirst={currentPassage === 0}
+            isLast={currentPassage === section.data.length - 1}
+            onSubmit={handleSubmit}
+            answeredCount={answeredCount}
+            totalQuestions={totalQuestions}
+          />
+        ) : (
+          <ExamQuestion 
+            passage={passage}
+            answers={answers}
+            onAnswer={handleAnswer}
+            onNavigate={handleNavigate}
+            isFirst={currentPassage === 0}
+            isLast={currentPassage === section.data.length - 1}
+            onSubmit={handleSubmit}
+            answeredCount={answeredCount}
+            totalQuestions={totalQuestions}
+            isArithmetic={section.isArithmetic}
+            isPassageBased={isPassageBased}
+          />
+        )}
+      
       <div className="fixed bottom-4 left-4 z-20">
         <button
           onClick={handleBackToSubsections}
@@ -410,4 +452,4 @@ console.log('Section ID:', sectionId, 'isPassageBased:', isPassageBased);
       </div>
     </>
   );
-}
+};

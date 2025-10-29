@@ -1053,11 +1053,11 @@ export const physicalScienceData = [
     explanation: "An estuary is a coastal area where freshwater from rivers mixes with saltwater from the ocean."
   },
   {
-  id: 151,
-  text: "What is the layer of gases surrounding Earth called?",
-  options: ["Lithosphere", "Hydrosphere", "Atmosphere", "Biosphere"],
-  correct: 2,
-  explanation: "The atmosphere is the envelope of gases that surrounds Earth and supports life."
+    id: 151,
+    text: "What is the layer of gases surrounding Earth called?",
+    options: ["Lithosphere", "Hydrosphere", "Atmosphere", "Biosphere"],
+    correct: 2,
+    explanation: "The atmosphere is the envelope of gases that surrounds Earth and supports life."
   },
   {
     id: 152,
@@ -1228,11 +1228,11 @@ export const physicalScienceData = [
     explanation: "An estuary forms where freshwater meets saltwater, providing a rich habitat for many species."
   },
   {
-  id: 176,
-  text: "Which gas is most responsible for trapping heat in Earth’s atmosphere?",
-  options: ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
-  correct: 1,
-  explanation: "Carbon dioxide is a greenhouse gas that traps heat and contributes to the warming of Earth’s atmosphere."
+    id: 176,
+    text: "Which gas is most responsible for trapping heat in Earth’s atmosphere?",
+    options: ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    correct: 1,
+    explanation: "Carbon dioxide is a greenhouse gas that traps heat and contributes to the warming of Earth’s atmosphere."
   },
   {
     id: 177,
