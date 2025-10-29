@@ -66,7 +66,8 @@ const subsectionData = {
   'table-reading': generateNumberedSets(200, 25, Table),
   'instrument-comp': generateNumberedSets(100, 25, Gauge),
   'block-counting': generateNumberedSets(150, 30, Box),
-  'situational-judgment': generateNumberedSets(200, 25, Users)
+  'situational-judgment': generateNumberedSets(200, 25, Users),
+  'self-description': generateNumberedSets(220, 25, Gauge)
 };
 export default function SubsectionSelector({ sectionId, sectionName, onSelectSubsection, onBack }) {
   const subsections = subsectionData[sectionId] || [];
@@ -117,12 +118,16 @@ export default function SubsectionSelector({ sectionId, sectionName, onSelectSub
         {/* Info Banner */}
         <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
           <h3 className="font-semibold text-lg text-blue-900 mb-2">
-            📚 Focused Practice
+            {sectionId === 'self-description' ? '📋 Assessment Practice' : 
+             sectionId === 'situational-judgment' ? '🎯 Scenario Practice' : 
+             '📚 Focused Practice'}
           </h3>
           <p className="text-blue-800">
-            Each subsection contains 25 questions focused on a specific topic area. 
-            This allows you to strengthen weak areas or master specific concepts before 
-            taking the full section practice test.
+            {sectionId === 'self-description' 
+              ? 'The Self-Description Inventory contains 220 personality statements. Practice in smaller sets to familiarize yourself with the format and question types before taking the full assessment.'
+              : sectionId === 'situational-judgment'
+              ? 'Each subsection contains 25 scenarios focused on different leadership situations. Practice these to develop your decision-making skills and understand effective responses.'
+              : 'Each subsection contains 25 questions focused on a specific topic area. This allows you to strengthen weak areas or master specific concepts before taking the full section practice test.'}
           </p>
         </div>
 

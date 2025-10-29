@@ -22,6 +22,8 @@ import { generalTopicsPassages, GENERAL_TOPICS_CONFIG } from '../data/practiceSe
 import { getTotalQuestions } from '../utils/examLogic';
 import SituationalJudgmentQuestions from '../components/SituationalJudgmentQuestions'; 
 import TableReadingQuestion from '../components/TableReadingQuestions';
+import { selfDescriptionData, SELF_DESCRIPTION_CONFIG } from '../data/selfDescriptionQuestions';
+import SelfDescriptionInventory from '../components/SelfDescriptionInventory';
 
 
 // Helper to get questions for a specific numbered set
@@ -233,6 +235,18 @@ export default function PracticeMode({ sectionId, onExit }) {
           name: 'Situational Judgment',
           isArithmetic: false
         };
+
+      case 'self-description':
+        const sdiQuestions = getQuestionsForSet(selfDescriptionData, selectedSubsection, 25);
+        return {
+          data: sdiQuestions.map(q => ({
+            id: q.id,
+            questions: [q]
+          })),
+          config: SELF_DESCRIPTION_CONFIG,
+          name: 'Self-Description Inventory',
+          isArithmetic: false
+        };
         
       default:
         return null;
@@ -269,7 +283,8 @@ export default function PracticeMode({ sectionId, onExit }) {
     'table-reading',
     'instrument-comp',
     'block-counting',
-    'situational-judgment'
+    'situational-judgment',
+    'self-description'
   ];
 
     // Determine if section is passage-based or question-based
@@ -425,6 +440,19 @@ console.log('Section ID:', sectionId, 'isPassageBased:', isPassageBased);
             onSubmit={handleSubmit}
             answeredCount={answeredCount}
             totalQuestions={totalQuestions}
+          />
+        ) : sectionId === 'self-description' ? (
+          <SelfDescriptionInventory
+            question={passage.questions[0]}
+            selectedAnswer={answers[passage.questions[0].id]}
+            onAnswerSelect={(value) => handleAnswer(passage.questions[0].id, value)}
+            questionNumber={currentPassage + 1}
+            totalQuestions={totalQuestions}
+            onNavigate={handleNavigate}
+            isFirst={currentPassage === 0}
+            isLast={currentPassage === section.data.length - 1}
+            onSubmit={handleSubmit}
+            answeredCount={answeredCount}
           />
         ) : (
           <ExamQuestion 

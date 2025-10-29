@@ -237,7 +237,7 @@ const sections = [
     questions: 220, 
     time: 40,
     description: 'Personality assessment',
-    available: false
+    available: true
   },
   { 
     id: 'physical-science', 
@@ -269,7 +269,7 @@ const sections = [
     questions: 30, 
     time: 4.5,
     description: 'Spatial reasoning with 3D blocks',
-    available: true
+    available: false
   },
   { 
     id: 'aviation-info', 
