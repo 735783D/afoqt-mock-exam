@@ -261,7 +261,7 @@ const sections = [
     questions: 25, 
     time: 5,
     description: 'Aircraft instrument interpretation',
-    available: false
+    available: true
   },
   { 
     id: 'block-counting', 

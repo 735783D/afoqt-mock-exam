@@ -10,7 +10,7 @@ import { aviationMilitaryPassages, AVIATION_MILITARY_CONFIG } from '../data/prac
 import { mathKnowledgeData, MATH_KNOWLEDGE_CONFIG } from '../data/mathKnowledgeQuestions';
 import { physicalScienceData, PHYSICAL_SCIENCE_CONFIG } from '../data/physicalScienceQuestions';
 import { tableReadingData, TABLE_READING_CONFIG } from '../data/tableReadingQuestions';
-import { instrumentCompData, INSTRUMENT_COMP_CONFIG } from '../data/instrumentCompQuetions';
+import { instrumentCompData, INSTRUMENT_COMP_CONFIG } from '../data/instrumentCompQuestions';
 import { blockCountingData, BLOCK_COUNTING_CONFIG } from '../data/blockCountingQuestions';
 import { situationalJudgmentData, SITUATIONAL_JUDGMENT_CONFIG } from '../data/situationalJudgmentQuestions';
 import { aviationInfoData, AVIATION_INFO_CONFIG } from '../data/aviationInfoQuestions';
@@ -24,6 +24,7 @@ import SituationalJudgmentQuestions from '../components/SituationalJudgmentQuest
 import TableReadingQuestion from '../components/TableReadingQuestions';
 import { selfDescriptionData, SELF_DESCRIPTION_CONFIG } from '../data/selfDescriptionQuestions';
 import SelfDescriptionInventory from '../components/SelfDescriptionInventory';
+import InstrumentCompQuestion from '../components/InstrumentCompQuestion';
 
 
 // Helper to get questions for a specific numbered set
@@ -447,6 +448,18 @@ console.log('Section ID:', sectionId, 'isPassageBased:', isPassageBased);
             onSubmit={handleSubmit}
             answeredCount={answeredCount}
           />
+        ) : sectionId === 'instrument-comp' ? (
+            <InstrumentCompQuestion
+              question={passage}
+              answers={answers}
+              onAnswer={handleAnswer}
+              onNavigate={handleNavigate}
+              isFirst={currentPassage === 0}
+              isLast={currentPassage === section.data.length - 1}
+              onSubmit={handleSubmit}
+              answeredCount={answeredCount}
+              totalQuestions={totalQuestions}
+            />
         ) : (
           <ExamQuestion 
             passage={passage}
