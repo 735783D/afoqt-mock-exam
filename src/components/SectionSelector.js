@@ -245,7 +245,7 @@ const sections = [
     questions: 20, 
     time: 10,
     description: 'Physics, chemistry, and general science',
-    available: false
+    available: true
   },
   { 
     id: 'table-reading', 

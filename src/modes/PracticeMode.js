@@ -107,35 +107,23 @@ export default function PracticeMode({ sectionId, onExit }) {
           name: 'Reading Comprehension',
           isArithmetic: false
         };
-        
+
       case 'arithmetic':
-        // If subsection selected, load that subsection's data
-        // For now, just using main data as placeholder until subsection files exist
-        if (selectedSubsection === 'full') {
-          return {
-            data: arithmeticData.map(q => ({
-              id: q.id,
-              questions: [q]
-            })),
-            config: ARITHMETIC_CONFIG,
-            name: 'Arithmetic Reasoning - Full Section',
-            isArithmetic: true
-          };
-        }
-        // Individual subsections (when files are created)
+        const arithmeticQs = getQuestionsForSet(arithmeticData, selectedSubsection, 25);
         return {
-          data: arithmeticData.map(q => ({
+          data: arithmeticQs.map(q => ({
             id: q.id,
             questions: [q]
           })),
-          config: ARITHMETIC_CONFIG,
-          name: 'Arithmetic Reasoning',
-          isArithmetic: true
+          config: WORD_KNOWLEDGE_CONFIG,
+          name: 'Word Knowledge',
+          isArithmetic: false // Simple question format like arithmetic
         };
-        
+
       case 'word-knowledge':
+        const wordKnowledgeQs = getQuestionsForSet(wordKnowledgeData, selectedSubsection, 25);
         return {
-          data: wordKnowledgeData.map(q => ({
+          data: wordKnowledgeQs.map(q => ({
             id: q.id,
             questions: [q]
           })),
@@ -145,8 +133,9 @@ export default function PracticeMode({ sectionId, onExit }) {
         };
         
       case 'verbal-analogies':
+        const verbalAnalData = getQuestionsForSet(verbalAnalogiesData, selectedSubsection, 25);
         return {
-          data: verbalAnalogiesData.map(q => ({
+          data: verbalAnalData.map(q => ({
             id: q.id,
             questions: [q]
           })),
@@ -156,8 +145,9 @@ export default function PracticeMode({ sectionId, onExit }) {
         };
         
       case 'aviation-info':
+        const aviQuestions = getQuestionsForSet(aviationInfoData, selectedSubsection, 25);
         return {
-          data: aviationInfoData.map(q => ({
+          data: aviQuestions.map(q => ({
             id: q.id,
             questions: [q]
           })),
@@ -180,8 +170,9 @@ export default function PracticeMode({ sectionId, onExit }) {
         };
         
       case 'physical-science':
+        const phyScienceQuestions = getQuestionsForSet(physicalScienceData, selectedSubsection, 25);
         return {
-          data: physicalScienceData.map(q => ({
+          data: phyScienceQuestions.map(q => ({
             id: q.id,
             questions: [q]
           })),
@@ -203,8 +194,9 @@ export default function PracticeMode({ sectionId, onExit }) {
         };
         
       case 'instrument-comp':
+        const instrumentCompQs = getQuestionsForSet(instrumentCompData, selectedSubsection, 25);
         return {
-          data: instrumentCompData.map(q => ({
+          data: instrumentCompQs.map(q => ({
             id: q.id,
             questions: [q]
           })),
@@ -214,8 +206,9 @@ export default function PracticeMode({ sectionId, onExit }) {
         };
         
       case 'block-counting':
+        const blockCountingQs = getQuestionsForSet(blockCountingData, selectedSubsection, 25);
         return {
-          data: blockCountingData.map(q => ({
+          data: blockCountingQs.map(q => ({
             id: q.id,
             questions: [q]
           })),
