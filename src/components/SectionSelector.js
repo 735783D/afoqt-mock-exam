@@ -269,7 +269,7 @@ const sections = [
     questions: 30, 
     time: 4.5,
     description: 'Spatial reasoning with 3D blocks',
-    available: false
+    available: true
   },
   { 
     id: 'aviation-info', 

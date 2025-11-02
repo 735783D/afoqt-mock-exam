@@ -66,7 +66,7 @@ export const RightTriangleDiagram = ({ base, height, hypotenuse, showHypotenuse 
 );
 
 // Circle with radius
-export const CircleDiagram = ({ radius, showDiameter = false }) => (
+export const CircleDiagram = ({ radius, showDiameter = false, unit }) => (
   <svg width="320" height="280" viewBox="0 0 320 280" className="mx-auto">
     {/* Circle */}
     <circle cx="160" cy="140" r="100" 
@@ -81,7 +81,7 @@ export const CircleDiagram = ({ radius, showDiameter = false }) => (
         <line x1="60" y1="140" x2="260" y2="140" 
               stroke="#7b1fa2" strokeWidth="2" strokeDasharray="5,5"/>
         <text x="160" y="170" textAnchor="middle" fontSize="18" fontWeight="bold">
-          d = {radius * 2}
+          d = {radius * 2} {unit}
         </text>
       </>
     ) : (
@@ -168,15 +168,15 @@ export const CylinderDiagram = ({ radius, height }) => (
     {/* Radius line on top */}
     <line x1="160" y1="80" x2="240" y2="80" 
           stroke="#d32f2f" strokeWidth="2"/>
-    <text x="200" y="70" textAnchor="middle" fontSize="16" fontWeight="bold">
+    <text x="200" y="70" textAnchor="middle" fontSize="12" fontWeight="bold">
       r = {radius}
     </text>
     
     {/* Height line */}
-    <line x1="260" y1="80" x2="260" y2="240" 
+    <line x1="250" y1="80" x2="250" y2="240" 
           stroke="#388e3c" strokeWidth="2"/>
-    <text x="285" y="165" textAnchor="middle" fontSize="16" fontWeight="bold"
-          transform="rotate(-90, 285, 165)">
+    <text x="290" y="165" textAnchor="middle" fontSize="12" fontWeight="bold"
+          transform="rotate(0, 285, 165)">
       h = {height}
     </text>
   </svg>

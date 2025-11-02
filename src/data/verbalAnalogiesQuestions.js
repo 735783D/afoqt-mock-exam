@@ -102,49 +102,49 @@ export const verbalAnalogiesData = [
     id: 4,
     text: "ARGON is to GAS as MAPLE is to",
     options: ["TREE", "FOREST", "PLANT", "WOOD", "LEAF"],
-    correct: 1,
+    correct: 0,
     explanation: "ARGON is a type of GAS; MAPLE is a type of TREE."
   },
   {
     id: 5,
     text: "SINGER is to CHOIR as FOREARM is to",
     options: ["SKELETON", "MUSCLE", "HAND", "ARM", "WRIST"],
-    correct: 1,
+    correct: 0,
     explanation: "A SINGER is part of a CHOIR; a FOREARM is part of a SKELETON."
   },
   {
     id: 6,
     text: "DOLLAR is to QUARTER as MONTH is to",
     options: ["WEEK", "DAY", "YEAR", "SEASON", "HOUR"],
-    correct: 1,
+    correct: 0,
     explanation: "A QUARTER is part of a DOLLAR; a WEEK is part of a MONTH."
   },
   {
     id: 7,
     text: "BENEVOLENT is to KIND as MALEVOLENT is to",
     options: ["CRUEL", "HAPPY", "GENEROUS", "POLITE", "CALM"],
-    correct: 1,
+    correct: 0,
     explanation: "BENEVOLENT and KIND are similar; MALEVOLENT and CRUEL are similar in meaning."
   },
   {
     id: 8,
     text: "IGNITE is to FIRE as FREEZE is to",
     options: ["ICE", "HEAT", "COLD", "CHILL", "SNOW"],
-    correct: 1,
+    correct: 0,
     explanation: "IGNITE causes FIRE; FREEZE causes ICE — both show a cause-and-effect relationship."
   },
   {
     id: 9,
     text: "TEACHER is to SCHOOL as PILOT is to",
     options: ["PLANE", "RUNWAY", "AIRLINE", "AIRPORT", "SKY"],
-    correct: 1,
+    correct:0,
     explanation: "A TEACHER works in a SCHOOL; a PILOT works in a PLANE."
   },
   {
     id: 10,
     text: "PRIDE is to HUMBLE as ARROGANT is to",
     options: ["MODEST", "PROUD", "SHAMEFUL", "EGOISTIC", "RUDE"],
-    correct: 1,
+    correct: 0,
     explanation: "PRIDE and HUMBLE are opposites; ARROGANT and MODEST are opposites."
   },
   {
@@ -178,29 +178,29 @@ export const verbalAnalogiesData = [
   {
     id: 15,
     text: "EYE is to SEE as EAR is to",
-    options: ["HEAR", "LISTEN", "SOUND", "BALANCE", "LOOK"],
-    correct: 1,
+    options: ["HEAR", "TASTE", "SOUND", "BALANCE", "LOOK"],
+    correct: 0,
     explanation: "The EYE is used to SEE; the EAR is used to HEAR."
   },
   {
     id: 16,
     text: "WOLF is to PACK as BEE is to",
     options: ["HIVE", "FLOWER", "SWARM", "NEST", "BEEKEEPER"],
-    correct: 1,
+    correct: 0,
     explanation: "A WOLF belongs to a PACK; a BEE belongs to a HIVE."
   },
   {
     id: 17,
     text: "FRAUD is to HONESTY as DECEIT is to",
-    options: ["TRUTH", "LIE", "CUNNING", "EVIL", "CRIME"],
+    options: ["LIE", "TRUTH", "CUNNING", "EVIL", "CRIME"],
     correct: 1,
     explanation: "FRAUD and HONESTY are opposites; DECEIT and TRUTH are opposites."
   },
   {
     id: 18,
     text: "BIRD is to WING as FISH is to",
-    options: ["FIN", "SCALE", "TAIL", "WATER", "OCEAN"],
-    correct: 1,
+    options: ["TAIL", "SCALE", "FIN", "WATER", "OCEAN"],
+    correct: 2,
     explanation: "A BIRD uses a WING to fly; a FISH uses a FIN to swim — both show part-to-function relationships."
   },
   {
@@ -214,34 +214,34 @@ export const verbalAnalogiesData = [
     id: 20,
     text: "TOOL is to DRILL as POEM is to",
     options: ["SONG", "MACHINE", "SONNET", "NOVEL", "RHYME"],
-    correct: 3,
+    correct: 2,
     explanation: "A DRILL is a type of TOOL; a SONNET is a type of POEM."
   },
   {
     id: 21,
     text: "CANDLE is to LIGHT as STOVE is to",
     options: ["COOKING", "FIRE", "WAX", "FLAME", "ENERGY"],
-    correct: 1,
+    correct: 0,
     explanation: "A CANDLE provides LIGHT; a STOVE provides COOKING — both express function."
   },
   {
     id: 22,
     text: "WHEEL is to CAR as PAGE is to",
-    options: ["BOOK", "CHAPTER", "LETTER", "WORD", "LIBRARY"],
-    correct: 1,
+    options: ["WORD", "CHAPTER", "LETTER", "BOOK", "LIBRARY"],
+    correct: 3,
     explanation: "A WHEEL is part of a CAR; a PAGE is part of a BOOK."
   },
   {
     id: 23,
     text: "SUN is to SOLAR as EARTH is to",
     options: ["PLANETARY", "GALACTIC", "COSMIC", "LUNAR", "STELLAR"],
-    correct: 1,
+    correct: 0,
     explanation: "SUN relates to SOLAR; EARTH relates to PLANETARY — both show type relationship."
   },
   {
     id: 24,
     text: "WRITER is to NOVEL as COMPOSER is to",
-    options: ["SYMPHONY", "MUSIC", "SONG", "BAND", "INSTRUMENT"],
+    options: ["MUSIC", "SYMPHONY", "SONG", "BAND", "INSTRUMENT"],
     correct: 1,
     explanation: "A WRITER creates a NOVEL; a COMPOSER creates a SYMPHONY."
   },
@@ -249,7 +249,7 @@ export const verbalAnalogiesData = [
     id: 25,
     text: "CHAIR is to FURNITURE as ROSE is to",
     options: ["FLOWER", "PETAL", "STEM", "GARDEN", "PLANT"],
-    correct: 1,
+    correct: 0,
     explanation: "A CHAIR is a type of FURNITURE; a ROSE is a type of FLOWER."
   },
   {

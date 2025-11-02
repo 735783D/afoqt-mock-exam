@@ -25,6 +25,7 @@ import TableReadingQuestion from '../components/TableReadingQuestions';
 import { selfDescriptionData, SELF_DESCRIPTION_CONFIG } from '../data/selfDescriptionQuestions';
 import SelfDescriptionInventory from '../components/SelfDescriptionInventory';
 import InstrumentCompQuestion from '../components/InstrumentCompQuestion';
+import BlockCountingQuestion from '../components/BlockCountingQuestion';
 
 
 // Helper to get questions for a specific numbered set
@@ -278,7 +279,8 @@ export default function PracticeMode({ sectionId, onExit }) {
     'instrument-comp',
     'block-counting',
     'situational-judgment',
-    'self-description'
+    'self-description',
+    'block-counting'
   ];
 
     // Determine if section is passage-based or question-based
@@ -450,6 +452,18 @@ console.log('Section ID:', sectionId, 'isPassageBased:', isPassageBased);
           />
         ) : sectionId === 'instrument-comp' ? (
             <InstrumentCompQuestion
+              question={passage}
+              answers={answers}
+              onAnswer={handleAnswer}
+              onNavigate={handleNavigate}
+              isFirst={currentPassage === 0}
+              isLast={currentPassage === section.data.length - 1}
+              onSubmit={handleSubmit}
+              answeredCount={answeredCount}
+              totalQuestions={totalQuestions}
+            />
+        ) : sectionId === 'block-counting' ? (
+            <BlockCountingQuestion
               question={passage}
               answers={answers}
               onAnswer={handleAnswer}

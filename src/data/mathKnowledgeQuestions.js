@@ -43,8 +43,12 @@ export const mathKnowledgeData = [
     options: ["785.4 cm³", "1570.8 cm³", "314.16 cm³", "628.32 cm³"],
     correct: 1,
     explanation: "Volume = 3.1416 × 5² × 10 = 3.1416 × 25 × 10 = 785.4 × 2 = 1570.8 cm³.",
-    diagram: "CylinderDiagram",
-    diagramProps: { radius: 5, height: 10 }
+    // diagram: "CylinderDiagram",
+    // diagramProps: { radius: 5, height: 10 }
+    diagram: {
+      type: "cylinder",
+      props: { radius: "5 cm", height: "10 cm" }
+    }
   },
   {
     id: 7,
@@ -57,22 +61,22 @@ export const mathKnowledgeData = [
     id: 8,
     text: "If a = 5 and b = 3, evaluate 2a² + b.",
     options: ["53", "28", "23", "58"],
-    correct: 1,
-    explanation: "2(5²) + 3 = 2×25 + 3 = 50 + 3 = 53 → Wait, check choices: correct answer 53 is index 0 actually.",
+    correct: 0,
+    explanation: "2(5²) + 3 = 2×25 + 3 = 50 + 3 = 53",
   },
   {
     id: 9,
     text: "Find the perimeter of a rectangle with length 12 m and width 8 m.",
     options: ["40 m", "24 m", "48 m", "32 m"],
-    correct: 2,
-    explanation: "Perimeter = 2(l + w) = 2(12 + 8) = 2×20 = 40 → correct index 0 actually (40 m)."
+    correct: 0,
+    explanation: "Perimeter = 2(l + w) = 2(12 + 8) = 2×20 = 40 m."
   },
   {
     id: 10,
     text: "Solve for y: 2y − 4 = 10",
     options: ["7", "6", "8", "9"],
-    correct: 2,
-    explanation: "Add 4 to both sides: 2y = 14 → y = 7 → correct index 0 (7)."
+    correct: 0,
+    explanation: "Add 4 to both sides: 2y = 14 → y = 7."
   },
   {
     id: 11,
@@ -92,8 +96,8 @@ export const mathKnowledgeData = [
     id: 13,
     text: "Simplify: 6² ÷ 3 + 4",
     options: ["8", "16", "12", "20"],
-    correct: 2,
-    explanation: "6² = 36. Then 36 ÷ 3 = 12. 12 + 4 = 16 → correct index 1 (16)."
+    correct: 1,
+    explanation: "6² = 36. Then 36 ÷ 3 = 12. 12 + 4 = 16."
   },
   {
     id: 14,
@@ -113,8 +117,8 @@ export const mathKnowledgeData = [
     id: 16,
     text: "Simplify: √81 + 5²",
     options: ["106", "34", "14", "29"],
-    correct: 3,
-    explanation: "√81 = 9, 5² = 25 → 9 + 25 = 34 → index 1 (34)."
+    correct: 1,
+    explanation: "√81 = 9, 5² = 25 → 9 + 25 = 34."
   },
   {
     id: 17,
@@ -148,8 +152,8 @@ export const mathKnowledgeData = [
     id: 21,
     text: "The sum of three consecutive even numbers is 48. What is the smallest number?",
     options: ["14", "15", "16", "18"],
-    correct: 2,
-    explanation: "Let numbers be x, x+2, x+4. Then 3x+6=48 → 3x=42 → x=14 → smallest 14 (index 0)."
+    correct: 0,
+    explanation: "Let numbers be x, x+2, x+4. Then 3x+6=48 → 3x=42 → x=14."
   },
   {
     id: 22,
@@ -162,8 +166,8 @@ export const mathKnowledgeData = [
     id: 23,
     text: "Simplify: 2³ × 2⁴",
     options: ["2⁶", "2⁷", "2⁵", "2⁸"],
-    correct: 2,
-    explanation: "Add exponents when bases are same: 3+4=7 → correct is 2⁷ (index 1)."
+    correct: 1,
+    explanation: "Add exponents when bases are same: 3+4=7."
   },
   {
     id: 24,
@@ -240,7 +244,7 @@ export const mathKnowledgeData = [
     explanation: "C = πd = 3.1416 × 14 = 43.9824 ≈ 43.98 m.",
     diagram: {
       type: "circle",
-      props: { diameter: "14 m", radius: "7 m", showDiameter: true, showRadius: true }
+      props: { diameter: 14, radius: 7, showDiameter: true, showRadius: false, unit: "m" }
     }
   },
   {
@@ -263,10 +267,6 @@ export const mathKnowledgeData = [
     options: ["64 cm³", "32 cm³", "48 cm³", "16 cm³"],
     correct: 0,
     explanation: "V = s³ = 4³ = 64 cm³.",
-    diagram: {
-      type: "cube",
-      props: { side: "4 cm", showEdges: true }
-    }
   },
   {
     id: 37,
@@ -284,13 +284,13 @@ export const mathKnowledgeData = [
   },
   {
     id: 39,
-    text: "Find the area of a triangle with base 10 m and height 12 m.",
+    text: "Find the area of a triangle with base 12 m and height 10 m.",
     options: ["60 m²", "100 m²", "120 m²", "50 m²"],
     correct: 0,
     explanation: "Area = ½ × base × height = 0.5 × 10 × 12 = 60 m².",
     diagram: {
       type: "triangle",
-      props: { base: "10 m", height: "12 m", showHeight: true, showBase: true }
+      props: { base: "12 m", height: "10 m", showHeight: true, showBase: true }
     }
   },
   {
@@ -349,13 +349,9 @@ export const mathKnowledgeData = [
   {
     id: 47,
     text: "Find the surface area of a cube with side 6 cm.",
-    options: ["216 cm²", "150 cm²", "180 cm²", "200 cm²"],
+    options: ["216 cm²", "153 cm²", "182 cm²", "202 cm²"],
     correct: 0,
     explanation: "Surface area = 6 × s² = 6 × 36 = 216 cm².",
-    diagram: {
-      type: "cube",
-      props: { side: "6 cm", showFaces: true }
-    }
   },
   {
     id: 48,
@@ -367,7 +363,7 @@ export const mathKnowledgeData = [
   {
     id: 49,
     text: "A cylinder has radius 3 cm and height 12 cm. Find its volume.",
-    options: ["339.12 cm³", "452.16 cm³", "500 cm³", "400 cm³"],
+    options: ["339.12 cm³", "452.16 cm³", "512.46 cm³", "436.15 cm³"],
     correct: 0,
     explanation: "V = πr²h = 3.1416 × 3² × 12 = 3.1416 × 9 × 12 = 339.12 cm³.",
     diagram: {
@@ -443,8 +439,8 @@ export const mathKnowledgeData = [
     id: 58,
     text: "A circle has radius 12 cm. Find its circumference.",
     options: ["37.70 cm", "75.40 cm", "94.25 cm", "62.83 cm"],
-    correct: 2,
-    explanation: "C = 2πr = 2×3.1416×12 = 75.3984 ≈ 75.40 cm (option 1? fix) → 75.40 cm is option 1? wait index = 1.",
+    correct: 1,
+    explanation: "C = 2πr = 2×3.1416×12 = 75.3984 ≈ 75.40 cm.",
     diagram: {
       type: "circle",
       props: { radius: "12 cm", showRadius: true }
@@ -553,9 +549,9 @@ export const mathKnowledgeData = [
   {
     id: 71,
     text: "Simplify: (9×10)÷3 + 2³",
-    options: ["32", "33", "34", "35"],
+    options: ["36", "37", "38", "39"],
     correct: 2,
-    explanation: "(9×10)=90; 90÷3=30; 2³=8; 30+8=38 (option 2? wait check) → 30+8=38 option 3 (34? fix options)."
+    explanation: "(9×10)=90; 90÷3=30; 2³=8; 30+8=38."
   },
   {
     id: 72,
@@ -1343,8 +1339,8 @@ export const mathKnowledgeData = [
     id: 179,
     text: "If a radar sweeps 360° every 12 seconds, how many degrees does it rotate per second?",
     options: ["15°", "25°", "30°", "45°"],
-    correct: 0,
-    explanation: "360° ÷ 12 s = 30°/s. Wait, correction: 360 ÷ 12 = 30°/s (not 15°). Correct answer is 30°/s.",
+    correct: 2,
+    explanation: "360° ÷ 12 s = 30°/s.",
   },
   {
     id: 180,
@@ -1460,8 +1456,8 @@ export const mathKnowledgeData = [
       props: { base1: 10, base2: 6, height: 4 }
     },
     options: ["28 ft²", "30 ft²", "32 ft²", "34 ft²"],
-    correct: 0,
-    explanation: "A = ½(b₁ + b₂)h = ½(10 + 6)(4) = ½(16 × 4) = 32 ft². Wait, correction: that’s 32 ft², not 28. Correct answer 32 ft²."
+    correct: 2,
+    explanation: "A = ½(b₁ + b₂)h = ½(10 + 6)(4) = ½(16 × 4) = 32 ft²."
   },
   {
     id: 195,
