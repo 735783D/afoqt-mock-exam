@@ -117,8 +117,8 @@ export default function PracticeMode({ sectionId, onExit }) {
             id: q.id,
             questions: [q]
           })),
-          config: WORD_KNOWLEDGE_CONFIG,
-          name: 'Word Knowledge',
+          config: ARITHMETIC_CONFIG,
+          name: 'Arithmetic Reasoning',
           isArithmetic: false // Simple question format like arithmetic
         };
 
@@ -135,9 +135,9 @@ export default function PracticeMode({ sectionId, onExit }) {
         };
         
       case 'verbal-analogies':
-        const verbalAnalData = getQuestionsForSet(verbalAnalogiesData, selectedSubsection, 25);
+        const verbalAnalQs = getQuestionsForSet(verbalAnalogiesData, selectedSubsection, 25);
         return {
-          data: verbalAnalData.map(q => ({
+          data: verbalAnalQs.map(q => ({
             id: q.id,
             questions: [q]
           })),

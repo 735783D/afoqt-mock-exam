@@ -65,7 +65,7 @@ const subsectionData = {
   'physical-science': generateNumberedSets(200, 25, Beaker),
   'table-reading': generateNumberedSets(200, 25, Table),
   'instrument-comp': generateNumberedSets(100, 25, Gauge),
-  'block-counting': generateNumberedSets(150, 30, Box),
+  'block-counting': generateNumberedSets(200, 30, Box),
   'situational-judgment': generateNumberedSets(200, 25, Users),
   'self-description': generateNumberedSets(220, 25, Gauge)
 };

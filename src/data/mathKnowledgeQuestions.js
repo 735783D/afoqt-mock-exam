@@ -382,7 +382,7 @@ export const mathKnowledgeData = [
     id: 51,
     text: "Simplify: 7(3x − 2) + 5x",
     options: ["26x − 14", "24x − 14", "21x − 14", "26x − 12"],
-    correct: 1,
+    correct: 0,
     explanation: "7×3x=21x, 21x+5x=26x; 7×(−2)=−14 → 26x−14. (Correct: 26x−14, option 1)"
   },
   {
@@ -398,16 +398,12 @@ export const mathKnowledgeData = [
     options: ["18 m", "27 m", "36 m", "45 m"],
     correct: 2,
     explanation: "Perimeter = 4×9 = 36 m.",
-    diagram: {
-      type: "rectangle",
-      props: { side: "9 m", showSide: true }
-    }
   },
   {
     id: 54,
     text: "Simplify: (2x³)(3x²)(x)",
     options: ["5x⁵", "6x⁶", "6x⁵", "5x⁶"],
-    correct: 2,
+    correct: 1,
     explanation: "Multiply coefficients 2×3=6; add exponents 3+2+1=6 → 6x⁶. (Option 2)."
   },
   {
@@ -422,18 +418,14 @@ export const mathKnowledgeData = [
     text: "Find the volume of a rectangular box 8 in × 5 in × 3 in.",
     options: ["120 in³", "150 in³", "100 in³", "125 in³"],
     correct: 0,
-    explanation: "V = l×w×h = 8×5×3 = 120 in³.",
-    diagram: {
-      type: "rectangle",
-      props: { length: "8 in", width: "5 in", height: "3 in", showEdges: true }
-    }
+    explanation: "V = l×w×h = 8×5×3 = 120 in³."
   },
   {
     id: 57,
     text: "Solve for x: 4x − 9 = 3x + 7",
     options: ["14", "15", "16", "17"],
-    correct: 0,
-    explanation: "Subtract 3x → x−9=7 → x=16 (nope fix) → x=16 → option 2."
+    correct: 2,
+    explanation: "Subtract 3x → x−9=7 → x=16."
   },
   {
     id: 58,
@@ -457,26 +449,22 @@ export const mathKnowledgeData = [
     id: 60,
     text: "Simplify: (5x²y³)/(x y²)",
     options: ["5xy", "5x y²", "5x² y", "5x y³"],
-    correct: 1,
-    explanation: "Subtract exponents: x²/x¹ = x¹; y³/y² = y¹ → 5x¹y¹ → 5xy (option 0)."
+    correct: 0,
+    explanation: "Subtract exponents: x²/x¹ = x¹; y³/y² = y¹ → 5x¹y¹ → 5xy."
   },
   {
     id: 61,
     text: "Find the area of a parallelogram with base 10 m and height 6 m.",
     options: ["30 m²", "50 m²", "60 m²", "70 m²"],
     correct: 2,
-    explanation: "Area = b×h = 10×6 = 60 m².",
-    diagram: {
-      type: "parallelogram",
-      props: { base: "10 m", height: "6 m", showHeight: true }
-    }
+    explanation: "Area = b×h = 10×6 = 60 m²."
   },
   {
     id: 62,
     text: "Simplify: (−3)² + 2³",
-    options: ["13", "17", "10", "12"],
-    correct: 0,
-    explanation: "(−3)²=9; 2³=8; 9+8=17 → option 1 (17)."
+    options: ["-13", "17", "-10", "12"],
+    correct: 1,
+    explanation: "(−3)²=9; 2³=8; 9+8=17."
   },
   {
     id: 63,
@@ -497,11 +485,7 @@ export const mathKnowledgeData = [
     text: "A triangle has sides 5 cm, 12 cm, 13 cm. What type of triangle is it?",
     options: ["Acute", "Obtuse", "Right", "Equilateral"],
     correct: 2,
-    explanation: "5²+12²=25+144=169 = 13² → Right triangle.",
-    diagram: {
-      type: "triangle",
-      props: { sideA: "5 cm", sideB: "12 cm", sideC: "13 cm", showSides: true }
-    }
+    explanation: "5²+12²=25+144=169 = 13² → Right triangle."
   },
   {
     id: 66,
@@ -540,11 +524,7 @@ export const mathKnowledgeData = [
     text: "If the perimeter of a square is 48 cm, find the length of each side.",
     options: ["10 cm", "11 cm", "12 cm", "13 cm"],
     correct: 2,
-    explanation: "P = 4s → 48 = 4s → s = 12 cm.",
-    diagram: {
-      type: "rectangle",
-      props: { side: "?", perimeter: "48 cm", showSide: true }
-    }
+    explanation: "P = 4s → 48 = 4s → s = 12 cm."
   },
   {
     id: 71,
@@ -557,8 +537,8 @@ export const mathKnowledgeData = [
     id: 72,
     text: "If x + 5 = 2x − 7, find x.",
     options: ["10", "11", "12", "13"],
-    correct: 0,
-    explanation: "Subtract x: 5= x−7 → x = 12 (option 2)."
+    correct: 2,
+    explanation: "Subtract x: 5= x−7 → x = 12."
   },
   {
     id: 73,
@@ -573,9 +553,9 @@ export const mathKnowledgeData = [
   },
   {
     id: 74,
-    text: "Simplify: √(81) + 4²",
+    text: "Simplify: √81 + 4²",
     options: ["25", "28", "31", "33"],
-    correct: 2,
+    correct: 0,
     explanation: "√81 = 9; 4² = 16; 9+16 = 25 (option 0?)."
   },
   {
@@ -583,36 +563,32 @@ export const mathKnowledgeData = [
     text: "A rectangle is 3 times as long as it is wide. If its perimeter is 48 m, find its dimensions.",
     options: [
       "Length = 18 m, Width = 6 m",
-      "Length = 20 m, Width = 8 m",
+      "Length = 24 m, Width = 8 m",
       "Length = 15 m, Width = 5 m",
       "Length = 12 m, Width = 4 m"
     ],
     correct: 0,
-    explanation: "Let width = w, length = 3w → 2(3w + w)=48 → 8w=48 → w=6, L=18.",
-    diagram: {
-      type: "rectangle",
-      props: { length: "?", width: "?", perimeter: "48 m", showSides: true }
-    }
+    explanation: "Let width = w, length = 3w → 2(3w + w)=48 → 8w=48 → w=6, L=18."
   },
     {
     id: 76,
     text: "If 4x − 9 = 15, what is the value of x?",
     options: ["4", "5", "6", "7"],
-    correct: 3,
+    correct: 2,
     explanation: "Add 9 to both sides: 4x = 24. Divide by 4: x = 6."
   },
   {
     id: 77,
     text: "Simplify: 3(2x + 4) − 5x.",
     options: ["x + 4", "x + 12", "x + 7", "x − 4"],
-    correct: 0,
+    correct: 1,
     explanation: "3(2x + 4) = 6x + 12. Then 6x + 12 − 5x = x + 12."
   },
   {
     id: 78,
     text: "Find the area of a circle with radius 7 cm.",
     diagram: { type: 'circle', props: { radius: '7 cm' } },
-    options: ["100 cm²", "120 cm²", "153.94 cm²", "175 cm²"],
+    options: ["100.53 cm²", "124.26 cm²", "153.94 cm²", "175.66 cm²"],
     correct: 2,
     explanation: "Area = 3.1416 × 7² = 3.1416 × 49 = 153.94 cm²."
   },
@@ -627,13 +603,12 @@ export const mathKnowledgeData = [
     id: 80,
     text: "If 2y + 5 = 19, find y.",
     options: ["5", "6", "7", "8"],
-    correct: 1,
+    correct: 2,
     explanation: "2y = 14 → y = 7."
   },
   {
     id: 81,
     text: "Find the perimeter of a rectangle with length 10 cm and width 6 cm.",
-    diagram: { type: 'rectangle', props: { length: '10 cm', width: '6 cm' } },
     options: ["16 cm", "26 cm", "32 cm", "20 cm"],
     correct: 2,
     explanation: "Perimeter = 2(10 + 6) = 32 cm."
@@ -648,7 +623,7 @@ export const mathKnowledgeData = [
   {
     id: 83,
     text: "A train travels 90 miles in 1.5 hours. What is its average speed?",
-    diagram: { type: 'distance', props: { distance: '90 mi', time: '1.5 h' } },
+    diagram: { type: 'distance', props: { distance: '90', time: '1.5 h' } },
     options: ["45 mph", "55 mph", "60 mph", "75 mph"],
     correct: 2,
     explanation: "Speed = distance ÷ time = 90 ÷ 1.5 = 60 mph."
@@ -671,13 +646,13 @@ export const mathKnowledgeData = [
     id: 86,
     text: "Find the volume of a cylinder with radius 4 cm and height 10 cm.",
     diagram: { type: 'cylinder', props: { radius: '4 cm', height: '10 cm' } },
-    options: ["400 cm³", "502.65 cm³", "600 cm³", "650 cm³"],
+    options: ["414.12 cm³", "502.65 cm³", "626.45 cm³", "653.98 cm³"],
     correct: 1,
     explanation: "V = 3.1416 × 4² × 10 = 3.1416 × 160 = 502.65 cm³."
   },
   {
     id: 87,
-    text: "Solve for x: x/3 = 12.",
+    text: "Solve for x: x ÷ 3 = 12.",
     options: ["36", "9", "15", "18"],
     correct: 0,
     explanation: "Multiply both sides by 3: x = 36."
@@ -685,7 +660,6 @@ export const mathKnowledgeData = [
   {
     id: 88,
     text: "Find the missing angle: Two angles of a triangle are 35° and 65°.",
-    diagram: { type: 'triangle', props: { angleA: '35°', angleB: '65°', angleC: '?' } },
     options: ["70°", "80°", "85°", "90°"],
     correct: 1,
     explanation: "Sum = 180°. 180 − (35 + 65) = 80°."
@@ -707,7 +681,6 @@ export const mathKnowledgeData = [
   {
     id: 91,
     text: "A rectangular field has a length twice its width. If the perimeter is 60 m, find the width.",
-    diagram: { type: 'rectangle', props: { length: '2w', width: 'w' } },
     options: ["8 m", "10 m", "12 m", "15 m"],
     correct: 1,
     explanation: "2(2w + w) = 60 → 6w = 60 → w = 10 m."
@@ -729,7 +702,7 @@ export const mathKnowledgeData = [
   {
     id: 94,
     text: "Find the area of a trapezoid with bases 8 cm and 12 cm, and height 5 cm.",
-    diagram: { type: 'trapezoid', props: { base1: '8 cm', base2: '12 cm', height: '5 cm' } },
+    diagram: { type: 'trapezoid', props: { topBase: '8 cm', bottomBase: '12 cm', height: '5 cm' } },
     options: ["40 cm²", "45 cm²", "50 cm²", "55 cm²"],
     correct: 2,
     explanation: "A = ½ × (8 + 12) × 5 = 10 × 5 = 50 cm²."
@@ -738,7 +711,7 @@ export const mathKnowledgeData = [
     id: 95,
     text: "If 15% of x = 9, what is x?",
     options: ["45", "50", "55", "60"],
-    correct: 1,
+    correct: 3,
     explanation: "0.15x = 9 → x = 9 ÷ 0.15 = 60."
   },
   {
@@ -760,20 +733,19 @@ export const mathKnowledgeData = [
     text: "Find the circumference of a circle with radius 9 cm.",
     diagram: { type: 'circle', props: { radius: '9 cm' } },
     options: ["50.8 cm", "56.52 cm", "62.83 cm", "70 cm"],
-    correct: 2,
+    correct: 1,
     explanation: "C = 2 × 3.1416 × 9 = 56.5488 ≈ 56.52 cm."
   },
   {
     id: 99,
     text: "Simplify: (2 + 3)² − 4².",
     options: ["5", "7", "9", "13"],
-    correct: 1,
+    correct: 2,
     explanation: "(2 + 3)² − 4² = 25 − 16 = 9."
   },
   {
     id: 100,
     text: "A car travels 180 miles on 6 gallons of gas. What is its fuel efficiency?",
-    diagram: { type: 'barchart', props: { distance: '180 mi', fuel: '6 gal' } },
     options: ["25 mpg", "28 mpg", "30 mpg", "35 mpg"],
     correct: 2,
     explanation: "180 ÷ 6 = 30 miles per gallon."

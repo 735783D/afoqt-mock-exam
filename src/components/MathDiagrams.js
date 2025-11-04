@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Rectangle with labeled dimensions
-export const RectangleDiagram = ({ width, height, widthLabel, heightLabel }) => (
+export const RectangleDiagram = ({ width, height, widthLabel, heightLabel, unit }) => (
   <svg width="320" height="240" viewBox="0 0 320 240" className="mx-auto">
     <defs>
       <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
@@ -19,17 +19,17 @@ export const RectangleDiagram = ({ width, height, widthLabel, heightLabel }) => 
     <line x1="260" y1="200" x2="60" y2="200" 
           stroke="black" strokeWidth="2" markerEnd="url(#arrowhead)"/>
     <text x="160" y="220" textAnchor="middle" fontSize="18" fontWeight="bold">
-      {widthLabel || `${width} ft`}
+      {width} {unit}
     </text>
     
     {/* Height dimension line */}
-    <line x1="30" y1="60" x2="30" y2="180" 
+    <line x1="40" y1="60" x2="40" y2="180" 
           stroke="black" strokeWidth="2" markerEnd="url(#arrowhead)"/>
-    <line x1="30" y1="180" x2="30" y2="60" 
+    <line x1="40" y1="180" x2="40" y2="60" 
           stroke="black" strokeWidth="2" markerEnd="url(#arrowhead)"/>
     <text x="15" y="125" textAnchor="middle" fontSize="18" fontWeight="bold" 
-          transform="rotate(-90, 15, 125)">
-      {heightLabel || `${height} ft`}
+          transform="rotate(0, 15, 125)">
+      {height} {unit} 
     </text>
   </svg>
 );
@@ -90,7 +90,7 @@ export const CircleDiagram = ({ radius, showDiameter = false, unit }) => (
         <line x1="160" y1="140" x2="260" y2="140" 
               stroke="#7b1fa2" strokeWidth="2"/>
         <text x="210" y="165" textAnchor="middle" fontSize="18" fontWeight="bold">
-          r = {radius}
+          r = {radius} {unit}
         </text>
       </>
     )}
@@ -120,7 +120,7 @@ export const TrapezoidDiagram = ({ topBase, bottomBase, height }) => (
     
     {/* Height label */}
     <text x="80" y="135" textAnchor="middle" fontSize="18" fontWeight="bold">
-      h = {height}
+      {height}
     </text>
   </svg>
 );
