@@ -292,3 +292,5 @@ export const BLOCK_COUNTING_CONFIG = {
 };
 
 export default blockCountingData;
+
+

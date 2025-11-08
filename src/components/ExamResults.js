@@ -45,7 +45,7 @@ export default function ExamResults({ examData, answers, onRetake }) {
                 </h3>
                 {passage.questions.map(q => {
                   const userAnswer = answers[q.id];
-                  const isCorrect = userAnswer === q.correct;
+                  const isCorrect = userAnswer === q.correctAnswer;
                   
                   return (
                     <div 
@@ -77,7 +77,7 @@ export default function ExamResults({ examData, answers, onRetake }) {
                           {!isCorrect && (
                             <p className="text-sm text-gray-700 mb-2">
                               <strong className="text-green-700">Correct answer:</strong>{' '}
-                              {q.options[q.correct]}
+                              {q.options[q.correctAnswer]}
                             </p>
                           )}
                           <div className="mt-3 p-3 bg-blue-50 rounded border border-blue-200">

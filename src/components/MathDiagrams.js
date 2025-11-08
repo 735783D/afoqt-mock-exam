@@ -98,7 +98,7 @@ export const CircleDiagram = ({ radius, showDiameter = false, unit }) => (
 );
 
 // Trapezoid with labeled dimensions
-export const TrapezoidDiagram = ({ topBase, bottomBase, height }) => (
+export const TrapezoidDiagram = ({ topBase, bottomBase, height, unit }) => (
   <svg width="320" height="280" viewBox="0 0 320 280" className="mx-auto">
     {/* Trapezoid */}
     <polygon points="100,60 220,60 260,200 60,200" 
@@ -110,17 +110,17 @@ export const TrapezoidDiagram = ({ topBase, bottomBase, height }) => (
     
     {/* Top base label */}
     <text x="160" y="45" textAnchor="middle" fontSize="18" fontWeight="bold">
-      {topBase}
+      {topBase} {unit}
     </text>
     
     {/* Bottom base label */}
     <text x="160" y="230" textAnchor="middle" fontSize="18" fontWeight="bold">
-      {bottomBase}
+      {bottomBase} {unit}
     </text>
     
     {/* Height label */}
     <text x="80" y="135" textAnchor="middle" fontSize="18" fontWeight="bold">
-      {height}
+      {height} {unit}
     </text>
   </svg>
 );

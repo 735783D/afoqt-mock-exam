@@ -761,7 +761,7 @@ export const mathKnowledgeData = [
     id: 102,
     text: "If a = 5 and b = 2, evaluate a³ − b².",
     options: ["117", "121", "119", "125"],
-    correct: 0,
+    correct: 1,
     explanation: "a³ − b² = 125 − 4 = 121."
   },
   {
@@ -788,7 +788,7 @@ export const mathKnowledgeData = [
   {
     id: 106,
     text: "Find the area of a trapezoid with bases 10 m and 14 m, and height 6 m.",
-    diagram: { type: 'trapezoid', props: { base1: '10 m', base2: '14 m', height: '6 m' } },
+    diagram: { type: 'trapezoid', props: { topBase: '10 m', bottomBase: '14 m', height: '6 m' } },
     options: ["68 m²", "70 m²", "72 m²", "80 m²"],
     correct: 2,
     explanation: "A = ½ × (10 + 14) × 6 = 72 m²."
@@ -818,15 +818,15 @@ export const mathKnowledgeData = [
     id: 110,
     text: "A cylinder has radius 3 cm and height 12 cm. Find its volume.",
     diagram: { type: 'cylinder', props: { radius: '3 cm', height: '12 cm' } },
-    options: ["325 cm³", "339 cm³", "407 cm³", "424 cm³"],
-    correct: 2,
+    options: ["325.45 cm³", "339.29 cm³", "407.58 cm³", "424.64 cm³"],
+    correct: 1,
     explanation: "V = 3.1416 × 3² × 12 = 3.1416 × 108 = 339.29 cm³."
   },
   {
     id: 111,
     text: "Simplify: 6(2x − 4) + 8.",
     options: ["12x − 16", "12x − 8", "12x − 24", "12x − 32"],
-    correct: 1,
+    correct: 0,
     explanation: "6(2x − 4) = 12x − 24; +8 → 12x − 16."
   },
   {
@@ -853,15 +853,15 @@ export const mathKnowledgeData = [
   {
     id: 115,
     text: "Convert 90°F to Celsius (C = (F − 32) × 5/9).",
-    options: ["30°C", "32°C", "34°C", "36°C"],
-    correct: 2,
+    options: ["30.5°C", "32.2°C", "34.6C", "36.7°C"],
+    correct: 1,
     explanation: "C = (90 − 32) × 5/9 = 58 × 0.555 = 32.2°C."
   },
   {
     id: 116,
     text: "If 5x + 2 = 27, find x.",
     options: ["4", "5", "6", "7"],
-    correct: 2,
+    correct: 1,
     explanation: "5x = 25 → x = 5."
   },
   {
@@ -888,7 +888,7 @@ export const mathKnowledgeData = [
   {
     id: 120,
     text: "Find the area of a circle with radius 10 cm.",
-    options: ["300 cm²", "314.16 cm²", "325 cm²", "350 cm²"],
+    options: ["304.15 cm²", "314.16 cm²", "325.64 cm²", "352.45 cm²"],
     correct: 1,
     explanation: "A = 3.1416 × 10² = 314.16 cm²."
   },
@@ -916,9 +916,9 @@ export const mathKnowledgeData = [
   {
     id: 124,
     text: "A trapezoid has bases 6 m and 10 m, and height 4 m. Find its area.",
-    diagram: { type: 'trapezoid', props: { base1: '6 m', base2: '10 m', height: '4 m' } },
+    diagram: { type: 'trapezoid', props: { topBase: '6 m', bottomBase: '10 m', height: '4 m' } },
     options: ["28 m²", "30 m²", "32 m²", "36 m²"],
-    correct: 1,
+    correct: 2,
     explanation: "A = ½ × (6 + 10) × 4 = 8 × 4 = 32 m²."
   },
   {
@@ -938,7 +938,7 @@ export const mathKnowledgeData = [
   {
     id: 127,
     text: "If 3x + 4y = 18 and y = 3, what is x?",
-    options: ["2", "3", "4", "5"],
+    options: ["4", "3", "2", "5"],
     correct: 2,
     explanation: "Substitute y = 3 → 3x + 12 = 18 → 3x = 6 → x = 2."
   },
@@ -963,22 +963,22 @@ export const mathKnowledgeData = [
       type: 'cylinder',
       props: { radius: '5 cm', height: '10 cm' }
     },
-    options: ["785 cm³", "7850 cm³", "1570 cm³", "3140 cm³"],
+    options: ["785.39 cm³", "7850.41 cm³", "870.25 cm³", "3140.18 cm³"],
     correct: 0,
-    explanation: "V = πr²h = 3.14 × 25 × 10 = 785 cm³."
+    explanation: "V = πr²h = 3.14 × 25 × 10 = 785.39 cm³."
   },
   {
     id: 131,
     text: "If 4x – 7 = 2x + 9, what is the value of x?",
     options: ["4", "5", "6", "8"],
-    correct: 2,
+    correct: 3,
     explanation: "4x – 2x = 9 + 7 → 2x = 16 → x = 8."
   },
   {
     id: 132,
-    text: "Find the value of y in: 2y/3 + 4 = 10.",
+    text: "Find the value of y in: 2y ÷ 3 + 4 = 10.",
     options: ["6", "8", "9", "12"],
-    correct: 0,
+    correct: 2,
     explanation: "2y/3 = 6 → multiply both sides by 3/2 → y = 9."
   },
   {
@@ -1000,7 +1000,7 @@ export const mathKnowledgeData = [
     text: "The average of five consecutive odd numbers is 27. What is the smallest number?",
     options: ["19", "21", "23", "25"],
     correct: 2,
-    explanation: "If the middle number is 27, sequence is 23,25,27,29,31 → smallest is 23."
+    explanation: "x, x+2, x+4, x+6, x+8. Average of these numbers is 27. And 27 x 5 = 135. Smallest number is 23 by way of 5x + 20 = 135."
   },
   {
     id: 136,
@@ -1020,7 +1020,7 @@ export const mathKnowledgeData = [
     id: 138,
     text: "If a = 2 and b = 5, evaluate 3a² + 2b.",
     options: ["19", "20", "22", "26"],
-    correct: 3,
+    correct: 2,
     explanation: "3(4) + 2(5) = 12 + 10 = 22."
   },
   {
@@ -1034,7 +1034,7 @@ export const mathKnowledgeData = [
     id: 140,
     text: "If 5x + 3 = 23, what is x?",
     options: ["3", "4", "5", "6"],
-    correct: 2,
+    correct: 1,
     explanation: "5x = 20 → x = 4."
   },
   {
@@ -1048,7 +1048,7 @@ export const mathKnowledgeData = [
     id: 142,
     text: "If 6 pencils cost $2.40, how much do 10 pencils cost?",
     options: ["$3.60", "$4.00", "$4.20", "$4.50"],
-    correct: 0,
+    correct: 1,
     explanation: "Unit price = 2.40 ÷ 6 = 0.40 → 10 × 0.40 = 4.00."
   },
   {
@@ -1095,7 +1095,7 @@ export const mathKnowledgeData = [
   },
   {
     id: 149,
-    text: "Solve for x: 4x/5 = 12.",
+    text: "Solve for x: 4x ÷ 5 = 12.",
     options: ["10", "12", "14", "15"],
     correct: 3,
     explanation: "Multiply both sides by 5/4 → x = 12×5/4 = 15."
@@ -1125,7 +1125,7 @@ export const mathKnowledgeData = [
     id: 153,
     text: "Find the area of a circle with radius 5 cm.",
     diagram: { type: "circle", props: { radius: "5 cm" } },
-    options: ["78.54 cm²", "75.00 cm²", "80.00 cm²", "85.00 cm²"],
+    options: ["78.54 cm²", "76.26 cm²", "81.13 cm²", "83.48 cm²"],
     correct: 0,
     explanation: "A = πr² → A = 3.1416 × 5² = 3.1416 × 25 = 78.54 cm²."
   },
@@ -1147,7 +1147,7 @@ export const mathKnowledgeData = [
     id: 156,
     text: "Find the volume of a cylinder with radius 2 cm and height 7 cm.",
     diagram: { type: "cylinder", props: { radius: "2 cm", height: "7 cm" } },
-    options: ["87.96 cm³", "88.00 cm³", "90.00 cm³", "100.00 cm³"],
+    options: ["87.96 cm³", "88.89 cm³", "90.12 cm³", "100.64 cm³"],
     correct: 0,
     explanation: "V = πr²h → 3.1416 × 2² × 7 = 3.1416 × 4 × 7 = 87.9648 ≈ 87.96 cm³."
   },
@@ -1168,7 +1168,7 @@ export const mathKnowledgeData = [
   {
     id: 159,
     text: "What is the slope of the line through (1, 2) and (4, 8)?",
-    options: ["1", "2", "3", "6"],
+    options: ["-1", "2", "-3", "6"],
     correct: 1,
     explanation: "Slope = (8 − 2) ÷ (4 − 1) = 6 ÷ 3 = 2."
   },
@@ -1182,7 +1182,7 @@ export const mathKnowledgeData = [
   {
     id: 161,
     text: "Find the area of a trapezoid with bases 6 m and 10 m and height 4 m.",
-    diagram: { type: "trapezoid", props: { base1: "6 m", base2: "10 m", height: "4 m" } },
+    diagram: { type: "trapezoid", props: { topBase: "6 m", bottomBase: "10 m", height: "4 m" } },
     options: ["28 m²", "32 m²", "34 m²", "36 m²"],
     correct: 1,
     explanation: "A = ½ × (b₁ + b₂) × h = 0.5 × (6 + 10) × 4 = 0.5 × 16 × 4 = 32 m²."
@@ -1197,7 +1197,7 @@ export const mathKnowledgeData = [
   {
     id: 163,
     text: "Convert 2.2 pounds to ounces.",
-    options: ["34.2 oz", "35.2 oz", "36 oz", "32 oz"],
+    options: ["34.1 oz", "35.2 oz", "36.3 oz", "32.4 oz"],
     correct: 1,
     explanation: "1 lb = 16 oz → 2.2 × 16 = 35.2 oz."
   },
@@ -1240,7 +1240,7 @@ export const mathKnowledgeData = [
   {
     id: 169,
     text: "Find the area of a rectangle 14 m by 9 m.",
-    options: ["116 m²", "126 m²", "136 m²", "146 m²"],
+    options: ["116 m³", "126 m²", "136 m³", "146 m²"],
     correct: 1,
     explanation: "Area = 14 × 9 = 126 m²."
   },
@@ -1253,10 +1253,10 @@ export const mathKnowledgeData = [
   },
   {
     id: 171,
-    text: "One root of x² − 5x + 6 = 0 is:",
-    options: ["1", "2", "3", "4"],
+    text: "What are the roots of the quadratic equation x² − 5x + 6 = 0 ?",
+    options: ["1 and 6", "2 and 3", "3 and 8", "4 and 9"],
     correct: 1,
-    explanation: "Factor: (x − 2)(x − 3) = 0 → roots 2 and 3; one root is 2."
+    explanation: "Factor: (x − 2)(x − 3) = 0 → roots 2 and 3."
   },
   {
     id: 172,
@@ -1267,7 +1267,7 @@ export const mathKnowledgeData = [
   },
   {
     id: 173,
-    text: "Perimeter of an equilateral triangle with side 9 cm is:",
+    text: "What is the perimeter of an equilateral triangle with side 9 cm?",
     options: ["18 cm", "24 cm", "27 cm", "30 cm"],
     correct: 2,
     explanation: "Perimeter = 3 × 9 = 27 cm."
@@ -1337,20 +1337,20 @@ export const mathKnowledgeData = [
   },
   {
     id: 183,
-    text: "A water tank is a cylinder with radius 5 ft and height 10 ft. What is its volume? (Use π = 3.14)",
+    text: "A water tank is a cylinder with radius 5 ft and height 10 ft. What is its volume?",
     diagram: {
       type: 'cylinder',
       props: { radius: 5, height: 10 }
     },
-    options: ["628 ft³", "700 ft³", "785 ft³", "942 ft³"],
-    correct: 0,
+    options: ["628.45 ft³", "700.31 ft³", "785.40 ft³", "942.25 ft³"],
+    correct: 2,
     explanation: "V = πr²h = 3.14 × 5² × 10 = 3.14 × 25 × 10 = 785 ft³."
   },
   {
     id: 184,
     text: "A rectangular runway measures 150 ft by 2,000 ft. Find its perimeter.",
     options: ["3,300 ft", "4,000 ft", "4,100 ft", "4,300 ft"],
-    correct: 1,
+    correct: 3,
     explanation: "P = 2(l + w) = 2(2000 + 150) = 2 × 2150 = 4300 ft."
   },
   {
@@ -1386,7 +1386,7 @@ export const mathKnowledgeData = [
     text: "A right triangle has legs 9 ft and 12 ft. Find the hypotenuse.",
     diagram: {
       type: 'triangle',
-      props: { base: '9 ft', height: '12 ft', hypotenuse: '?', showHypotenuse: true }
+      props: { base: '12 ft', height: '9 ft', hypotenuse: '?', showHypotenuse: true }
     },
     options: ["13 ft", "14 ft", "15 ft", "16 ft"],
     correct: 2,
@@ -1403,7 +1403,7 @@ export const mathKnowledgeData = [
     id: 191,
     text: "A jet travels 500 miles with a 20 mph tailwind in 2 hours. What is the jet’s airspeed?",
     options: ["220 mph", "230 mph", "240 mph", "250 mph"],
-    correct: 2,
+    correct: 1,
     explanation: "Let x = airspeed. Ground speed = x + 20 = 500 / 2 = 250 → x = 230 mph."
   },
   {
@@ -1416,16 +1416,16 @@ export const mathKnowledgeData = [
   {
     id: 193,
     text: "An aircraft travels 300 miles at 120 mph and then 200 miles at 100 mph. What is the average speed for the trip?",
-    options: ["108 mph", "110 mph", "112 mph", "115 mph"],
+    options: ["108.13 mph", "111.11 mph", "112.51 mph", "115.31 mph"],
     correct: 1,
-    explanation: "Total distance = 500 miles. Total time = (300/120) + (200/100) = 2.5 + 2 = 4.5 h. Avg = 500 / 4.5 ≈ 111.1 mph ≈ 110 mph."
+    explanation: "Total distance = 500 miles. Total time = (300/120) + (200/100) = 2.5 + 2 = 4.5 h. Avg = 500 / 4.5 ≈ 111.1 mph."
   },
   {
     id: 194,
     text: "A trapezoid has bases 10 ft and 6 ft with height 4 ft. Find its area.",
     diagram: {
       type: 'trapezoid',
-      props: { base1: 10, base2: 6, height: 4 }
+      props: { topBase: 6, bottomBase: 10, height: 4, unit: 'ft'}
     },
     options: ["28 ft²", "30 ft²", "32 ft²", "34 ft²"],
     correct: 2,
@@ -1463,7 +1463,7 @@ export const mathKnowledgeData = [
     id: 199,
     text: "A jet travels 600 miles in 2 hours against a 50 mph headwind. What is its airspeed?",
     options: ["325 mph", "350 mph", "375 mph", "400 mph"],
-    correct: 2,
+    correct: 1,
     explanation: "Let x = airspeed. Ground speed = x - 50 = 600 / 2 = 300 → x = 350 mph."
   },
   {

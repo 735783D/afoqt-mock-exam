@@ -13,7 +13,7 @@ export const calculateScore = (examData, answers) => {
   examData.forEach(passage => {
     passage.questions.forEach(q => {
       total++;
-      if (answers[q.id] === q.correct) correct++;
+      if (answers[q.id] === q.correctAnswer) correct++;
     });
   });
   

@@ -1508,7 +1508,7 @@ export const verbalAnalogiesData = [
   {
     id: 2,
     text: "NOVEL : FICTION :: ATLAS : ?",
-    options: ["Geography", "Maps", "Reference", "Book", "Travel"],
+    options: ["GEOGRAPHY", "MAPS", "REFERENCE", "TITAN", "TRAVEL"],
     correct: 2,
     explanation: "A NOVEL is a type of FICTION; an ATLAS is a type of REFERENCE material."
   },
@@ -1522,7 +1522,7 @@ export const verbalAnalogiesData = [
   {
     id: 4,
     text: "SCALPEL : SURGEON :: GAVEL : ?",
-    options: ["Court", "Judge", "Law", "Verdict", "Trial"],
+    options: ["COURT", "JUDGE", "LAW", "VERDICT", "TRIAL"],
     correct: 1,
     explanation: "A SCALPEL is the tool of a SURGEON; a GAVEL is the tool of a JUDGE."
   },
@@ -1536,7 +1536,7 @@ export const verbalAnalogiesData = [
   {
     id: 6,
     text: "CRESCENDO : MUSIC :: CLIMAX : ?",
-    options: ["Story", "Drama", "Conflict", "Resolution", "Ending"],
+    options: ["STORY", "DRAMA", "CONFLICT", "RESOLUTION", "ENDING"],
     correct: 0,
     explanation: "A CRESCENDO is the peak moment in MUSIC; a CLIMAX is the peak moment in a STORY."
   },
@@ -1550,7 +1550,7 @@ export const verbalAnalogiesData = [
   {
     id: 8,
     text: "CATALYST : REACTION :: SPARK : ?",
-    options: ["Fire", "Ignition", "Flame", "Heat", "Combustion"],
+    options: ["EXPLOSION", "IGNITION", "ICE", "HEAT", "COMBUSTION"],
     correct: 1,
     explanation: "A CATALYST initiates a REACTION; a SPARK initiates IGNITION."
   },
@@ -1564,7 +1564,7 @@ export const verbalAnalogiesData = [
   {
     id: 10,
     text: "ARCHIPELAGO : ISLANDS :: CONSTELLATION : ?",
-    options: ["Sky", "Stars", "Space", "Galaxy", "Astronomy"],
+    options: ["SKY", "STARS", "SPACE", "GALAXY", "ASTRONOMY"],
     correct: 1,
     explanation: "An ARCHIPELAGO is a group of ISLANDS; a CONSTELLATION is a group of STARS."
   },
@@ -1578,7 +1578,7 @@ export const verbalAnalogiesData = [
   {
     id: 12,
     text: "METRONOME : TEMPO :: COMPASS : ?",
-    options: ["North", "Direction", "Navigation", "Map", "Travel"],
+    options: ["NORTH", "DIRECTION", "NAVIGATION", "MAP", "TRAVEL"],
     correct: 1,
     explanation: "A METRONOME indicates TEMPO; a COMPASS indicates DIRECTION."
   },
@@ -1592,7 +1592,7 @@ export const verbalAnalogiesData = [
   {
     id: 14,
     text: "PRISM : LIGHT :: CATALYST : ?",
-    options: ["Chemistry", "Reaction", "Speed", "Change", "Substance"],
+    options: ["CHEMISTRY", "REACTION", "SPEED", "CHANGE", "SUBSTANCE"],
     correct: 1,
     explanation: "A PRISM disperses LIGHT; a CATALYST accelerates a REACTION."
   },
@@ -1606,7 +1606,7 @@ export const verbalAnalogiesData = [
   {
     id: 16,
     text: "CHRYSALIS : BUTTERFLY :: TADPOLE : ?",
-    options: ["Pond", "Frog", "Water", "Amphibian", "Metamorphosis"],
+    options: ["POND", "FROG", "WATER", "AMPHIBIAN", "METAMORPHOSIS"],
     correct: 1,
     explanation: "A CHRYSALIS develops into a BUTTERFLY; a TADPOLE develops into a FROG."
   },
@@ -1620,7 +1620,7 @@ export const verbalAnalogiesData = [
   {
     id: 18,
     text: "SONNET : POEM :: HAIKU : ?",
-    options: ["Japanese", "Poetry", "Short", "Verse", "Literature"],
+    options: ["JAPANESE", "POETRY", "SHORT", "VERSE", "LITERATURE"],
     correct: 1,
     explanation: "A SONNET is a type of POEM; a HAIKU is a type of POETRY."
   },
@@ -1634,7 +1634,7 @@ export const verbalAnalogiesData = [
   {
     id: 20,
     text: "DECIBEL : SOUND :: KELVIN : ?",
-    options: ["Cold", "Temperature", "Heat", "Science", "Measurement"],
+    options: ["COLD", "TEMPERATURE", "HEAT", "SCIENCE", "MEASUREMENT"],
     correct: 1,
     explanation: "DECIBEL measures SOUND intensity; KELVIN measures TEMPERATURE."
   },
@@ -1648,9 +1648,9 @@ export const verbalAnalogiesData = [
   {
     id: 22,
     text: "AXIOM : MATHEMATICS :: TENET : ?",
-    options: ["Belief", "Religion", "Principle", "Truth", "Faith"],
+    options: ["BELIEF", "ORGANIZATION", "PRINCIPLE", "TRUTH", "FAITH"],
     correct: 1,
-    explanation: "An AXIOM is a fundamental principle in MATHEMATICS; a TENET is a fundamental principle in RELIGION."
+    explanation: "An AXIOM is a fundamental principle in MATHEMATICS; a TENET is a fundamental principle in an ORGANIZATION."
   },
   {
     id: 23,
@@ -1662,7 +1662,7 @@ export const verbalAnalogiesData = [
   {
     id: 24,
     text: "QUARANTINE : DISEASE :: EMBARGO : ?",
-    options: ["Trade", "Country", "Goods", "Commerce", "Ban"],
+    options: ["TRADE", "COUNTRY", "GOODS", "COMMERCE", "BAN"],
     correct: 0,
     explanation: "QUARANTINE restricts DISEASE spread; EMBARGO restricts TRADE."
   },
@@ -1676,7 +1676,7 @@ export const verbalAnalogiesData = [
   {
     id: 26,
     text: "FILIBUSTER : LEGISLATION :: VETO : ?",
-    options: ["President", "Bill", "Congress", "Law", "Vote"],
+    options: ["PRESIDENT", "BILL", "CONGRESS", "LAW", "VOTE"],
     correct: 1,
     explanation: "A FILIBUSTER delays LEGISLATION; a VETO blocks a BILL."
   },
@@ -1690,7 +1690,7 @@ export const verbalAnalogiesData = [
   {
     id: 28,
     text: "ALTIMETER : ALTITUDE :: ANEMOMETER : ?",
-    options: ["Pressure", "Wind", "Weather", "Speed", "Direction"],
+    options: ["PRESSURE", "WIND", "WEATHER", "SPEED", "DIRECTION"],
     correct: 1,
     explanation: "An ALTIMETER measures ALTITUDE; an ANEMOMETER measures WIND speed."
   },
@@ -1704,7 +1704,7 @@ export const verbalAnalogiesData = [
   {
     id: 30,
     text: "PROLOGUE : NOVEL :: OVERTURE : ?",
-    options: ["Music", "Opera", "Orchestra", "Symphony", "Performance"],
+    options: ["MUSIC", "OPERA", "ORCHESTRA", "SYMPHONY", "PERFORMANCE"],
     correct: 1,
     explanation: "A PROLOGUE introduces a NOVEL; an OVERTURE introduces an OPERA."
   },
@@ -1718,7 +1718,7 @@ export const verbalAnalogiesData = [
   {
     id: 32,
     text: "PLAGIARISM : WRITING :: FORGERY : ?",
-    options: ["Crime", "Art", "Money", "Document", "Signature"],
+    options: ["CRIME", "ART", "MONEY", "DOCUMENT", "IDENTITY"],
     correct: 3,
     explanation: "PLAGIARISM is fraudulent WRITING; FORGERY is a fraudulent DOCUMENT."
   },
@@ -1732,7 +1732,7 @@ export const verbalAnalogiesData = [
   {
     id: 34,
     text: "SYLLABUS : COURSE :: AGENDA : ?",
-    options: ["Meeting", "Plan", "Schedule", "Business", "Items"],
+    options: ["MEETING", "PLAN", "SCHEDULE", "BUSINESS", "ITEMS"],
     correct: 0,
     explanation: "A SYLLABUS outlines a COURSE; an AGENDA outlines a MEETING."
   },
@@ -1746,7 +1746,7 @@ export const verbalAnalogiesData = [
   {
     id: 36,
     text: "STETHOSCOPE : HEARTBEAT :: SEISMOGRAPH : ?",
-    options: ["Earth", "Earthquake", "Tremor", "Ground", "Movement"],
+    options: ["EARTH", "EARTHQUAKE", "TREMOR", "GROUND", "MOVEMENT"],
     correct: 1,
     explanation: "A STETHOSCOPE detects HEARTBEAT; a SEISMOGRAPH detects EARTHQUAKE activity."
   },
@@ -1760,7 +1760,7 @@ export const verbalAnalogiesData = [
   {
     id: 38,
     text: "PREAMBLE : CONSTITUTION :: PREFACE : ?",
-    options: ["Introduction", "Book", "Author", "Chapter", "Beginning"],
+    options: ["INTRODUCTION", "BOOK", "AUTHOR", "CHAPTER", "BEGINNING"],
     correct: 1,
     explanation: "A PREAMBLE introduces a CONSTITUTION; a PREFACE introduces a BOOK."
   },
@@ -1774,7 +1774,7 @@ export const verbalAnalogiesData = [
   {
     id: 40,
     text: "QUARRY : STONE :: APIARY : ?",
-    options: ["Honey", "Bees", "Hive", "Wax", "Insects"],
+    options: ["HONEY", "BEES", "HIVE", "WAX", "INSECTS"],
     correct: 1,
     explanation: "A QUARRY produces STONE; an APIARY produces BEES (houses bees)."
   },
@@ -1788,7 +1788,7 @@ export const verbalAnalogiesData = [
   {
     id: 42,
     text: "THESIS : DISSERTATION :: HYPOTHESIS : ?",
-    options: ["Theory", "Experiment", "Science", "Research", "Conclusion"],
+    options: ["THEORIZE", "EXPERIMENT", "SCIENCE", "RESEARCH", "CONCLUSION"],
     correct: 1,
     explanation: "A THESIS is the central argument of a DISSERTATION; a HYPOTHESIS is the central idea tested in an EXPERIMENT."
   },
@@ -1802,7 +1802,7 @@ export const verbalAnalogiesData = [
   {
     id: 44,
     text: "CONDUCTOR : ORCHESTRA :: CHOREOGRAPHER : ?",
-    options: ["Dance", "Ballet", "Dancers", "Stage", "Performance"],
+    options: ["OPERA", "CONCERT", "DANCERS", "STAGE", "PERFORMANCE"],
     correct: 2,
     explanation: "A CONDUCTOR directs an ORCHESTRA; a CHOREOGRAPHER directs DANCERS."
   },
@@ -1816,7 +1816,7 @@ export const verbalAnalogiesData = [
   {
     id: 46,
     text: "OCTAGON : EIGHT :: PENTAGON : ?",
-    options: ["Five", "Shape", "Sides", "Geometry", "Polygon"],
+    options: ["FIVE", "SHAPE", "SIDES", "GEOMETRY", "POLYGON"],
     correct: 0,
     explanation: "An OCTAGON has EIGHT sides; a PENTAGON has FIVE sides."
   },
@@ -1830,7 +1830,7 @@ export const verbalAnalogiesData = [
   {
     id: 48,
     text: "GLACIER : ICE :: VOLCANO : ?",
-    options: ["Mountain", "Lava", "Fire", "Eruption", "Magma"],
+    options: ["MOUNTAIN", "FLOE", "FIRE", "ERUPTION", "MAGMA"],
     correct: 4,
     explanation: "A GLACIER is made of ICE; a VOLCANO contains MAGMA."
   },
@@ -1844,7 +1844,7 @@ export const verbalAnalogiesData = [
   {
     id: 50,
     text: "ALLEGORY : SYMBOLISM :: PARODY : ?",
-    options: ["Comedy", "Satire", "Humor", "Mockery", "Imitation"],
+    options: ["COMEDY", "SATIRE", "HUMOR", "MOCKERY", "IMITATION"],
     correct: 1,
     explanation: "An ALLEGORY uses SYMBOLISM; a PARODY uses SATIRE."
   },
@@ -1860,7 +1860,7 @@ export const verbalAnalogiesData = [
   {
     id: 52,
     text: "BAROMETER : PRESSURE :: HYGROMETER : ?",
-    options: ["Temperature", "Humidity", "Weather", "Moisture", "Rain"],
+    options: ["TEMPERATURE", "HUMIDITY", "WEATHER", "MOISTURE", "RAIN"],
     correct: 1,
     explanation: "A BAROMETER measures atmospheric PRESSURE; a HYGROMETER measures HUMIDITY."
   },
@@ -1874,7 +1874,7 @@ export const verbalAnalogiesData = [
   {
     id: 54,
     text: "ELEGY : SORROW :: EULOGY : ?",
-    options: ["Death", "Praise", "Funeral", "Speech", "Memorial"],
+    options: ["DEATH", "PRAISE", "FUNERAL", "SPEECH", "MEMORIAL"],
     correct: 1,
     explanation: "An ELEGY expresses SORROW; a EULOGY expresses PRAISE for the deceased."
   },
@@ -1888,9 +1888,9 @@ export const verbalAnalogiesData = [
   {
     id: 56,
     text: "DYNASTY : RULERS :: ANTHOLOGY : ?",
-    options: ["Books", "Stories", "Authors", "Poems", "Literature"],
-    correct: 3,
-    explanation: "A DYNASTY is a succession of RULERS; an ANTHOLOGY is a collection of POEMS or writings."
+    options: ["BOOKS", "STORIES", "AUTHORS", "POEMS", "WRITINGS"],
+    correct: 4,
+    explanation: "A DYNASTY is a succession of RULERS; an ANTHOLOGY is a collection of WRITINGS."
   },
   {
     id: 57,
@@ -1902,7 +1902,7 @@ export const verbalAnalogiesData = [
   {
     id: 58,
     text: "QUILL : WRITE :: AWL : ?",
-    options: ["Sew", "Pierce", "Tool", "Leather", "Hole"],
+    options: ["SEW", "PIERCE", "TOOL", "LEATHER", "TAN"],
     correct: 1,
     explanation: "A QUILL is used to WRITE; an AWL is used to PIERCE holes."
   },
@@ -1916,9 +1916,9 @@ export const verbalAnalogiesData = [
   {
     id: 60,
     text: "TUNDRA : ARCTIC :: SAVANNA : ?",
-    options: ["Grassland", "Africa", "Tropical", "Desert", "Plains"],
-    correct: 1,
-    explanation: "TUNDRA is characteristic of the ARCTIC; SAVANNA is characteristic of AFRICA."
+    options: ["GRASSLANDS", "DESSERT", "TROPICAL", "DESERT", "PLAINS"],
+    correct: 0,
+    explanation: "TUNDRA is characteristic of the ARCTIC; SAVANNA is characteristic of GRASSLANDS."
   },
   {
     id: 61,
@@ -1930,7 +1930,7 @@ export const verbalAnalogiesData = [
   {
     id: 62,
     text: "CARTOGRAPHER : MAPS :: LEXICOGRAPHER : ?",
-    options: ["Words", "Dictionaries", "Language", "Books", "Definitions"],
+    options: ["WORDS", "DICTIONARIES", "LANGUAGE", "BOOKS", "DEFINITIONS"],
     correct: 1,
     explanation: "A CARTOGRAPHER creates MAPS; a LEXICOGRAPHER creates DICTIONARIES."
   },
@@ -1944,7 +1944,7 @@ export const verbalAnalogiesData = [
   {
     id: 64,
     text: "SONATA : PIANO :: CONCERTO : ?",
-    options: ["Music", "Orchestra", "Symphony", "Solo", "Performance"],
+    options: ["MUSIC", "ORCHESTRA", "SYMPHONY", "SOLO", "PERFORMANCE"],
     correct: 1,
     explanation: "A SONATA is composed for PIANO; a CONCERTO is composed for soloist and ORCHESTRA."
   },
@@ -1958,7 +1958,7 @@ export const verbalAnalogiesData = [
   {
     id: 66,
     text: "PENINSULA : LAND :: LAGOON : ?",
-    options: ["Ocean", "Water", "Lake", "Bay", "Sea"],
+    options: ["OCEAN", "WATER", "LAKE", "BAY", "SEA"],
     correct: 1,
     explanation: "A PENINSULA is surrounded by water but is LAND; a LAGOON is surrounded by land but is WATER."
   },
@@ -1972,7 +1972,7 @@ export const verbalAnalogiesData = [
   {
     id: 68,
     text: "PSEUDONYM : AUTHOR :: ALIAS : ?",
-    options: ["Name", "Criminal", "Identity", "Person", "Fake"],
+    options: ["NAME", "CRIMINAL", "IDENTITY", "PERSON", "FAKE"],
     correct: 1,
     explanation: "A PSEUDONYM is a false name used by an AUTHOR; an ALIAS is a false name used by a CRIMINAL."
   },
@@ -1986,7 +1986,7 @@ export const verbalAnalogiesData = [
   {
     id: 70,
     text: "FABLE : MORAL :: PARABLE : ?",
-    options: ["Story", "Lesson", "Religion", "Teaching", "Truth"],
+    options: ["STORY", "LESSON", "RELIGION", "TEACHING", "TRUTH"],
     correct: 1,
     explanation: "A FABLE teaches a MORAL; a PARABLE teaches a LESSON."
   },
@@ -2000,22 +2000,22 @@ export const verbalAnalogiesData = [
   {
     id: 72,
     text: "ANVIL : FORGE :: LATHE : ?",
-    options: ["Machine", "Workshop", "Metal", "Wood", "Turn"],
+    options: ["MACHINE", "WORKSHOP", "METAL", "WOOD", "TURN"],
     correct: 1,
     explanation: "An ANVIL is used in a FORGE; a LATHE is used in a WORKSHOP."
   },
   {
     id: 73,
     text: "PERNICIOUS is to BENEFICIAL as SUPERFLUOUS is to",
-    options: ["EXTRA", "UNNECESSARY", "ESSENTIAL", "EXCESS", "REDUNDANT"],
-    correct: 2,
+    options: ["EXTRA", "UNNECESSARY", "EXCESS", "ESSENTIAL", "REDUNDANT"],
+    correct: 3,
     explanation: "PERNICIOUS (harmful) is opposite to BENEFICIAL; SUPERFLUOUS (unnecessary) is opposite to ESSENTIAL."
   },
   {
     id: 74,
     text: "HERBIVORE : PLANTS :: CARNIVORE : ?",
-    options: ["Animals", "Meat", "Predator", "Hunter", "Food"],
-    correct: 1,
+    options: ["ANIMALS", "FOOD", "PREDATOR", "HUNTER", "MEAT"],
+    correct: 4,
     explanation: "A HERBIVORE eats PLANTS; a CARNIVORE eats MEAT."
   },
   {
@@ -2028,37 +2028,37 @@ export const verbalAnalogiesData = [
   {
     id: 76,
     text: "EPITAPH : TOMBSTONE :: INSCRIPTION : ?",
-    options: ["Writing", "Monument", "Words", "Stone", "Memorial"],
+    options: ["WRITING", "MONUMENT", "WORDS", "STONE", "MEMORIAL"],
     correct: 1,
     explanation: "An EPITAPH is text on a TOMBSTONE; an INSCRIPTION is text on a MONUMENT."
   },
   {
     id: 77,
     text: "VOLATILE is to STABLE as AMBIGUOUS is to",
-    options: ["UNCLEAR", "VAGUE", "DEFINITE", "CONFUSING", "UNCERTAIN"],
-    correct: 2,
+    options: ["UNCLEAR", "VAGUE", "CONFUSING", "DEFINITE", "UNCERTAIN"],
+    correct: 3,
     explanation: "VOLATILE (unstable) is opposite to STABLE; AMBIGUOUS (unclear) is opposite to DEFINITE."
   },
   {
     id: 78,
     text: "CURATOR : MUSEUM :: SOMMELIER : ?",
-    options: ["Wine", "Restaurant", "Food", "Drink", "Cellar"],
+    options: ["BEER", "RESTAURANT", "FOOD", "DRINK", "CELLAR"],
     correct: 1,
     explanation: "A CURATOR manages a MUSEUM; a SOMMELIER manages wine at a RESTAURANT."
   },
   {
     id: 79,
     text: "EXORBITANT is to REASONABLE as MEAGER is to",
-    options: ["SMALL", "LITTLE", "ABUNDANT", "SCANT", "SPARSE"],
-    correct: 2,
+    options: ["SMALL", "LITTLE", "SPARSE", "SCANT", "ABUNDANT"],
+    correct: 4,
     explanation: "EXORBITANT (excessive) is opposite to REASONABLE; MEAGER (insufficient) is opposite to ABUNDANT."
   },
   {
     id: 80,
     text: "CRESCENDO : VOLUME :: ACCELERANDO : ?",
-    options: ["Music", "Speed", "Sound", "Tempo", "Rhythm"],
-    correct: 1,
-    explanation: "CRESCENDO indicates increasing VOLUME; ACCELERANDO indicates increasing SPEED."
+    options: ["MUSIC", "CAR", "SOUND", "TEMPO", "RHYTHM"],
+    correct: 3,
+    explanation: "CRESCENDO indicates increasing VOLUME; ACCELERANDO indicates increasing TEMPO."
   },
   {
     id: 81,
@@ -2070,36 +2070,36 @@ export const verbalAnalogiesData = [
   {
     id: 82,
     text: "SYNOPSIS : PLOT :: ABSTRACT : ?",
-    options: ["Summary", "Paper", "Research", "Article", "Conclusion"],
+    options: ["RESEARCH", "PAPER", "SUMMARY", "ARTICLE", "CONCLUSION"],
     correct: 2,
     explanation: "A SYNOPSIS summarizes a PLOT; an ABSTRACT summarizes RESEARCH."
   },
   {
     id: 83,
     text: "IMMUTABLE is to CHANGEABLE as TANGIBLE is to",
-    options: ["TOUCHABLE", "SOLID", "INTANGIBLE", "REAL", "PHYSICAL"],
-    correct: 2,
-    explanation: "IMMUTABLE (unchangeable) is opposite to CHANGEABLE; TANGIBLE (physical) is opposite to INTANGIBLE."
+    options: ["TOUCHABLE", "SOLID", "PHYSICAL", "REAL", "EHTEREAL"],
+    correct: 4,
+    explanation: "IMMUTABLE (unchangeable) is opposite to CHANGEABLE; TANGIBLE (physical) is opposite to EHTEREAL."
   },
   {
     id: 84,
     text: "TROWEL : MASON :: CHISEL : ?",
-    options: ["Tool", "Sculptor", "Stone", "Carve", "Wood"],
+    options: ["TOOL", "SCULPTOR", "STONE", "CARVE", "WOOD"],
     correct: 1,
     explanation: "A TROWEL is a tool used by a MASON; a CHISEL is a tool used by a SCULPTOR."
   },
   {
     id: 85,
     text: "OSTENTATIOUS is to MODEST as CLANDESTINE is to",
-    options: ["SECRET", "HIDDEN", "OPEN", "COVERT", "CONCEALED"],
+    options: ["SECRET", "HIDDEN", "OBVIOUS", "COVERT", "CONCEALED"],
     correct: 2,
     explanation: "OSTENTATIOUS (showy) is opposite to MODEST; CLANDESTINE (secret) is opposite to OPEN."
   },
   {
     id: 86,
     text: "STANZA : POEM :: MOVEMENT : ?",
-    options: ["Dance", "Symphony", "Music", "Orchestra", "Melody"],
-    correct: 1,
+    options: ["DANCE", "MELODY", "MUSIC", "ORCHESTRA", "SYMPHONY"],
+    correct: 4,
     explanation: "A STANZA is a section of a POEM; a MOVEMENT is a section of a SYMPHONY."
   },
   {
@@ -2112,7 +2112,7 @@ export const verbalAnalogiesData = [
   {
     id: 88,
     text: "ARCHIPELAGO : ISLANDS :: GALAXY : ?",
-    options: ["Space", "Stars", "Universe", "Planets", "Cosmos"],
+    options: ["SPACE", "STARS", "UNIVERSE", "PLANETS", "COSMOS"],
     correct: 1,
     explanation: "An ARCHIPELAGO is a group of ISLANDS; a GALAXY is a group of STARS."
   },
@@ -2126,21 +2126,21 @@ export const verbalAnalogiesData = [
   {
     id: 90,
     text: "LEXICON : VOCABULARY :: COMPENDIUM : ?",
-    options: ["Book", "Information", "Collection", "Summary", "Knowledge"],
-    correct: 1,
+    options: ["BOOK", "STUFF", "COLLECTION", "SUMMARY", "INFORMATION"],
+    correct: 4,
     explanation: "A LEXICON contains VOCABULARY; a COMPENDIUM contains INFORMATION."
   },
   {
     id: 91,
     text: "DELETERIOUS is to BENEFICIAL as HEINOUS is to",
-    options: ["TERRIBLE", "EVIL", "VIRTUOUS", "WICKED", "ATROCIOUS"],
-    correct: 2,
+    options: ["TERRIBLE", "EVIL", "WICKED", "VIRTUOUS", "ATROCIOUS"],
+    correct: 3,
     explanation: "DELETERIOUS (harmful) is opposite to BENEFICIAL; HEINOUS (evil) is opposite to VIRTUOUS."
   },
   {
     id: 92,
     text: "PROTAGONIST : STORY :: THESIS : ?",
-    options: ["Paper", "Argument", "Writing", "Essay", "Research"],
+    options: ["PAPER", "ARGUMENT", "THING", "ESSAY", "RESEARCH"],
     correct: 1,
     explanation: "The PROTAGONIST is central to a STORY; the THESIS is central to an ARGUMENT."
   },
@@ -2154,21 +2154,21 @@ export const verbalAnalogiesData = [
   {
     id: 94,
     text: "SCYTHE : REAP :: SICKLE : ?",
-    options: ["Cut", "Harvest", "Farm", "Crop", "Tool"],
+    options: ["LOOP", "HARVEST", "FARM", "CROP", "TOOL"],
     correct: 1,
     explanation: "A SCYTHE is used to REAP; a SICKLE is used to HARVEST."
   },
   {
     id: 95,
     text: "LUCRATIVE is to UNPROFITABLE as OMINOUS is to",
-    options: ["THREATENING", "DARK", "AUSPICIOUS", "FOREBODING", "MENACING"],
+    options: ["THREATENING", "DARK", "MENACINGLY", "FOREBODING", "AUSPICIOUS"],
     correct: 2,
     explanation: "LUCRATIVE (profitable) is opposite to UNPROFITABLE; OMINOUS (threatening) is opposite to AUSPICIOUS."
   },
   {
     id: 96,
     text: "CODA : MUSIC :: EPILOGUE : ?",
-    options: ["Book", "End", "Story", "Chapter", "Conclusion"],
+    options: ["BOOK", "END", "ATLAS", "CHAPTER", "CONCLUSION"],
     correct: 0,
     explanation: "A CODA is the concluding section of MUSIC; an EPILOGUE is the concluding section of a BOOK."
   },
@@ -2182,7 +2182,7 @@ export const verbalAnalogiesData = [
   {
     id: 98,
     text: "CARTILAGE : JOINT :: TENDON : ?",
-    options: ["Bone", "Muscle", "Ligament", "Body", "Tissue"],
+    options: ["BONE", "MUSCLE", "LIGAMENT", "BODY", "TISSUE"],
     correct: 1,
     explanation: "CARTILAGE cushions a JOINT; a TENDON connects to MUSCLE."
   },
@@ -2196,7 +2196,7 @@ export const verbalAnalogiesData = [
   {
     id: 100,
     text: "INCISION : SURGEON :: WELD : ?",
-    options: ["Metal", "Welder", "Heat", "Joint", "Tool"],
+    options: ["METAL", "WELDER", "HEAT", "JOINT", "TOOL"],
     correct: 1,
     explanation: "An INCISION is made by a SURGEON; a WELD is made by a WELDER."
   },
@@ -2212,7 +2212,7 @@ export const verbalAnalogiesData = [
   {
     id: 102,
     text: "LOGARITHM : MATHEMATICS :: METAPHOR : ?",
-    options: ["Language", "Literature", "Writing", "Poetry", "Comparison"],
+    options: ["IMAGE", "LITERATURE", "CONCEPT", "POTTERY", "COMPRISE"],
     correct: 1,
     explanation: "A LOGARITHM is a concept in MATHEMATICS; a METAPHOR is a concept in LITERATURE."
   },
@@ -2226,7 +2226,7 @@ export const verbalAnalogiesData = [
   {
     id: 104,
     text: "PESTLE : MORTAR :: KEY : ?",
-    options: ["Door", "Lock", "Open", "Metal", "Security"],
+    options: ["LAVA", "LOCK", "OPEN", "METAL", "SECURITY"],
     correct: 1,
     explanation: "A PESTLE is used with a MORTAR; a KEY is used with a LOCK."
   },
@@ -2240,7 +2240,7 @@ export const verbalAnalogiesData = [
   {
     id: 106,
     text: "CHROMOSOME : GENE :: SENTENCE : ?",
-    options: ["Word", "Grammar", "Clause", "Paragraph", "Language"],
+    options: ["WORD", "GRAM", "CLAUSE", "PARACHUTE", "LAKE"],
     correct: 0,
     explanation: "A CHROMOSOME contains GENES; a SENTENCE contains WORDS."
   },
@@ -2254,7 +2254,7 @@ export const verbalAnalogiesData = [
   {
     id: 108,
     text: "BUOY : NAVIGATION :: BEACON : ?",
-    options: ["Light", "Warning", "Signal", "Safety", "Ship"],
+    options: ["LIGHT", "WARNING", "SIGN", "SAFETY", "SHIP"],
     correct: 1,
     explanation: "A BUOY aids NAVIGATION; a BEACON provides WARNING."
   },
@@ -2268,7 +2268,7 @@ export const verbalAnalogiesData = [
   {
     id: 110,
     text: "BALLAD : NARRATIVE :: LIMERICK : ?",
-    options: ["Poem", "Humor", "Rhyme", "Verse", "Short"],
+    options: ["MOPE", "HUMOR", "THYME", "VERSATILE", "SHORT"],
     correct: 1,
     explanation: "A BALLAD tells a NARRATIVE; a LIMERICK provides HUMOR."
   },
@@ -2282,7 +2282,7 @@ export const verbalAnalogiesData = [
   {
     id: 112,
     text: "CENTRIFUGE : SEPARATION :: CATALYST : ?",
-    options: ["Chemistry", "Reaction", "Speed", "Acceleration", "Change"],
+    options: ["CHEMISTRY", "REACTION", "SPRINT", "ACCELERATION", "CHANGE"],
     correct: 3,
     explanation: "A CENTRIFUGE causes SEPARATION; a CATALYST causes ACCELERATION of reactions."
   },
@@ -2296,7 +2296,7 @@ export const verbalAnalogiesData = [
   {
     id: 114,
     text: "REFERENDUM : VOTE :: CENSUS : ?",
-    options: ["Count", "Population", "Survey", "Government", "Data"],
+    options: ["COUNT", "POPULAR", "SURVEILLANCE", "GOVERN", "DATA"],
     correct: 0,
     explanation: "A REFERENDUM involves a VOTE; a CENSUS involves a COUNT."
   },
@@ -2310,7 +2310,7 @@ export const verbalAnalogiesData = [
   {
     id: 116,
     text: "ELECTRODE : CURRENT :: CATALYST : ?",
-    options: ["Chemistry", "Reaction", "Speed", "Change", "Process"],
+    options: ["CHEMISTRY", "REACTION", "SPEED", "CHANGE", "PROCESS"],
     correct: 1,
     explanation: "An ELECTRODE conducts CURRENT; a CATALYST facilitates a REACTION."
   },
@@ -2324,7 +2324,7 @@ export const verbalAnalogiesData = [
   {
     id: 118,
     text: "BIOPSY : TISSUE :: AUTOPSY : ?",
-    options: ["Death", "Body", "Medical", "Examination", "Cadaver"],
+    options: ["DEATH", "CUT", "MEDICAL", "EXAMINATION", "CADAVER"],
     correct: 4,
     explanation: "A BIOPSY examines TISSUE; an AUTOPSY examines a CADAVER."
   },
@@ -2338,7 +2338,7 @@ export const verbalAnalogiesData = [
   {
     id: 120,
     text: "PRELUDE : INTRODUCTION :: DENOUEMENT : ?",
-    options: ["End", "Resolution", "Story", "Climax", "Conclusion"],
+    options: ["FALLOFF", "RESOLUTION", "STORY", "CLIMAXING", "ILLUSION"],
     correct: 1,
     explanation: "A PRELUDE is an INTRODUCTION; a DENOUEMENT is a RESOLUTION of the plot."
   },
@@ -2352,7 +2352,7 @@ export const verbalAnalogiesData = [
   {
     id: 122,
     text: "CRUCIBLE : MELTING :: KILN : ?",
-    options: ["Heat", "Firing", "Pottery", "Clay", "Ceramic"],
+    options: ["HEARTH", "FIRING", "POTTERY", "CLAY", "CERAMIC"],
     correct: 1,
     explanation: "A CRUCIBLE is used for MELTING; a KILN is used for FIRING ceramics."
   },
@@ -2366,7 +2366,7 @@ export const verbalAnalogiesData = [
   {
     id: 124,
     text: "LIGAMENT : BONE :: SYNAPSE : ?",
-    options: ["Brain", "Neuron", "Nerve", "Signal", "Connection"],
+    options: ["THOUGHT", "NEURON", "NERVOUS", "SIGNAL", "CONNECTION"],
     correct: 1,
     explanation: "A LIGAMENT connects BONE to bone; a SYNAPSE connects NEURON to neuron."
   },
@@ -2380,7 +2380,7 @@ export const verbalAnalogiesData = [
   {
     id: 126,
     text: "SONNET : FOURTEEN :: HAIKU : ?",
-    options: ["Three", "Five", "Japanese", "Short", "Poetry"],
+    options: ["THREE", "FIVE", "JAPANESE", "SHORT", "POETRY"],
     correct: 0,
     explanation: "A SONNET has FOURTEEN lines; a HAIKU has THREE lines."
   },
@@ -2394,7 +2394,7 @@ export const verbalAnalogiesData = [
   {
     id: 128,
     text: "ANVIL : BLACKSMITH :: EASEL : ?",
-    options: ["Paint", "Artist", "Canvas", "Brush", "Studio"],
+    options: ["PRINT", "ARTIST", "CANVAS", "BRUSH", "STUDIO"],
     correct: 1,
     explanation: "An ANVIL is used by a BLACKSMITH; an EASEL is used by an ARTIST."
   },
@@ -2408,7 +2408,7 @@ export const verbalAnalogiesData = [
   {
     id: 130,
     text: "COROLLARY : THEOREM :: POSTSCRIPT : ?",
-    options: ["Letter", "End", "Addition", "Message", "Writing"],
+    options: ["LETTER", "END", "ADDITION", "MESSAGE", "WRITTEN"],
     correct: 0,
     explanation: "A COROLLARY follows a THEOREM; a POSTSCRIPT follows a LETTER."
   },
@@ -2422,7 +2422,7 @@ export const verbalAnalogiesData = [
   {
     id: 132,
     text: "SCALPEL : INCISION :: NEEDLE : ?",
-    options: ["Thread", "Suture", "Sewing", "Sharp", "Medical"],
+    options: ["THREAD", "SUTURE", "WOUND", "SHARP", "MEDICAL"],
     correct: 1,
     explanation: "A SCALPEL makes an INCISION; a NEEDLE makes a SUTURE."
   },
@@ -2436,7 +2436,7 @@ export const verbalAnalogiesData = [
   {
     id: 134,
     text: "METAPHOR : COMPARISON :: ALLITERATION : ?",
-    options: ["Poetry", "Sound", "Repetition", "Words", "Device"],
+    options: ["POETRY", "SOUND", "REPETITION", "WORDS", "DEVICE"],
     correct: 2,
     explanation: "METAPHOR creates COMPARISON; ALLITERATION creates REPETITION of sounds."
   },
@@ -2450,7 +2450,7 @@ export const verbalAnalogiesData = [
   {
     id: 136,
     text: "APIARY : BEES :: AVIARY : ?",
-    options: ["Birds", "Animals", "Cage", "Flight", "Wings"],
+    options: ["BIRDS", "ANIMALS", "CAGE", "FLIGHT", "WINGS"],
     correct: 0,
     explanation: "An APIARY houses BEES; an AVIARY houses BIRDS."
   },
@@ -2464,7 +2464,7 @@ export const verbalAnalogiesData = [
   {
     id: 138,
     text: "CONDUCTOR : BATON :: SURGEON : ?",
-    options: ["Hospital", "Scalpel", "Operation", "Patient", "Medicine"],
+    options: ["HOSPITAL", "SCALPEL", "OPERATION", "PATIENT", "MEDICINE"],
     correct: 1,
     explanation: "A CONDUCTOR uses a BATON; a SURGEON uses a SCALPEL."
   },
@@ -2478,7 +2478,7 @@ export const verbalAnalogiesData = [
   {
     id: 140,
     text: "MONOLOGUE : ONE :: DIALOGUE : ?",
-    options: ["Two", "Conversation", "Speech", "Talk", "Discussion"],
+    options: ["TWO", "CONVERSATION", "SPEECH", "TALK", "DISCUSSION"],
     correct: 0,
     explanation: "A MONOLOGUE involves ONE speaker; a DIALOGUE involves TWO speakers."
   },
@@ -2492,7 +2492,7 @@ export const verbalAnalogiesData = [
   {
     id: 142,
     text: "TUNING FORK : PITCH :: LEVEL : ?",
-    options: ["Tool", "Horizontal", "Flat", "Surface", "Even"],
+    options: ["TOOL", "HORIZONTAL", "FLOAT", "SURFACE", "EVENT"],
     correct: 1,
     explanation: "A TUNING FORK establishes PITCH; a LEVEL establishes HORIZONTAL."
   },
@@ -2506,7 +2506,7 @@ export const verbalAnalogiesData = [
   {
     id: 144,
     text: "ANTONYM : OPPOSITE :: SYNONYM : ?",
-    options: ["Word", "Similar", "Same", "Language", "Meaning"],
+    options: ["WORD", "SIMILAR", "SYMANTIC", "LANGUAGE", "MEANING"],
     correct: 1,
     explanation: "An ANTONYM is an OPPOSITE; a SYNONYM is SIMILAR."
   },
@@ -2520,7 +2520,7 @@ export const verbalAnalogiesData = [
   {
     id: 146,
     text: "THROTTLE : SPEED :: RUDDER : ?",
-    options: ["Boat", "Direction", "Steering", "Water", "Navigation"],
+    options: ["BOAT", "DIRECTION", "STORM", "WATER", "NAVIGATION"],
     correct: 1,
     explanation: "A THROTTLE controls SPEED; a RUDDER controls DIRECTION."
   },
@@ -2534,7 +2534,7 @@ export const verbalAnalogiesData = [
   {
     id: 148,
     text: "VIGNETTE : SCENE :: EXCERPT : ?",
-    options: ["Book", "Passage", "Story", "Writing", "Text"],
+    options: ["BOOKISH", "PASSAGE", "STORE", "WRITING", "TEXT"],
     correct: 1,
     explanation: "A VIGNETTE is a brief SCENE; an EXCERPT is a brief PASSAGE."
   },
@@ -2548,7 +2548,7 @@ export const verbalAnalogiesData = [
   {
     id: 150,
     text: "ABACUS : CALCULATION :: PROTRACTOR : ?",
-    options: ["Angle", "Measurement", "Geometry", "Math", "Tool"],
+    options: ["ANGLE", "MEASUREMENT", "GEOMETRIC", "MATH", "TOOL"],
     correct: 0,
     explanation: "An ABACUS is used for CALCULATION; a PROTRACTOR is used for measuring ANGLE."
   },
@@ -2564,9 +2564,9 @@ export const verbalAnalogiesData = [
   {
     id: 152,
     text: "PESTLE : GRIND :: SIEVE : ?",
-    options: ["Separate", "Filter", "Strain", "Sort", "Screen"],
+    options: ["FILTER", "SPREAD", "STRAIGHTEN", "SPLIT", "SCREAM"],
     correct: 0,
-    explanation: "A PESTLE is used to GRIND; a SIEVE is used to SEPARATE."
+    explanation: "A PESTLE is used to GRIND; a SIEVE is used to FILTER."
   },
   {
     id: 153,
@@ -2578,35 +2578,35 @@ export const verbalAnalogiesData = [
   {
     id: 154,
     text: "ALGORITHM : COMPUTER :: RECIPE : ?",
-    options: ["Food", "Cooking", "Chef", "Kitchen", "Ingredients"],
+    options: ["FOOD", "COOKING", "CHEF", "KITCHEN", "INGREDIENTS"],
     correct: 1,
     explanation: "An ALGORITHM guides a COMPUTER; a RECIPE guides COOKING."
   },
   {
     id: 155,
     text: "DIMINUTIVE is to ENORMOUS as TEPID is to",
-    options: ["WARM", "LUKEWARM", "SCALDING", "COOL", "MILD"],
-    correct: 2,
+    options: ["WARM", "LUKEWARM", "MILD", "COOL", "SCALDING"],
+    correct: 4,
     explanation: "DIMINUTIVE (tiny) is opposite to ENORMOUS; TEPID (lukewarm) is opposite to SCALDING."
   },
   {
     id: 156,
     text: "ELLIPSE : OVAL :: TRAPEZOID : ?",
-    options: ["Square", "Quadrilateral", "Shape", "Rectangle", "Polygon"],
+    options: ["SQUARED", "QUADRILATERAL", "SHAPE", "RECTANGLES", "POLYGON"],
     correct: 1,
     explanation: "An ELLIPSE is a type of OVAL; a TRAPEZOID is a type of QUADRILATERAL."
   },
   {
     id: 157,
     text: "JUBILANT is to DESPONDENT as COPIOUS is to",
-    options: ["ABUNDANT", "PLENTIFUL", "MEAGER", "AMPLE", "NUMEROUS"],
-    correct: 2,
+    options: ["ABUNDANT", "PLENTIFUL", "NUMEROUS", "AMPLE", "MEAGER"],
+    correct: 4,
     explanation: "JUBILANT (joyful) is opposite to DESPONDENT; COPIOUS (abundant) is opposite to MEAGER."
   },
   {
     id: 158,
     text: "PALETTE : PAINTER :: LECTERN : ?",
-    options: ["Speaker", "Church", "Stand", "Podium", "Book"],
+    options: ["SPEAKER", "CHURCH", "STAND", "PODIUM", "BOOK"],
     correct: 0,
     explanation: "A PALETTE is used by a PAINTER; a LECTERN is used by a SPEAKER."
   },
@@ -2620,7 +2620,7 @@ export const verbalAnalogiesData = [
   {
     id: 160,
     text: "MANIFESTO : BELIEFS :: CONSTITUTION : ?",
-    options: ["Government", "Laws", "Country", "Rights", "Nation"],
+    options: ["GOVERNMENT", "LAWS", "COUNTRY", "RIGHTS", "NATION"],
     correct: 1,
     explanation: "A MANIFESTO declares BELIEFS; a CONSTITUTION declares LAWS."
   },
@@ -2634,8 +2634,8 @@ export const verbalAnalogiesData = [
   {
     id: 162,
     text: "PULLEY : LIFT :: LEVER : ?",
-    options: ["Move", "Push", "Pry", "Tool", "Force"],
-    correct: 2,
+    options: ["MOVE", "PUSH", "TOOL", "PRY", "FORCE"],
+    correct: 3,
     explanation: "A PULLEY is used to LIFT; a LEVER is used to PRY."
   },
   {
@@ -2648,8 +2648,8 @@ export const verbalAnalogiesData = [
   {
     id: 164,
     text: "SOLSTICE : SEASON :: EQUINOX : ?",
-    options: ["Day", "Night", "Equal", "Balance", "Spring"],
-    correct: 2,
+    options: ["DAY", "EQUAL", "NIGHT", "BALANCING", "SPRING"],
+    correct: 1,
     explanation: "SOLSTICE marks extreme SEASON; EQUINOX marks EQUAL day and night."
   },
   {
@@ -2662,7 +2662,7 @@ export const verbalAnalogiesData = [
   {
     id: 166,
     text: "METRONOME : RHYTHM :: SEXTANT : ?",
-    options: ["Navigation", "Position", "Ship", "Angle", "Ocean"],
+    options: ["NAVIGABLE", "POSITION", "SHIP", "ANGLE", "OCEAN"],
     correct: 1,
     explanation: "A METRONOME maintains RHYTHM; a SEXTANT determines POSITION."
   },
@@ -2676,7 +2676,7 @@ export const verbalAnalogiesData = [
   {
     id: 168,
     text: "SYLLABLE : WORD :: ATOM : ?",
-    options: ["Molecule", "Element", "Particle", "Matter", "Chemistry"],
+    options: ["MOLECULE", "ELEMENTAL", "PARTICLE", "MATTER", "CHEMISTRY"],
     correct: 0,
     explanation: "SYLLABLES combine to form WORDS; ATOMS combine to form MOLECULES."
   },
@@ -2690,7 +2690,7 @@ export const verbalAnalogiesData = [
   {
     id: 170,
     text: "CADENCE : MARCH :: TEMPO : ?",
-    options: ["Music", "Speed", "Beat", "Rhythm", "Sound"],
+    options: ["MUSIC", "SPEEDING", "BEATING", "RHYTHMIC", "SOUNDING"],
     correct: 0,
     explanation: "CADENCE is the rhythm of a MARCH; TEMPO is the speed of MUSIC."
   },
@@ -2704,7 +2704,7 @@ export const verbalAnalogiesData = [
   {
     id: 172,
     text: "CHRONOMETER : TIME :: ODOMETER : ?",
-    options: ["Speed", "Distance", "Car", "Travel", "Miles"],
+    options: ["SPEED", "DISTANCE", "CAR", "TRAVEL", "MILES"],
     correct: 1,
     explanation: "A CHRONOMETER measures TIME; an ODOMETER measures DISTANCE."
   },
@@ -2718,7 +2718,7 @@ export const verbalAnalogiesData = [
   {
     id: 174,
     text: "EPILOGUE : BOOK :: CODA : ?",
-    options: ["Music", "End", "Song", "Symphony", "Finale"],
+    options: ["MUSIC", "BEND", "STRING", "SYMPHONY", "FINALLY"],
     correct: 0,
     explanation: "An EPILOGUE concludes a BOOK; a CODA concludes MUSIC."
   },
@@ -2732,7 +2732,7 @@ export const verbalAnalogiesData = [
   {
     id: 176,
     text: "ANVIL : FORGE :: LOOM : ?",
-    options: ["Weaving", "Fabric", "Thread", "Textile", "Cloth"],
+    options: ["WEAVING", "FABRIC", "THREAD", "TEXTILE", "CLOTH"],
     correct: 0,
     explanation: "An ANVIL is used in a FORGE; a LOOM is used in WEAVING."
   },
@@ -2746,7 +2746,7 @@ export const verbalAnalogiesData = [
   {
     id: 178,
     text: "FUGUE : BACH :: SYMPHONY : ?",
-    options: ["Orchestra", "Beethoven", "Music", "Classical", "Composer"],
+    options: ["ORCHESTRA", "BEETHOVEN", "METALLICA", "CLASSICAL", "COMPOSER"],
     correct: 1,
     explanation: "FUGUE is associated with BACH; SYMPHONY is associated with BEETHOVEN."
   },
@@ -2760,7 +2760,7 @@ export const verbalAnalogiesData = [
   {
     id: 180,
     text: "ABACUS : ARITHMETIC :: COMPASS : ?",
-    options: ["Direction", "Geometry", "Navigation", "Circle", "Drawing"],
+    options: ["DIRECTION", "GEOMETRY", "NAVIGATION", "CIRCLE", "DIRECTIONS"],
     correct: 1,
     explanation: "An ABACUS is used for ARITHMETIC; a COMPASS is used for GEOMETRY."
   },
@@ -2774,7 +2774,7 @@ export const verbalAnalogiesData = [
   {
     id: 182,
     text: "CADAVER : MORGUE :: SPECIMEN : ?",
-    options: ["Science", "Laboratory", "Sample", "Study", "Research"],
+    options: ["SCIENCE", "LABORATORY", "SAMPLE", "STUDY", "RESEARCH"],
     correct: 1,
     explanation: "A CADAVER is stored in a MORGUE; a SPECIMEN is stored in a LABORATORY."
   },
@@ -2788,7 +2788,7 @@ export const verbalAnalogiesData = [
   {
     id: 184,
     text: "AXIOM : PROOF :: HYPOTHESIS : ?",
-    options: ["Theory", "Science", "Test", "Experiment", "Research"],
+    options: ["THEORY", "SCIENCE", "TABLE", "EXPERIMENT", "EXPLANATION"],
     correct: 3,
     explanation: "An AXIOM needs no PROOF; a HYPOTHESIS requires an EXPERIMENT."
   },
@@ -2802,21 +2802,21 @@ export const verbalAnalogiesData = [
   {
     id: 186,
     text: "PHOTON : LIGHT :: ELECTRON : ?",
-    options: ["Atom", "Electricity", "Charge", "Particle", "Energy"],
+    options: ["ATOM", "ELECTRICITY", "CHARGE", "PARTICLE", "ENERGY"],
     correct: 1,
     explanation: "A PHOTON is the particle of LIGHT; an ELECTRON is the particle of ELECTRICITY."
   },
   {
     id: 187,
     text: "UBIQUITOUS is to SCARCE as TANGIBLE is to",
-    options: ["REAL", "PHYSICAL", "INTANGIBLE", "SOLID", "CONCRETE"],
+    options: ["REAL", "PHYSICAL", "EPHEMERAL", "SOLID", "CONCRETE"],
     correct: 2,
-    explanation: "UBIQUITOUS (everywhere) is opposite to SCARCE; TANGIBLE (physical) is opposite to INTANGIBLE."
+    explanation: "UBIQUITOUS (everywhere) is opposite to SCARCE; TANGIBLE (physical) is opposite to EPHEMERAL."
   },
   {
     id: 188,
     text: "CRUCIBLE : METALLURGY :: RETORT : ?",
-    options: ["Chemistry", "Laboratory", "Science", "Experiment", "Distillation"],
+    options: ["CHEMISTRY", "LABORATORY", "SCIENCE", "EXPERIMENT", "DISTILLATION"],
     correct: 4,
     explanation: "A CRUCIBLE is used in METALLURGY; a RETORT is used in DISTILLATION."
   },
@@ -2830,7 +2830,7 @@ export const verbalAnalogiesData = [
   {
     id: 190,
     text: "PARADIGM : MODEL :: ALGORITHM : ?",
-    options: ["Computer", "Process", "Mathematics", "Formula", "Calculation"],
+    options: ["COMPUTER", "PROCESS", "MATHEMATICS", "FORMULA", "CALCULATION"],
     correct: 1,
     explanation: "A PARADIGM is a MODEL; an ALGORITHM is a PROCESS."
   },
@@ -2844,7 +2844,7 @@ export const verbalAnalogiesData = [
   {
     id: 192,
     text: "FULCRUM : LEVER :: AXLE : ?",
-    options: ["Wheel", "Car", "Rotation", "Spin", "Turn"],
+    options: ["WHEEL", "CAR", "ROTATION", "SPIN", "TURN"],
     correct: 0,
     explanation: "A FULCRUM is the pivot point of a LEVER; an AXLE is the pivot point of a WHEEL."
   },
@@ -2858,7 +2858,7 @@ export const verbalAnalogiesData = [
   {
     id: 194,
     text: "METAPHOR : FIGURATIVE :: STATEMENT : ?",
-    options: ["Literal", "Sentence", "Words", "Speech", "Declaration"],
+    options: ["LITERAL", "SENTENCE", "WORDS", "SPEECH", "DECLARATION"],
     correct: 0,
     explanation: "A METAPHOR is FIGURATIVE language; a STATEMENT is LITERAL language."
   },
@@ -2872,7 +2872,7 @@ export const verbalAnalogiesData = [
   {
     id: 196,
     text: "CHISEL : SCULPTOR :: TROWEL : ?",
-    options: ["Tool", "Mason", "Cement", "Brick", "Construction"],
+    options: ["TOOL", "MASON", "CEMENT", "BRICK", "CONSTRUCTION"],
     correct: 1,
     explanation: "A CHISEL is the tool of a SCULPTOR; a TROWEL is the tool of a MASON."
   },
@@ -2886,7 +2886,7 @@ export const verbalAnalogiesData = [
   {
     id: 198,
     text: "SONNET : PETRARCH :: NOVEL : ?",
-    options: ["Fiction", "Cervantes", "Book", "Story", "Literature"],
+    options: ["FICTION", "CERVANTES", "BOOK", "STORY", "LITERATURE"],
     correct: 1,
     explanation: "The SONNET form is associated with PETRARCH; the NOVEL form is associated with CERVANTES."
   },
@@ -2900,7 +2900,7 @@ export const verbalAnalogiesData = [
   {
     id: 200,
     text: "HYPOTHESIS : THEORY :: CONCEPT : ?",
-    options: ["Idea", "Principle", "Thought", "Notion", "Understanding"],
+    options: ["IDEA", "PRINCIPLE", "THOUGHT", "NOTION", "UNDERSTANDING"],
     correct: 1,
     explanation: "A HYPOTHESIS develops into a THEORY; a CONCEPT develops into a PRINCIPLE."
   }

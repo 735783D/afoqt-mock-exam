@@ -13,10 +13,13 @@ const BlockCountingQuestion = ({
   totalQuestions
 }) => {
     
-  const currentQuestion = question.questions[0];
+  // const currentQuestion = question.questions[0];
+  const currentQuestion = question.questions ? question.questions[0] : question;
   const selectedAnswer = answers[currentQuestion.id];
   console.log('question prop:', question);
 console.log('currentQuestion:', currentQuestion);
+console.log('All answers:', answers);
+console.log('Selected answer for this Q:', selectedAnswer);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-900 to-blue-700 py-8 px-4">
@@ -56,7 +59,11 @@ console.log('currentQuestion:', currentQuestion);
             {currentQuestion.options.map((option, index) => (
               <div
                 key={index}
-                onClick={() => onAnswer(currentQuestion.id, index)}
+                // onClick={() => onAnswer(question.id, index)}
+                onClick={() => {
+  console.log('Calling onAnswer with ID:', question.id, 'index:', index);
+  onAnswer(question.id, index);
+}}
                 className={`question-option ${
                   selectedAnswer === index ? 'selected' : ''
                 }`}
