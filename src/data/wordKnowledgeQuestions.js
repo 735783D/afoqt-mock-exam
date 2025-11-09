@@ -1,82 +1,3 @@
-// // Word Knowledge Questions for AFOQT
-// // Format: Word in context or standalone, find the closest meaning
-
-// export const wordKnowledgeData = [
-//   {
-//     id: 1,
-//     text: "METICULOUS most nearly means:",
-//     options: [
-//       "Careful and precise",
-//       "Quick and efficient",
-//       "Lazy and careless",
-//       "Angry and hostile"
-//     ],
-//     correct: 0,
-//     explanation: "Meticulous means showing great attention to detail; very careful and precise."
-//   },
-//   {
-//     id: 2,
-//     text: "CANDID most nearly means:",
-//     options: [
-//       "Dishonest",
-//       "Frank and honest",
-//       "Confused",
-//       "Secretive"
-//     ],
-//     correct: 1,
-//     explanation: "Candid means truthful and straightforward; frank and honest in expression."
-//   },
-//   {
-//     id: 3,
-//     text: "OBSOLETE most nearly means:",
-//     options: [
-//       "Modern",
-//       "Expensive",
-//       "No longer in use",
-//       "Difficult to understand"
-//     ],
-//     correct: 2,
-//     explanation: "Obsolete means out of date; no longer produced or used."
-//   },
-//   {
-//     id: 4,
-//     text: "PROFICIENT most nearly means:",
-//     options: [
-//       "Beginner",
-//       "Skilled and competent",
-//       "Careless",
-//       "Uncertain"
-//     ],
-//     correct: 1,
-//     explanation: "Proficient means competent or skilled in doing or using something."
-//   },
-//   {
-//     id: 5,
-//     text: "CONCISE most nearly means:",
-//     options: [
-//       "Lengthy and detailed",
-//       "Brief and to the point",
-//       "Confusing",
-//       "Repetitive"
-//     ],
-//     correct: 1,
-//     explanation: "Concise means giving a lot of information clearly and in few words; brief but comprehensive."
-//   }
-//   // Venice: Generate 20 more similar questions
-//   // Mix difficulty levels: basic, intermediate, advanced vocabulary
-//   // Include words commonly used in military/aviation contexts
-// ];
-
-// export const WORD_KNOWLEDGE_CONFIG = {
-//   timeLimit: 5 * 60, // 5 minutes
-//   sectionName: "Word Knowledge",
-//   totalQuestions: 25
-// };
-
-
-// Word Knowledge Questions for AFOQT
-// Format: Word in context or standalone, find the closest meaning
-
 export const wordKnowledgeData = [
   {
     id: 1,
@@ -200,8 +121,8 @@ export const wordKnowledgeData = [
   {
     id: 18,
     text: "Aloof most nearly means:",
-    options: ["Distant", "Friendly", "Engaged", "Lively"],
-    correct: 0,
+    options: ["Lively", "Friendly", "Engaged", "Distant"],
+    correct: 3,
     explanation: "Aloof means emotionally detached or distant."
   },
   {
@@ -228,8 +149,8 @@ export const wordKnowledgeData = [
   {
     id: 22,
     text: "Prudent most nearly means:",
-    options: ["Reckless", "Careful", "Anxious", "Lucky"],
-    correct: 1,
+    options: ["Reckless", "Lucky", "Anxious", "Careful"],
+    correct: 3,
     explanation: "Prudent means acting with care and thought for the future."
   },
   {

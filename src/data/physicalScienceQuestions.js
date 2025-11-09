@@ -5,7 +5,7 @@ export const physicalScienceData = [
   {
     id: 1,
     text: "What is the chemical symbol for water?",
-    options: ["H2O", "O2", "CO2", "H2"],
+    options: ["H₂O", "O₂", "CO₂", "H₂"],
     correct: 0,
     explanation: "Water is composed of two hydrogen atoms and one oxygen atom: H2O."
   },
@@ -159,7 +159,7 @@ export const physicalScienceData = [
   {
     id: 23,
     text: "What kind of energy transformation occurs when a flashlight is turned on?",
-    options: ["Chemical to electrical to light", "Thermal to mechanical", "Nuclear to heat", "Potential to kinetic"],
+    options: ["Chemical to electrical to light", "Thermal to mechanical to chemical", "Nuclear to heat to kinetic", "Potential to kinetic to light"],
     correct: 0,
     explanation: "Battery chemicals produce electricity, which powers the bulb to emit light."
   },
@@ -173,7 +173,7 @@ export const physicalScienceData = [
   {
     id: 25,
     text: "Which type of rock forms from cooled molten lava or magma?",
-    options: ["Sedimentary", "Metamorphic", "Igneous", "Fossil"],
+    options: ["Sedimentary", "Metamorphic", "Igneous", "Obsidian"],
     correct: 2,
     explanation: "Igneous rocks form when magma or lava cools and solidifies."
   },

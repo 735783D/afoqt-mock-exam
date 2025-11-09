@@ -88,8 +88,8 @@ export const arithmeticData = [
     id: 8,
     text: "An aircraft descends 3,000 feet every 10 minutes. How far will it descend in 25 minutes?",
     options: [
-      "5,000 ft",
-      "6,000 ft",
+      "5,500 ft",
+      "6,300 ft",
       "7,500 ft",
       "9,000 ft"
     ],
@@ -208,12 +208,12 @@ export const arithmeticData = [
     id: 18,
     text: "A flight covers 960 miles in 4 hours. What is the plane’s average speed?",
     options: [
-      "220 mph",
       "230 mph",
       "240 mph",
-      "250 mph"
+      "250 mph",
+      "260 mph"
     ],
-    correct: 2,
+    correct: 1,
     explanation: "960 ÷ 4 = 240 mph average speed."
   },
   {
@@ -232,10 +232,10 @@ export const arithmeticData = [
     id: 20,
     text: "A runway needs 1,500 gallons of de-icing fluid per hour. How many gallons are needed for a 5-hour operation?",
     options: [
-      "6,000 gallons",
+      "6,500 gallons",
       "7,000 gallons",
       "7,500 gallons",
-      "8,000 gallons"
+      "8,500 gallons"
     ],
     correct: 2,
     explanation: "1,500 × 5 = 7,500 gallons total."
@@ -244,12 +244,12 @@ export const arithmeticData = [
     id: 21,
     text: "A supply truck uses 12 gallons per 60 miles. How many miles per gallon does it get?",
     options: [
+      "2 mpg",
+      "3 mpg",
       "4 mpg",
-      "5 mpg",
-      "6 mpg",
-      "7 mpg"
+      "5 mpg"
     ],
-    correct: 1,
+    correct: 3,
     explanation: "60 ÷ 12 = 5 miles per gallon."
   },
   {
@@ -292,12 +292,12 @@ export const arithmeticData = [
     id: 25,
     text: "A pilot increases speed from 300 to 360 mph. What is the percentage increase?",
     options: [
-      "10%",
-      "15%",
       "20%",
-      "25%"
+      "25%",
+      "30%",
+      "45%"
     ],
-    correct: 2,
+    correct: 0,
     explanation: "(360 − 300) ÷ 300 = 0.20 = 20% increase."
   },
    {

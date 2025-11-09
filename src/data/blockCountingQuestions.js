@@ -12,7 +12,7 @@ export const blockCountingData = [
       10,
       11
     ],
-    "correctAnswer": 1,
+    "correct": 1,
     "explanation": "The highlighted block is touching 8 other blocks. Count each block that shares a face with the highlighted block.",
     "metadata": {
       "highlighted_block": "Cube.004",
@@ -39,7 +39,7 @@ export const blockCountingData = [
       6,
       7
     ],
-    "correctAnswer": 1,
+    "correct": 1,
     "explanation": "The highlighted block is touching 5 other blocks. Count each block that shares a face with the highlighted block.",
     "metadata": {
       "highlighted_block": "Cube.011",
@@ -63,7 +63,7 @@ export const blockCountingData = [
       8,
       11
     ],
-    "correctAnswer": 1,
+    "correct": 1,
     "explanation": "The highlighted block is touching 6 other blocks. Count each block that shares a face with the highlighted block.",
     "metadata": {
       "highlighted_block": "Cube.007",
@@ -88,7 +88,7 @@ export const blockCountingData = [
       6,
       9
     ],
-    "correctAnswer": 1,
+    "correct": 1,
     "explanation": "The highlighted block is touching 3 other blocks. Count each block that shares a face with the highlighted block.",
     "metadata": {
       "highlighted_block": "Cube.010",
@@ -110,7 +110,7 @@ export const blockCountingData = [
       9,
       11
     ],
-    "correctAnswer": 0,
+    "correct": 0,
     "explanation": "The highlighted block is touching 3 other blocks. Count each block that shares a face with the highlighted block.",
     "metadata": {
       "highlighted_block": "Cube.009",
@@ -132,7 +132,7 @@ export const blockCountingData = [
       6,
       11
     ],
-    "correctAnswer": 1,
+    "correct": 1,
     "explanation": "The highlighted block is touching 5 other blocks. Count each block that shares a face with the highlighted block.",
     "metadata": {
       "highlighted_block": "Cube.006",
@@ -156,7 +156,7 @@ export const blockCountingData = [
       6,
       9
     ],
-    "correctAnswer": 0,
+    "correct": 0,
     "explanation": "The highlighted block is touching 3 other blocks. Count each block that shares a face with the highlighted block.",
     "metadata": {
       "highlighted_block": "Cube.002",
@@ -178,7 +178,7 @@ export const blockCountingData = [
       7,
       8
     ],
-    "correctAnswer": 1,
+    "correct": 1,
     "explanation": "The highlighted block is touching 6 other blocks. Count each block that shares a face with the highlighted block.",
     "metadata": {
       "highlighted_block": "Cube.008",
@@ -203,7 +203,7 @@ export const blockCountingData = [
       4,
       6
     ],
-    "correctAnswer": 0,
+    "correct": 0,
     "explanation": "The highlighted block is touching 2 other blocks. Count each block that shares a face with the highlighted block.",
     "metadata": {
       "highlighted_block": "Cube",
@@ -224,7 +224,7 @@ export const blockCountingData = [
       6,
       11
     ],
-    "correctAnswer": 1,
+    "correct": 1,
     "explanation": "The highlighted block is touching 2 other blocks. Count each block that shares a face with the highlighted block.",
     "metadata": {
       "highlighted_block": "Cube.003",
@@ -245,7 +245,7 @@ export const blockCountingData = [
       4,
       9
     ],
-    "correctAnswer": 1,
+    "correct": 1,
     "explanation": "The highlighted block is touching 3 other blocks. Count each block that shares a face with the highlighted block.",
     "metadata": {
       "highlighted_block": "Cube.001",
@@ -267,7 +267,7 @@ export const blockCountingData = [
       6,
       11
     ],
-    "correctAnswer": 2,
+    "correct": 2,
     "explanation": "The highlighted block is touching 6 other blocks. Count each block that shares a face with the highlighted block.",
     "metadata": {
       "highlighted_block": "Cube.005",

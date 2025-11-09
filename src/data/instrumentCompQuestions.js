@@ -39,7 +39,7 @@ export const instrumentCompData = [
       }
     ],
     
-    correctAnswer: 1,
+    correct: 1,
     
     explanation: "The attitude indicator shows a 10° nose-up pitch (climbing) with a 15° left bank. The heading indicator shows 045° (northeast). Option B correctly shows this configuration."
   },
@@ -79,7 +79,7 @@ export const instrumentCompData = [
       }
     ],
     
-    correctAnswer: 0,
+    correct: 0,
     
     explanation: "The attitude indicator shows a 5° nose-down pitch (descending) with a 20° right bank. The heading shows 270° (west). Option A matches these readings."
   },
@@ -119,7 +119,7 @@ export const instrumentCompData = [
       }
     ],
     
-    correctAnswer: 2,
+    correct: 2,
     
     explanation: "Both pitch and bank are at 0°, indicating level flight with wings level. The heading shows 180° (south). Option C correctly shows level flight heading south."
   },
@@ -159,7 +159,7 @@ export const instrumentCompData = [
       }
     ],
     
-    correctAnswer: 2,
+    correct: 2,
     
     explanation: "The attitude indicator shows 15° nose-up (climbing) with 0° bank (wings level). The heading shows 090° (east). Option C shows a straight climb heading east."
   },
@@ -199,7 +199,7 @@ export const instrumentCompData = [
       }
     ],
     
-    correctAnswer: 2,
+    correct: 2,
     
     explanation: "The attitude indicator shows 10° nose-down pitch with 30° left bank. The heading shows 315° (northwest). Option C correctly depicts a descending left turn heading northwest."
   }
