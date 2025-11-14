@@ -40,7 +40,7 @@ export default function SituationalJudgmentQuestions({
                   <strong>{response.id.toUpperCase()})</strong> {response.text}
                 </p>
                 <div className="flex gap-2">
-                  {['Least Likely', 'Less Likely', 'Do N', 'More Likely', 'Most Likely'].map((rating, idx) => (
+                  {['Least likely', 'Less likely', 'Do nothing', 'More likely', 'Most likely'].map((rating, idx) => (
                     <label
                       key={idx}
                       className={`flex-1 text-center p-2 border-2 rounded cursor-pointer transition ${

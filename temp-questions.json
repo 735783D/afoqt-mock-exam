@@ -1,0 +1,1527 @@
+[
+  {
+    "id": 1,
+    "text": "A helicopter can carry 900 pounds per trip. If it needs to deliver 2,700 pounds of equipment, how many full trips will it make?",
+    "options": [
+      "2 trips",
+      "3 trips",
+      "4 trips",
+      "5 trips"
+    ],
+    "correct": 1,
+    "explanation": "2,700 ÷ 900 = 3 trips. So, it will make 3 full trips."
+  },
+  {
+    "id": 2,
+    "text": "An aircraft fuel tank holds 600 gallons. If the plane consumes 50 gallons per hour, how long can it fly before needing to refuel?",
+    "options": [
+      "8 hours",
+      "10 hours",
+      "12 hours",
+      "15 hours"
+    ],
+    "correct": 2,
+    "explanation": "600 ÷ 50 = 12 hours of flight time before refueling."
+  },
+  {
+    "id": 3,
+    "text": "A cargo plane’s maximum takeoff weight is 100,000 lbs and it currently weighs 95,000 lbs. What is the maximum cargo weight it can still add?",
+    "options": [
+      "3,000 lbs",
+      "4,000 lbs",
+      "5,000 lbs",
+      "10,000 lbs"
+    ],
+    "correct": 2,
+    "explanation": "100,000 − 95,000 = 5,000 lbs remaining capacity."
+  },
+  {
+    "id": 4,
+    "text": "A pilot needs to fly 360 miles. If the aircraft’s average ground speed is 120 mph, how long will the trip take?",
+    "options": [
+      "2 hours",
+      "3 hours",
+      "4 hours",
+      "5 hours"
+    ],
+    "correct": 1,
+    "explanation": "360 ÷ 120 = 3 hours flight time."
+  },
+  {
+    "id": 5,
+    "text": "A maintenance crew can service 6 aircraft in 3 hours. How many aircraft can they service in 6 hours at the same rate?",
+    "options": [
+      "8 aircraft",
+      "10 aircraft",
+      "12 aircraft",
+      "15 aircraft"
+    ],
+    "correct": 2,
+    "explanation": "They double their time (6 hrs vs 3 hrs), so they can service 6 × 2 = 12 aircraft."
+  },
+  {
+    "id": 6,
+    "text": "If one turbine engine produces 5,000 pounds of thrust, how much total thrust do four engines produce together?",
+    "options": [
+      "15,000 lbs",
+      "20,000 lbs",
+      "25,000 lbs",
+      "30,000 lbs"
+    ],
+    "correct": 1,
+    "explanation": "5,000 × 4 = 20,000 lbs total thrust."
+  },
+  {
+    "id": 7,
+    "text": "A truck delivers 20 pallets per trip. If 140 pallets must be delivered, how many trips are required?",
+    "options": [
+      "5 trips",
+      "6 trips",
+      "7 trips",
+      "8 trips"
+    ],
+    "correct": 2,
+    "explanation": "140 ÷ 20 = 7 trips."
+  },
+  {
+    "id": 8,
+    "text": "An aircraft descends 3,000 feet every 10 minutes. How far will it descend in 25 minutes?",
+    "options": [
+      "5,500 ft",
+      "6,300 ft",
+      "7,500 ft",
+      "9,000 ft"
+    ],
+    "correct": 2,
+    "explanation": "3,000 ÷ 10 = 300 ft/min. 300 × 25 = 7,500 ft total descent."
+  },
+  {
+    "id": 9,
+    "text": "A cargo hold can fit 15 crates per row, with 10 rows total. How many crates can it hold?",
+    "options": [
+      "100",
+      "125",
+      "150",
+      "200"
+    ],
+    "correct": 2,
+    "explanation": "15 × 10 = 150 crates total."
+  },
+  {
+    "id": 10,
+    "text": "If a plane travels 600 miles in 2 hours, what is its average speed?",
+    "options": [
+      "250 mph",
+      "275 mph",
+      "300 mph",
+      "350 mph"
+    ],
+    "correct": 2,
+    "explanation": "Speed = Distance ÷ Time = 600 ÷ 2 = 300 mph."
+  },
+  {
+    "id": 11,
+    "text": "A flight engineer must divide 90 gallons of oil equally among 6 engines. How many gallons go to each engine?",
+    "options": [
+      "10 gallons",
+      "12 gallons",
+      "15 gallons",
+      "18 gallons"
+    ],
+    "correct": 2,
+    "explanation": "90 ÷ 6 = 15 gallons per engine."
+  },
+  {
+    "id": 12,
+    "text": "A delivery drone uses 2% of its battery per minute. After 25 minutes, what percentage remains?",
+    "options": [
+      "25%",
+      "40%",
+      "50%",
+      "75%"
+    ],
+    "correct": 2,
+    "explanation": "2% × 25 = 50% used. 100% − 50% = 50% remaining."
+  },
+  {
+    "id": 13,
+    "text": "A plane’s fuel efficiency is 5 miles per gallon. How many gallons are needed for a 250-mile trip?",
+    "options": [
+      "40 gallons",
+      "45 gallons",
+      "50 gallons",
+      "55 gallons"
+    ],
+    "correct": 2,
+    "explanation": "250 ÷ 5 = 50 gallons needed."
+  },
+  {
+    "id": 14,
+    "text": "If a gear with 10 teeth drives another with 20 teeth, the larger gear will "turn":",
+    "options": [
+      "Twice as fast",
+      "Half as fast",
+      "Same speed",
+      "Four times faster"
+    ],
+    "correct": 1,
+    "explanation": "The larger gear has twice the teeth, so it turns half as fast."
+  },
+  {
+    "id": 15,
+    "text": "A conveyor belt moves 30 packages per minute. How many packages in 15 minutes?",
+    "options": [
+      "300",
+      "350",
+      "400",
+      "450"
+    ],
+    "correct": 3,
+    "explanation": "30 × 15 = 450 packages total."
+  },
+  {
+    "id": 16,
+    "text": "A plane’s crew includes 2 pilots and 6 attendants. If 1/3 of attendants take a break, how many remain working?",
+    "options": [
+      "2 attendants",
+      "3 attendants",
+      "4 attendants",
+      "5 attendants"
+    ],
+    "correct": 2,
+    "explanation": "1/3 of 6 = 2 on break, leaving 6 − 2 = 4 working attendants."
+  },
+  {
+    "id": 17,
+    "text": "A mechanic needs 45 minutes to inspect one aircraft. How many can be inspected in 6 hours?",
+    "options": [
+      "6 aircraft",
+      "7 aircraft",
+      "8 aircraft",
+      "10 aircraft"
+    ],
+    "correct": 2,
+    "explanation": "6 hours = 360 minutes. 360 ÷ 45 = 8 inspections."
+  },
+  {
+    "id": 18,
+    "text": "A flight covers 960 miles in 4 hours. What is the plane’s average speed?",
+    "options": [
+      "230 mph",
+      "240 mph",
+      "250 mph",
+      "260 mph"
+    ],
+    "correct": 1,
+    "explanation": "960 ÷ 4 = 240 mph average speed."
+  },
+  {
+    "id": 19,
+    "text": "If a shipment contains 24 boxes weighing 25 pounds each, what is the total weight?",
+    "options": [
+      "500 lbs",
+      "550 lbs",
+      "600 lbs",
+      "625 lbs"
+    ],
+    "correct": 2,
+    "explanation": "24 × 25 = 600 pounds."
+  },
+  {
+    "id": 20,
+    "text": "A runway needs 1,500 gallons of de-icing fluid per hour. How many gallons are needed for a 5-hour operation?",
+    "options": [
+      "6,500 gallons",
+      "7,000 gallons",
+      "7,500 gallons",
+      "8,500 gallons"
+    ],
+    "correct": 2,
+    "explanation": "1,500 × 5 = 7,500 gallons total."
+  },
+  {
+    "id": 21,
+    "text": "A supply truck uses 12 gallons per 60 miles. How many miles per gallon does it get?",
+    "options": [
+      "2 mpg",
+      "3 mpg",
+      "4 mpg",
+      "5 mpg"
+    ],
+    "correct": 3,
+    "explanation": "60 ÷ 12 = 5 miles per gallon."
+  },
+  {
+    "id": 22,
+    "text": "If a plane’s crew alternates 2-hour shifts and the flight lasts 10 hours, how many full shifts occur?",
+    "options": [
+      "3 shifts",
+      "4 shifts",
+      "5 shifts",
+      "6 shifts"
+    ],
+    "correct": 2,
+    "explanation": "10 ÷ 2 = 5 full shifts."
+  },
+  {
+    "id": 23,
+    "text": "An aircraft wing supports 12,000 pounds of lift per side. What is the total lift supported?",
+    "options": [
+      "20,000 lbs",
+      "22,000 lbs",
+      "24,000 lbs",
+      "26,000 lbs"
+    ],
+    "correct": 2,
+    "explanation": "12,000 × 2 = 24,000 lbs total lift."
+  },
+  {
+    "id": 24,
+    "text": "A repair team replaces 5 parts per hour. How long to replace 40 parts?",
+    "options": [
+      "6 hours",
+      "7 hours",
+      "8 hours",
+      "9 hours"
+    ],
+    "correct": 2,
+    "explanation": "40 ÷ 5 = 8 hours."
+  },
+  {
+    "id": 25,
+    "text": "A pilot increases speed from 300 to 360 mph. What is the percentage increase?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "45%"
+    ],
+    "correct": 0,
+    "explanation": "(360 − 300) ÷ 300 = 0.20 = 20% increase."
+  },
+   {
+    "id": 26,
+    "text": "A plane travels 720 miles in 3 hours. If the same plane flies for 5 hours, how far will it travel?",
+    "options": ["1000 miles", "1100 miles", "1200 miles", "1500 miles"],
+    "correct": 2,
+    "explanation": "Speed = 720 ÷ 3 = 240 mph. 240 × 5 = 1200 miles."
+  },
+  {
+    "id": 27,
+    "text": "A pilot uses 75 gallons of fuel for a 300-mile trip. What is the fuel consumption rate?",
+    "options": ["2 mpg", "3 mpg", "4 mpg", "5 mpg"],
+    "correct": 1,
+    "explanation": "300 ÷ 75 = 4 miles per gallon."
+  },
+  {
+    "id": 28,
+    "text": "A logistics unit packs 240 boxes into containers, each holding 30 boxes. How many containers are filled?",
+    "options": ["6", "7", "8", "9"],
+    "correct": 2,
+    "explanation": "240 ÷ 30 = 8 containers."
+  },
+  {
+    "id": 29,
+    "text": "If a runway is 1.5 miles long, how many feet long is it? (1 mile = 5280 feet)",
+    "options": ["7280 ft", "7640 ft", "7920 ft", "8000 ft"],
+    "correct": 2,
+    "explanation": "1.5 × 5280 = 7920 feet."
+  },
+  {
+    "id": 30,
+    "text": "An aircraft can hold 150 passengers. On a particular flight, 80% of the seats are filled. How many passengers are on board?",
+    "options": ["110", "115", "120", "125"],
+    "correct": 2,
+    "explanation": "150 × 0.8 = 120 passengers."
+  },
+  {
+    "id": 31,
+    "text": "A hangar can store 8 helicopters. Each helicopter requires 900 sq ft. What is the total area required?",
+    "options": ["6400 sq ft", "6800 sq ft", "7200 sq ft", "7600 sq ft"],
+    "correct": 2,
+    "explanation": "8 × 900 = 7200 sq ft total area."
+  },
+  {
+    "id": 32,
+    "text": "A jet cruises at 480 mph. How long does it take to fly 960 miles?",
+    "options": ["1 hour", "1.5 hours", "2 hours", "2.5 hours"],
+    "correct": 2,
+    "explanation": "960 ÷ 480 = 2 hours."
+  },
+  {
+    "id": 33,
+    "text": "A cargo bay is 12 ft wide, 10 ft high, and 40 ft long. What is its volume?",
+    "options": ["4000 cu ft", "4200 cu ft", "4400 cu ft", "4800 cu ft"],
+    "correct": 1,
+    "explanation": "12 × 10 × 40 = 4800 cubic feet."
+  },
+  {
+    "id": 34,
+    "text": "If 3 mechanics complete a task in 4 hours, how long would it take 6 mechanics at the same rate?",
+    "options": ["1 hour", "2 hours", "3 hours", "4 hours"],
+    "correct": 2,
+    "explanation": "Double the workers = half the time → 4 ÷ 2 = 2 hours."
+  },
+  {
+    "id": 35,
+    "text": "A flight covers 900 miles in 3 hours. What is the average speed?",
+    "options": ["250 mph", "275 mph", "300 mph", "325 mph"],
+    "correct": 2,
+    "explanation": "900 ÷ 3 = 300 mph."
+  },
+  {
+    "id": 36,
+    "text": "A 10,000 lb truck hauls 4,000 lbs of cargo. What percent of its total capacity is being used?",
+    "options": ["30%", "35%", "40%", "45%"],
+    "correct": 2,
+    "explanation": "4,000 ÷ 10,000 = 0.4 = 40%."
+  },
+  {
+    "id": 37,
+    "text": "A small aircraft burns 8 gallons of fuel per hour. How much fuel will it use on a 5-hour flight?",
+    "options": ["30 gallons", "35 gallons", "40 gallons", "45 gallons"],
+    "correct": 2,
+    "explanation": "8 × 5 = 40 gallons."
+  },
+  {
+    "id": 38,
+    "text": "A conveyor belt loads 120 boxes in 8 minutes. How many boxes per minute?",
+    "options": ["13", "14", "15", "16"],
+    "correct": 2,
+    "explanation": "120 ÷ 8 = 15 boxes per minute."
+  },
+  {
+    "id": 39,
+    "text": "If a plane climbs at a rate of 1,200 feet per minute, how long will it take to reach 9,600 feet?",
+    "options": ["6 min", "7 min", "8 min", "9 min"],
+    "correct": 2,
+    "explanation": "9,600 ÷ 1,200 = 8 minutes."
+  },
+  {
+    "id": 40,
+    "text": "A logistics hub sends 45 shipments each day. How many shipments in a week?",
+    "options": ["280", "300", "315", "325"],
+    "correct": 2,
+    "explanation": "45 × 7 = 315 shipments."
+  },
+  {
+    "id": 41,
+    "text": "A pilot’s flight plan shows a crosswind reducing ground speed by 15 mph. If airspeed is 200 mph, what is ground speed?",
+    "options": ["180 mph", "185 mph", "190 mph", "195 mph"],
+    "correct": 2,
+    "explanation": "200 − 15 = 185 mph ground speed."
+  },
+  {
+    "id": 42,
+    "text": "A maintenance schedule requires inspection every 50 flight hours. How many inspections occur in 600 hours?",
+    "options": ["10", "11", "12", "13"],
+    "correct": 2,
+    "explanation": "600 ÷ 50 = 12 inspections."
+  },
+  {
+    "id": 43,
+    "text": "A 60 ft rope is cut into 12 equal sections. How long is each section?",
+    "options": ["4 ft", "5 ft", "6 ft", "7 ft"],
+    "correct": 2,
+    "explanation": "60 ÷ 12 = 5 ft per section."
+  },
+  {
+    "id": 44,
+    "text": "A transport ship travels 900 miles in 30 hours. What is its average speed?",
+    "options": ["25 mph", "28 mph", "30 mph", "35 mph"],
+    "correct": 2,
+    "explanation": "900 ÷ 30 = 30 mph average speed."
+  },
+  {
+    "id": 45,
+    "text": "A helicopter rotor spins 400 times per minute. How many rotations occur in 15 minutes?",
+    "options": ["4000", "5000", "6000", "7000"],
+    "correct": 2,
+    "explanation": "400 × 15 = 6000 rotations."
+  },
+  {
+    "id": 46,
+    "text": "A jet burns 1,800 gallons of fuel over a 3-hour flight. What is the hourly burn rate?",
+    "options": ["500 gph", "550 gph", "600 gph", "650 gph"],
+    "correct": 2,
+    "explanation": "1,800 ÷ 3 = 600 gallons per hour."
+  },
+  {
+    "id": 47,
+    "text": "A storage warehouse holds 1,200 crates. If 25% are shipped out, how many remain?",
+    "options": ["800", "850", "900", "950"],
+    "correct": 2,
+    "explanation": "25% of 1,200 = 300 shipped. 1,200 − 300 = 900 remaining."
+  },
+  {
+    "id": 48,
+    "text": "A pilot descends from 24,000 ft to 6,000 ft over 9 minutes. What is the descent rate per minute?",
+    "options": ["1800 ft/min", "1900 ft/min", "2000 ft/min", "2100 ft/min"],
+    "correct": 2,
+    "explanation": "(24,000 − 6,000) ÷ 9 = 2,000 ft/min."
+  },
+  {
+    "id": 49,
+    "text": "If a plane carries 5,000 gallons of fuel and burns 400 gallons per hour, how many hours can it fly?",
+    "options": ["11.5 hours", "12.5 hours", "13.5 hours", "14.5 hours"],
+    "correct": 1,
+    "explanation": "5,000 ÷ 400 = 12.5."
+  },
+  {
+    "id": 50,
+    "text": "A radar system scans 3 sectors per second. How many scans occur in 10 minutes?",
+    "options": ["1600", "1700", "1800", "1900"],
+    "correct": 2,
+    "explanation": "10 minutes = 600 seconds. 3 × 600 = 1,800 scans."
+  },
+  {
+    "id": 51,
+    "text": "A cargo plane must carry 18,000 lbs of equipment evenly split across 6 compartments. How much weight per compartment?",
+    "options": ["2,500 lbs", "3,000 lbs", "3,500 lbs", "4,000 lbs"],
+    "correct": 1,
+    "explanation": "18,000 ÷ 6 = 3,000 lbs per compartment."
+  },
+  {
+    "id": 52,
+    "text": "A truck travels at 60 mph for 2.5 hours. How far does it travel?",
+    "options": ["120 miles", "140 miles", "150 miles", "160 miles"],
+    "correct": 2,
+    "explanation": "60 × 2.5 = 150 miles."
+  },
+  {
+    "id": 53,
+    "text": "A helicopter uses 120 gallons of fuel on a 4-hour flight. What is its hourly fuel usage?",
+    "options": ["20 gph", "25 gph", "30 gph", "35 gph"],
+    "correct": 2,
+    "explanation": "120 ÷ 4 = 30 gallons per hour."
+  },
+  {
+    "id": 54,
+    "text": "A vehicle’s fuel tank holds 24 gallons. If it uses 8 gallons per 100 miles, how far can it travel on a full tank?",
+    "options": ["200 miles", "250 miles", "275 miles", "300 miles"],
+    "correct": 1,
+    "explanation": "24 ÷ 8 × 100 = 300 miles."
+  },
+  {
+    "id": 55,
+    "text": "A pilot flies east 300 miles, then north 400 miles. What is the straight-line distance from the start point?",
+    "options": ["400 miles", "500 miles", "600 miles", "700 miles"],
+    "correct": 1,
+    "explanation": "Using the Pythagorean "theorem": √(300² + 400²) = 500 miles."
+  },
+  {
+    "id": 56,
+    "text": "A maintenance crew inspects 5 planes per day. How many planes can they inspect in 4 weeks (28 days)?",
+    "options": ["120", "130", "140", "150"],
+    "correct": 2,
+    "explanation": "5 × 28 = 140 planes."
+  },
+  {
+    "id": 57,
+    "text": "A ship travels 240 miles at 30 mph. How many hours does the trip take?",
+    "options": ["6 hours", "7 hours", "8 hours", "9 hours"],
+    "correct": 2,
+    "explanation": "240 ÷ 30 = 8 hours."
+  },
+  {
+    "id": 58,
+    "text": "A repair takes 18 hours with 3 workers. If 6 workers complete it at the same rate, how long will it take?",
+    "options": ["6 hours", "8 hours", "9 hours", "10 hours"],
+    "correct": 2,
+    "explanation": "Doubling the workers halves the "time": 18 ÷ 2 = 9 hours."
+  },
+  {
+    "id": 59,
+    "text": "A jet’s top speed is 720 mph, but due to wind, the ground speed is reduced by 12%. What is the new ground speed?",
+    "options": ["620 mph", "630 mph", "635 mph", "640 mph"],
+    "correct": 3,
+    "explanation": "720 × 0.88 = 633.6 mph ≈ 635 mph."
+  },
+  {
+    "id": 60,
+    "text": "An aircraft flies 540 miles in 1.5 hours. What is its average speed?",
+    "options": ["320 mph", "340 mph", "360 mph", "380 mph"],
+    "correct": 2,
+    "explanation": "540 ÷ 1.5 = 360 mph."
+  },
+  {
+    "id": 61,
+    "text": "A container can hold 2,500 lbs. If each box weighs 125 lbs, how many boxes fit in one container?",
+    "options": ["18", "19", "20", "21"],
+    "correct": 2,
+    "explanation": "2,500 ÷ 125 = 20 boxes."
+  },
+  {
+    "id": 62,
+    "text": "A 50-gallon fuel tank is 40% full. How many gallons of fuel does it contain?",
+    "options": ["18 gallons", "20 gallons", "22 gallons", "24 gallons"],
+    "correct": 1,
+    "explanation": "50 × 0.4 = 20 gallons."
+  },
+  {
+    "id": 63,
+    "text": "An engineer tests 8 engines and finds 2 are defective. What percentage are operational?",
+    "options": ["60%", "70%", "75%", "80%"],
+    "correct": 3,
+    "explanation": "(8−2)/8 = 6/8 = 75% operational."
+  },
+  {
+    "id": 64,
+    "text": "A supply plane drops 9 crates evenly spaced over 3 miles. What is the spacing between each drop?",
+    "options": ["0.25 miles", "0.33 miles", "0.37 miles", "0.40 miles"],
+    "correct": 1,
+    "explanation": "There are 8 intervals between 9 "drops": 3 ÷ 8 ≈ 0.375 miles."
+  },
+  {
+    "id": 65,
+    "text": "A 10,000-lb jet uses 500 lbs of fuel for every 30 minutes of flight. How much fuel in 2 hours?",
+    "options": ["1500 lbs", "1800 lbs", "2000 lbs", "2200 lbs"],
+    "correct": 2,
+    "explanation": "2 hours = 4 × 30 minutes → 500 × 4 = 2000 lbs fuel."
+  },
+  {
+    "id": 66,
+    "text": "A propeller completes 1,200 revolutions per minute. How many in 15 seconds?",
+    "options": ["250", "300", "350", "400"],
+    "correct": 1,
+    "explanation": "1 minute = 60 sec → 1,200 ÷ 4 = 300 revolutions."
+  },
+  {
+    "id": 67,
+    "text": "If a truck’s top speed is 60 mph but must reduce speed by 15% in rain, what is the new speed?",
+    "options": ["48 mph", "50 mph", "52 mph", "54 mph"],
+    "correct": 0,
+    "explanation": "60 × 0.85 = 51 mph → closest is 50 mph if rounding conservatively."
+  },
+  {
+    "id": 68,
+    "text": "An aircraft starts with 9,000 lbs of fuel and uses 600 lbs every 15 minutes. How much fuel after 1 hour?",
+    "options": ["6,600 lbs", "6,800 lbs", "7,000 lbs", "7,200 lbs"],
+    "correct": 3,
+    "explanation": "1 hr = 4 × 15 min; 600 × 4 = 2,400 used; 9,000 − 2,400 = 6,600 lbs."
+  },
+  {
+    "id": 69,
+    "text": "A transport vehicle makes 12 trips to deliver 4,800 lbs of cargo. How much per trip?",
+    "options": ["300 lbs", "350 lbs", "400 lbs", "450 lbs"],
+    "correct": 2,
+    "explanation": "4,800 ÷ 12 = 400 lbs per trip."
+  },
+  {
+    "id": 70,
+    "text": "A jet travels 1,200 miles in 2 hours. If headwinds reduce speed by 25%, how long will the same trip take?",
+    "options": ["2.5 hrs", "2.75 hrs", "3 hrs", "3.25 hrs"],
+    "correct": 2,
+    "explanation": "Speed reduced to 75%. Time increases by 1/0.75 = 1.33× → 2 × 1.33 ≈ 2.66 → about 3 hours."
+  },
+  {
+    "id": 71,
+    "text": "A runway must be extended from 6,000 ft to 7,200 ft. What percent increase is this?",
+    "options": ["15%", "18%", "20%", "25%"],
+    "correct": 2,
+    "explanation": "Increase = 1,200; 1,200 ÷ 6,000 = 0.2 = 20%."
+  },
+  {
+    "id": 72,
+    "text": "A cargo container holds 500 cubic feet. If 60% is filled, how many cubic feet remain empty?",
+    "options": ["150", "175", "200", "225"],
+    "correct": 2,
+    "explanation": "40% empty → 0.4 × 500 = 200 cubic feet empty."
+  },
+  {
+    "id": 73,
+    "text": "An aircraft makes a 900-mile round trip twice per day. How many miles in a 5-day period?",
+    "options": ["7000", "8000", "9000", "10000"],
+    "correct": 3,
+    "explanation": "900 × 2 × 5 = 9000 miles."
+  },
+  {
+    "id": 74,
+    "text": "A maintenance task is done every 25 flight hours. How many tasks in 200 hours?",
+    "options": ["6", "7", "8", "9"],
+    "correct": 2,
+    "explanation": "200 ÷ 25 = 8 tasks."
+  },
+  {
+    "id": 75,
+    "text": "A plane’s cargo load is increased by 10% from 20,000 lbs. What is the new load?",
+    "options": ["21,000 lbs", "21,500 lbs", "22,000 lbs", "22,500 lbs"],
+    "correct": 2,
+    "explanation": "20,000 × 1.1 = 22,000 lbs."
+  },
+  {
+    "id": 76,
+    "text": "If a worker earns $15 per hour and works 8 hours a day for 5 days, how much will they earn in two weeks?",
+    "options": ["$300", "$600", "$1,200", "$1,800"],
+    "correct": 2,
+    "explanation": "$15/hour × 8 hours/day = $120/day → $120 × 5 days = $600/week → $600 × 2 weeks = $1,200."
+  },
+  {
+    "id": 77,
+    "text": "A car travels 180 miles in 3 hours. What is its average speed?",
+    "options": ["30 mph", "45 mph", "60 mph", "90 mph"],
+    "correct": 2,
+    "explanation": "Speed = Distance ÷ Time = 180 ÷ 3 = 60 mph."
+  },
+  {
+    "id": 78,
+    "text": "A recipe calls for 3 cups of flour for every 2 cups of sugar. If you use 9 cups of flour, how many cups of sugar will you need?",
+    "options": ["3", "4", "6", "9"],
+    "correct": 2,
+    "explanation": "Ratio "3":2 → multiply both sides by 3 → "9":6 → 6 cups sugar."
+  },
+  {
+    "id": 79,
+    "text": "A jacket costs $80 but is discounted by 25%. What is the sale price?",
+    "options": ["$55", "$60", "$65", "$75"],
+    "correct": 1,
+    "explanation": "25% of $80 = $20 → $80 − $20 = $60."
+  },
+  {
+    "id": 80,
+    "text": "If 5 pencils cost $1.25, what is the cost of 12 pencils?",
+    "options": ["$2.50", "$3.00", "$3.25", "$3.75"],
+    "correct": 1,
+    "explanation": "$1.25 ÷ 5 = $0.25 each → $0.25 × 12 = $3.00."
+  },
+  {
+    "id": 81,
+    "text": "A car uses 12 gallons of gas to travel 300 miles. How many miles can it travel on 20 gallons?",
+    "options": ["400", "450", "500", "550"],
+    "correct": 2,
+    "explanation": "300 ÷ 12 = 25 miles/gallon → 25 × 20 = 500 miles."
+  },
+  {
+    "id": 82,
+    "text": "A store buys apples at $0.30 each and sells them for $0.45 each. How much profit is made on 200 apples?",
+    "options": ["$20", "$25", "$30", "$35"],
+    "correct": 2,
+    "explanation": "Profit = $0.45 − $0.30 = $0.15 → $0.15 × 200 = $30."
+  },
+  {
+    "id": 83,
+    "text": "If 3x = 18, what is the value of x + 5?",
+    "options": ["8", "9", "11", "12"],
+    "correct": 2,
+    "explanation": "x = 6 → x + 5 = 11."
+  },
+  {
+    "id": 84,
+    "text": "A train travels 240 miles in 4 hours. How far will it go in 6 hours at the same speed?",
+    "options": ["300", "320", "360", "400"],
+    "correct": 2,
+    "explanation": "240 ÷ 4 = 60 mph → 60 × 6 = 360 miles."
+  },
+  {
+    "id": 85,
+    "text": "The price of an item increased from $40 to $50. What is the percent increase?",
+    "options": ["20%", "22%", "25%", "30%"],
+    "correct": 2,
+    "explanation": "Increase = $10 → 10 ÷ 40 = 0.25 = 25%."
+  },
+  {
+    "id": 86,
+    "text": "If 8 workers complete a job in 6 days, how many days will it take 12 workers (same rate)?",
+    "options": ["2", "3", "4", "5"],
+    "correct": 2,
+    "explanation": "Work is inversely proportional to number of "workers": 8 × 6 = 48 worker-days → 48 ÷ 12 = 4 days."
+  },
+  {
+    "id": 87,
+    "text": "A boat travels downstream at 12 mph and upstream at 8 mph. What is the boat’s speed in still water?",
+    "options": ["9 mph", "10 mph", "11 mph", "12 mph"],
+    "correct": 1,
+    "explanation": "(12 + 8) ÷ 2 = 10 mph in still water."
+  },
+  {
+    "id": 88,
+    "text": "If a car’s fuel tank holds 15 gallons and it travels 360 miles on a full tank, what is the car’s fuel efficiency?",
+    "options": ["20 mpg", "22 mpg", "24 mpg", "25 mpg"],
+    "correct": 3,
+    "explanation": "360 ÷ 15 = 24 mpg."
+  },
+  {
+    "id": 89,
+    "text": "If 40% of a number is 60, what is the number?",
+    "options": ["100", "120", "140", "150"],
+    "correct": 1,
+    "explanation": "0.4x = 60 → x = 60 ÷ 0.4 = 150."
+  },
+  {
+    "id": 90,
+    "text": "A bag contains 3 red, 4 blue, and 5 green balls. What fraction are blue?",
+    "options": ["1/3", "1/4", "1/5", "1/2"],
+    "correct": 0,
+    "explanation": "Total = 12 balls → blue = 4 → 4/12 = 1/3."
+  },
+  {
+    "id": 91,
+    "text": "An airplane travels 480 miles in 1 hour and 20 minutes. What is its average speed?",
+    "options": ["320 mph", "340 mph", "360 mph", "400 mph"],
+    "correct": 3,
+    "explanation": "1 hr 20 min = 1.333 hrs → 480 ÷ 1.333 ≈ 360 mph."
+  },
+  {
+    "id": 92,
+    "text": "A $200 item is discounted 10% and then taxed 5%. What is the final price?",
+    "options": ["$187", "$189", "$190", "$195"],
+    "correct": 1,
+    "explanation": "10% off $200 = $180 → 5% tax = $9 → total = $189."
+  },
+  {
+    "id": 93,
+    "text": "If 2/3 of a number is 12, what is the number?",
+    "options": ["16", "17", "18", "20"],
+    "correct": 2,
+    "explanation": "(2/3)x = 12 → x = 12 × (3/2) = 18."
+  },
+  {
+    "id": 94,
+    "text": "A plane flies at 480 mph for 3 hours and 15 minutes. How far does it travel?",
+    "options": ["1,440 mi", "1,500 mi", "1,560 mi", "1,600 mi"],
+    "correct": 2,
+    "explanation": "3 hr 15 min = 3.25 hr → 480 × 3.25 = 1,560 miles."
+  },
+  {
+    "id": 95,
+    "text": "If you invest $500 at 8% annual simple interest, how much interest will you earn after 3 years?",
+    "options": ["$100", "$120", "$150", "$160"],
+    "correct": 2,
+    "explanation": "I = P × R × T = 500 × 0.08 × 3 = 120."
+  },
+  {
+    "id": 96,
+    "text": "If a car depreciates by 15% each year, what is its value after one year if it was $20,000?",
+    "options": ["$15,000", "$16,000", "$17,000", "$17,500"],
+    "correct": 2,
+    "explanation": "15% of 20,000 = 3,000 → 20,000 − 3,000 = 17,000."
+  },
+  {
+    "id": 97,
+    "text": "A runner completes 3 laps of a 400-meter track. How many kilometers has the runner completed?",
+    "options": ["1.0 km", "1.1 km", "1.2 km", "1.4 km"],
+    "correct": 2,
+    "explanation": "3 × 400 = 1,200 m → 1.2 km."
+  },
+  {
+    "id": 98,
+    "text": "A tank fills at a rate of 12 gallons per minute. How long will it take to fill 180 gallons?",
+    "options": ["10 min", "12 min", "15 min", "18 min"],
+    "correct": 2,
+    "explanation": "180 ÷ 12 = 15 minutes."
+  },
+  {
+    "id": 99,
+    "text": "A car rental costs $50 per day plus $0.20 per mile. How much for 3 days and 200 miles?",
+    "options": ["$100", "$110", "$130", "$160"],
+    "correct": 3,
+    "explanation": "$50 × 3 = $150 + (200 × $0.20 = $40) → $150 + $40 = $190."
+  },
+  {
+    "id": 100,
+    "text": "If a student’s test average increases from 75 to 90, by how many percentage points did it increase?",
+    "options": ["10", "12", "15", "20"],
+    "correct": 2,
+    "explanation": "90 − 75 = 15 percentage points."
+  },
+  {
+    "id": 101,
+    "text": "If a truck travels 270 miles on 15 gallons of fuel, what is its fuel efficiency?",
+    "options": ["15 mpg", "16 mpg", "17 mpg", "18 mpg"],
+    "correct": 3,
+    "explanation": "270 ÷ 15 = 18 miles per gallon."
+  },
+  {
+    "id": 102,
+    "text": "An aircraft travels 480 miles in 2 hours. How far will it travel in 3.5 hours at the same speed?",
+    "options": ["720 miles", "800 miles", "840 miles", "900 miles"],
+    "correct": 2,
+    "explanation": "Speed = 480 ÷ 2 = 240 mph → 240 × 3.5 = 840 miles."
+  },
+  {
+    "id": 103,
+    "text": "If a pilot consumes 12 gallons of fuel every 30 minutes, how much fuel is used in a 3-hour flight?",
+    "options": ["48 gallons", "60 gallons", "72 gallons", "80 gallons"],
+    "correct": 2,
+    "explanation": "3 hours = 6 half-hours → 6 × 12 = 72 gallons."
+  },
+  {
+    "id": 104,
+    "text": "A warehouse has 360 crates equally distributed on 12 pallets. How many crates are on each pallet?",
+    "options": ["25", "28", "30", "32"],
+    "correct": 2,
+    "explanation": "360 ÷ 12 = 30 crates per pallet."
+  },
+  {
+    "id": 105,
+    "text": "If a radio signal travels at 186,000 miles per second, how far does it travel in 0.02 seconds?",
+    "options": ["2,860 miles", "3,200 miles", "3,720 miles", "3,800 miles"],
+    "correct": 2,
+    "explanation": "186,000 × 0.02 = 3,720 miles."
+  },
+  {
+    "id": 106,
+    "text": "A container holds 15 liters of water. How many 0.75-liter bottles can be filled?",
+    "options": ["10", "15", "18", "20"],
+    "correct": 2,
+    "explanation": "15 ÷ 0.75 = 20 bottles."
+  },
+  {
+    "id": 107,
+    "text": "A plane ascends 2,000 feet per minute. How high will it be after 12 minutes?",
+    "options": ["20,000 ft", "22,000 ft", "24,000 ft", "26,000 ft"],
+    "correct": 2,
+    "explanation": "2,000 × 12 = 24,000 feet."
+  },
+  {
+    "id": 108,
+    "text": "A machine produces 480 parts in 8 hours. How many parts can it produce in 10 hours?",
+    "options": ["550", "580", "600", "620"],
+    "correct": 2,
+    "explanation": "480 ÷ 8 = 60 parts/hour → 60 × 10 = 600 parts."
+  },
+  {
+    "id": 109,
+    "text": "If a pilot flies at 240 knots for 2.5 hours, how many nautical miles are traveled?",
+    "options": ["500", "550", "575", "600"],
+    "correct": 3,
+    "explanation": "240 × 2.5 = 600 nautical miles."
+  },
+  {
+    "id": 110,
+    "text": "A radar detects an aircraft 90 miles away. If the plane approaches at 360 mph, how long until contact?",
+    "options": ["10 min", "12 min", "15 min", "18 min"],
+    "correct": 1,
+    "explanation": "Time = Distance ÷ Speed = 90 ÷ 360 hr = 0.25 hr = 15 minutes."
+  },
+  {
+    "id": 111,
+    "text": "If 40% of a squadron’s aircraft are out of service and there are 12 in service, how many total aircraft are there?",
+    "options": ["16", "18", "20", "22"],
+    "correct": 2,
+    "explanation": "60% = 12 → total = 12 ÷ 0.6 = 20 aircraft."
+  },
+  {
+    "id": 112,
+    "text": "A runway requires 1,200 lights spaced every 30 feet. How long is the runway?",
+    "options": ["30,000 ft", "35,000 ft", "36,000 ft", "40,000 ft"],
+    "correct": 2,
+    "explanation": "1,200 × 30 = 36,000 feet."
+  },
+  {
+    "id": 113,
+    "text": "A storage tank fills at 45 gallons per minute. How many gallons in 40 minutes?",
+    "options": ["1,600", "1,700", "1,800", "1,900"],
+    "correct": 2,
+    "explanation": "45 × 40 = 1,800 gallons."
+  },
+  {
+    "id": 114,
+    "text": "An aircraft descends from 28,000 ft to 10,000 ft in 6 minutes. What is its rate of descent?",
+    "options": ["2,800 ft/min", "3,000 ft/min", "3,200 ft/min", "3,400 ft/min"],
+    "correct": 1,
+    "explanation": "Δh = 18,000 ft → 18,000 ÷ 6 = 3,000 ft/min."
+  },
+  {
+    "id": 115,
+    "text": "If a ship’s speed is 24 knots, how long will it take to travel 72 nautical miles?",
+    "options": ["2 hours", "2.5 hours", "3 hours", "3.5 hours"],
+    "correct": 2,
+    "explanation": "72 ÷ 24 = 3 hours."
+  },
+  {
+    "id": 116,
+    "text": "If a mechanic repairs 3 engines in 5 hours, how many engines can 4 mechanics repair in 10 hours?",
+    "options": ["20", "22", "24", "25"],
+    "correct": 2,
+    "explanation": "Rate = 3 ÷ 5 = 0.6 engines/hr → 0.6 × 4 × 10 = 24 engines."
+  },
+  {
+    "id": 117,
+    "text": "A base has 720 personnel divided evenly among 12 units. How many personnel per unit?",
+    "options": ["50", "55", "60", "65"],
+    "correct": 2,
+    "explanation": "720 ÷ 12 = 60 per unit."
+  },
+  {
+    "id": 118,
+    "text": "If 5 gallons of paint cover 1,200 sq ft, how many gallons are needed for 4,800 sq ft?",
+    "options": ["15", "18", "20", "24"],
+    "correct": 2,
+    "explanation": "4,800 ÷ 1,200 = 4 → 5 × 4 = 20 gallons."
+  },
+  {
+    "id": 119,
+    "text": "A shipment weighs 4,500 pounds. If divided into 50 equal crates, what is the weight per crate?",
+    "options": ["80 lb", "85 lb", "90 lb", "95 lb"],
+    "correct": 2,
+    "explanation": "4,500 ÷ 50 = 90 lb per crate."
+  },
+  {
+    "id": 120,
+    "text": "If a pilot flies 500 miles at 250 mph, how long does the flight take?",
+    "options": ["1 hr", "1.5 hr", "2 hr", "2.5 hr"],
+    "correct": 2,
+    "explanation": "500 ÷ 250 = 2 hours."
+  },
+  {
+    "id": 121,
+    "text": "A 20% increase on 150 gives what value?",
+    "options": ["160", "170", "175", "180"],
+    "correct": 3,
+    "explanation": "20% of 150 = 30 → 150 + 30 = 180."
+  },
+  {
+    "id": 122,
+    "text": "An airplane burns 1,200 gallons of fuel on a 3-hour flight. How much fuel per hour?",
+    "options": ["350", "375", "400", "425"],
+    "correct": 2,
+    "explanation": "1,200 ÷ 3 = 400 gallons per hour."
+  },
+  {
+    "id": 123,
+    "text": "If 8 bolts weigh 12 ounces, how much do 20 bolts weigh?",
+    "options": ["28 oz", "30 oz", "32 oz", "34 oz"],
+    "correct": 2,
+    "explanation": "12 ÷ 8 = 1.5 oz each → 1.5 × 20 = 30 oz."
+  },
+  {
+    "id": 124,
+    "text": "A vehicle uses 16 gallons of fuel to travel 384 miles. How far can it go on 20 gallons?",
+    "options": ["440", "460", "480", "500"],
+    "correct": 2,
+    "explanation": "384 ÷ 16 = 24 mpg → 24 × 20 = 480 miles."
+  },
+  {
+    "id": 125,
+    "text": "If 30% of a class of 80 students are female, how many are male?",
+    "options": ["52", "54", "56", "58"],
+    "correct": 2,
+    "explanation": "30% of 80 = 24 females → 80 − 24 = 56 males."
+  },
+   {
+    "id": 126,
+    "text": "A cargo truck can carry 3,600 pounds. If each crate weighs 120 pounds, how many crates can it transport at once?",
+    "options": ["25", "28", "30", "32"],
+    "correct": 2,
+    "explanation": "3,600 ÷ 120 = 30 crates."
+  },
+  {
+    "id": 127,
+    "text": "A generator uses 4 gallons of fuel per hour. How many gallons will it use in 9.5 hours?",
+    "options": ["34", "36", "37", "38"],
+    "correct": 2,
+    "explanation": "4 × 9.5 = 38 gallons."
+  },
+  {
+    "id": 128,
+    "text": "A maintenance team completes 45 inspections in 9 days. At this rate, how many will they complete in 15 days?",
+    "options": ["60", "70", "75", "80"],
+    "correct": 2,
+    "explanation": "45 ÷ 9 = 5 per day → 5 × 15 = 75 inspections."
+  },
+  {
+    "id": 129,
+    "text": "A base has 12 water tanks. Each tank holds 2,500 gallons. How much water can they store in total?",
+    "options": ["25,000", "28,000", "30,000", "32,000"],
+    "correct": 2,
+    "explanation": "12 × 2,500 = 30,000 gallons."
+  },
+  {
+    "id": 130,
+    "text": "A technician earns $24.50 per hour and works 37 hours in a week. What is their weekly pay before taxes?",
+    "options": ["$885.50", "$906.50", "$915.00", "$925.50"],
+    "correct": 2,
+    "explanation": "24.5 × 37 = $906.50."
+  },
+  {
+    "id": 131,
+    "text": "An aircraft covers 1,200 miles in 3 hours. What is its average speed?",
+    "options": ["350 mph", "375 mph", "400 mph", "425 mph"],
+    "correct": 2,
+    "explanation": "1,200 ÷ 3 = 400 mph."
+  },
+  {
+    "id": 132,
+    "text": "A radar rotates 12 times every minute. How many rotations does it complete in 2 hours?",
+    "options": ["1,200", "1,320", "1,440", "1,500"],
+    "correct": 2,
+    "explanation": "12 × 60 = 720 per hour → 720 × 2 = 1,440 rotations."
+  },
+  {
+    "id": 133,
+    "text": "If a map scale is 1 inch = 5 miles, how many miles are represented by 3.6 inches?",
+    "options": ["16", "17", "18", "19"],
+    "correct": 2,
+    "explanation": "3.6 × 5 = 18 miles."
+  },
+  {
+    "id": 134,
+    "text": "A squad needs 480 meals for a week. If each person consumes 3 meals per day, how many people are in the squad?",
+    "options": ["20", "22", "23", "24"],
+    "correct": 2,
+    "explanation": "7 days × 3 meals = 21 per person → 480 ÷ 21 ≈ 23 people."
+  },
+  {
+    "id": 135,
+    "text": "A pilot uses 18 gallons per hour. How many gallons will be needed for a 5.5-hour flight?",
+    "options": ["90", "94", "99", "102"],
+    "correct": 2,
+    "explanation": "18 × 5.5 = 99 gallons."
+  },
+  {
+    "id": 136,
+    "text": "A supply clerk packs 15 boxes per hour. How long will it take to pack 210 boxes?",
+    "options": ["12", "13", "14", "15"],
+    "correct": 2,
+    "explanation": "210 ÷ 15 = 14 hours."
+  },
+  {
+    "id": 137,
+    "text": "A drone flies 24 miles in 30 minutes. What is its average speed in miles per hour?",
+    "options": ["42", "45", "46", "48"],
+    "correct": 2,
+    "explanation": "30 minutes = 0.5 hours → 24 ÷ 0.5 = 48 mph."
+  },
+  {
+    "id": 138,
+    "text": "If 30% of a shipment of 500 parts is defective, how many are usable?",
+    "options": ["325", "340", "350", "365"],
+    "correct": 2,
+    "explanation": "30% of 500 = 150 defective → 500 − 150 = 350 usable."
+  },
+  {
+    "id": 139,
+    "text": "A base vehicle drives 280 miles using 16 gallons of fuel. What is its average miles per gallon?",
+    "options": ["16", "17", "18", "19"],
+    "correct": 2,
+    "explanation": "280 ÷ 16 = 17.5 mpg."
+  },
+  {
+    "id": 140,
+    "text": "A security patrol covers 2.5 miles every 30 minutes. How far will they travel in 3 hours?",
+    "options": ["12", "14", "15", "16"],
+    "correct": 2,
+    "explanation": "3 hours = 6 half-hours → 2.5 × 6 = 15 miles."
+  },
+  {
+    "id": 141,
+    "text": "A shipment of 45 boxes weighs 1,125 pounds total. What is the average weight per box?",
+    "options": ["24", "25", "26", "27"],
+    "correct": 2,
+    "explanation": "1,125 ÷ 45 = 25 pounds each."
+  },
+  {
+    "id": 142,
+    "text": "If 5 mechanics can repair 10 vehicles in 4 days, how many vehicles can 8 mechanics repair in the same time?",
+    "options": ["14", "15", "16", "18"],
+    "correct": 2,
+    "explanation": "10 ÷ 5 = 2 per mechanic → 2 × 8 = 16 vehicles."
+  },
+  {
+    "id": 143,
+    "text": "A piece of equipment costs $6,000 new but depreciates by 15% each year. What is its value after one year?",
+    "options": ["$4,900", "$5,000", "$5,100", "$5,200"],
+    "correct": 2,
+    "explanation": "15% of 6,000 = 900 → 6,000 − 900 = $5,100."
+  },
+  {
+    "id": 144,
+    "text": "An air filter must be replaced every 120 flight hours. If a jet flies 8 hours daily, how many days until replacement?",
+    "options": ["12", "13", "14", "15"],
+    "correct": 2,
+    "explanation": "120 ÷ 8 = 15 days."
+  },
+  {
+    "id": 145,
+    "text": "A delivery route covers 75 miles in 1 hour 15 minutes. What is the average speed?",
+    "options": ["58 mph", "60 mph", "62 mph", "64 mph"],
+    "correct": 2,
+    "explanation": "1.25 hours → 75 ÷ 1.25 = 60 mph."
+  },
+  {
+    "id": 146,
+    "text": "A computer processes 300 files in 12 minutes. How many files per minute is that?",
+    "options": ["24", "25", "26", "27"],
+    "correct": 2,
+    "explanation": "300 ÷ 12 = 25 files per minute."
+  },
+  {
+    "id": 147,
+    "text": "A base stores 2,400 gallons of fuel. If 15% is used during drills, how much remains?",
+    "options": ["1,980", "2,000", "2,040", "2,100"],
+    "correct": 2,
+    "explanation": "15% of 2,400 = 360 → 2,400 − 360 = 2,040 gallons."
+  },
+  {
+    "id": 148,
+    "text": "A maintenance part costs $48 each, but buying 10 or more gives a 20% discount. How much do 12 parts cost?",
+    "options": ["$440", "$450", "$460", "$470"],
+    "correct": 2,
+    "explanation": "$48 × 12 = 576 → 20% off = 576 × 0.8 = $460.80."
+  },
+  {
+    "id": 149,
+    "text": "A field exercise lasts from "6":30 A.M. to "5":45 P.M. How long does it last in hours and minutes?",
+    "options": ["10 hr 15 min", "10 hr 45 min", "11 hr 15 min", "11 hr 45 min"],
+    "correct": 2,
+    "explanation": "1745 − 0630 = 11 hours 15 minutes."
+  },
+  {
+    "id": 150,
+    "text": "A communications relay transmits 240 messages in 8 hours. How many messages can it send in 10 hours at the same rate?",
+    "options": ["280", "290", "300", "310"],
+    "correct": 2,
+    "explanation": "240 ÷ 8 = 30 per hour → 30 × 10 = 300 messages."
+  },
+  {
+    "id": 151,
+    "text": "A network operations team monitors 4,800 packets over 12 minutes. What is the average packet rate per minute?",
+    "options": ["300", "350", "400", "450"],
+    "correct": 3,
+    "explanation": "4,800 ÷ 12 = 400 packets per minute."
+  },
+  {
+    "id": 152,
+    "text": "A data center uses 18 servers that each draw 450 watts. What is the total power usage in kilowatts?",
+    "options": ["6.5", "7.5", "8.1", "8.5"],
+    "correct": 3,
+    "explanation": "18 × 450 = 8,100 watts → 8.1 kilowatts."
+  },
+  {
+    "id": 153,
+    "text": "A cybersecurity analyst finds that 12 of 600 scanned hosts are vulnerable. What percentage is affected?",
+    "options": ["1%", "1.5%", "2%", "2.5%"],
+    "correct": 2,
+    "explanation": "12 ÷ 600 = 0.02 → 2%."
+  },
+  {
+    "id": 154,
+    "text": "An encryption process takes 45 seconds for 900 MB. How long for 2,400 MB at the same rate?",
+    "options": ["1 min 45 sec", "2 min", "2 min 5 sec", "2 min 10 sec"],
+    "correct": 2,
+    "explanation": "900 MB in 45 sec → 2.67× more = 45 × 2.67 ≈ 120 sec (2 min)."
+  },
+  {
+    "id": 155,
+    "text": "A sysadmin backs up 2.5 TB of data daily. How much is stored in 28 days?",
+    "options": ["60 TB", "65 TB", "70 TB", "75 TB"],
+    "correct": 3,
+    "explanation": "2.5 × 28 = 70 TB."
+  },
+  {
+    "id": 156,
+    "text": "If a project requires 240 staff-hours and 8 technicians are assigned, how long will it take?",
+    "options": ["25 hours", "28 hours", "30 hours", "32 hours"],
+    "correct": 3,
+    "explanation": "240 ÷ 8 = 30 hours total."
+  },
+  {
+    "id": 157,
+    "text": "A satellite link has 96 Mbps bandwidth. If encryption overhead uses 25%, what is usable bandwidth?",
+    "options": ["68 Mbps", "70 Mbps", "72 Mbps", "74 Mbps"],
+    "correct": 3,
+    "explanation": "96 × 0.75 = 72 Mbps usable bandwidth."
+  },
+  {
+    "id": 158,
+    "text": "A cyber defense drill lasts 7 hours and 20 minutes. How many minutes total?",
+    "options": ["420", "430", "440", "450"],
+    "correct": 3,
+    "explanation": "7 hours = 420 + 20 = 440 minutes."
+  },
+  {
+    "id": 159,
+    "text": "An analyst reviews 1,500 logs in 3 hours. At this pace, how many logs in 8 hours?",
+    "options": ["3,800", "4,000", "4,100", "4,200"],
+    "correct": 2,
+    "explanation": "1,500 ÷ 3 = 500/hour → 500 × 8 = 4,000 logs."
+  },
+  {
+    "id": 160,
+    "text": "A cloud system's uptime target is 99.9%. Over 30 days, how many minutes of downtime are allowed?",
+    "options": ["30", "40", "43", "45"],
+    "correct": 3,
+    "explanation": "30 days = 43,200 minutes → 0.1% downtime = 43.2 minutes."
+  },
+  {
+    "id": 161,
+    "text": "A secure line encrypts data at 240 MB/s. How long to transmit 7.2 GB?",
+    "options": ["25 sec", "28 sec", "30 sec", "32 sec"],
+    "correct": 3,
+    "explanation": "7.2 GB = 7,200 MB → 7,200 ÷ 240 = 30 seconds."
+  },
+  {
+    "id": 162,
+    "text": "A team processes 75 tickets daily with 5 engineers. If 2 more join, how many per engineer per day to keep same pace?",
+    "options": ["9", "10", "11", "12"],
+    "correct": 2,
+    "explanation": "75 ÷ 5 = 15 each → 75 ÷ 7 ≈ 10.7 → about 10 per engineer."
+  },
+  {
+    "id": 163,
+    "text": "A code deployment succeeds 95 times out of 100. What is its failure rate?",
+    "options": ["2%", "4%", "5%", "6%"],
+    "correct": 3,
+    "explanation": "100 − 95 = 5 → 5% failure rate."
+  },
+  {
+    "id": 164,
+    "text": "A system stores 1.2 GB logs per hour. How many GB in 2.5 days?",
+    "options": ["60", "65", "70", "72"],
+    "correct": 3,
+    "explanation": "2.5 days = 60 hours → 60 × 1.2 = 72 GB."
+  },
+  {
+    "id": 165,
+    "text": "A team’s on-call rotation has 6 members covering 24 hours equally. How many hours each?",
+    "options": ["3", "4", "5", "6"],
+    "correct": 2,
+    "explanation": "24 ÷ 6 = 4 hours each."
+  },
+  {
+    "id": 166,
+    "text": "A secure network transmits 9 GB of logs in 15 minutes. What is its average throughput?",
+    "options": ["8 Mbps", "64 Mbps", "80 Mbps", "96 Mbps"],
+    "correct": 4,
+    "explanation": "9 GB = 72 Gb → 72 ÷ 15 = 4.8 Gbps = 4800 Mbps ÷ 50 = 96 Mbps average."
+  },
+  {
+    "id": 167,
+    "text": "A storage cluster adds 12% redundancy to 80 TB usable space. What is the total required capacity?",
+    "options": ["86 TB", "88 TB", "90 TB", "92 TB"],
+    "correct": 1,
+    "explanation": "80 × 1.12 = 89.6 TB → approximately 90 TB."
+  },
+  {
+    "id": 168,
+    "text": "A cybersecurity exercise has 120 participants. If 30% focus on blue team defense, how many is that?",
+    "options": ["32", "34", "36", "38"],
+    "correct": 3,
+    "explanation": "120 × 0.3 = 36 defenders."
+  },
+  {
+    "id": 169,
+    "text": "A server’s CPU utilization averages 72% of 16 cores. How many cores are typically active?",
+    "options": ["10", "11", "12", "13"],
+    "correct": 3,
+    "explanation": "16 × 0.72 = 11.52 ≈ 12 cores active."
+  },
+  {
+    "id": 170,
+    "text": "A security patch rollout is 80% complete after 4 of 5 planned waves. How many systems total if 800 are done?",
+    "options": ["950", "975", "1,000", "1,050"],
+    "correct": 3,
+    "explanation": "800 ÷ 0.8 = 1,000 systems total."
+  },
+  {
+    "id": 171,
+    "text": "An encrypted link transmits at 120 KB/s. How long to send a 36 MB file?",
+    "options": ["4 min", "5 min", "6 min", "7 min"],
+    "correct": 2,
+    "explanation": "36 MB = 36,000 KB → 36,000 ÷ 120 = 300 sec = 5 min."
+  },
+  {
+    "id": 172,
+    "text": "A cyber threat model identifies 45 risks; 12 are high priority. What percentage are high?",
+    "options": ["25%", "26%", "27%", "28%"],
+    "correct": 3,
+    "explanation": "12 ÷ 45 = 0.266... → about 27%."
+  },
+  {
+    "id": 173,
+    "text": "A base’s IT team reduces incident response time from 90 min to 54 min. What is the improvement percentage?",
+    "options": ["35%", "38%", "40%", "42%"],
+    "correct": 3,
+    "explanation": "(90 − 54) ÷ 90 = 0.4 → 40% improvement."
+  },
+  {
+    "id": 174,
+    "text": "A penetration test lasts 10 days. If 3 days are spent on reporting, what percent is testing time?",
+    "options": ["65%", "67%", "70%", "75%"],
+    "correct": 4,
+    "explanation": "7 ÷ 10 = 0.7 → 70% testing, 30% reporting."
+  },
+  {
+    "id": 175,
+    "text": "A cloud backup uploads 48 GB over 2 hours. How long to upload 120 GB at same rate?",
+    "options": ["3 hr", "4 hr", "5 hr", "6 hr"],
+    "correct": 2,
+    "explanation": "48 ÷ 2 = 24 GB/hr → 120 ÷ 24 = 5 hr."
+  },
+  {
+    "id": 176,
+    "text": "A car travels 240 miles in 4 hours. What is its average speed?",
+    "options": ["55 mph", "58 mph", "60 mph", "62 mph"],
+    "correct": 3,
+    "explanation": "240 ÷ 4 = 60 mph."
+  },
+  {
+    "id": 177,
+    "text": "A store has a 25% off sale. If a jacket costs $80 before tax, what is the sale price?",
+    "options": ["$55", "$58", "$60", "$62"],
+    "correct": 3,
+    "explanation": "$80 × 0.75 = $60."
+  },
+  {
+    "id": 178,
+    "text": "A recipe requires 2.5 cups of flour for 10 servings. How much flour for 4 servings?",
+    "options": ["0.8 cups", "1 cup", "1.2 cups", "1.4 cups"],
+    "correct": 3,
+    "explanation": "2.5 ÷ 10 = 0.25 per serving → 0.25 × 4 = 1.0 cup."
+  },
+  {
+    "id": 179,
+    "text": "A phone plan includes 12 GB of data per month. How much data is that per day in a 30-day month?",
+    "options": ["0.3 GB", "0.35 GB", "0.4 GB", "0.45 GB"],
+    "correct": 3,
+    "explanation": "12 ÷ 30 = 0.4 GB/day."
+  },
+  {
+    "id": 180,
+    "text": "A person earns $54,000 per year. What is their approximate monthly income before taxes?",
+    "options": ["$4,300", "$4,400", "$4,500", "$4,600"],
+    "correct": 2,
+    "explanation": "$54,000 ÷ 12 = $4,500."
+  },
+  {
+    "id": 181,
+    "text": "A delivery van uses 18 gallons to travel 270 miles. What is its miles per gallon?",
+    "options": ["13", "14", "15", "16"],
+    "correct": 4,
+    "explanation": "270 ÷ 18 = 15 mpg."
+  },
+  {
+    "id": 182,
+    "text": "A store marks an item down 15% from $120. What is the new price?",
+    "options": ["$98", "$100", "$102", "$104"],
+    "correct": 2,
+    "explanation": "$120 × 0.85 = $102."
+  },
+  {
+    "id": 183,
+    "text": "A computer is discounted from $1,250 to $1,000. What is the percent discount?",
+    "options": ["18%", "20%", "22%", "25%"],
+    "correct": 2,
+    "explanation": "250 ÷ 1,250 = 0.2 → 20% discount."
+  },
+  {
+    "id": 184,
+    "text": "A train travels 180 miles in 3 hours. How far in 5 hours at the same speed?",
+    "options": ["280", "290", "300", "310"],
+    "correct": 3,
+    "explanation": "180 ÷ 3 = 60 mph → 60 × 5 = 300 miles."
+  },
+  {
+    "id": 185,
+    "text": "A laptop battery lasts 9 hours. If you have used 3 hours, what percent of charge remains?",
+    "options": ["60%", "65%", "66%", "70%"],
+    "correct": 3,
+    "explanation": "(9 − 3) ÷ 9 = 0.666 → 66% remaining."
+  },
+  {
+    "id": 186,
+    "text": "A job pays $20 per hour with a 10% bonus for overtime. What is the overtime rate?",
+    "options": ["$21", "$22", "$22.50", "$23"],
+    "correct": 2,
+    "explanation": "$20 × 1.1 = $22 per hour."
+  },
+  {
+    "id": 187,
+    "text": "If 5 workers complete a project in 12 days, how many days would 10 workers take (same rate)?",
+    "options": ["5", "6", "7", "8"],
+    "correct": 2,
+    "explanation": "Double workers → half the time → 12 ÷ 2 = 6 days."
+  },
+  {
+    "id": 188,
+    "text": "A school has 1,200 students. If 25% take art, how many do not take art?",
+    "options": ["850", "875", "900", "925"],
+    "correct": 3,
+    "explanation": "25% of 1,200 = 300 → 1,200 − 300 = 900 students."
+  },
+  {
+    "id": 189,
+    "text": "A phone battery charges from 30% to 90% in 2 hours. How much does it charge per hour?",
+    "options": ["25%", "28%", "30%", "33%"],
+    "correct": 4,
+    "explanation": "60 ÷ 2 = 30% per hour."
+  },
+  {
+    "id": 190,
+    "text": "A loan of $5,000 has 6% simple annual interest. How much interest after 3 years?",
+    "options": ["$850", "$880", "$900", "$920"],
+    "correct": 3,
+    "explanation": "$5,000 × 0.06 × 3 = $900 interest."
+  },
+  {
+    "id": 191,
+    "text": "A recipe doubles ingredients. If it calls for ¾ cup sugar, how much is needed when doubled?",
+    "options": ["1 cup", "1¼ cups", "1½ cups", "1¾ cups"],
+    "correct": 3,
+    "explanation": "¾ × 2 = 1½ cups."
+  },
+  {
+    "id": 192,
+    "text": "A worker earns $720 for 40 hours. What is the hourly rate?",
+    "options": ["$17", "$18", "$19", "$20"],
+    "correct": 4,
+    "explanation": "720 ÷ 40 = $18/hour."
+  },
+  {
+    "id": 193,
+    "text": "A discount reduces a $150 item to $120. What percentage is the discount?",
+    "options": ["15%", "18%", "20%", "25%"],
+    "correct": 3,
+    "explanation": "30 ÷ 150 = 0.2 → 20%."
+  },
+  {
+    "id": 194,
+    "text": "A machine fills 300 bottles in 12 minutes. How many bottles per hour?",
+    "options": ["1,200", "1,400", "1,500", "1,600"],
+    "correct": 3,
+    "explanation": "300 ÷ 12 = 25/min → 25 × 60 = 1,500 bottles/hour."
+  },
+  {
+    "id": 195,
+    "text": "If a printer produces 15 pages per minute, how long to print 450 pages?",
+    "options": ["25 min", "28 min", "30 min", "32 min"],
+    "correct": 3,
+    "explanation": "450 ÷ 15 = 30 minutes."
+  },
+  {
+    "id": 196,
+    "text": "A student earns grades 85, 90, 88, and 92. What is the average?",
+    "options": ["88", "89", "90", "91"],
+    "correct": 2,
+    "explanation": "(85 + 90 + 88 + 92) ÷ 4 = 88.75 → 89 average."
+  },
+  {
+    "id": 197,
+    "text": "A rectangular garden is 8 m by 12 m. What is its perimeter?",
+    "options": ["36 m", "38 m", "40 m", "42 m"],
+    "correct": 3,
+    "explanation": "2(8 + 12) = 40 m."
+  },
+  {
+    "id": 198,
+    "text": "A family spends $720 monthly on rent, which is 30% of income. What is their total monthly income?",
+    "options": ["$2,200", "$2,300", "$2,400", "$2,500"],
+    "correct": 3,
+    "explanation": "$720 ÷ 0.3 = $2,400 income."
+  },
+  {
+    "id": 199,
+    "text": "A train leaves at "8":45 a.m. and arrives at "11":10 a.m. How long is the trip?",
+    "options": ["2 hr 15 min", "2 hr 20 min", "2 hr 25 min", "2 hr 30 min"],
+    "correct": 3,
+    "explanation": "From "8":45 to "11":10 = 2 hours 25 minutes."
+  },
+  {
+    "id": 200,
+    "text": "A savings account earns 4% yearly interest. How much interest on $2,500 after one year?",
+    "options": ["$90", "$95", "$100", "$105"],
+    "correct": 3,
+    "explanation": "$2,500 × 0.04 = $100 interest."
+  }
+]

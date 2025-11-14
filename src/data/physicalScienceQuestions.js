@@ -168,7 +168,7 @@ export const physicalScienceData = [
     text: "What is the main component of natural gas?",
     options: ["Propane", "Methane", "Butane", "Ethane"],
     correct: 1,
-    explanation: "Methane (CH4) makes up the majority of natural gas."
+    explanation: "Methane (CH₄) makes up the majority of natural gas."
   },
   {
     id: 25,
@@ -201,8 +201,8 @@ export const physicalScienceData = [
   {
     id: 29,
     text: "Which layer of Earth's atmosphere contains the ozone layer?",
-    options: ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
-    correct: 1,
+    options: ["Stratosphere", "Troposphere", "Mesosphere", "Thermosphere"],
+    correct: 0,
     explanation: "The ozone layer, which absorbs harmful UV radiation, is located in the stratosphere."
   },
   {
@@ -243,7 +243,7 @@ export const physicalScienceData = [
   {
     id: 35,
     text: "Which law of motion states that an object will remain at rest or in uniform motion unless acted on by a force?",
-    options: ["First Law", "Second Law", "Third Law", "Law of Universal Gravitation"],
+    options: ["Newton’s First Law of Motion", "Newton’s Second Law of Motion", "Newton’s Third Law of Motion", "Law of Universal Gravitation"],
     correct: 0,
     explanation: "Newton’s First Law describes inertia — the tendency of objects to resist changes in motion."
   },
@@ -299,8 +299,8 @@ export const physicalScienceData = [
   {
     id: 43,
     text: "What property of a sound wave determines its pitch?",
-    options: ["Amplitude", "Frequency", "Wavelength", "Speed"],
-    correct: 1,
+    options: ["Frequency", "Amplitude", "Wavelength", "Speed"],
+    correct: 0,
     explanation: "The frequency of a sound wave determines how high or low its pitch is."
   },
   {
@@ -313,14 +313,14 @@ export const physicalScienceData = [
   {
     id: 45,
     text: "What is the hardest natural substance on Earth?",
-    options: ["Steel", "Diamond", "Quartz", "Graphite"],
-    correct: 1,
+    options: ["Steel", "Graphite", "Quartz", "Diamond"],
+    correct: 3,
     explanation: "Diamond, a form of carbon, is the hardest naturally occurring material."
   },
   {
     id: 46,
     text: "What is the main cause of Earth's magnetic field?",
-    options: ["Solar radiation", "Electric currents in the core", "Plate tectonics", "Atmospheric circulation"],
+    options: ["Solar radiation", "Plate tectonics", "Planetary Core Spin", "Atmospheric circulation"],
     correct: 1,
     explanation: "The movement of molten iron in Earth’s outer core generates its magnetic field."
   },
@@ -348,9 +348,9 @@ export const physicalScienceData = [
   {
     id: 50,
     text: "Which law states that energy cannot be created or destroyed, only transformed?",
-    options: ["Law of Conservation of Mass", "First Law of Thermodynamics", "Second Law of Motion", "Law of Inertia"],
+    options: ["Law of Conservation of Mass", "Law of Conservation of Energy", "Law of Conservation of Atomic Mass", "Law of Conservation of Momentum"],
     correct: 1,
-    explanation: "The First Law of Thermodynamics states that energy can only change form, not be created or destroyed."
+    explanation: "The Law of Conservation of Energy states that energy can only change form, not be created or destroyed."
   },
   {
     id: 51,
@@ -368,9 +368,9 @@ export const physicalScienceData = [
   },
   {
     id: 53,
-    text: "Which gas makes up most of Earth's atmosphere?",
+    text: "Which gas makes up least of Earth's atmosphere?",
     options: ["Oxygen", "Carbon dioxide", "Nitrogen", "Argon"],
-    correct: 2,
+    correct: 3,
     explanation: "Nitrogen makes up about 78% of Earth's atmosphere."
   },
   {
@@ -474,7 +474,7 @@ export const physicalScienceData = [
   {
     id: 68,
     text: "What type of energy is released in a nuclear fission reaction?",
-    options: ["Thermal and light energy", "Sound energy", "Mechanical energy", "Elastic energy"],
+    options: ["Thermal and light energy", "Sound energy", "Mechanical energy", "Nuclear energy"],
     correct: 0,
     explanation: "Nuclear fission releases large amounts of heat and light energy."
   },
@@ -495,8 +495,8 @@ export const physicalScienceData = [
   {
     id: 71,
     text: "What term describes the bending of light when it passes through different materials?",
-    options: ["Reflection", "Refraction", "Diffraction", "Interference"],
-    correct: 1,
+    options: ["Refraction", "Reflection", "Diffraction", "Interference"],
+    correct: 0,
     explanation: "Refraction is the bending of light as it moves between materials with different densities."
   },
   {
@@ -509,8 +509,8 @@ export const physicalScienceData = [
   {
     id: 73,
     text: "Which element is essential for combustion to occur?",
-    options: ["Hydrogen", "Nitrogen", "Oxygen", "Carbon"],
-    correct: 2,
+    options: ["Hydrogen", "Nitrogen", "Carbon", "Oxygen"],
+    correct: 3,
     explanation: "Oxygen is required for combustion reactions to take place."
   },
   {
@@ -543,7 +543,7 @@ export const physicalScienceData = [
   },
   {
     id: 78,
-    text: "What remains constant for an object in projectile motion (neglecting air resistance)?",
+    text: "What remains constant for an object in projectile motion wilie neglecting air resistance and not in a vacuum?",
     options: ["Vertical velocity", "Horizontal velocity", "Acceleration", "Speed"],
     correct: 1,
     explanation: "Horizontal velocity remains constant because no horizontal forces act on the projectile."
@@ -565,7 +565,7 @@ export const physicalScienceData = [
   {
     id: 81,
     text: "Which form of energy is stored in a stretched bow?",
-    options: ["Chemical", "Kinetic", "Elastic potential", "Thermal"],
+    options: ["Chemical potential", "Kinetic potential", "Elastic potential", "Thermal potential"],
     correct: 2,
     explanation: "Elastic potential energy is stored when materials are stretched or compressed."
   },
@@ -585,9 +585,9 @@ export const physicalScienceData = [
   },
   {
     id: 84,
-    text: "Which subatomic particle carries a negative charge?",
+    text: "Which subatomic particle carries a positive charge?",
     options: ["Proton", "Electron", "Neutron", "Positron"],
-    correct: 1,
+    correct: 0,
     explanation: "Electrons are negatively charged particles orbiting the nucleus of an atom."
   },
   {
@@ -607,8 +607,8 @@ export const physicalScienceData = [
   {
     id: 87,
     text: "Which type of lens is used to correct nearsightedness?",
-    options: ["Convex", "Concave", "Plano-convex", "Cylindrical"],
-    correct: 1,
+    options: ["Convex", "Cylindrical", "Plano-convex", "Concave"],
+    correct: 3,
     explanation: "A concave lens diverges light rays, helping nearsighted individuals see distant objects clearly."
   },
   {
@@ -642,8 +642,8 @@ export const physicalScienceData = [
   {
     id: 92,
     text: "What is the purpose of control rods in a nuclear reactor?",
-    options: ["Speed up reaction", "Absorb neutrons", "Increase pressure", "Cool the core"],
-    correct: 1,
+    options: ["Speed up reaction", "Cool the reactor", "Increase pressure", "Absorb neutrons"],
+    correct: 3,
     explanation: "Control rods absorb neutrons to regulate or stop the nuclear chain reaction."
   },
   {
@@ -684,7 +684,7 @@ export const physicalScienceData = [
   {
     id: 98,
     text: "Which planet has the strongest gravitational pull in the solar system?",
-    options: ["Earth", "Jupiter", "Neptune", "Saturn"],
+    options: ["Earth", "Pluto", "Neptune", "Jupiter"],
     correct: 1,
     explanation: "Jupiter’s massive size gives it the strongest gravity among the planets."
   },
