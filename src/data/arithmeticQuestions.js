@@ -310,8 +310,8 @@ export const arithmeticData = [
   {
     id: 27,
     text: "A pilot uses 75 gallons of fuel for a 300-mile trip. What is the fuel consumption rate?",
-    options: ["2 mpg", "3 mpg", "4 mpg", "5 mpg"],
-    correct: 1,
+    options: ["4 mpg", "5 mpg", "6 mpg", "7 mpg"],
+    correct: 0,
     explanation: "300 ÷ 75 = 4 miles per gallon."
   },
   {
@@ -324,15 +324,15 @@ export const arithmeticData = [
   {
     id: 29,
     text: "If a runway is 1.5 miles long, how many feet long is it? (1 mile = 5280 feet)",
-    options: ["7200 ft", "7600 ft", "7920 ft", "8000 ft"],
+    options: ["7280 ft", "7640 ft", "7920 ft", "8000 ft"],
     correct: 2,
     explanation: "1.5 × 5280 = 7920 feet."
   },
   {
     id: 30,
     text: "An aircraft can hold 150 passengers. On a particular flight, 80% of the seats are filled. How many passengers are on board?",
-    options: ["110", "115", "120", "125"],
-    correct: 2,
+    options: ["110", "120", "130", "140"],
+    correct: 1,
     explanation: "150 × 0.8 = 120 passengers."
   },
   {
@@ -353,14 +353,14 @@ export const arithmeticData = [
     id: 33,
     text: "A cargo bay is 12 ft wide, 10 ft high, and 40 ft long. What is its volume?",
     options: ["4000 cu ft", "4200 cu ft", "4400 cu ft", "4800 cu ft"],
-    correct: 1,
+    correct: 3,
     explanation: "12 × 10 × 40 = 4800 cubic feet."
   },
   {
     id: 34,
     text: "If 3 mechanics complete a task in 4 hours, how long would it take 6 mechanics at the same rate?",
     options: ["1 hour", "2 hours", "3 hours", "4 hours"],
-    correct: 2,
+    correct: 1,
     explanation: "Double the workers = half the time → 4 ÷ 2 = 2 hours."
   },
   {
@@ -387,8 +387,8 @@ export const arithmeticData = [
   {
     id: 38,
     text: "A conveyor belt loads 120 boxes in 8 minutes. How many boxes per minute?",
-    options: ["10", "12", "14", "16"],
-    correct: 1,
+    options: ["13", "14", "15", "16"],
+    correct: 2,
     explanation: "120 ÷ 8 = 15 boxes per minute."
   },
   {
@@ -409,7 +409,7 @@ export const arithmeticData = [
     id: 41,
     text: "A pilot’s flight plan shows a crosswind reducing ground speed by 15 mph. If airspeed is 200 mph, what is ground speed?",
     options: ["180 mph", "185 mph", "190 mph", "195 mph"],
-    correct: 2,
+    correct: 1,
     explanation: "200 − 15 = 185 mph ground speed."
   },
   {
@@ -464,9 +464,9 @@ export const arithmeticData = [
   {
     id: 49,
     text: "If a plane carries 5,000 gallons of fuel and burns 400 gallons per hour, how many hours can it fly?",
-    options: ["10 hours", "11 hours", "12 hours", "13 hours"],
-    correct: 2,
-    explanation: "5,000 ÷ 400 = 12.5 → about 12 hours of flight."
+    options: ["11.5 hours", "12.5 hours", "13.5 hours", "14.5 hours"],
+    correct: 1,
+    explanation: "5,000 ÷ 400 = 12.5."
   },
   {
     id: 50,
@@ -500,7 +500,7 @@ export const arithmeticData = [
     id: 54,
     text: "A vehicle’s fuel tank holds 24 gallons. If it uses 8 gallons per 100 miles, how far can it travel on a full tank?",
     options: ["200 miles", "250 miles", "275 miles", "300 miles"],
-    correct: 1,
+    correct: 3,
     explanation: "24 ÷ 8 × 100 = 300 miles."
   },
   {
@@ -533,10 +533,10 @@ export const arithmeticData = [
   },
   {
     id: 59,
-    text: "A jet’s top speed is 720 mph, but due to wind, the ground speed is reduced by 12%. What is the new ground speed?",
-    options: ["620 mph", "630 mph", "635 mph", "640 mph"],
-    correct: 3,
-    explanation: "720 × 0.88 = 633.6 mph ≈ 635 mph."
+    text: "A jet’s top speed is 720 mph, but due to wind, the ground speed is reduced by 20%. What is the new ground speed?",
+    options: ["564 mph", "576 mph", "603 mph", "622 mph"],
+    correct: 1,
+    explanation: "720 × 0.8 = 576 mph exactly."
   },
   {
     id: 60,
@@ -563,15 +563,15 @@ export const arithmeticData = [
     id: 63,
     text: "An engineer tests 8 engines and finds 2 are defective. What percentage are operational?",
     options: ["60%", "70%", "75%", "80%"],
-    correct: 3,
+    correct: 2,
     explanation: "(8−2)/8 = 6/8 = 75% operational."
   },
   {
     id: 64,
-    text: "A supply plane drops 9 crates evenly spaced over 3 miles. What is the spacing between each drop?",
-    options: ["0.25 miles", "0.33 miles", "0.37 miles", "0.40 miles"],
-    correct: 1,
-    explanation: "There are 8 intervals between 9 drops: 3 ÷ 8 ≈ 0.375 miles."
+    text: "A supply plane holds 12,000 lbs of cargo. It drops two thirds of it. How many lbs are left?",
+    options: ["4,000 lbs", "5,000 lbs", "7,500 lbs", "8,000 lbs"],
+    correct: 0,
+    explanation: "There are 12,000 lbs. 12,000 ÷ 3 = 4,000 lbs left."
   },
   {
     id: 65,
@@ -590,15 +590,15 @@ export const arithmeticData = [
   {
     id: 67,
     text: "If a truck’s top speed is 60 mph but must reduce speed by 15% in rain, what is the new speed?",
-    options: ["48 mph", "50 mph", "52 mph", "54 mph"],
-    correct: 0,
-    explanation: "60 × 0.85 = 51 mph → closest is 50 mph if rounding conservatively."
+    options: ["48 mph", "51 mph", "52 mph", "54 mph"],
+    correct: 1,
+    explanation: "60 × 0.85 = 51 mph."
   },
   {
     id: 68,
     text: "An aircraft starts with 9,000 lbs of fuel and uses 600 lbs every 15 minutes. How much fuel after 1 hour?",
     options: ["6,600 lbs", "6,800 lbs", "7,000 lbs", "7,200 lbs"],
-    correct: 3,
+    correct: 0,
     explanation: "1 hr = 4 × 15 min; 600 × 4 = 2,400 used; 9,000 − 2,400 = 6,600 lbs."
   },
   {
@@ -610,10 +610,10 @@ export const arithmeticData = [
   },
   {
     id: 70,
-    text: "A jet travels 1,200 miles in 2 hours. If headwinds reduce speed by 25%, how long will the same trip take?",
-    options: ["2.5 hrs", "2.75 hrs", "3 hrs", "3.25 hrs"],
+    text: "A jet travels 1,200 miles in 2 hours. If headwinds reduce its speed by 20%, how long will the same trip take?",
+    options: ["2.25 hrs", "2.4 hrs", "2.5 hrs", "2.6 hrs"],
     correct: 2,
-    explanation: "Speed reduced to 75%. Time increases by 1/0.75 = 1.33× → 2 × 1.33 ≈ 2.66 → about 3 hours."
+    explanation: "Original speed = 1,200 ÷ 2 = 600 mph. Reduced speed = 600 × 0.8 = 480 mph. Time = 1,200 ÷ 480 = 2.5 hours exactly."
   },
   {
     id: 71,
@@ -632,7 +632,7 @@ export const arithmeticData = [
   {
     id: 73,
     text: "An aircraft makes a 900-mile round trip twice per day. How many miles in a 5-day period?",
-    options: ["7000", "8000", "9000", "10000"],
+    options: ["6000", "7000", "8000", "9000"],
     correct: 3,
     explanation: "900 × 2 × 5 = 9000 miles."
   },
@@ -702,8 +702,8 @@ export const arithmeticData = [
   {
     id: 83,
     text: "If 3x = 18, what is the value of x + 5?",
-    options: ["8", "9", "11", "12"],
-    correct: 2,
+    options: ["11", "12", "13", "14"],
+    correct: 0,
     explanation: "x = 6 → x + 5 = 11."
   },
   {
@@ -723,29 +723,29 @@ export const arithmeticData = [
   {
     id: 86,
     text: "If 8 workers complete a job in 6 days, how many days will it take 12 workers (same rate)?",
-    options: ["2", "3", "4", "5"],
-    correct: 2,
+    options: ["4", "5", "6", "7"],
+    correct: 0,
     explanation: "Work is inversely proportional to number of workers: 8 × 6 = 48 worker-days → 48 ÷ 12 = 4 days."
   },
   {
     id: 87,
     text: "A boat travels downstream at 12 mph and upstream at 8 mph. What is the boat’s speed in still water?",
-    options: ["9 mph", "10 mph", "11 mph", "12 mph"],
-    correct: 1,
+    options: ["7 mph", "8 mph", "9 mph", "10 mph"],
+    correct: 3,
     explanation: "(12 + 8) ÷ 2 = 10 mph in still water."
   },
   {
     id: 88,
     text: "If a car’s fuel tank holds 15 gallons and it travels 360 miles on a full tank, what is the car’s fuel efficiency?",
     options: ["20 mpg", "22 mpg", "24 mpg", "25 mpg"],
-    correct: 3,
+    correct: 2,
     explanation: "360 ÷ 15 = 24 mpg."
   },
   {
     id: 89,
     text: "If 40% of a number is 60, what is the number?",
     options: ["100", "120", "140", "150"],
-    correct: 1,
+    correct: 3,
     explanation: "0.4x = 60 → x = 60 ÷ 0.4 = 150."
   },
   {
@@ -759,7 +759,7 @@ export const arithmeticData = [
     id: 91,
     text: "An airplane travels 480 miles in 1 hour and 20 minutes. What is its average speed?",
     options: ["320 mph", "340 mph", "360 mph", "400 mph"],
-    correct: 3,
+    correct: 2,
     explanation: "1 hr 20 min = 1.333 hrs → 480 ÷ 1.333 ≈ 360 mph."
   },
   {
@@ -772,8 +772,8 @@ export const arithmeticData = [
   {
     id: 93,
     text: "If 2/3 of a number is 12, what is the number?",
-    options: ["16", "17", "18", "20"],
-    correct: 2,
+    options: ["18", "24", "36", "48"],
+    correct: 0,
     explanation: "(2/3)x = 12 → x = 12 × (3/2) = 18."
   },
   {
@@ -787,21 +787,21 @@ export const arithmeticData = [
     id: 95,
     text: "If you invest $500 at 8% annual simple interest, how much interest will you earn after 3 years?",
     options: ["$100", "$120", "$150", "$160"],
-    correct: 2,
+    correct: 1,
     explanation: "I = P × R × T = 500 × 0.08 × 3 = 120."
   },
   {
     id: 96,
     text: "If a car depreciates by 15% each year, what is its value after one year if it was $20,000?",
-    options: ["$15,000", "$16,000", "$17,000", "$17,500"],
+    options: ["$14,000", "$16,300", "$17,000", "$18,500"],
     correct: 2,
     explanation: "15% of 20,000 = 3,000 → 20,000 − 3,000 = 17,000."
   },
   {
     id: 97,
     text: "A runner completes 3 laps of a 400-meter track. How many kilometers has the runner completed?",
-    options: ["1.0 km", "1.1 km", "1.2 km", "1.4 km"],
-    correct: 2,
+    options: ["1.2 km", "1.3 km", "1.4 km", "1.5km"],
+    correct: 0,
     explanation: "3 × 400 = 1,200 m → 1.2 km."
   },
   {
@@ -814,7 +814,7 @@ export const arithmeticData = [
   {
     id: 99,
     text: "A car rental costs $50 per day plus $0.20 per mile. How much for 3 days and 200 miles?",
-    options: ["$100", "$110", "$130", "$160"],
+    options: ["$100", "$110", "$130", "$190"],
     correct: 3,
     explanation: "$50 × 3 = $150 + (200 × $0.20 = $40) → $150 + $40 = $190."
   },
@@ -841,7 +841,7 @@ export const arithmeticData = [
   },
   {
     id: 103,
-    text: "If a pilot consumes 12 gallons of fuel every 30 minutes, how much fuel is used in a 3-hour flight?",
+    text: "If a plane consumes 12 gallons of fuel every 30 minutes, how much fuel is used in a 3-hour flight?",
     options: ["48 gallons", "60 gallons", "72 gallons", "80 gallons"],
     correct: 2,
     explanation: "3 hours = 6 half-hours → 6 × 12 = 72 gallons."
@@ -849,8 +849,8 @@ export const arithmeticData = [
   {
     id: 104,
     text: "A warehouse has 360 crates equally distributed on 12 pallets. How many crates are on each pallet?",
-    options: ["25", "28", "30", "32"],
-    correct: 2,
+    options: ["30", "28", "25", "32"],
+    correct: 0,
     explanation: "360 ÷ 12 = 30 crates per pallet."
   },
   {
@@ -864,7 +864,7 @@ export const arithmeticData = [
     id: 106,
     text: "A container holds 15 liters of water. How many 0.75-liter bottles can be filled?",
     options: ["10", "15", "18", "20"],
-    correct: 2,
+    correct: 3,
     explanation: "15 ÷ 0.75 = 20 bottles."
   },
   {
@@ -877,8 +877,8 @@ export const arithmeticData = [
   {
     id: 108,
     text: "A machine produces 480 parts in 8 hours. How many parts can it produce in 10 hours?",
-    options: ["550", "580", "600", "620"],
-    correct: 2,
+    options: ["600", "580", "620", "550"],
+    correct: 0,
     explanation: "480 ÷ 8 = 60 parts/hour → 60 × 10 = 600 parts."
   },
   {
@@ -892,14 +892,14 @@ export const arithmeticData = [
     id: 110,
     text: "A radar detects an aircraft 90 miles away. If the plane approaches at 360 mph, how long until contact?",
     options: ["10 min", "12 min", "15 min", "18 min"],
-    correct: 1,
+    correct: 2,
     explanation: "Time = Distance ÷ Speed = 90 ÷ 360 hr = 0.25 hr = 15 minutes."
   },
   {
     id: 111,
     text: "If 40% of a squadron’s aircraft are out of service and there are 12 in service, how many total aircraft are there?",
-    options: ["16", "18", "20", "22"],
-    correct: 2,
+    options: ["20", "18", "24", "22"],
+    correct: 0,
     explanation: "60% = 12 → total = 12 ÷ 0.6 = 20 aircraft."
   },
   {
@@ -926,8 +926,8 @@ export const arithmeticData = [
   {
     id: 115,
     text: "If a ship’s speed is 24 knots, how long will it take to travel 72 nautical miles?",
-    options: ["2 hours", "2.5 hours", "3 hours", "3.5 hours"],
-    correct: 2,
+    options: ["3 hours", "2.5 hours", "2 hours", "3.5 hours"],
+    correct: 0,
     explanation: "72 ÷ 24 = 3 hours."
   },
   {
@@ -940,8 +940,8 @@ export const arithmeticData = [
   {
     id: 117,
     text: "A base has 720 personnel divided evenly among 12 units. How many personnel per unit?",
-    options: ["50", "55", "60", "65"],
-    correct: 2,
+    options: ["60", "55", "50", "65"],
+    correct: 0,
     explanation: "720 ÷ 12 = 60 per unit."
   },
   {
@@ -954,8 +954,8 @@ export const arithmeticData = [
   {
     id: 119,
     text: "A shipment weighs 4,500 pounds. If divided into 50 equal crates, what is the weight per crate?",
-    options: ["80 lb", "85 lb", "90 lb", "95 lb"],
-    correct: 2,
+    options: ["75 lb", "80 lb", "85 lb", "90 lb"],
+    correct: 3,
     explanation: "4,500 ÷ 50 = 90 lb per crate."
   },
   {
@@ -983,7 +983,7 @@ export const arithmeticData = [
     id: 123,
     text: "If 8 bolts weigh 12 ounces, how much do 20 bolts weigh?",
     options: ["28 oz", "30 oz", "32 oz", "34 oz"],
-    correct: 2,
+    correct: 1,
     explanation: "12 ÷ 8 = 1.5 oz each → 1.5 × 20 = 30 oz."
   },
   {
@@ -996,22 +996,22 @@ export const arithmeticData = [
   {
     id: 125,
     text: "If 30% of a class of 80 students are female, how many are male?",
-    options: ["52", "54", "56", "58"],
-    correct: 2,
+    options: ["56", "54", "52", "58"],
+    correct: 0,
     explanation: "30% of 80 = 24 females → 80 − 24 = 56 males."
   },
    {
     id: 126,
     text: "A cargo truck can carry 3,600 pounds. If each crate weighs 120 pounds, how many crates can it transport at once?",
-    options: ["25", "28", "30", "32"],
-    correct: 2,
+    options: ["30", "28", "26", "32"],
+    correct: 0,
     explanation: "3,600 ÷ 120 = 30 crates."
   },
   {
     id: 127,
     text: "A generator uses 4 gallons of fuel per hour. How many gallons will it use in 9.5 hours?",
     options: ["34", "36", "37", "38"],
-    correct: 2,
+    correct: 3,
     explanation: "4 × 9.5 = 38 gallons."
   },
   {
@@ -1032,7 +1032,7 @@ export const arithmeticData = [
     id: 130,
     text: "A technician earns $24.50 per hour and works 37 hours in a week. What is their weekly pay before taxes?",
     options: ["$885.50", "$906.50", "$915.00", "$925.50"],
-    correct: 2,
+    correct: 1,
     explanation: "24.5 × 37 = $906.50."
   },
   {
@@ -1052,16 +1052,16 @@ export const arithmeticData = [
   {
     id: 133,
     text: "If a map scale is 1 inch = 5 miles, how many miles are represented by 3.6 inches?",
-    options: ["16", "17", "18", "19"],
-    correct: 2,
+    options: ["18", "17", "16", "19"],
+    correct: 0,
     explanation: "3.6 × 5 = 18 miles."
   },
   {
     id: 134,
-    text: "A squad needs 480 meals for a week. If each person consumes 3 meals per day, how many people are in the squad?",
+    text: "A squad needs 483 meals for a week. If each person consumes 3 meals per day, how many people are in the squad?",
     options: ["20", "22", "23", "24"],
     correct: 2,
-    explanation: "7 days × 3 meals = 21 per person → 480 ÷ 21 ≈ 23 people."
+    explanation: "483 ÷ 21 = 23 people."
   },
   {
     id: 135,
@@ -1073,15 +1073,15 @@ export const arithmeticData = [
   {
     id: 136,
     text: "A supply clerk packs 15 boxes per hour. How long will it take to pack 210 boxes?",
-    options: ["12", "13", "14", "15"],
-    correct: 2,
+    options: ["14", "13", "12", "15"],
+    correct: 0,
     explanation: "210 ÷ 15 = 14 hours."
   },
   {
     id: 137,
     text: "A drone flies 24 miles in 30 minutes. What is its average speed in miles per hour?",
     options: ["42", "45", "46", "48"],
-    correct: 2,
+    correct: 3,
     explanation: "30 minutes = 0.5 hours → 24 ÷ 0.5 = 48 mph."
   },
   {
@@ -1094,8 +1094,8 @@ export const arithmeticData = [
   {
     id: 139,
     text: "A base vehicle drives 280 miles using 16 gallons of fuel. What is its average miles per gallon?",
-    options: ["16", "17", "18", "19"],
-    correct: 2,
+    options: ["16.3", "17.5", "18.4", "19.2"],
+    correct: 1,
     explanation: "280 ÷ 16 = 17.5 mpg."
   },
   {
@@ -1109,7 +1109,7 @@ export const arithmeticData = [
     id: 141,
     text: "A shipment of 45 boxes weighs 1,125 pounds total. What is the average weight per box?",
     options: ["24", "25", "26", "27"],
-    correct: 2,
+    correct: 1,
     explanation: "1,125 ÷ 45 = 25 pounds each."
   },
   {
@@ -1130,21 +1130,21 @@ export const arithmeticData = [
     id: 144,
     text: "An air filter must be replaced every 120 flight hours. If a jet flies 8 hours daily, how many days until replacement?",
     options: ["12", "13", "14", "15"],
-    correct: 2,
+    correct: 3,
     explanation: "120 ÷ 8 = 15 days."
   },
   {
     id: 145,
     text: "A delivery route covers 75 miles in 1 hour 15 minutes. What is the average speed?",
     options: ["58 mph", "60 mph", "62 mph", "64 mph"],
-    correct: 2,
+    correct: 1,
     explanation: "1.25 hours → 75 ÷ 1.25 = 60 mph."
   },
   {
     id: 146,
     text: "A computer processes 300 files in 12 minutes. How many files per minute is that?",
     options: ["24", "25", "26", "27"],
-    correct: 2,
+    correct: 1,
     explanation: "300 ÷ 12 = 25 files per minute."
   },
   {
@@ -1157,7 +1157,7 @@ export const arithmeticData = [
   {
     id: 148,
     text: "A maintenance part costs $48 each, but buying 10 or more gives a 20% discount. How much do 12 parts cost?",
-    options: ["$440", "$450", "$460", "$470"],
+    options: ["$440.80", "$450.40", "$460.80", "$470.40"],
     correct: 2,
     explanation: "$48 × 12 = 576 → 20% off = 576 × 0.8 = $460.80."
   },
@@ -1171,99 +1171,99 @@ export const arithmeticData = [
   {
     id: 150,
     text: "A communications relay transmits 240 messages in 8 hours. How many messages can it send in 10 hours at the same rate?",
-    options: ["280", "290", "300", "310"],
-    correct: 2,
+    options: ["300", "290", "310", "280"],
+    correct: 0,
     explanation: "240 ÷ 8 = 30 per hour → 30 × 10 = 300 messages."
   },
   {
     id: 151,
     text: "A network operations team monitors 4,800 packets over 12 minutes. What is the average packet rate per minute?",
     options: ["300", "350", "400", "450"],
-    correct: 3,
+    correct: 2,
     explanation: "4,800 ÷ 12 = 400 packets per minute."
   },
   {
     id: 152,
     text: "A data center uses 18 servers that each draw 450 watts. What is the total power usage in kilowatts?",
-    options: ["6.5", "7.5", "8.1", "8.5"],
-    correct: 3,
+    options: ["6.5", "7.3", "8.1", "9.4"],
+    correct: 2,
     explanation: "18 × 450 = 8,100 watts → 8.1 kilowatts."
   },
   {
     id: 153,
     text: "A cybersecurity analyst finds that 12 of 600 scanned hosts are vulnerable. What percentage is affected?",
-    options: ["1%", "1.5%", "2%", "2.5%"],
-    correct: 2,
+    options: ["2%", "1.5%", "1%", "2.5%"],
+    correct: 0,
     explanation: "12 ÷ 600 = 0.02 → 2%."
   },
   {
     id: 154,
-    text: "An encryption process takes 45 seconds for 900 MB. How long for 2,400 MB at the same rate?",
-    options: ["1 min 45 sec", "2 min", "2 min 5 sec", "2 min 10 sec"],
-    correct: 2,
-    explanation: "900 MB in 45 sec → 2.67× more = 45 × 2.67 ≈ 120 sec (2 min)."
+    text: "An encryption process takes 45 seconds for 900 MB. How long for 3,600 MB at the same rate?",
+    options: ["1 min 45 sec", "2 min", "2 min 5 sec", "3 min"],
+    correct: 3,
+    explanation: "900 MB x 4 = 3,600 MB. 45 sec x 4 = 180 sec. = 3 min."
   },
   {
     id: 155,
     text: "A sysadmin backs up 2.5 TB of data daily. How much is stored in 28 days?",
     options: ["60 TB", "65 TB", "70 TB", "75 TB"],
-    correct: 3,
+    correct: 2,
     explanation: "2.5 × 28 = 70 TB."
   },
   {
     id: 156,
     text: "If a project requires 240 staff-hours and 8 technicians are assigned, how long will it take?",
-    options: ["25 hours", "28 hours", "30 hours", "32 hours"],
-    correct: 3,
+    options: ["30 hours", "28 hours", "25 hours", "32 hours"],
+    correct: 0,
     explanation: "240 ÷ 8 = 30 hours total."
   },
   {
     id: 157,
     text: "A satellite link has 96 Mbps bandwidth. If encryption overhead uses 25%, what is usable bandwidth?",
     options: ["68 Mbps", "70 Mbps", "72 Mbps", "74 Mbps"],
-    correct: 3,
+    correct: 2,
     explanation: "96 × 0.75 = 72 Mbps usable bandwidth."
   },
   {
     id: 158,
     text: "A cyber defense drill lasts 7 hours and 20 minutes. How many minutes total?",
     options: ["420", "430", "440", "450"],
-    correct: 3,
+    correct: 2,
     explanation: "7 hours = 420 + 20 = 440 minutes."
   },
   {
     id: 159,
     text: "An analyst reviews 1,500 logs in 3 hours. At this pace, how many logs in 8 hours?",
     options: ["3,800", "4,000", "4,100", "4,200"],
-    correct: 2,
+    correct: 1,
     explanation: "1,500 ÷ 3 = 500/hour → 500 × 8 = 4,000 logs."
   },
   {
     id: 160,
     text: "A cloud system's uptime target is 99.9%. Over 30 days, how many minutes of downtime are allowed?",
-    options: ["30", "40", "43", "45"],
-    correct: 3,
+    options: ["30.5", "40.1", "43.2", "45.0"],
+    correct: 2,
     explanation: "30 days = 43,200 minutes → 0.1% downtime = 43.2 minutes."
   },
   {
     id: 161,
     text: "A secure line encrypts data at 240 MB/s. How long to transmit 7.2 GB?",
     options: ["25 sec", "28 sec", "30 sec", "32 sec"],
-    correct: 3,
+    correct: 2,
     explanation: "7.2 GB = 7,200 MB → 7,200 ÷ 240 = 30 seconds."
   },
   {
     id: 162,
-    text: "A team processes 75 tickets daily with 5 engineers. If 2 more join, how many per engineer per day to keep same pace?",
-    options: ["9", "10", "11", "12"],
-    correct: 2,
-    explanation: "75 ÷ 5 = 15 each → 75 ÷ 7 ≈ 10.7 → about 10 per engineer."
+    text: "A team processes 77 tickets daily with 7 engineers. If all engineers handle the same number of tickets, how many tickets does each engineer process per day?",
+    options: ["9", "10", "12", "11"],
+    correct: 3,
+    explanation: "77 ÷ 7 = 11. Each engineer processes exactly 11 tickets per day."
   },
   {
     id: 163,
     text: "A code deployment succeeds 95 times out of 100. What is its failure rate?",
     options: ["2%", "4%", "5%", "6%"],
-    correct: 3,
+    correct: 2,
     explanation: "100 − 95 = 5 → 5% failure rate."
   },
   {
@@ -1277,106 +1277,106 @@ export const arithmeticData = [
     id: 165,
     text: "A team’s on-call rotation has 6 members covering 24 hours equally. How many hours each?",
     options: ["3", "4", "5", "6"],
-    correct: 2,
+    correct: 1,
     explanation: "24 ÷ 6 = 4 hours each."
   },
-  {
+{
     id: 166,
-    text: "A secure network transmits 9 GB of logs in 15 minutes. What is its average throughput?",
-    options: ["8 Mbps", "64 Mbps", "80 Mbps", "96 Mbps"],
-    correct: 4,
-    explanation: "9 GB = 72 Gb → 72 ÷ 15 = 4.8 Gbps = 4800 Mbps ÷ 50 = 96 Mbps average."
+    text: "A bakery makes 24 dozen cookies in 4 hours. How many cookies per hour?",
+    options: ["60 cookies", "72 cookies", "84 cookies", "96 cookies"],
+    correct: 1,
+    explanation: "24 dozen = 288 cookies. 288 ÷ 4 = 72 cookies per hour."
   },
   {
     id: 167,
-    text: "A storage cluster adds 12% redundancy to 80 TB usable space. What is the total required capacity?",
-    options: ["86 TB", "88 TB", "90 TB", "92 TB"],
-    correct: 1,
-    explanation: "80 × 1.12 = 89.6 TB → approximately 90 TB."
+    text: "A store increases prices by 12%. If a shirt costs $80, what is the new price?",
+    options: ["$86.40", "$88.00", "$89.60", "$92.00"],
+    correct: 2,
+    explanation: "$80 × 1.12 = $89.60"
   },
   {
     id: 168,
-    text: "A cybersecurity exercise has 120 participants. If 30% focus on blue team defense, how many is that?",
-    options: ["32", "34", "36", "38"],
-    correct: 3,
-    explanation: "120 × 0.3 = 36 defenders."
+    text: "A training class has 120 students. If 30% are studying engineering, how many students is that?",
+    options: ["36", "34", "38", "32"],
+    correct: 0,
+    explanation: "120 × 0.30 = 36 students."
   },
   {
     id: 169,
-    text: "A server’s CPU utilization averages 72% of 16 cores. How many cores are typically active?",
+    text: "A worker completes 72% of 16 tasks in one day. How many tasks were completed?",
     options: ["10", "11", "12", "13"],
-    correct: 3,
-    explanation: "16 × 0.72 = 11.52 ≈ 12 cores active."
+    correct: 2,
+    explanation: "16 × 0.72 = 11.52, which rounds to 12 tasks."
   },
   {
     id: 170,
-    text: "A security patch rollout is 80% complete after 4 of 5 planned waves. How many systems total if 800 are done?",
+    text: "A project is 80% complete after 4 weeks of work. If 800 units are finished, how many total units?",
     options: ["950", "975", "1,000", "1,050"],
-    correct: 3,
-    explanation: "800 ÷ 0.8 = 1,000 systems total."
+    correct: 2,
+    explanation: "800 ÷ 0.80 = 1,000 total units."
   },
   {
     id: 171,
-    text: "An encrypted link transmits at 120 KB/s. How long to send a 36 MB file?",
+    text: "A copier prints 120 pages per minute. How long to print 600 pages?",
     options: ["4 min", "5 min", "6 min", "7 min"],
-    correct: 2,
-    explanation: "36 MB = 36,000 KB → 36,000 ÷ 120 = 300 sec = 5 min."
+    correct: 1,
+    explanation: "600 ÷ 120 = 5 minutes."
   },
   {
     id: 172,
-    text: "A cyber threat model identifies 45 risks; 12 are high priority. What percentage are high?",
-    options: ["25%", "26%", "27%", "28%"],
-    correct: 3,
-    explanation: "12 ÷ 45 = 0.266... → about 27%."
+    text: "A test has 40 questions. If 10 are multiple choice, what percentage are multiple choice?",
+    options: ["25%", "22%", "20%", "28%"],
+    correct: 0,
+    explanation: "10 ÷ 40 = 0.25 = 25%."
   },
   {
     id: 173,
-    text: "A base’s IT team reduces incident response time from 90 min to 54 min. What is the improvement percentage?",
+    text: "A delivery route is reduced from 90 minutes to 54 minutes. What is the percent improvement?",
     options: ["35%", "38%", "40%", "42%"],
-    correct: 3,
-    explanation: "(90 − 54) ÷ 90 = 0.4 → 40% improvement."
+    correct: 2,
+    explanation: "(90 - 54) ÷ 90 = 36 ÷ 90 = 0.40 = 40%."
   },
   {
     id: 174,
-    text: "A penetration test lasts 10 days. If 3 days are spent on reporting, what percent is testing time?",
-    options: ["65%", "67%", "70%", "75%"],
-    correct: 4,
-    explanation: "7 ÷ 10 = 0.7 → 70% testing, 30% reporting."
+    text: "A 10-day project spends 3 days on planning. What percent is spent on execution?",
+    options: ["65%", "70%", "67%", "75%"],
+    correct: 1,
+    explanation: "7 days execution ÷ 10 days total = 0.70 = 70%."
   },
   {
     id: 175,
-    text: "A cloud backup uploads 48 GB over 2 hours. How long to upload 120 GB at same rate?",
+    text: "A car travels 48 miles in 2 hours. How long to travel 120 miles at the same speed?",
     options: ["3 hr", "4 hr", "5 hr", "6 hr"],
     correct: 2,
-    explanation: "48 ÷ 2 = 24 GB/hr → 120 ÷ 24 = 5 hr."
+    explanation: "48 ÷ 2 = 24 mph. 120 ÷ 24 = 5 hours."
   },
   {
     id: 176,
     text: "A car travels 240 miles in 4 hours. What is its average speed?",
-    options: ["55 mph", "58 mph", "60 mph", "62 mph"],
+    options: ["55 mph", "58 mph", "62 mph", "60 mph"],
     correct: 3,
     explanation: "240 ÷ 4 = 60 mph."
   },
   {
     id: 177,
     text: "A store has a 25% off sale. If a jacket costs $80 before tax, what is the sale price?",
-    options: ["$55", "$58", "$60", "$62"],
-    correct: 3,
+    options: ["$60", "$58", "$55", "$62"],
+    correct: 0,
     explanation: "$80 × 0.75 = $60."
   },
   {
     id: 178,
     text: "A recipe requires 2.5 cups of flour for 10 servings. How much flour for 4 servings?",
-    options: ["0.8 cups", "1 cup", "1.2 cups", "1.4 cups"],
-    correct: 3,
+    options: ["0.8 cups", "1.0 cup", "1.2 cups", "1.4 cups"],
+    correct: 1,
     explanation: "2.5 ÷ 10 = 0.25 per serving → 0.25 × 4 = 1.0 cup."
   },
   {
     id: 179,
-    text: "A phone plan includes 12 GB of data per month. How much data is that per day in a 30-day month?",
-    options: ["0.3 GB", "0.35 GB", "0.4 GB", "0.45 GB"],
-    correct: 3,
-    explanation: "12 ÷ 30 = 0.4 GB/day."
+    text: "A delivery route takes 90 minutes. If the route is shortened to 54 minutes, how many minutes are saved?",
+    options: ["34 min", "36 min", "38 min", "40 min"],
+    correct: 1,
+    explanation: "90 - 54 = 36 minutes saved."
   },
   {
     id: 180,
@@ -1389,132 +1389,132 @@ export const arithmeticData = [
     id: 181,
     text: "A delivery van uses 18 gallons to travel 270 miles. What is its miles per gallon?",
     options: ["13", "14", "15", "16"],
-    correct: 4,
+    correct: 2,
     explanation: "270 ÷ 18 = 15 mpg."
   },
   {
     id: 182,
     text: "A store marks an item down 15% from $120. What is the new price?",
-    options: ["$98", "$100", "$102", "$104"],
-    correct: 2,
+    options: ["$102", "$100", "$92", "$104"],
+    correct: 0,
     explanation: "$120 × 0.85 = $102."
   },
   {
     id: 183,
     text: "A computer is discounted from $1,250 to $1,000. What is the percent discount?",
     options: ["18%", "20%", "22%", "25%"],
-    correct: 2,
+    correct: 1,
     explanation: "250 ÷ 1,250 = 0.2 → 20% discount."
   },
   {
     id: 184,
     text: "A train travels 180 miles in 3 hours. How far in 5 hours at the same speed?",
     options: ["280", "290", "300", "310"],
-    correct: 3,
+    correct: 2,
     explanation: "180 ÷ 3 = 60 mph → 60 × 5 = 300 miles."
   },
   {
     id: 185,
-    text: "A laptop battery lasts 9 hours. If you have used 3 hours, what percent of charge remains?",
-    options: ["60%", "65%", "66%", "70%"],
-    correct: 3,
-    explanation: "(9 − 3) ÷ 9 = 0.666 → 66% remaining."
+    text: "A 20-day project spends 6 days on planning. How many days are spent on execution?",
+    options: ["5 days", "12 days", "14 days", "16 days"],
+    correct: 2,
+    explanation: "20 - 6 = 14 days execution."
   },
   {
     id: 186,
     text: "A job pays $20 per hour with a 10% bonus for overtime. What is the overtime rate?",
-    options: ["$21", "$22", "$22.50", "$23"],
-    correct: 2,
+    options: ["$21.75", "$22.00", "$22.50", "$23.45"],
+    correct: 1,
     explanation: "$20 × 1.1 = $22 per hour."
   },
   {
     id: 187,
-    text: "If 5 workers complete a project in 12 days, how many days would 10 workers take (same rate)?",
+    text: "If 5 workers complete a project in 12 days, how many days would 10 workers take at the same rate?",
     options: ["5", "6", "7", "8"],
-    correct: 2,
+    correct: 1,
     explanation: "Double workers → half the time → 12 ÷ 2 = 6 days."
   },
   {
     id: 188,
     text: "A school has 1,200 students. If 25% take art, how many do not take art?",
-    options: ["850", "875", "900", "925"],
-    correct: 3,
+    options: ["900", "875", "800", "925"],
+    correct: 0,
     explanation: "25% of 1,200 = 300 → 1,200 − 300 = 900 students."
   },
   {
     id: 189,
     text: "A phone battery charges from 30% to 90% in 2 hours. How much does it charge per hour?",
     options: ["25%", "28%", "30%", "33%"],
-    correct: 4,
+    correct: 2,
     explanation: "60 ÷ 2 = 30% per hour."
   },
   {
     id: 190,
     text: "A loan of $5,000 has 6% simple annual interest. How much interest after 3 years?",
     options: ["$850", "$880", "$900", "$920"],
-    correct: 3,
+    correct: 2,
     explanation: "$5,000 × 0.06 × 3 = $900 interest."
   },
   {
     id: 191,
     text: "A recipe doubles ingredients. If it calls for ¾ cup sugar, how much is needed when doubled?",
     options: ["1 cup", "1¼ cups", "1½ cups", "1¾ cups"],
-    correct: 3,
+    correct: 2,
     explanation: "¾ × 2 = 1½ cups."
   },
   {
     id: 192,
     text: "A worker earns $720 for 40 hours. What is the hourly rate?",
     options: ["$17", "$18", "$19", "$20"],
-    correct: 4,
+    correct: 1,
     explanation: "720 ÷ 40 = $18/hour."
   },
   {
     id: 193,
     text: "A discount reduces a $150 item to $120. What percentage is the discount?",
-    options: ["15%", "18%", "20%", "25%"],
-    correct: 3,
+    options: ["20%", "18%", "15%", "25%"],
+    correct: 0,
     explanation: "30 ÷ 150 = 0.2 → 20%."
   },
   {
     id: 194,
     text: "A machine fills 300 bottles in 12 minutes. How many bottles per hour?",
     options: ["1,200", "1,400", "1,500", "1,600"],
-    correct: 3,
+    correct: 2,
     explanation: "300 ÷ 12 = 25/min → 25 × 60 = 1,500 bottles/hour."
   },
   {
     id: 195,
     text: "If a printer produces 15 pages per minute, how long to print 450 pages?",
-    options: ["25 min", "28 min", "30 min", "32 min"],
+    options: ["28 min", "25 min", "32 min", "30 min"],
     correct: 3,
     explanation: "450 ÷ 15 = 30 minutes."
   },
   {
     id: 196,
-    text: "A student earns grades 85, 90, 88, and 92. What is the average?",
+    text: "A student earns grades 86, 88, 90, and 92. What is the average?",
     options: ["88", "89", "90", "91"],
-    correct: 2,
-    explanation: "(85 + 90 + 88 + 92) ÷ 4 = 88.75 → 89 average."
+    correct: 1,
+    explanation: "(86 + 88 + 90 +92) ÷ 4 = 89 average."
   },
   {
     id: 197,
     text: "A rectangular garden is 8 m by 12 m. What is its perimeter?",
     options: ["36 m", "38 m", "40 m", "42 m"],
-    correct: 3,
+    correct: 2,
     explanation: "2(8 + 12) = 40 m."
   },
   {
     id: 198,
-    text: "A family spends $720 monthly on rent, which is 30% of income. What is their total monthly income?",
+    text: "A family spends $720 monthly on rent, which is 30% of their income. What is their total monthly income?",
     options: ["$2,200", "$2,300", "$2,400", "$2,500"],
-    correct: 3,
+    correct: 2,
     explanation: "$720 ÷ 0.3 = $2,400 income."
   },
   {
     id: 199,
     text: "A train leaves at 8:45 a.m. and arrives at 11:10 a.m. How long is the trip?",
-    options: ["2 hr 15 min", "2 hr 20 min", "2 hr 25 min", "2 hr 30 min"],
+    options: ["2 hr 10 min", "2 hr 15 min", "2 hr 20 min", "2 hr 25 min"],
     correct: 3,
     explanation: "From 8:45 to 11:10 = 2 hours 25 minutes."
   },
@@ -1522,7 +1522,7 @@ export const arithmeticData = [
     id: 200,
     text: "A savings account earns 4% yearly interest. How much interest on $2,500 after one year?",
     options: ["$90", "$95", "$100", "$105"],
-    correct: 3,
+    correct: 2,
     explanation: "$2,500 × 0.04 = $100 interest."
   }
 ];
