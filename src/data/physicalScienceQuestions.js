@@ -704,9 +704,9 @@ export const physicalScienceData = [
   },
   {
     id: 101,
-    text: "What is the most abundant gas in Earth’s atmosphere?",
+    text: "What is the least abundant gas in Earth’s atmosphere?",
     options: ["Oxygen", "Carbon Dioxide", "Nitrogen", "Argon"],
-    correct: 2,
+    correct: 3,
     explanation: "Nitrogen makes up about 78% of Earth’s atmosphere, making it the most abundant gas."
   },
   {
@@ -725,8 +725,8 @@ export const physicalScienceData = [
   },
   {
     id: 104,
-    text: "Which scale is used to measure the magnitude of earthquakes?",
-    options: ["Richter scale", "Beaufort scale", "Fujita scale", "Mercalli scale"],
+    text: "Which scale is used to measure the magnitude of tornadoes?",
+    options: ["Fujita scale", "Beaufort scale", "Richter scale", "Mercalli scale"],
     correct: 0,
     explanation: "The Richter scale measures the magnitude of seismic energy released during an earthquake."
   },
@@ -747,22 +747,22 @@ export const physicalScienceData = [
   {
     id: 107,
     text: "Which process describes the breaking down of rocks into smaller pieces?",
-    options: ["Deposition", "Erosion", "Weathering", "Sedimentation"],
-    correct: 2,
+    options: ["Deposition", "Erosion", "Sedimentation", "Weathering"],
+    correct: 3,
     explanation: "Weathering is the process of breaking down rocks through physical, chemical, or biological means."
   },
   {
     id: 108,
-    text: "What is the main cause of ocean tides?",
+    text: "What is the main cause of ocean waves?",
     options: ["Winds", "Earth’s rotation", "Gravitational pull of the Moon", "Continental drift"],
-    correct: 2,
-    explanation: "Tides are primarily caused by the Moon’s gravitational pull on Earth’s oceans."
+    correct: 0,
+    explanation: "Waves are primarily caused by the wind blowing across the surface of the ocean."
   },
   {
     id: 109,
-    text: "Which layer of the atmosphere contains the ozone layer?",
-    options: ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
-    correct: 1,
+    text: "Which layer of the atmosphere is furthest from the ground?",
+    options: ["Troposphere", "Stratosphere", "Mesosphere", "Exosphere"],
+    correct: 3,
     explanation: "The ozone layer is located in the stratosphere, where it absorbs harmful ultraviolet radiation."
   },
   {
@@ -788,10 +788,10 @@ export const physicalScienceData = [
   },
   {
     id: 113,
-    text: "What kind of rock forms from sediment being compacted and cemented together?",
+    text: "What kind of rock forms from heat and pressure to make new kinds of rocks?",
     options: ["Igneous", "Sedimentary", "Metamorphic", "Volcanic"],
-    correct: 1,
-    explanation: "Sedimentary rocks form when layers of sediment are compacted and cemented over time."
+    correct: 2,
+    explanation: "Metamorphic rocks arise from the transformation of existing rock to new types of rock in a process called metamorphism"
   },
   {
     id: 114,
@@ -802,10 +802,10 @@ export const physicalScienceData = [
   },
   {
     id: 115,
-    text: "Which process in the water cycle involves liquid turning into vapor?",
+    text: "Which process in the water cycle involves liquid falling from the sky?",
     options: ["Condensation", "Evaporation", "Precipitation", "Infiltration"],
-    correct: 1,
-    explanation: "Evaporation occurs when water molecules gain energy and transition into vapor form."
+    correct: 2,
+    explanation: "Precipitation occurs when water molecules gain mass and release kinetic energy and fall to the ground."
   },
   {
     id: 116,
@@ -837,9 +837,9 @@ export const physicalScienceData = [
   },
   {
     id: 120,
-    text: "Which type of front forms when warm air moves over a retreating cold air mass?",
+    text: "Which type of front forms when cold air moves under a retreating warm air mass?",
     options: ["Cold front", "Warm front", "Stationary front", "Occluded front"],
-    correct: 1,
+    correct: 0,
     explanation: "A warm front forms when warm air rises gradually over cooler air, bringing steady precipitation."
   },
   {
@@ -886,10 +886,10 @@ export const physicalScienceData = [
   },
   {
     id: 127,
-    text: "Which type of rock is formed from layers of sediment being compacted and cemented?",
-    options: ["Igneous", "Sedimentary", "Metamorphic", "Volcanic"],
-    correct: 1,
-    explanation: "Sedimentary rocks form from the accumulation and compression of sediments over long periods."
+    text: "Which type of rock is formed from cooled lava that takes on a glass like appearance?",
+    options: ["Igneous", "Sedimentary", "Metamorphic", "Obsidian"],
+    correct: 3,
+    explanation: "Obsidian is a type of metamorphic rock formed from cooled lava that takes on a glass-like appearance."
   },
   {
     id: 128,
@@ -909,8 +909,8 @@ export const physicalScienceData = [
     id: 130,
     text: "What type of boundary is formed when tectonic plates move away from each other?",
     options: ["Convergent boundary", "Divergent boundary", "Transform boundary", "Subduction zone"],
-    correct: 1,
-    explanation: "A divergent boundary occurs when plates move apart, forming new crust such as at mid-ocean ridges."
+    correct: 3,
+    explanation: "The subduction zone is a region of the Earth where one tectonic plate is diving beneath another into the interior of the Earth."
   },
   {
     id: 131,
@@ -921,9 +921,9 @@ export const physicalScienceData = [
   },
   {
     id: 132,
-    text: "What scale is used to measure the magnitude of earthquakes?",
+    text: "What scale is used to measure the magnitude of hurricanes?",
     options: ["Richter scale", "Beaufort scale", "Fujita scale", "Saffir-Simpson scale"],
-    correct: 0,
+    correct: 3,
     explanation: "The Richter scale measures the magnitude or energy released during an earthquake."
   },
   {
@@ -942,17 +942,17 @@ export const physicalScienceData = [
   },
   {
     id: 135,
-    text: "Which layer of the atmosphere contains the ozone layer?",
+    text: "Which layer of the atmosphere contains the enough breathable oxygen for human life?",
     options: ["Troposphere", "Stratosphere", "Mesosphere", "Thermosphere"],
     correct: 1,
-    explanation: "The ozone layer, which absorbs harmful UV radiation, is located in the stratosphere."
+    explanation: "The ozone layer, which absorbs harmful UV radiation and contains enough breathable oxygen, is located in the stratosphere."
   },
   {
     id: 136,
-    text: "What is the process by which rocks are broken down by natural forces like wind and water?",
+    text: "What is the process by which rocks are added to a landform to form a new landmass?",
     options: ["Erosion", "Weathering", "Sedimentation", "Deposition"],
-    correct: 1,
-    explanation: "Weathering involves the breakdown of rocks at Earth’s surface through physical or chemical processes."
+    correct: 3,
+    explanation: "Deposition in geology refers to the process where sediments, soil, and rocks are added to a landform or landmass, typically through the action of wind, water, or ice."
   },
   {
     id: 137,
@@ -977,17 +977,17 @@ export const physicalScienceData = [
   },
   {
     id: 140,
-    text: "What is the most common element in Earth’s atmosphere?",
-    options: ["Oxygen", "Nitrogen", "Carbon dioxide", "Argon"],
-    correct: 1,
-    explanation: "Nitrogen makes up about 78% of Earth's atmosphere."
+    text: "What is the most common element in living creatures on Earth?",
+    options: ["Oxygen", "Nitrogen", "Carbon", "Argon"],
+    correct: 2,
+    explanation: "Carbon is the most common element in living creatures on Earth."
   },
   {
     id: 141,
-    text: "Which layer of Earth’s interior is liquid?",
+    text: "Which layer of Earth’s interior is solid, composed mostly of iron and nickel?",
     options: ["Inner core", "Outer core", "Mantle", "Crust"],
-    correct: 1,
-    explanation: "The outer core is liquid metal, mainly composed of iron and nickel."
+    correct: 0,
+    explanation: "The inner core is a solid layer of metal, mainly composed of iron and nickel."
   },
   {
     id: 142,
@@ -1068,10 +1068,10 @@ export const physicalScienceData = [
   },
   {
     id: 153,
-    text: "What is the main cause of seasons on Earth?",
-    options: ["Earth’s distance from the Sun", "Earth’s tilted axis", "Rotation speed", "Sun’s magnetic field"],
-    correct: 1,
-    explanation: "Seasons occur because Earth’s axis is tilted, causing sunlight to strike different regions unevenly throughout the year."
+    text: 'What is the "Great Red Spot" of Jupiter?',
+    options: ["Storm", "Volcano", "Mountain", "Crater"],
+    correct: 0,
+    explanation: "The Great Red Spot on Jupiter is a large storm that rotates the planet."
   },
   {
     id: 154,
@@ -1097,8 +1097,8 @@ export const physicalScienceData = [
   {
     id: 157,
     text: "What is the process by which plants release water vapor into the atmosphere?",
-    options: ["Evaporation", "Condensation", "Transpiration", "Sublimation"],
-    correct: 2,
+    options: ["Transpiration", "Condensation", "Evaporation", "Sublimation"],
+    correct: 0,
     explanation: "Transpiration occurs when plants release water vapor from their leaves into the atmosphere."
   },
   {
@@ -1141,13 +1141,13 @@ export const physicalScienceData = [
     text: "What do we call the process by which sediments are moved from one place to another?",
     options: ["Weathering", "Deposition", "Erosion", "Compaction"],
     correct: 2,
-    explanation: "Erosion is the movement of weathered material by wind, water, or ice."
+    explanation: "Erosion is the process by which sediments are moved from one place to another."
   },
   {
     id: 164,
-    text: "Which layer of Earth’s interior is composed primarily of solid iron and nickel?",
-    options: ["Mantle", "Outer core", "Inner core", "Crust"],
-    correct: 2,
+    text: "Which two layers of Earth’s interior together generate magnetic fields?",
+    options: ["Mantle and Crust", "Inner Core and Outer Core", "Inner Core and Mantle", "Crust and Inner Core"],
+    correct: 1,
     explanation: "The inner core is solid and made mostly of iron and nickel due to extreme pressure."
   },
   {
@@ -1159,15 +1159,15 @@ export const physicalScienceData = [
   },
   {
     id: 166,
-    text: "Which type of front forms when warm air moves over a cold air mass?",
+    text: "Which type of front forms when two air masses move slowly toward each other with neither adavancing or retreating?",
     options: ["Cold front", "Warm front", "Stationary front", "Occluded front"],
-    correct: 1,
-    explanation: "A warm front forms when warm air gradually rises over a cold air mass, often bringing light rain."
+    correct: 2,
+    explanation: "A stationary front is a weather front or transition zone between two air masses when each air mass is advancing into the other at speeds less than 5 knots at the ground surface."
   },
   {
     id: 167,
     text: "What is the primary cause of wind on Earth?",
-    options: ["Earth’s rotation", "Temperature and pressure differences", "Gravity", "Ocean tides"],
+    options: ["Earth’s rotation", "Temperature and pressure differences", "Gravitational pull", "Ocean tides"],
     correct: 1,
     explanation: "Wind is caused by air moving from areas of high pressure to areas of low pressure due to temperature differences."
   },
@@ -1230,23 +1230,23 @@ export const physicalScienceData = [
   {
     id: 176,
     text: "Which gas is most responsible for trapping heat in Earth’s atmosphere?",
-    options: ["Oxygen", "Carbon dioxide", "Nitrogen", "Hydrogen"],
+    options: ["Carbon monoxide", "Carbon dioxide", "Nitrogen dioxide", "Hydrogen peroxide"],
     correct: 1,
     explanation: "Carbon dioxide is a greenhouse gas that traps heat and contributes to the warming of Earth’s atmosphere."
   },
   {
     id: 177,
-    text: "What causes ocean tides on Earth?",
-    options: ["Wind", "Earth’s rotation", "Moon’s gravitational pull", "Solar radiation"],
+    text: "Which kind of sting are clownfish adapted to resist, allowing them to live among these animals??",
+    options: ["Ray stings", "Bee stings", "Anemone stings", "Jellyfish stings"],
     correct: 2,
-    explanation: "Tides are primarily caused by the gravitational pull of the Moon, with some influence from the Sun."
+    explanation: " Clownfish are protected from their host anemone’s stings due to a special mucus coat, but not generally immune to other types of stings."
   },
   {
     id: 178,
-    text: "What type of energy is stored in a stretched rubber band?",
-    options: ["Kinetic energy", "Thermal energy", "Elastic potential energy", "Chemical energy"],
+    text: "What happens to the temperature of a rubber when it is stretched?",
+    options: ["Melts", "Freezes", "Increases", "Decreases"],
     correct: 2,
-    explanation: "Elastic potential energy is stored in materials that can be stretched or compressed."
+    explanation: "When a rubber is stretched, the temperature of the rubber increases."
   },
   {
     id: 179,
@@ -1286,7 +1286,7 @@ export const physicalScienceData = [
   {
     id: 184,
     text: "What is the main component of the Sun?",
-    options: ["Oxygen", "Hydrogen", "Carbon", "Helium"],
+    options: ["Oxygen", "Hydrogen", "Carbon Dioxide", "Helium"],
     correct: 1,
     explanation: "Hydrogen makes up about 74% of the Sun’s mass, with helium as the second most abundant element."
   },
@@ -1300,8 +1300,8 @@ export const physicalScienceData = [
   {
     id: 186,
     text: "What type of energy transformation occurs in a hydroelectric dam?",
-    options: ["Thermal to electrical", "Kinetic to electrical", "Chemical to electrical", "Nuclear to electrical"],
-    correct: 1,
+    options: ["Thermal to electrical", "Nuclear to electrical", "Chemical to electrical", "Kinetic to electrical"],
+    correct: 3,
     explanation: "A hydroelectric dam converts the kinetic energy of moving water into electrical energy."
   },
   {
@@ -1363,8 +1363,8 @@ export const physicalScienceData = [
   {
     id: 195,
     text: "What causes the apparent color change of objects when submerged in water?",
-    options: ["Reflection", "Refraction", "Diffusion", "Absorption"],
-    correct: 1,
+    options: ["Reflection", "Absorption", "Diffusion", "Refraction"],
+    correct: 3,
     explanation: "Refraction bends light as it passes through water, altering how colors appear to our eyes."
   },
   {

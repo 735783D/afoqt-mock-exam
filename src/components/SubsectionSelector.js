@@ -1,9 +1,9 @@
 import React from 'react';
 import { ArrowLeft, BookOpen, Calculator, Brain, Plane, Beaker, Cpu, Table, Gauge, Box, Users } from 'lucide-react';
-import { AVIATION_MILITARY_CONFIG } from '../data/practiceSets/readingComp/aviation-military';
-import { PHYSICAL_SCIENCE_CONFIG } from '../data/practiceSets/readingComp/physical-science';
-import { TECHNOLOGY_ENGINEERING_CONFIG } from '../data/practiceSets/readingComp/technology-engineering';
-import { GENERAL_TOPICS_CONFIG } from '../data/practiceSets/readingComp/general-topics';
+// import { AVIATION_MILITARY_CONFIG } from '../data/practiceSets/readingComp/aviation-military';
+// import { PHYSICAL_SCIENCE_CONFIG } from '../data/practiceSets/readingComp/physical-science';
+// import { TECHNOLOGY_ENGINEERING_CONFIG } from '../data/practiceSets/readingComp/technology-engineering';
+// import { GENERAL_TOPICS_CONFIG } from '../data/practiceSets/readingComp/general-topics';
 
 // Helper function to generate numbered sets
 const generateNumberedSets = (totalQuestions, questionsPerSet = 25, icon = BookOpen) => {
@@ -26,37 +26,7 @@ const generateNumberedSets = (totalQuestions, questionsPerSet = 25, icon = BookO
 };
 
 const subsectionData = {
-  'reading-comp': [
-    // Keep these - they're actual different content files
-    {
-      id: 'aviation-military',
-      name: AVIATION_MILITARY_CONFIG.name,
-      description: AVIATION_MILITARY_CONFIG.description,
-      questions: AVIATION_MILITARY_CONFIG.totalQuestions,
-      icon: Plane
-    },
-    {
-      id: 'physical-science',
-      name: PHYSICAL_SCIENCE_CONFIG.name,
-      description: PHYSICAL_SCIENCE_CONFIG.description,
-      questions: PHYSICAL_SCIENCE_CONFIG.totalQuestions,
-      icon: Beaker
-    },
-    {
-      id: 'technology',
-      name: TECHNOLOGY_ENGINEERING_CONFIG.name,
-      description: TECHNOLOGY_ENGINEERING_CONFIG.description,
-      questions: TECHNOLOGY_ENGINEERING_CONFIG.totalQuestions,
-      icon: Cpu
-    },
-    {
-      id: 'general-topics',
-      name: GENERAL_TOPICS_CONFIG.name,
-      description: GENERAL_TOPICS_CONFIG.description,
-      questions: GENERAL_TOPICS_CONFIG.totalQuestions,
-      icon: BookOpen
-    }
-  ],
+  'reading-comp': generateNumberedSets(200, 25, Cpu),
   'arithmetic': generateNumberedSets(200, 25, Calculator),
   'math-knowledge': generateNumberedSets(200, 25, Brain),
   'word-knowledge': generateNumberedSets(200, 25, BookOpen),
@@ -64,7 +34,7 @@ const subsectionData = {
   'aviation-info': generateNumberedSets(200, 25, Plane),
   'physical-science': generateNumberedSets(200, 25, Beaker),
   'table-reading': generateNumberedSets(200, 25, Table),
-  'instrument-comp': generateNumberedSets(100, 25, Gauge),
+  'instrument-comp': generateNumberedSets(200, 25, Gauge),
   'block-counting': generateNumberedSets(200, 30, Box),
   'situational-judgment': generateNumberedSets(200, 25, Users),
   'self-description': generateNumberedSets(220, 25, Gauge)

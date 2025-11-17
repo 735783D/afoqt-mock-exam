@@ -177,22 +177,22 @@ export const wordKnowledgeData = [
   {
     id: 26,
     text: "Vicarious most nearly means:",
-    options: ["Indirect", "Honest", "Unique", "Tangible"],
-    correct: 0,
+    options: ["Honest", "Indirect", "Unique", "Tangible"],
+    correct: 1,
     explanation: "Vicarious means experienced through the feelings or actions of another person."
   },
   {
     id: 27,
     text: "Erudite most nearly means:",
-    options: ["Learned", "Clumsy", "Forgetful", "Noisy"],
-    correct: 0,
+    options: ["Clumsy", "Forgetful", "Learned", "Noisy"],
+    correct: 2,
     explanation: "Erudite describes someone who is very knowledgeable or scholarly."
   },
   {
     id: 28,
     text: "Ostentatious most nearly means:",
-    options: ["Showy", "Reserved", "Calm", "Humble"],
-    correct: 0,
+    options: ["Reserved", "Calm", "Humble", "Showy"],
+    correct: 3,
     explanation: "Ostentatious means characterized by vulgar or pretentious display."
   },
   {
@@ -205,22 +205,22 @@ export const wordKnowledgeData = [
   {
     id: 30,
     text: "Audible most nearly means:",
-    options: ["Heard", "Visible", "Hidden", "Faint"],
-    correct: 0,
+    options: ["Visible", "Hidden", "Heard", "Faint"],
+    correct: 2,
     explanation: "Audible means able to be heard."
   },
   {
     id: 31,
     text: "Benevolent most nearly means:",
-    options: ["Kind", "Lazy", "Proud", "Sad"],
-    correct: 0,
+    options: ["Lazy", "Kind", "Proud", "Sad"],
+    correct: 1,
     explanation: "Benevolent means well-meaning and kindly."
   },
   {
     id: 32,
     text: "Tenacious most nearly means:",
-    options: ["Persistent", "Forgetful", "Casual", "Calm"],
-    correct: 0,
+    options: ["Forgetful", "Casual", "Calm", "Persistent"],
+    correct: 3,
     explanation: "Tenacious means holding firmly or determined."
   },
   {
@@ -233,22 +233,22 @@ export const wordKnowledgeData = [
   {
     id: 34,
     text: "Meticulous most nearly means:",
-    options: ["Careful", "Lazy", "Careless", "Fast"],
-    correct: 0,
+    options: ["Lazy", "Careful", "Careless", "Fast"],
+    correct: 1,
     explanation: "Meticulous means showing great attention to detail."
   },
   {
     id: 35,
     text: "Cursory most nearly means:",
-    options: ["Hasty", "Detailed", "Perfect", "Thorough"],
-    correct: 0,
+    options: ["Detailed", "Perfect", "Hasty", "Thorough"],
+    correct: 2,
     explanation: "Cursory means performed quickly and without attention to detail."
   },
   {
     id: 36,
     text: "Transient most nearly means:",
-    options: ["Temporary", "Permanent", "Important", "Recurring"],
-    correct: 0,
+    options: ["Permanent", "Important", "Recurring", "Temporary"],
+    correct: 3,
     explanation: "Transient means lasting only for a short time."
   },
   {
@@ -261,22 +261,22 @@ export const wordKnowledgeData = [
   {
     id: 38,
     text: "Docile most nearly means:",
-    options: ["Obedient", "Wild", "Unruly", "Aggressive"],
-    correct: 0,
+    options: ["Wild", "Obedient", "Unruly", "Aggressive"],
+    correct: 1,
     explanation: "Docile means ready to accept control or instruction; submissive."
   },
   {
     id: 39,
     text: "Obsolete most nearly means:",
-    options: ["Outdated", "Modern", "Common", "Efficient"],
-    correct: 0,
+    options: ["Modern", "Common", "Outdated", "Efficient"],
+    correct: 2,
     explanation: "Obsolete means no longer produced or used; out of date."
   },
   {
     id: 40,
     text: "Ambiguous most nearly means:",
-    options: ["Unclear", "Certain", "Simple", "Direct"],
-    correct: 0,
+    options: ["Certain", "Simple", "Direct", "Unclear"],
+    correct: 3,
     explanation: "Ambiguous means open to more than one interpretation."
   },
   {
@@ -289,22 +289,22 @@ export const wordKnowledgeData = [
   {
     id: 42,
     text: "Diligent most nearly means:",
-    options: ["Hardworking", "Tired", "Lazy", "Confused"],
-    correct: 0,
+    options: ["Tired", "Hardworking", "Lazy", "Confused"],
+    correct: 1,
     explanation: "Diligent means showing care and conscientiousness in work."
   },
   {
     id: 43,
     text: "Frugal most nearly means:",
-    options: ["Thrifty", "Generous", "Wasteful", "Rich"],
-    correct: 0,
+    options: ["Generous", "Wasteful", "Thrifty", "Rich"],
+    correct: 2,
     explanation: "Frugal means economical or careful with money."
   },
   {
     id: 44,
     text: "Lucid most nearly means:",
-    options: ["Clear", "Dark", "Hazy", "Dull"],
-    correct: 0,
+    options: ["Dark", "Hazy", "Dull", "Clear"],
+    correct: 3,
     explanation: "Lucid means expressed clearly or easy to understand."
   },
   {
@@ -317,22 +317,22 @@ export const wordKnowledgeData = [
   {
     id: 46,
     text: "Voracious most nearly means:",
-    options: ["Hungry", "Sleepy", "Careful", "Bored"],
-    correct: 0,
+    options: ["Sleepy", "Hungry", "Careful", "Bored"],
+    correct: 1,
     explanation: "Voracious means having a very eager approach to an activity, often eating."
   },
   {
     id: 47,
     text: "Mundane most nearly means:",
-    options: ["Ordinary", "Exciting", "Extravagant", "Unique"],
-    correct: 0,
+    options: ["Exciting", "Extravagant", "Ordinary", "Unique"],
+    correct: 2,
     explanation: "Mundane means lacking interest or excitement; dull."
   },
   {
     id: 48,
     text: "Perilous most nearly means:",
-    options: ["Dangerous", "Safe", "Calm", "Stable"],
-    correct: 0,
+    options: ["Safe", "Calm", "Stable", "Dangerous"],
+    correct: 3,
     explanation: "Perilous means full of danger or risk."
   },
   {
@@ -345,22 +345,22 @@ export const wordKnowledgeData = [
   {
     id: 50,
     text: "Melancholy most nearly means:",
-    options: ["Sadness", "Happiness", "Anger", "Fear"],
-    correct: 0,
+    options: ["Happiness", "Sadness", "Anger", "Fear"],
+    correct: 1,
     explanation: "Melancholy means a feeling of deep sadness or sorrow."
   },
   {
     id: 51,
     text: "Incessant most nearly means:",
-    options: ["Continuous", "Occasional", "Rare", "Limited"],
-    correct: 0,
+    options: ["Occasional", "Rare", "Continuous", "Limited"],
+    correct: 2,
     explanation: "Incessant means continuing without interruption."
   },
   {
     id: 52,
     text: "Imminent most nearly means:",
-    options: ["About to happen", "Cancelled", "Delayed", "Past"],
-    correct: 0,
+    options: ["Cancelled", "Delayed", "Past", "About to happen"],
+    correct: 3,
     explanation: "Imminent means likely to occur at any moment."
   },
   {
@@ -373,51 +373,51 @@ export const wordKnowledgeData = [
   {
     id: 54,
     text: "Hinder most nearly means:",
-    options: ["Obstruct", "Assist", "Promote", "Advance"],
-    correct: 0,
+    options: ["Assist", "Obstruct", "Promote", "Advance"],
+    correct: 1,
     explanation: "Hinder means to make it difficult for something to happen."
   },
   {
     id: 55,
     text: "Adversity most nearly means:",
-    options: ["Hardship", "Luck", "Opportunity", "Wealth"],
-    correct: 0,
+    options: ["Luck", "Opportunity", "Hardship", "Wealth"],
+    correct: 2,
     explanation: "Adversity means difficulties or misfortune."
   },
   {
     id: 56,
     text: "Barren most nearly means:",
-    options: ["Unproductive", "Fruitful", "Rich", "Growing"],
-    correct: 0,
+    options: ["Fruitful", "Rich", "Growing", "Unproductive"],
+    correct: 3,
     explanation: "Barren means unable to produce results or offspring."
   },
   {
     id: 57,
     text: "Resilient most nearly means:",
-    options: ["Flexible", "Rigid", "Weak", "Fragile"],
+    options: ["Adaptable", "Rigid", "Weak", "Fragile"],
     correct: 0,
     explanation: "Resilient means able to recover quickly from difficulties."
   },
   {
     id: 58,
     text: "Tangible most nearly means:",
-    options: ["Real", "Imaginary", "Hidden", "Unclear"],
-    correct: 0,
+    options: ["Imaginary", "Real", "Hidden", "Unclear"],
+    correct: 1,
     explanation: "Tangible means perceptible by touch or real and concrete."
   },
   {
     id: 59,
     text: "Deviate most nearly means:",
-    options: ["Depart", "Follow", "Return", "Repeat"],
-    correct: 0,
+    options: ["Follow", "Return", "Depart", "Repeat"],
+    correct: 2,
     explanation: "Deviate means to depart from an established course."
   },
   {
     id: 60,
     text: "Empathy most nearly means:",
-    options: ["Understanding", "Hatred", "Judgment", "Fear"],
-    correct: 0,
-    explanation: "Empathy means the ability to understand and share another’s feelings."
+    options: ["Hatred", "Judgment", "Fear", "Understanding"],
+    correct: 3,
+    explanation: "Empathy means the ability to understand and share another's feelings."
   },
   {
     id: 61,
@@ -429,22 +429,22 @@ export const wordKnowledgeData = [
   {
     id: 62,
     text: "Reverence most nearly means:",
-    options: ["Respect", "Disdain", "Criticism", "Mockery"],
-    correct: 0,
+    options: ["Disdain", "Respect", "Criticism", "Mockery"],
+    correct: 1,
     explanation: "Reverence means deep respect for someone or something."
   },
   {
     id: 63,
     text: "Formidable most nearly means:",
-    options: ["Intimidating", "Easy", "Weak", "Trivial"],
-    correct: 0,
+    options: ["Easy", "Weak", "Intimidating", "Trivial"],
+    correct: 2,
     explanation: "Formidable means inspiring fear or respect through being impressive."
   },
   {
     id: 64,
     text: "Timid most nearly means:",
-    options: ["Shy", "Bold", "Talkative", "Friendly"],
-    correct: 0,
+    options: ["Bold", "Talkative", "Friendly", "Shy"],
+    correct: 3,
     explanation: "Timid means showing a lack of courage or confidence."
   },
   {
@@ -457,22 +457,22 @@ export const wordKnowledgeData = [
   {
     id: 66,
     text: "Cohesive most nearly means:",
-    options: ["Unified", "Divided", "Chaotic", "Fragmented"],
-    correct: 0,
+    options: ["Divided", "Unified", "Chaotic", "Fragmented"],
+    correct: 1,
     explanation: "Cohesive means forming a united whole."
   },
   {
     id: 67,
     text: "Scrupulous most nearly means:",
-    options: ["Honest", "Careless", "Dishonest", "Lazy"],
-    correct: 0,
-    explanation: "Scrupulous means diligent and extremely attentive to details."
+    options: ["Careless", "Dishonest", "Honest", "Lazy"],
+    correct: 2,
+    explanation: "Scrupulous means acting with great moral integrity and being extremely careful to do what is considered right."
   },
   {
     id: 68,
     text: "Oblivious most nearly means:",
-    options: ["Unaware", "Alert", "Cautious", "Attentive"],
-    correct: 0,
+    options: ["Alert", "Cautious", "Attentive", "Unaware"],
+    correct: 3,
     explanation: "Oblivious means not aware of or concerned about what is happening."
   },
   {
@@ -485,22 +485,22 @@ export const wordKnowledgeData = [
   {
     id: 70,
     text: "Cynical most nearly means:",
-    options: ["Distrustful", "Hopeful", "Optimistic", "Joyful"],
-    correct: 0,
+    options: ["Hopeful", "Distrustful", "Optimistic", "Joyful"],
+    correct: 1,
     explanation: "Cynical means believing that people are motivated purely by self-interest."
   },
   {
     id: 71,
     text: "Impartial most nearly means:",
-    options: ["Fair", "Biased", "Partial", "Favoring"],
-    correct: 0,
+    options: ["Biased", "Partial", "Fair", "Favoring"],
+    correct: 2,
     explanation: "Impartial means treating all rivals or disputants equally."
   },
   {
     id: 72,
     text: "Erratic most nearly means:",
-    options: ["Unpredictable", "Stable", "Consistent", "Balanced"],
-    correct: 0,
+    options: ["Stable", "Consistent", "Balanced", "Unpredictable"],
+    correct: 3,
     explanation: "Erratic means not even or regular in pattern or movement."
   },
   {
@@ -513,15 +513,15 @@ export const wordKnowledgeData = [
   {
     id: 74,
     text: "Alleviate most nearly means:",
-    options: ["Relieve", "Intensify", "Burden", "Complicate"],
-    correct: 0,
+    options: ["Intensify", "Relieve", "Burden", "Complicate"],
+    correct: 1,
     explanation: "Alleviate means to make suffering or a problem less severe."
   },
   {
     id: 75,
     text: "Abstain most nearly means:",
-    options: ["Refrain", "Indulge", "Consume", "Accept"],
-    correct: 0,
+    options: ["Indulge", "Consume", "Refrain", "Accept"],
+    correct: 2,
     explanation: "Abstain means to restrain oneself from doing or enjoying something."
   },
   {
@@ -569,14 +569,14 @@ export const wordKnowledgeData = [
   {
     id: 82,
     text: "PHOTOGRAPHER is to CAMERA as PAINTER is to",
-    options: ["BRUSH", "EASEL", "CANVAS", "PAINT", "FRAME"],
+    options: ["BRUSH", "PICTURE", "LIGHT", "COLOR", "FRAME"],
     correct: 0,
     explanation: "A PHOTOGRAPHER uses a CAMERA; a PAINTER uses a BRUSH."
   },
   {
     id: 83,
     text: "EXHAUSTED is to REST as HUNGRY is to",
-    options: ["THIRST", "EAT", "FOOD", "DINNER", "COOK"],
+    options: ["THIRST", "SATE", "FOOD", "DINNER", "COOK"],
     correct: 2,
     explanation: "One who is EXHAUSTED needs REST; one who is HUNGRY needs FOOD."
   },
@@ -604,16 +604,16 @@ export const wordKnowledgeData = [
   {
     id: 87,
     text: "DOOR is to HINGE as DRAWER is to",
-    options: ["HANDLE", "KNOB", "SLIDE", "TRACK", "LOCK"],
+    options: ["HANDLE", "KNOB", "DRESSER", "TRACK", "LOCK"],
     correct: 3,
-    explanation: "A DOOR moves on a HINGE; a DRAWER moves on a TRACK or SLIDE."
+    explanation: "A DOOR moves on a HINGE; a DRAWER slides on a TRACK."
   },
   {
     id: 88,
     text: "RAIN is to DROUGHT as LAUGHTER is to",
-    options: ["HAPPINESS", "SADNESS", "JOY", "CRYING", "PAIN"],
-    correct: 3,
-    explanation: "RAIN is the opposite of DROUGHT; LAUGHTER is the opposite of CRYING."
+    options: ["HAPPINESS", "SADNESS", "JOY", "CONSTIPATION", "PAIN"],
+    correct: 1,
+    explanation: "RAIN is the opposite of DROUGHT; LAUGHTER is the opposite of SADNESS."
   },
   {
     id: 89,
@@ -653,21 +653,21 @@ export const wordKnowledgeData = [
   {
     id: 94,
     text: "CLOTH is to SHIRT as WOOD is to",
-    options: ["TREE", "PAPER", "CHAIR", "FOREST", "TABLE"],
+    options: ["TREE", "PAPER", "CHAIR", "FOREST", "CARPET"],
     correct: 2,
     explanation: "CLOTH is used to make a SHIRT; WOOD is used to make a CHAIR."
   },
   {
     id: 95,
     text: "HONEY is to BEES as SILK is to",
-    options: ["COTTON", "WORM", "SPIDER", "MOTH", "COCOON"],
+    options: ["COTTON", "WORM", "MAMMOTH", "MOTH", "COCOON"],
     correct: 1,
     explanation: "BEES produce HONEY; SILKWORMS produce SILK."
   },
   {
     id: 96,
     text: "TELESCOPE is to ASTRONOMER as MICROSCOPE is to",
-    options: ["SCIENTIST", "BIOLOGIST", "DOCTOR", "CHEMIST", "RESEARCHER"],
+    options: ["MECHANIC", "BIOLOGIST", "SOLDIER", "PILOT", "RESEARCHER"],
     correct: 1,
     explanation: "An ASTRONOMER uses a TELESCOPE; a BIOLOGIST uses a MICROSCOPE."
   },
@@ -694,261 +694,261 @@ export const wordKnowledgeData = [
   },
   {
     id: 100,
-    text: "AUTHOR is to WORDS as ARTIST is to",
-    options: ["COLORS", "CANVAS", "PICTURE", "PAINT", "IMAGE"],
-    correct: 0,
-    explanation: "An AUTHOR works with WORDS; an ARTIST works with COLORS."
+    text: "AUTHOR is to WORDS as PAINTER is to",
+    options: ["CANVAS", "PICTURE", "COLORS", "ROLLER", "IMAGE"],
+    correct: 2,
+    explanation: "An AUTHOR works with WORDS; an PAINTER works with COLORS."
   },
   {
     id: 101,
     text: "GREGARIOUS",
-    options: ["shy", "sociable", "isolated", "indifferent", "moody"],
-    correct: 1,
+    options: ["shy", "isolated", "indifferent", "sociable", "moody"],
+    correct: 3,
     explanation: "Gregarious means sociable or fond of company."
   },
   {
     id: 102,
     text: "OBSTINATE",
-    options: ["flexible", "stubborn", "gentle", "open-minded", "curious"],
-    correct: 1,
-    explanation: "Obstinate means stubborn or unwilling to change one’s opinion."
+    options: ["flexible", "gentle", "stubborn", "open-minded", "curious"],
+    correct: 2,
+    explanation: "Obstinate means stubborn or unwilling to change one's opinion."
   },
   {
     id: 103,
     text: "MAGNANIMOUS",
-    options: ["greedy", "generous", "petty", "boastful", "arrogant"],
-    correct: 1,
+    options: ["greedy", "petty", "boastful", "generous", "arrogant"],
+    correct: 3,
     explanation: "Magnanimous means generous or forgiving, especially toward a rival."
   },
   {
     id: 104,
     text: "LUGUBRIOUS",
-    options: ["cheerful", "sad", "dry", "energetic", "formal"],
-    correct: 1,
+    options: ["sad", "cheerful", "dry", "energetic", "formal"],
+    correct: 0,
     explanation: "Lugubrious means mournful or gloomy."
   },
   {
     id: 105,
     text: "TACITURN",
-    options: ["talkative", "quiet", "open", "humorous", "energetic"],
-    correct: 1,
+    options: ["talkative", "open", "quiet", "humorous", "energetic"],
+    correct: 2,
     explanation: "Taciturn means reserved or uncommunicative in speech."
   },
   {
     id: 106,
     text: "QUELL",
-    options: ["encourage", "suppress", "question", "reveal", "sustain"],
-    correct: 1,
+    options: ["encourage", "question", "reveal", "suppress", "sustain"],
+    correct: 3,
     explanation: "Quell means to suppress or put an end to something."
   },
   {
     id: 107,
     text: "ABSTRUSE",
-    options: ["complex", "clear", "pleasant", "soft", "trivial"],
-    correct: 0,
+    options: ["clear", "complex", "pleasant", "soft", "trivial"],
+    correct: 1,
     explanation: "Abstruse means difficult to understand."
   },
   {
     id: 108,
     text: "INSOLENT",
-    options: ["respectful", "rude", "quiet", "lazy", "timid"],
-    correct: 1,
+    options: ["respectful", "quiet", "rude", "lazy", "timid"],
+    correct: 2,
     explanation: "Insolent means showing a rude and arrogant lack of respect."
   },
   {
     id: 109,
     text: "PERFUNCTORY",
-    options: ["thorough", "routine", "enthusiastic", "rare", "careless"],
-    correct: 1,
+    options: ["thorough", "enthusiastic", "rare", "routine", "careless"],
+    correct: 3,
     explanation: "Perfunctory means done routinely with little interest or effort."
   },
   {
     id: 110,
     text: "EPHEMERAL",
-    options: ["lasting", "brief", "slow", "permanent", "thick"],
-    correct: 1,
+    options: ["brief", "lasting", "slow", "permanent", "thick"],
+    correct: 0,
     explanation: "Ephemeral means short-lived or temporary."
   },
   {
     id: 111,
     text: "VINDICATE",
-    options: ["accuse", "justify", "condemn", "destroy", "question"],
-    correct: 1,
+    options: ["accuse", "condemn", "justify", "destroy", "question"],
+    correct: 2,
     explanation: "Vindicate means to clear from blame or justify."
   },
   {
     id: 112,
     text: "ENERVATE",
-    options: ["strengthen", "weaken", "energize", "excite", "repair"],
-    correct: 1,
+    options: ["strengthen", "energize", "excite", "weaken", "repair"],
+    correct: 3,
     explanation: "Enervate means to weaken or drain energy from."
   },
   {
     id: 113,
-    text: "ELOQUENT",
-    options: ["awkward", "persuasive", "silent", "angry", "unclear"],
-    correct: 1,
-    explanation: "Eloquent means fluent or persuasive in speaking or writing."
+    text: "TRANSITION",
+    options: ["phase", "obstruct", "stop", "adhere", "deter"],
+    correct: 0,
+    explanation: "Transition means a change from one state to another."
   },
   {
     id: 114,
     text: "BENEVOLENT",
-    options: ["kind", "selfish", "lazy", "angry", "bitter"],
-    correct: 0,
+    options: ["selfish", "kind", "lazy", "angry", "bitter"],
+    correct: 1,
     explanation: "Benevolent means kind or charitable."
   },
   {
     id: 115,
     text: "SURLY",
-    options: ["polite", "cheerful", "irritable", "quiet", "sleepy"],
-    correct: 2,
+    options: ["polite", "cheerful", "quiet", "irritable", "sleepy"],
+    correct: 3,
     explanation: "Surly means bad-tempered or unfriendly."
   },
   {
     id: 116,
     text: "LAMENT",
-    options: ["celebrate", "mourn", "ignore", "delay", "forgive"],
-    correct: 1,
+    options: ["mourn", "celebrate", "ignore", "delay", "forgive"],
+    correct: 0,
     explanation: "Lament means to mourn or express grief."
   },
   {
     id: 117,
     text: "OBSCURE",
-    options: ["hidden", "bright", "famous", "visible", "plain"],
-    correct: 0,
+    options: ["bright", "hidden", "famous", "visible", "plain"],
+    correct: 1,
     explanation: "Obscure means not easily seen, hidden, or unclear."
   },
   {
     id: 118,
     text: "ADULATION",
-    options: ["criticism", "praise", "disgust", "complaint", "indifference"],
-    correct: 1,
+    options: ["criticism", "disgust", "praise", "complaint", "indifference"],
+    correct: 2,
     explanation: "Adulation means excessive praise or admiration."
   },
   {
     id: 119,
     text: "CANDOR",
-    options: ["deception", "honesty", "wit", "silence", "suspicion"],
-    correct: 1,
+    options: ["deception", "wit", "silence", "honesty", "suspicion"],
+    correct: 3,
     explanation: "Candor means openness or honesty in expression."
   },
   {
     id: 120,
     text: "FASTIDIOUS",
-    options: ["careless", "meticulous", "rushed", "sloppy", "lazy"],
-    correct: 1,
+    options: ["meticulous", "careless", "rushed", "sloppy", "lazy"],
+    correct: 0,
     explanation: "Fastidious means very attentive to detail or cleanliness."
   },
   {
     id: 121,
     text: "CREDULOUS",
-    options: ["skeptical", "gullible", "wise", "clever", "doubtful"],
-    correct: 1,
+    options: ["skeptical", "wise", "gullible", "clever", "doubtful"],
+    correct: 2,
     explanation: "Credulous means too ready to believe things — gullible."
   },
   {
     id: 122,
     text: "RELINQUISH",
-    options: ["surrender", "obtain", "hide", "grasp", "maintain"],
-    correct: 0,
+    options: ["obtain", "hide", "grasp", "surrender", "maintain"],
+    correct: 3,
     explanation: "Relinquish means to give up or surrender something."
   },
   {
     id: 123,
     text: "AUSTERE",
-    options: ["luxurious", "simple", "strict", "polished", "gentle"],
-    correct: 2,
+    options: ["luxurious", "strict", "simple", "polished", "gentle"],
+    correct: 1,
     explanation: "Austere means strict or severe in manner or appearance."
   },
   {
     id: 124,
     text: "FERVENT",
-    options: ["cold", "passionate", "neutral", "mild", "apathetic"],
-    correct: 1,
+    options: ["cold", "neutral", "passionate", "mild", "apathetic"],
+    correct: 2,
     explanation: "Fervent means displaying intense passion or enthusiasm."
   },
   {
     id: 125,
     text: "MALADROIT",
-    options: ["skillful", "clumsy", "wise", "graceful", "careful"],
-    correct: 1,
+    options: ["skillful", "wise", "graceful", "clumsy", "careful"],
+    correct: 3,
     explanation: "Maladroit means clumsy or awkward."
   },
   {
     id: 126,
     text: "NEBULOUS",
-    options: ["clear", "vague", "bright", "distinct", "obvious"],
-    correct: 1,
+    options: ["vague", "clear", "bright", "distinct", "obvious"],
+    correct: 0,
     explanation: "Nebulous means vague or unclear."
   },
   {
     id: 127,
     text: "OBVIATE",
-    options: ["remove", "create", "block", "delay", "ignore"],
-    correct: 0,
+    options: ["create", "remove", "allow", "progess", "ignore"],
+    correct: 1,
     explanation: "Obviate means to remove or prevent a need or difficulty."
   },
   {
     id: 128,
     text: "QUERULOUS",
-    options: ["cheerful", "complaining", "quiet", "happy", "agreeable"],
-    correct: 1,
+    options: ["cheerful", "quiet", "complaining", "happy", "agreeable"],
+    correct: 2,
     explanation: "Querulous means complaining or whining."
   },
   {
     id: 129,
     text: "IMPETUOUS",
-    options: ["careful", "impulsive", "slow", "calm", "thoughtful"],
-    correct: 1,
+    options: ["careful", "slow", "calm", "impulsive", "thoughtful"],
+    correct: 3,
     explanation: "Impetuous means acting quickly without thought or care."
   },
   {
     id: 130,
     text: "RECALCITRANT",
-    options: ["obedient", "stubborn", "energetic", "tired", "forgetful"],
-    correct: 1,
+    options: ["stubborn", "obedient", "energetic", "tired", "forgetful"],
+    correct: 0,
     explanation: "Recalcitrant means stubbornly disobedient or resistant to authority."
   },
   {
     id: 131,
     text: "SAGACIOUS",
-    options: ["foolish", "wise", "lazy", "naïve", "clumsy"],
-    correct: 1,
+    options: ["foolish", "lazy", "wise", "naïve", "clumsy"],
+    correct: 2,
     explanation: "Sagacious means having keen mental discernment and good judgment."
   },
   {
     id: 132,
     text: "TENACIOUS",
-    options: ["weak", "persistent", "inattentive", "timid", "carefree"],
-    correct: 1,
+    options: ["weak", "inattentive", "timid", "persistent", "carefree"],
+    correct: 3,
     explanation: "Tenacious means holding firmly or being very determined."
   },
   {
     id: 133,
     text: "JUXTAPOSE",
-    options: ["separate", "compare side by side", "replace", "hide", "ignore"],
-    correct: 1,
+    options: ["compare side by side", "separate", "replace", "hide", "ignore"],
+    correct: 0,
     explanation: "Juxtapose means to place things side by side for comparison."
   },
   {
     id: 134,
     text: "HAPLESS",
-    options: ["fortunate", "unlucky", "cheerful", "wealthy", "hopeful"],
-    correct: 1,
+    options: ["fortunate", "cheerful", "unlucky", "wealthy", "hopeful"],
+    correct: 2,
     explanation: "Hapless means unfortunate or unlucky."
   },
   {
     id: 135,
     text: "MITIGATE",
-    options: ["worsen", "lessen", "ignore", "expand", "delay"],
-    correct: 1,
+    options: ["worsen", "ignore", "expand", "lessen", "delay"],
+    correct: 3,
     explanation: "Mitigate means to make less severe or intense."
   },
   {
     id: 136,
     text: "SPURIOUS",
-    options: ["genuine", "false", "rare", "vivid", "predictable"],
-    correct: 1,
+    options: ["false", "genuine", "rare", "vivid", "predictable"],
+    correct: 0,
     explanation: "Spurious means false or not genuine."
   },
   {
@@ -961,22 +961,22 @@ export const wordKnowledgeData = [
   {
     id: 138,
     text: "INTRANSIGENT",
-    options: ["compromising", "unyielding", "confused", "uncertain", "gentle"],
-    correct: 1,
-    explanation: "Intransigent means unwilling to change one’s views or to agree."
+    options: ["compromising", "confused", "unyielding", "uncertain", "gentle"],
+    correct: 2,
+    explanation: "Intransigent means unwilling to change one's views or to agree."
   },
   {
     id: 139,
     text: "LUCID",
-    options: ["confusing", "clear", "dim", "chaotic", "faint"],
-    correct: 1,
+    options: ["confusing", "dim", "chaotic", "clear", "faint"],
+    correct: 3,
     explanation: "Lucid means clear or easy to understand."
   },
   {
     id: 140,
     text: "VORACIOUS",
-    options: ["satisfied", "greedy", "slow", "gentle", "indifferent"],
-    correct: 1,
+    options: ["greedy", "satisfied", "slow", "gentle", "indifferent"],
+    correct: 0,
     explanation: "Voracious means having a very eager approach to an activity or appetite."
   },
   {
@@ -996,15 +996,15 @@ export const wordKnowledgeData = [
   {
     id: 143,
     text: "OBFUSCATE",
-    options: ["clarify", "confuse", "reveal", "simplify", "summarize"],
-    correct: 1,
+    options: ["clarify", "reveal", "simplify", "confuse", "summarize"],
+    correct: 3,
     explanation: "Obfuscate means to confuse or make unclear."
   },
   {
     id: 144,
     text: "PLACATE",
-    options: ["anger", "soothe", "ignore", "challenge", "reject"],
-    correct: 1,
+    options: ["soothe", "anger", "ignore", "challenge", "reject"],
+    correct: 0,
     explanation: "Placate means to calm or appease someone."
   },
   {
@@ -1017,22 +1017,22 @@ export const wordKnowledgeData = [
   {
     id: 146,
     text: "PROLIFIC",
-    options: ["barren", "productive", "scarce", "limited", "narrow"],
-    correct: 1,
+    options: ["barren", "scarce", "productive", "limited", "narrow"],
+    correct: 2,
     explanation: "Prolific means highly productive or creative."
   },
   {
     id: 147,
     text: "AMICABLE",
-    options: ["hostile", "friendly", "cold", "neutral", "argumentative"],
-    correct: 1,
+    options: ["hostile", "cold", "neutral", "friendly", "argumentative"],
+    correct: 3,
     explanation: "Amicable means friendly or showing goodwill."
   },
   {
     id: 148,
     text: "FASTIDIOUS",
-    options: ["careless", "fussy", "messy", "lazy", "easygoing"],
-    correct: 1,
+    options: ["attentive", "careless", "messy", "lazy", "easygoing"],
+    correct: 0,
     explanation: "Fastidious means very attentive to detail or fussy."
   },
   {
@@ -1045,29 +1045,29 @@ export const wordKnowledgeData = [
   {
     id: 150,
     text: "DEFERENCE",
-    options: ["disrespect", "regard", "obedience", "submission", "approval"],
-    correct: 1,
+    options: ["disrespect", "chaotic", "respect", "rebellion", "disapproval"],
+    correct: 2,
     explanation: "Deference means humble submission and respect."
   },
   {
     id: 151,
     text: "INEFFABLE",
-    options: ["unexplainable", "common", "ordinary", "expressive", "verbal"],
-    correct: 0,
+    options: ["common", "unexplainable", "ordinary", "expressive", "verbal"],
+    correct: 1,
     explanation: "Ineffable means too great or extreme to be expressed in words."
   },
   {
     id: 152,
     text: "RETICENT",
-    options: ["talkative", "reserved", "open", "confident", "honest"],
-    correct: 1,
-    explanation: "Reticent means not revealing one’s thoughts or feelings readily."
+    options: ["talkative", "open", "reserved", "confident", "honest"],
+    correct: 2,
+    explanation: "Reticent means not revealing one's thoughts or feelings readily."
   },
   {
     id: 153,
     text: "FECUND",
-    options: ["infertile", "fruitful", "dry", "sterile", "barren"],
-    correct: 1,
+    options: ["infertile", "dry", "sterile", "fruitful", "barren"],
+    correct: 3,
     explanation: "Fecund means capable of producing offspring or new growth; fertile."
   },
   {
@@ -1080,43 +1080,43 @@ export const wordKnowledgeData = [
   {
     id: 155,
     text: "EQUIVOCAL",
-    options: ["ambiguous", "certain", "clear", "specific", "focused"],
-    correct: 0,
+    options: ["certain", "clear", "ambiguous", "specific", "focused"],
+    correct: 2,
     explanation: "Equivocal means open to more than one interpretation; ambiguous."
   },
   {
     id: 156,
     text: "OBDURATE",
-    options: ["soft", "flexible", "stubborn", "gentle", "weak"],
-    correct: 2,
-    explanation: "Obdurate means stubbornly refusing to change one’s opinion."
+    options: ["soft", "flexible", "gentle", "stubborn", "weak"],
+    correct: 3,
+    explanation: "Obdurate means stubbornly refusing to change one's opinion."
   },
   {
     id: 157,
     text: "VERBOSE",
-    options: ["wordy", "concise", "silent", "direct", "short"],
-    correct: 0,
+    options: ["concise", "wordy", "silent", "direct", "short"],
+    correct: 1,
     explanation: "Verbose means using more words than necessary."
   },
   {
     id: 158,
     text: "TRANQUIL",
-    options: ["restless", "calm", "loud", "busy", "noisy"],
-    correct: 1,
+    options: ["restless", "loud", "calm", "busy", "noisy"],
+    correct: 2,
     explanation: "Tranquil means calm and peaceful."
   },
   {
     id: 159,
     text: "INTREPID",
-    options: ["fearless", "cowardly", "nervous", "cautious", "weak"],
-    correct: 0,
+    options: ["cowardly", "nervous", "cautious", "fearless", "weak"],
+    correct: 3,
     explanation: "Intrepid means fearless or adventurous."
   },
   {
     id: 160,
     text: "MENDACIOUS",
-    options: ["honest", "deceitful", "truthful", "trustworthy", "sincere"],
-    correct: 1,
+    options: ["deceitful", "honest", "truthful", "trustworthy", "sincere"],
+    correct: 0,
     explanation: "Mendacious means lying or dishonest."
   },
   {
@@ -1129,22 +1129,22 @@ export const wordKnowledgeData = [
   {
     id: 162,
     text: "ALACRITY",
-    options: ["reluctance", "eagerness", "fear", "laziness", "disinterest"],
-    correct: 1,
+    options: ["reluctance", "fear", "eagerness", "laziness", "disinterest"],
+    correct: 2,
     explanation: "Alacrity means brisk and cheerful readiness."
   },
   {
     id: 163,
     text: "LACONIC",
-    options: ["verbose", "brief", "flowery", "dramatic", "vague"],
-    correct: 1,
+    options: ["verbose", "flowery", "dramatic", "brief", "vague"],
+    correct: 3,
     explanation: "Laconic means using very few words; concise."
   },
   {
     id: 164,
     text: "SOPORIFIC",
-    options: ["exciting", "sleep-inducing", "energizing", "stimulating", "bright"],
-    correct: 1,
+    options: ["sleep-inducing", "exciting", "energizing", "stimulating", "bright"],
+    correct: 0,
     explanation: "Soporific means tending to induce sleep."
   },
   {
@@ -1157,50 +1157,50 @@ export const wordKnowledgeData = [
   {
     id: 166,
     text: "PROSAIC",
-    options: ["dull", "creative", "exciting", "imaginative", "inspired"],
-    correct: 0,
+    options: ["creative", "exciting", "dull", "imaginative", "inspired"],
+    correct: 2,
     explanation: "Prosaic means dull or lacking imagination."
   },
   {
     id: 167,
     text: "REPROVE",
-    options: ["praise", "scold", "ignore", "forgive", "celebrate"],
-    correct: 1,
+    options: ["praise", "ignore", "forgive", "scold", "celebrate"],
+    correct: 3,
     explanation: "Reprove means to scold or criticize gently."
   },
   {
     id: 168,
     text: "SANGUINE",
-    options: ["pessimistic", "optimistic", "gloomy", "uncertain", "depressed"],
-    correct: 1,
+    options: ["optimistic", "pessimistic", "gloomy", "uncertain", "depressed"],
+    correct: 0,
     explanation: "Sanguine means optimistic or positive, especially in difficult situations."
   },
   {
     id: 169,
     text: "INSCRUTABLE",
-    options: ["mysterious", "obvious", "clear", "plain", "predictable"],
-    correct: 0,
+    options: ["obvious", "mysterious", "clear", "plain", "predictable"],
+    correct: 1,
     explanation: "Inscrutable means impossible to understand or interpret."
   },
   {
     id: 170,
     text: "ZEALOUS",
-    options: ["apathetic", "enthusiastic", "cold", "lazy", "neutral"],
-    correct: 1,
+    options: ["apathetic", "cold", "enthusiastic", "lazy", "neutral"],
+    correct: 2,
     explanation: "Zealous means full of enthusiasm or zeal."
   },
   {
     id: 171,
     text: "MALAISE",
-    options: ["comfort", "uneasiness", "health", "contentment", "excitement"],
-    correct: 1,
+    options: ["comfort", "health", "contentment", "uneasiness", "excitement"],
+    correct: 3,
     explanation: "Malaise means a general feeling of discomfort or unease."
   },
   {
     id: 172,
     text: "MUNIFICENT",
-    options: ["stingy", "generous", "small", "moderate", "limited"],
-    correct: 1,
+    options: ["generous", "stingy", "small", "moderate", "limited"],
+    correct: 0,
     explanation: "Munificent means very generous or lavish."
   },
   {
@@ -1213,22 +1213,22 @@ export const wordKnowledgeData = [
   {
     id: 174,
     text: "PARAGON",
-    options: ["flaw", "model", "opposite", "failure", "copy"],
-    correct: 1,
+    options: ["flaw", "opposite", "model", "failure", "copy"],
+    correct: 2,
     explanation: "Paragon means a model of excellence or perfection."
   },
   {
     id: 175,
     text: "INDOLENT",
-    options: ["active", "lazy", "busy", "energetic", "productive"],
-    correct: 1,
+    options: ["active", "busy", "energetic", "lazy", "productive"],
+    correct: 3,
     explanation: "Indolent means wanting to avoid activity; lazy."
   },
   {
     id: 176,
     text: "CONVIVIAL",
-    options: ["gloomy", "friendly", "quiet", "angry", "hostile"],
-    correct: 1,
+    options: ["friendly", "gloomy", "quiet", "angry", "hostile"],
+    correct: 0,
     explanation: "Convivial means friendly, lively, and enjoyable."
   },
   {
@@ -1241,22 +1241,22 @@ export const wordKnowledgeData = [
   {
     id: 178,
     text: "INNOCUOUS",
-    options: ["harmful", "harmless", "dangerous", "toxic", "lethal"],
-    correct: 1,
+    options: ["harmful", "dangerous", "harmless", "toxic", "lethal"],
+    correct: 2,
     explanation: "Innocuous means not harmful or offensive."
   },
   {
     id: 179,
     text: "EXCORIATE",
-    options: ["praise", "criticize", "ignore", "heal", "reward"],
-    correct: 1,
+    options: ["praise", "ignore", "heal", "criticize", "reward"],
+    correct: 3,
     explanation: "Excoriate means to criticize severely."
   },
   {
     id: 180,
     text: "CUPIDITY",
-    options: ["generosity", "greed", "love", "honesty", "calm"],
-    correct: 1,
+    options: ["greed", "generosity", "love", "honesty", "calm"],
+    correct: 0,
     explanation: "Cupidity means greed for money or possessions."
   },
   {
@@ -1269,71 +1269,71 @@ export const wordKnowledgeData = [
   {
     id: 182,
     text: "INSIDIOUS",
-    options: ["harmless", "sneaky", "obvious", "direct", "kind"],
-    correct: 1,
+    options: ["harmless", "obvious", "sneaky", "direct", "kind"],
+    correct: 2,
     explanation: "Insidious means proceeding in a subtle but harmful way."
   },
   {
     id: 183,
     text: "LUGUBRIOUS",
-    options: ["cheerful", "sad", "serene", "hopeful", "bright"],
-    correct: 1,
+    options: ["cheerful", "serene", "hopeful", "sad", "bright"],
+    correct: 3,
     explanation: "Lugubrious means mournful or gloomy in appearance or tone."
   },
   {
     id: 184,
     text: "REVERENT",
-    options: ["disrespectful", "respectful", "loud", "careless", "angry"],
-    correct: 1,
+    options: ["respectful", "disrespectful", "loud", "careless", "angry"],
+    correct: 0,
     explanation: "Reverent means feeling or showing deep respect."
   },
   {
     id: 185,
     text: "CLEMENCY",
-    options: ["mercy", "cruelty", "revenge", "harshness", "justice"],
-    correct: 0,
+    options: ["cruelty", "mercy", "revenge", "harshness", "justice"],
+    correct: 1,
     explanation: "Clemency means mercy or leniency."
   },
   {
     id: 186,
     text: "PERSPICACIOUS",
-    options: ["dim-witted", "shrewd", "forgetful", "sleepy", "bored"],
-    correct: 1,
+    options: ["dim-witted", "forgetful", "shrewd", "sleepy", "bored"],
+    correct: 2,
     explanation: "Perspicacious means having keen understanding or insight."
   },
   {
     id: 187,
     text: "IGNOMINIOUS",
-    options: ["honorable", "disgraceful", "famous", "kind", "proud"],
-    correct: 1,
+    options: ["honorable", "famous", "kind", "disgraceful", "proud"],
+    correct: 3,
     explanation: "Ignominious means deserving or causing public disgrace or shame."
   },
   {
     id: 188,
     text: "SUPERCILIOUS",
-    options: ["humble", "arrogant", "quiet", "silly", "submissive"],
-    correct: 1,
+    options: ["arrogant", "humble", "quiet", "silly", "submissive"],
+    correct: 0,
     explanation: "Supercilious means behaving as though one is superior to others."
   },
   {
     id: 189,
     text: "VERACITY",
-    options: ["truthfulness", "deception", "kindness", "bravery", "modesty"],
-    correct: 0,
+    options: ["deception", "truthfulness", "anger", "cowardice", "modesty"],
+    correct: 1,
     explanation: "Veracity means truthfulness or accuracy."
   },
   {
     id: 190,
     text: "IMPASSIVE",
-    options: ["emotional", "calm", "indifferent", "sensitive", "angry"],
-    correct: 2,
+    options: ["emotional", "calm", "sensitive", "indifferent", "angry"],
+    correct: 3,
     explanation: "Impassive means not showing emotion or feeling."
   },
   {
     id: 191,
     text: "EUPHONIOUS",
-    options: ["harsh", "pleasant-sounding", "discordant", "loud", "shrill"],
-    correct: 1,
+    options: ["pleasant-sounding", "harsh", "discordant", "loud", "shrill"],
+    correct: 0,
     explanation: "Euphonious means pleasing to the ear."
   },
   {
@@ -1346,57 +1346,57 @@ export const wordKnowledgeData = [
   {
     id: 193,
     text: "PENURIOUS",
-    options: ["wealthy", "poor", "stingy", "lavish", "frugal"],
-    correct: 1,
+    options: ["wealthy", "lavish", "poor", "stingy", "frugal"],
+    correct: 2,
     explanation: "Penurious means extremely poor or miserly."
   },
   {
     id: 194,
-    text: "RECALCITRANT",
-    options: ["obedient", "rebellious", "quiet", "helpful", "tame"],
-    correct: 1,
-    explanation: "Recalcitrant means having an obstinately uncooperative attitude."
+    text: "REBELLIOUS",
+    options: ["obedient", "quiet", "helpful", "recalcitrant", "tame"],
+    correct: 3,
+    explanation: "Rebellious means having an obstinately uncooperative attitude or to be recalcitrant."
   },
   {
     id: 195,
     text: "DEARTH",
-    options: ["abundance", "scarcity", "excess", "wealth", "supply"],
-    correct: 1,
+    options: ["scarcity", "abundance", "excess", "wealth", "supply"],
+    correct: 0,
     explanation: "Dearth means a scarcity or lack of something."
   },
   {
     id: 196,
     text: "GARRULOUS",
-    options: ["talkative", "silent", "quiet", "calm", "bashful"],
-    correct: 0,
+    options: ["silent", "talkative", "quiet", "calm", "bashful"],
+    correct: 1,
     explanation: "Garrulous means excessively talkative."
   },
   {
     id: 197,
     text: "DILATORY",
-    options: ["speedy", "slow", "steady", "punctual", "eager"],
-    correct: 1,
+    options: ["speedy", "steady", "slow", "punctual", "eager"],
+    correct: 2,
     explanation: "Dilatory means slow to act or intended to cause delay."
   },
   {
     id: 198,
-    text: "VICARIOUS",
-    options: ["direct", "secondhand", "original", "personal", "authentic"],
-    correct: 1,
-    explanation: "Vicarious means experienced through the feelings or actions of another person."
+    text: "SECONDHAND",
+    options: ["direct", "original", "personal", "vicarious", "authentic"],
+    correct: 3,
+    explanation: "Secondhand means not the original source of experience."
   },
   {
     id: 199,
     text: "CAPRICIOUS",
-    options: ["predictable", "impulsive", "steady", "calm", "logical"],
-    correct: 1,
+    options: ["impulsive", "predictable", "steady", "calm", "logical"],
+    correct: 0,
     explanation: "Capricious means given to sudden, unpredictable changes of mood or behavior."
   },
   {
     id: 200,
     text: "OBSEQUIOUS",
-    options: ["submissive", "arrogant", "lazy", "honest", "careless"],
-    correct: 0,
+    options: ["arrogant", "submissive", "lazy", "honest", "careless"],
+    correct: 1,
     explanation: "Obsequious means obedient or attentive to an excessive degree."
   }
 ];
@@ -1404,5 +1404,5 @@ export const wordKnowledgeData = [
 export const WORD_KNOWLEDGE_CONFIG = {
   timeLimit: 5 * 60, // 5 minutes
   sectionName: "Word Knowledge",
-  totalQuestions: 25
+  totalQuestions: 200
 };
