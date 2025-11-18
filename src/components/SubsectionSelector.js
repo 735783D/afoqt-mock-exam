@@ -33,9 +33,9 @@ const subsectionData = {
   'verbal-analogies': generateNumberedSets(200, 25, Brain),
   'aviation-info': generateNumberedSets(200, 25, Plane),
   'physical-science': generateNumberedSets(200, 25, Beaker),
-  'table-reading': generateNumberedSets(200, 25, Table),
+  'table-reading': generateNumberedSets(400, 40, Table),
   'instrument-comp': generateNumberedSets(200, 25, Gauge),
-  'block-counting': generateNumberedSets(200, 30, Box),
+  'block-counting': generateNumberedSets(300, 30, Box),
   'situational-judgment': generateNumberedSets(200, 25, Users),
   'self-description': generateNumberedSets(220, 25, Gauge)
 };

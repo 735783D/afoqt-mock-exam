@@ -180,7 +180,7 @@ export default function PracticeMode({ sectionId, onExit }) {
         };
         
       case 'table-reading':
-        const trQuestions = getQuestionsForSet(tableReadingData, selectedSubsection, 25);
+        const trQuestions = getQuestionsForSet(tableReadingData, selectedSubsection, 40);
         return {
           data: trQuestions.map(q => ({
             id: q.id,
@@ -206,7 +206,7 @@ export default function PracticeMode({ sectionId, onExit }) {
         };
         
       case 'block-counting':
-        const blockCountingQs = getQuestionsForSet(blockCountingData, selectedSubsection, 25);
+        const blockCountingQs = getQuestionsForSet(blockCountingData, selectedSubsection, 30);
         return {
           data: blockCountingQs.map(q => ({
             id: q.id,
