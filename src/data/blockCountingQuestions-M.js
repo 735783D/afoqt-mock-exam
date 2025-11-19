@@ -4,7 +4,7 @@
 export const blockCountingData = [
   {
     "id": 1,
-    "image": "/images/blocks/block_1.png",
+    "image": `${IMAGE_PATH}/blocks/block_1.png",
     "question": "How many blocks are touching the highlighted block?",
     "options": [
       6,
@@ -31,7 +31,7 @@ export const blockCountingData = [
   },
   {
     "id": 2,
-    "image": "/images/blocks/block_2.png",
+    "image": `${IMAGE_PATH}/blocks/block_2.png",
     "question": "How many blocks are touching the highlighted block?",
     "options": [
       3,
@@ -55,7 +55,7 @@ export const blockCountingData = [
   },
   {
     "id": 3,
-    "image": "/images/blocks/block_3.png",
+    "image": `${IMAGE_PATH}/blocks/block_3.png",
     "question": "How many blocks are touching the highlighted block?",
     "options": [
       4,
@@ -80,7 +80,7 @@ export const blockCountingData = [
   },
   {
     "id": 4,
-    "image": "/images/blocks/block_4.png",
+    "image": `${IMAGE_PATH}/blocks/block_4.png",
     "question": "How many blocks are touching the highlighted block?",
     "options": [
       2,
@@ -102,7 +102,7 @@ export const blockCountingData = [
   },
   {
     "id": 5,
-    "image": "/images/blocks/block_5.png",
+    "image": `${IMAGE_PATH}/blocks/block_5.png",
     "question": "How many blocks are touching the highlighted block?",
     "options": [
       3,
@@ -124,7 +124,7 @@ export const blockCountingData = [
   },
   {
     "id": 6,
-    "image": "/images/blocks/block_6.png",
+    "image": `${IMAGE_PATH}/blocks/block_6.png",
     "question": "How many blocks are touching the highlighted block?",
     "options": [
       4,
@@ -148,7 +148,7 @@ export const blockCountingData = [
   },
   {
     "id": 7,
-    "image": "/images/blocks/block_7.png",
+    "image": `${IMAGE_PATH}/blocks/block_7.png",
     "question": "How many blocks are touching the highlighted block?",
     "options": [
       3,
@@ -170,7 +170,7 @@ export const blockCountingData = [
   },
   {
     "id": 8,
-    "image": "/images/blocks/block_8.png",
+    "image": `${IMAGE_PATH}/blocks/block_8.png",
     "question": "How many blocks are touching the highlighted block?",
     "options": [
       5,
@@ -195,7 +195,7 @@ export const blockCountingData = [
   },
   {
     "id": 9,
-    "image": "/images/blocks/block_9.png",
+    "image": `${IMAGE_PATH}/blocks/block_9.png",
     "question": "How many blocks are touching the highlighted block?",
     "options": [
       2,
@@ -216,7 +216,7 @@ export const blockCountingData = [
   },
   {
     "id": 10,
-    "image": "/images/blocks/block_10.png",
+    "image": `${IMAGE_PATH}/blocks/block_10.png",
     "question": "How many blocks are touching the highlighted block?",
     "options": [
       1,
@@ -237,7 +237,7 @@ export const blockCountingData = [
   },
   {
     "id": 11,
-    "image": "/images/blocks/block_11.png",
+    "image": `${IMAGE_PATH}/blocks/block_11.png",
     "question": "How many blocks are touching the highlighted block?",
     "options": [
       2,
@@ -259,7 +259,7 @@ export const blockCountingData = [
   },
   {
     "id": 12,
-    "image": "/images/blocks/block_12.png",
+    "image": `${IMAGE_PATH}/blocks/block_12.png",
     "question": "How many blocks are touching the highlighted block?",
     "options": [
       4,

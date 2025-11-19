@@ -9,14 +9,14 @@ export default function ModeSelector({ onSelectMode }) {
         <div className="text-center mb-12">
           <div className="mb-6">
             <div className="w-32 h-32 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-2xl">
-              <span className="text-blue-900 text-5xl font-bold">USAF</span>
+              <span className="text-blue-900 text-5xl font-bold">JW</span>
             </div>
           </div>
           <h1 className="text-5xl font-bold text-white mb-4">
-            AFOQT Mock Exam
+            Jason's AFOQT Mock Exam
           </h1>
           <p className="text-xl text-blue-200">
-            Air Force Officer Qualifying Test Practice Platform
+            Jason's Air Force Officer Qualifying Test Practice Platform
           </p>
         </div>
 
