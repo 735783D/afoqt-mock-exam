@@ -163,13 +163,13 @@ export default function ExamWelcome({ onBegin }) {
           <div className="mb-4">
             <div className="w-24 h-24 bg-blue-900 rounded-full flex items-center justify-center mx-auto mb-4 p-3">
               <img 
-                src="/images/Air-Force-Logo.png" 
-                alt="USAF Logo" 
+                src="/logo512.png" 
+                alt="Logo" 
                 className="w-full h-full object-contain brightness-0 invert"
                 onError={(e) => {
                   // Fallback if image doesn't load
                   e.target.style.display = 'none';
-                  e.target.parentElement.innerHTML = '<span class="text-white text-4xl font-bold">USAF</span>';
+                  e.target.parentElement.innerHTML = '<span class="text-white text-4xl font-bold">Jason</span>';
                 }}
               />
             </div>
@@ -177,7 +177,7 @@ export default function ExamWelcome({ onBegin }) {
           <h1 className="text-4xl font-bold text-blue-900 mb-2">
             Air Force Officer Qualifying Test
           </h1>
-          <h2 className="text-2xl text-blue-700">AFOQT Mock Exam</h2>
+          <h2 className="text-2xl text-blue-700">Jason's AFOQT Mock Exam</h2>
         </div>
 
         {/* Important Notice */}
