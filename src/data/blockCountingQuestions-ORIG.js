@@ -6,7 +6,7 @@ export const blockCountingData = [
   {
     id: 1,
     text: "How many blocks touch Block 1 (marked with X)?",
-    image: "/images/blocks/question-1.png", // Placeholder - needs actual 3D block images
+    image: `${IMAGE_PATH}/blocks/question-1.png", // Placeholder - needs actual 3D block images
     options: ["3", "4", "5", "6"],
     correct: 2,
     explanation: "Block 1 is touched by 5 other blocks: 2 on top, 2 on sides, 1 behind."
@@ -14,7 +14,7 @@ export const blockCountingData = [
   {
     id: 2,
     text: "How many blocks touch Block 5?",
-    image: "/images/blocks/question-2.png",
+    image: `${IMAGE_PATH}/blocks/question-2.png",
     options: ["2", "3", "4", "5"],
     correct: 1,
     explanation: "Block 5 is touched by 3 blocks: 1 on top, 2 adjacent."
