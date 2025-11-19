@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, BookOpen, Target, Brain } from 'lucide-react';
+import { BookOpen, Target, Brain } from 'lucide-react';
 
 export default function ModeSelector({ onSelectMode }) {
   return (
@@ -29,7 +29,7 @@ export default function ModeSelector({ onSelectMode }) {
           >
             <div className="flex items-center justify-center mb-6">
               <div className="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center">
-                <Clock className="w-10 h-10 text-red-600" />
+                <Target className="w-10 h-10 text-red-600" />
               </div>
             </div>
             
