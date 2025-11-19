@@ -18,9 +18,9 @@ export default function SituationalJudgmentQuestions({
     <div className="min-h-screen bg-gray-100 pb-8">
       <div className="max-w-6xl mx-auto p-4 md:p-8">
         <div className="bg-white rounded-lg shadow-lg p-6 md:p-10 mb-6">
-          <h2 className="text-2xl font-bold text-blue-900 mb-4">
+          {/* <h2 className="text-2xl font-bold text-blue-900 mb-4">
             Scenario {scenario.id}
-          </h2>
+          </h2> */}
           
           {/* Scenario text */}
           <div className="bg-blue-50 border-l-4 border-blue-500 p-6 mb-8">

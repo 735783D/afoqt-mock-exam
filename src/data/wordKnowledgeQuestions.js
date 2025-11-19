@@ -1398,6 +1398,706 @@ export const wordKnowledgeData = [
     options: ["arrogant", "submissive", "lazy", "honest", "careless"],
     correct: 1,
     explanation: "Obsequious means obedient or attentive to an excessive degree."
+  },
+  {
+    id: 201,
+    text: "The commander issued a perfunctory inspection of the barracks.",
+    options: ["thorough", "casual", "military", "detailed", "strict"],
+    correct: 1,
+    explanation: "Perfunctory means carried out with minimal effort or reflection; routine and superficial."
+  },
+  {
+    id: 202,
+    text: "The pilot's decision proved to be prudent given the weather conditions.",
+    options: ["reckless", "quick", "wise", "delayed", "uncertain"],
+    correct: 2,
+    explanation: "Prudent means acting with or showing care and thought for the future; wise and sensible."
+  },
+  {
+    id: 203,
+    text: "The sergeant's demeanor toward the recruits was austere.",
+    options: ["friendly", "severe", "casual", "jovial", "lenient"],
+    correct: 1,
+    explanation: "Austere means severe or strict in manner, attitude, or appearance."
+  },
+  {
+    id: 204,
+    text: "They found the regulations to be ambiguous and difficult to follow.",
+    options: ["clear", "simple", "unclear", "direct", "obvious"],
+    correct: 2,
+    explanation: "Ambiguous means open to more than one interpretation; not having one clear meaning."
+  },
+  {
+    id: 205,
+    text: "The mission required a meticulous approach to planning.",
+    options: ["careless", "careful", "quick", "simple", "rough"],
+    correct: 1,
+    explanation: "Meticulous means showing great attention to detail; very careful and precise."
+  },
+  {
+    id: 206,
+    text: "His account of the incident was quite verbose.",
+    options: ["brief", "wordy", "accurate", "false", "simple"],
+    correct: 1,
+    explanation: "Verbose means using or expressed in more words than are needed; wordy."
+  },
+  {
+    id: 207,
+    text: "The officer showed clemency in his judgment of the violation.",
+    options: ["harshness", "mercy", "speed", "anger", "indifference"],
+    correct: 1,
+    explanation: "Clemency means mercy or lenience shown toward an offender or enemy."
+  },
+  {
+    id: 208,
+    text: "The briefing contained only cursory information about the operation.",
+    options: ["detailed", "superficial", "secret", "complete", "accurate"],
+    correct: 1,
+    explanation: "Cursory means hasty and therefore not thorough or detailed."
+  },
+  {
+    id: 209,
+    text: "They needed to expedite the delivery of the supplies.",
+    options: ["delay", "hasten", "cancel", "verify", "reduce"],
+    correct: 1,
+    explanation: "Expedite means to make an action or process happen sooner or be accomplished more quickly."
+  },
+  {
+    id: 210,
+    text: "The witness gave a candid response to all questions.",
+    options: ["dishonest", "frank", "evasive", "lengthy", "technical"],
+    correct: 1,
+    explanation: "Candid means truthful and straightforward; frank."
+  },
+  {
+    id: 211,
+    text: "The squadron faced an arduous training exercise in the mountains.",
+    options: ["easy", "difficult", "brief", "enjoyable", "optional"],
+    correct: 1,
+    explanation: "Arduous means involving or requiring strenuous effort; difficult and tiring."
+  },
+  {
+    id: 212,
+    text: "The general's strategy was deemed ingenious by his peers.",
+    options: ["foolish", "clever", "simple", "traditional", "risky"],
+    correct: 1,
+    explanation: "Ingenious means clever, original, and inventive."
+  },
+  {
+    id: 213,
+    text: "The cadet's performance was exemplary throughout training.",
+    options: ["poor", "outstanding", "average", "inconsistent", "adequate"],
+    correct: 1,
+    explanation: "Exemplary means serving as a desirable model; representing the best of its kind."
+  },
+  {
+    id: 214,
+    text: "The intelligence report contained information that was paramount to the mission.",
+    options: ["irrelevant", "crucial", "interesting", "confidential", "recent"],
+    correct: 1,
+    explanation: "Paramount means more important than anything else; supreme."
+  },
+  {
+    id: 215,
+    text: "The officer remained stoic despite the difficult news.",
+    options: ["emotional", "unemotional", "angry", "relieved", "surprised"],
+    correct: 1,
+    explanation: "Stoic means showing no emotion or complaint in the face of difficulty."
+  },
+  {
+    id: 216,
+    text: "The team showed remarkable tenacity in completing their objective.",
+    options: ["weakness", "persistence", "speed", "skill", "courage"],
+    correct: 1,
+    explanation: "Tenacity means the quality of being determined and persistent."
+  },
+  {
+    id: 217,
+    text: "His explanation of the problem was quite lucid.",
+    options: ["confusing", "clear", "lengthy", "technical", "boring"],
+    correct: 1,
+    explanation: "Lucid means expressed clearly; easy to understand."
+  },
+  {
+    id: 218,
+    text: "The airman's negligence resulted in equipment damage.",
+    options: ["care", "carelessness", "expertise", "training", "experience"],
+    correct: 1,
+    explanation: "Negligence means failure to take proper care in doing something."
+  },
+  {
+    id: 219,
+    text: "They tried to corroborate the information with multiple sources.",
+    options: ["deny", "confirm", "hide", "question", "ignore"],
+    correct: 1,
+    explanation: "Corroborate means to confirm or give support to a statement or theory."
+  },
+  {
+    id: 220,
+    text: "The platoon maintained a vigorous training schedule.",
+    options: ["relaxed", "energetic", "flexible", "irregular", "brief"],
+    correct: 1,
+    explanation: "Vigorous means strong, healthy, and full of energy."
+  },
+  {
+    id: 221,
+    text: "The commander's orders were unequivocal and left no room for interpretation.",
+    options: ["vague", "clear", "lengthy", "written", "verbal"],
+    correct: 1,
+    explanation: "Unequivocal means leaving no doubt; unambiguous."
+  },
+  {
+    id: 222,
+    text: "The soldier showed remorse for his actions during the inquiry.",
+    options: ["pride", "regret", "anger", "confusion", "indifference"],
+    correct: 1,
+    explanation: "Remorse means deep regret or guilt for a wrong committed."
+  },
+  {
+    id: 223,
+    text: "The maintenance crew worked with diligence to repair the aircraft.",
+    options: ["laziness", "carefulness", "speed", "difficulty", "reluctance"],
+    correct: 1,
+    explanation: "Diligence means careful and persistent work or effort."
+  },
+  {
+    id: 224,
+    text: "The enemy's tactics were considered devious and unpredictable.",
+    options: ["honest", "deceitful", "simple", "obvious", "traditional"],
+    correct: 1,
+    explanation: "Devious means showing a skillful use of underhanded tactics to achieve goals."
+  },
+  {
+    id: 225,
+    text: "The lieutenant's demeanor was always cordial toward his subordinates.",
+    options: ["hostile", "friendly", "professional", "distant", "strict"],
+    correct: 1,
+    explanation: "Cordial means warm and friendly."
+  },
+  {
+    id: 226,
+    text: "The report highlighted a conspicuous error in the calculations.",
+    options: ["hidden", "obvious", "minor", "technical", "mathematical"],
+    correct: 1,
+    explanation: "Conspicuous means standing out so as to be clearly visible; obvious."
+  },
+  {
+    id: 227,
+    text: "The pilot showed great fortitude during the emergency landing.",
+    options: ["fear", "courage", "skill", "speed", "hesitation"],
+    correct: 1,
+    explanation: "Fortitude means courage in pain or adversity."
+  },
+  {
+    id: 228,
+    text: "The general gave a concise summary of the strategic situation.",
+    options: ["lengthy", "brief", "detailed", "vague", "technical"],
+    correct: 1,
+    explanation: "Concise means giving a lot of information clearly and in few words; brief but comprehensive."
+  },
+  {
+    id: 229,
+    text: "The recruit's response was deemed impertinent by the drill instructor.",
+    options: ["respectful", "rude", "quick", "honest", "delayed"],
+    correct: 1,
+    explanation: "Impertinent means not showing proper respect; rude."
+  },
+  {
+    id: 230,
+    text: "The intelligence officer tried to ascertain the enemy's position.",
+    options: ["guess", "determine", "ignore", "report", "question"],
+    correct: 1,
+    explanation: "Ascertain means to find out for certain; make sure of."
+  },
+  {
+    id: 231,
+    text: "The squadron leader was known for his magnanimous treatment of mistakes.",
+    options: ["harsh", "generous", "fair", "quick", "public"],
+    correct: 1,
+    explanation: "Magnanimous means generous or forgiving, especially toward a rival or less powerful person."
+  },
+  {
+    id: 232,
+    text: "The officer's testimony was deemed credible by the investigation board.",
+    options: ["false", "believable", "lengthy", "written", "detailed"],
+    correct: 1,
+    explanation: "Credible means able to be believed; convincing."
+  },
+  {
+    id: 233,
+    text: "The weather conditions were deemed adverse for the training flight.",
+    options: ["favorable", "unfavorable", "normal", "changing", "stable"],
+    correct: 1,
+    explanation: "Adverse means preventing success or development; harmful or unfavorable."
+  },
+  {
+    id: 234,
+    text: "The platoon demonstrated exemplary cohesion during the operation.",
+    options: ["division", "unity", "speed", "skill", "discipline"],
+    correct: 1,
+    explanation: "Cohesion means the action or fact of forming a united whole."
+  },
+  {
+    id: 235,
+    text: "The lieutenant's assessment of the situation was quite astute.",
+    options: ["foolish", "shrewd", "lengthy", "written", "delayed"],
+    correct: 1,
+    explanation: "Astute means having or showing an ability to accurately assess situations and turn them to advantage."
+  },
+  {
+    id: 236,
+    text: "The commander found the excuse to be dubious at best.",
+    options: ["certain", "doubtful", "acceptable", "creative", "honest"],
+    correct: 1,
+    explanation: "Dubious means hesitating or doubting; not to be relied upon; suspect."
+  },
+  {
+    id: 237,
+    text: "The airman's conduct was exemplary throughout his tour of duty.",
+    options: ["poor", "commendable", "average", "inconsistent", "questionable"],
+    correct: 1,
+    explanation: "Exemplary means serving as a desirable model; very good."
+  },
+  {
+    id: 238,
+    text: "The general's response to the crisis was both swift and judicious.",
+    options: ["reckless", "wise", "delayed", "aggressive", "defensive"],
+    correct: 1,
+    explanation: "Judicious means having, showing, or done with good judgment or sense."
+  },
+  {
+    id: 239,
+    text: "The mission parameters were very stringent and allowed no deviation.",
+    options: ["flexible", "strict", "simple", "complex", "optional"],
+    correct: 1,
+    explanation: "Stringent means strict, precise, and exacting."
+  },
+  {
+    id: 240,
+    text: "The platoon leader showed great acumen in tactical situations.",
+    options: ["confusion", "insight", "courage", "speed", "hesitation"],
+    correct: 1,
+    explanation: "Acumen means the ability to make good judgments and quick decisions."
+  },
+  {
+    id: 241,
+    text: "The investigation revealed a flagrant violation of protocol.",
+    options: ["minor", "obvious", "technical", "accidental", "hidden"],
+    correct: 1,
+    explanation: "Flagrant means conspicuously or obviously offensive; blatant."
+  },
+  {
+    id: 242,
+    text: "The officer's decision proved to be detrimental to unit morale.",
+    options: ["beneficial", "harmful", "popular", "quick", "difficult"],
+    correct: 1,
+    explanation: "Detrimental means tending to cause harm."
+  },
+  {
+    id: 243,
+    text: "The sergeant maintained a steadfast commitment to his duties.",
+    options: ["wavering", "firm", "minimal", "excessive", "reluctant"],
+    correct: 1,
+    explanation: "Steadfast means resolutely or dutifully firm and unwavering."
+  },
+  {
+    id: 244,
+    text: "The cadet's answer to the question was rather cryptic.",
+    options: ["clear", "mysterious", "lengthy", "accurate", "simple"],
+    correct: 1,
+    explanation: "Cryptic means having a meaning that is mysterious or obscure."
+  },
+  {
+    id: 245,
+    text: "The commander wanted to forestall any potential problems.",
+    options: ["cause", "prevent", "identify", "report", "ignore"],
+    correct: 1,
+    explanation: "Forestall means to prevent or obstruct by taking action ahead of time."
+  },
+  {
+    id: 246,
+    text: "The pilot's actions during the crisis were nothing short of valiant.",
+    options: ["cowardly", "brave", "quick", "calculated", "reckless"],
+    correct: 1,
+    explanation: "Valiant means showing courage or determination; brave."
+  },
+  {
+    id: 247,
+    text: "The training exercise was designed to simulate an imminent threat.",
+    options: ["distant", "immediate", "foreign", "nuclear", "minor"],
+    correct: 1,
+    explanation: "Imminent means about to happen; impending."
+  },
+  {
+    id: 248,
+    text: "The officer's explanation helped elucidate the complex strategy.",
+    options: ["confuse", "clarify", "simplify", "question", "implement"],
+    correct: 1,
+    explanation: "Elucidate means to make something clear; explain."
+  },
+  {
+    id: 249,
+    text: "The general showed great foresight in his strategic planning.",
+    options: ["hindsight", "anticipation", "courage", "experience", "caution"],
+    correct: 1,
+    explanation: "Foresight means the ability to predict or plan for the future."
+  },
+  {
+    id: 250,
+    text: "The enemy's position was considered virtually impregnable.",
+    options: ["weak", "unconquerable", "visible", "isolated", "fortified"],
+    correct: 1,
+    explanation: "Impregnable means unable to be captured or broken into; invulnerable."
+  },
+  {
+    id: 251,
+    text: "The reconnaissance team moved with utmost stealth through enemy territory.",
+    options: ["noise", "secrecy", "speed", "caution", "difficulty"],
+    correct: 1,
+    explanation: "Stealth means cautious and surreptitious action or movement."
+  },
+  {
+    id: 252,
+    text: "The captain's leadership style was notably autocratic.",
+    options: ["democratic", "dictatorial", "flexible", "relaxed", "collaborative"],
+    correct: 1,
+    explanation: "Autocratic means relating to a ruler who has absolute power; domineering."
+  },
+  {
+    id: 253,
+    text: "The airman's conduct was deemed reprehensible by the review board.",
+    options: ["admirable", "blameworthy", "acceptable", "professional", "unusual"],
+    correct: 1,
+    explanation: "Reprehensible means deserving censure or condemnation; very bad."
+  },
+  {
+    id: 254,
+    text: "The intelligence report contained mostly superfluous information.",
+    options: ["essential", "unnecessary", "classified", "accurate", "recent"],
+    correct: 1,
+    explanation: "Superfluous means unnecessary, especially through being more than enough."
+  },
+  {
+    id: 255,
+    text: "The colonel's instructions were deliberately vague to allow flexibility.",
+    options: ["specific", "unclear", "written", "verbal", "detailed"],
+    correct: 1,
+    explanation: "Vague means of uncertain, indefinite, or unclear character or meaning."
+  },
+  {
+    id: 256,
+    text: "The soldier's testimony helped to exonerate his fellow squad member.",
+    options: ["convict", "clear", "identify", "question", "support"],
+    correct: 1,
+    explanation: "Exonerate means to absolve someone from blame for a fault or wrongdoing."
+  },
+  {
+    id: 257,
+    text: "The general was known for his benevolent treatment of prisoners.",
+    options: ["cruel", "kind", "fair", "strict", "indifferent"],
+    correct: 1,
+    explanation: "Benevolent means well meaning and kindly."
+  },
+  {
+    id: 258,
+    text: "The briefing officer tried to mitigate concerns about the operation.",
+    options: ["increase", "lessen", "ignore", "address", "hide"],
+    correct: 1,
+    explanation: "Mitigate means to make less severe, serious, or painful."
+  },
+  {
+    id: 259,
+    text: "The squadron's performance has been consistently mediocre this quarter.",
+    options: ["excellent", "average", "poor", "improving", "declining"],
+    correct: 1,
+    explanation: "Mediocre means of only moderate quality; not very good."
+  },
+  {
+    id: 260,
+    text: "The officer showed great restraint despite the provocative remarks.",
+    options: ["anger", "self-control", "confusion", "agreement", "hostility"],
+    correct: 1,
+    explanation: "Restraint means self-control; the ability to control one's emotions or actions."
+  },
+  {
+    id: 261,
+    text: "The mission objective seemed nearly insurmountable at first.",
+    options: ["easy", "impossible", "simple", "dangerous", "unclear"],
+    correct: 1,
+    explanation: "Insurmountable means too great to be overcome; impossible to surmount."
+  },
+  {
+    id: 262,
+    text: "The commander's attitude toward safety was quite lax.",
+    options: ["strict", "careless", "reasonable", "excessive", "professional"],
+    correct: 1,
+    explanation: "Lax means not sufficiently strict, severe, or careful."
+  },
+  {
+    id: 263,
+    text: "The lieutenant attempted to reconcile the conflicting reports.",
+    options: ["separate", "harmonize", "ignore", "investigate", "file"],
+    correct: 1,
+    explanation: "Reconcile means to make compatible or consistent; bring into agreement."
+  },
+  {
+    id: 264,
+    text: "The pilot's maneuver was both audacious and effective.",
+    options: ["timid", "bold", "simple", "dangerous", "standard"],
+    correct: 1,
+    explanation: "Audacious means showing a willingness to take surprisingly bold risks; daring."
+  },
+  {
+    id: 265,
+    text: "The investigation uncovered a systematic pattern of negligence.",
+    options: ["random", "methodical", "minor", "recent", "accidental"],
+    correct: 1,
+    explanation: "Systematic means done or acting according to a fixed plan or system; methodical."
+  },
+  {
+    id: 266,
+    text: "The general remained impartial during the dispute between officers.",
+    options: ["biased", "neutral", "angry", "supportive", "involved"],
+    correct: 1,
+    explanation: "Impartial means treating all rivals or disputants equally; fair and just."
+  },
+  {
+    id: 267,
+    text: "The enemy forces began to capitulate after weeks of resistance.",
+    options: ["attack", "surrender", "retreat", "advance", "regroup"],
+    correct: 1,
+    explanation: "Capitulate means to cease to resist an opponent or demand; surrender."
+  },
+  {
+    id: 268,
+    text: "The squadron leader's remarks were rather disparaging toward the new recruits.",
+    options: ["praising", "belittling", "encouraging", "neutral", "instructive"],
+    correct: 1,
+    explanation: "Disparaging means expressing the opinion that something is of little worth; derogatory."
+  },
+  {
+    id: 269,
+    text: "The briefing provided a comprehensive overview of the situation.",
+    options: ["partial", "complete", "brief", "technical", "classified"],
+    correct: 1,
+    explanation: "Comprehensive means complete; including all or nearly all elements or aspects."
+  },
+  {
+    id: 270,
+    text: "The officer's demeanor suggested he was quite complacent about security.",
+    options: ["worried", "self-satisfied", "vigilant", "concerned", "active"],
+    correct: 1,
+    explanation: "Complacent means showing smug or uncritical satisfaction with oneself or one's achievements."
+  },
+  {
+    id: 271,
+    text: "The intelligence suggested the threat was largely hypothetical.",
+    options: ["real", "theoretical", "immediate", "serious", "foreign"],
+    correct: 1,
+    explanation: "Hypothetical means based on or serving as a hypothesis; supposed but not necessarily real."
+  },
+  {
+    id: 272,
+    text: "The airman's version of events proved to be fallacious.",
+    options: ["true", "false", "detailed", "confusing", "incomplete"],
+    correct: 1,
+    explanation: "Fallacious means based on a mistaken belief; containing a fallacy."
+  },
+  {
+    id: 273,
+    text: "The squadron maintained their resolve despite adverse conditions.",
+    options: ["fear", "determination", "discipline", "training", "equipment"],
+    correct: 1,
+    explanation: "Resolve means firm determination to do something."
+  },
+  {
+    id: 274,
+    text: "The commanding officer was known for his pragmatic approach to problems.",
+    options: ["theoretical", "practical", "creative", "aggressive", "cautious"],
+    correct: 1,
+    explanation: "Pragmatic means dealing with things sensibly and realistically in a way based on practical considerations."
+  },
+  {
+    id: 275,
+    text: "The recruit's excuse was implausible and unconvincing.",
+    options: ["believable", "unbelievable", "lengthy", "honest", "creative"],
+    correct: 1,
+    explanation: "Implausible means not seeming reasonable or probable; failing to convince."
+  },
+  {
+    id: 276,
+    text: "The general tried to placate the concerns of the worried troops.",
+    options: ["increase", "calm", "ignore", "address", "dismiss"],
+    correct: 1,
+    explanation: "Placate means to make someone less angry or hostile; pacify or appease."
+  },
+  {
+    id: 277,
+    text: "The mission required absolute adherence to the established protocols.",
+    options: ["violation", "compliance", "understanding", "review", "modification"],
+    correct: 1,
+    explanation: "Adherence means attachment or commitment to a person, cause, or belief; faithful observance."
+  },
+  {
+    id: 278,
+    text: "The officer's behavior during the crisis was absolutely deplorable.",
+    options: ["admirable", "shameful", "brave", "cautious", "appropriate"],
+    correct: 1,
+    explanation: "Deplorable means deserving strong condemnation; shockingly bad in quality."
+  },
+  {
+    id: 279,
+    text: "The lieutenant showed remarkable resilience after the setback.",
+    options: ["weakness", "toughness", "anger", "sadness", "confusion"],
+    correct: 1,
+    explanation: "Resilience means the capacity to recover quickly from difficulties; toughness."
+  },
+  {
+    id: 280,
+    text: "The captain's decision to abort the mission was quite contentious.",
+    options: ["popular", "controversial", "quick", "wise", "standard"],
+    correct: 1,
+    explanation: "Contentious means causing or likely to cause an argument; controversial."
+  },
+  {
+    id: 281,
+    text: "The colonel attempted to substantiate his claims with evidence.",
+    options: ["deny", "prove", "hide", "question", "withdraw"],
+    correct: 1,
+    explanation: "Substantiate means to provide evidence to support or prove the truth of something."
+  },
+  {
+    id: 282,
+    text: "The general's strategy was predicated on accurate intelligence.",
+    options: ["independent", "based", "opposed", "unrelated", "similar"],
+    correct: 1,
+    explanation: "Predicated means based on or depending on something; stated or asserted."
+  },
+  {
+    id: 283,
+    text: "The training officer was quite adept at handling difficult situations.",
+    options: ["poor", "skilled", "slow", "hesitant", "inexperienced"],
+    correct: 1,
+    explanation: "Adept means very skilled or proficient at something."
+  },
+  {
+    id: 284,
+    text: "The enemy's defensive position appeared formidable from a distance.",
+    options: ["weak", "intimidating", "visible", "hidden", "abandoned"],
+    correct: 1,
+    explanation: "Formidable means inspiring fear or respect through being impressively powerful or capable."
+  },
+  {
+    id: 285,
+    text: "The report contained several blatant errors in the data analysis.",
+    options: ["subtle", "obvious", "technical", "minor", "mathematical"],
+    correct: 1,
+    explanation: "Blatant means done openly and unashamedly; completely lacking in subtlety; obvious."
+  },
+  {
+    id: 286,
+    text: "The squadron leader tried to bolster morale before the deployment.",
+    options: ["lower", "strengthen", "measure", "ignore", "question"],
+    correct: 1,
+    explanation: "Bolster means to support or strengthen; prop up."
+  },
+  {
+    id: 287,
+    text: "The airman's testimony served to vindicate his commanding officer.",
+    options: ["accuse", "justify", "question", "support", "contradict"],
+    correct: 1,
+    explanation: "Vindicate means to clear someone of blame or suspicion; show or prove to be right."
+  },
+  {
+    id: 288,
+    text: "The mission briefing was intentionally succinct to save time.",
+    options: ["lengthy", "brief", "detailed", "confusing", "technical"],
+    correct: 1,
+    explanation: "Succinct means briefly and clearly expressed; concise."
+  },
+  {
+    id: 289,
+    text: "The colonel's management style was notably lenient with junior officers.",
+    options: ["strict", "permissive", "fair", "harsh", "inconsistent"],
+    correct: 1,
+    explanation: "Lenient means permissive, merciful, or tolerant; not strict or severe."
+  },
+  {
+    id: 290,
+    text: "The intelligence officer tried to discern the enemy's true intentions.",
+    options: ["ignore", "perceive", "guess", "question", "report"],
+    correct: 1,
+    explanation: "Discern means to perceive or recognize something; distinguish with difficulty."
+  },
+  {
+    id: 291,
+    text: "The general's memoirs provided a candid account of the campaign.",
+    options: ["dishonest", "honest", "brief", "detailed", "classified"],
+    correct: 1,
+    explanation: "Candid means truthful and straightforward; frank and sincere."
+  },
+  {
+    id: 292,
+    text: "The pilot maintained an altitude that was optimal for fuel efficiency.",
+    options: ["minimum", "best", "maximum", "average", "safe"],
+    correct: 1,
+    explanation: "Optimal means best or most favorable; most conducive to a favorable outcome."
+  },
+  {
+    id: 293,
+    text: "The officer's explanation was filled with verbose technical jargon.",
+    options: ["brief", "wordy", "clear", "simple", "accurate"],
+    correct: 1,
+    explanation: "Verbose means using or expressed in more words than are needed; lengthy and wordy."
+  },
+  {
+    id: 294,
+    text: "The squadron faced inevitable delays due to the weather.",
+    options: ["avoidable", "unavoidable", "minor", "major", "unexpected"],
+    correct: 1,
+    explanation: "Inevitable means certain to happen; unavoidable."
+  },
+  {
+    id: 295,
+    text: "The cadet showed great aptitude for mechanical systems.",
+    options: ["difficulty", "talent", "interest", "training", "experience"],
+    correct: 1,
+    explanation: "Aptitude means a natural ability or talent; capacity for learning."
+  },
+  {
+    id: 296,
+    text: "The general sought to perpetuate the unit's traditions and values.",
+    options: ["end", "continue", "change", "question", "document"],
+    correct: 1,
+    explanation: "Perpetuate means to make something continue indefinitely; preserve from oblivion."
+  },
+  {
+    id: 297,
+    text: "The lieutenant's argument was very cogent and well-reasoned.",
+    options: ["weak", "convincing", "lengthy", "emotional", "complex"],
+    correct: 1,
+    explanation: "Cogent means clear, logical, and convincing; powerfully persuasive."
+  },
+  {
+    id: 298,
+    text: "The maintenance chief was very meticulous in his inspections.",
+    options: ["careless", "careful", "quick", "thorough", "slow"],
+    correct: 1,
+    explanation: "Meticulous means showing great attention to detail; very careful and precise."
+  },
+  {
+    id: 299,
+    text: "The officer attempted to alleviate the troops' concerns about the mission.",
+    options: ["worsen", "reduce", "ignore", "address", "dismiss"],
+    correct: 1,
+    explanation: "Alleviate means to make suffering, deficiency, or a problem less severe."
+  },
+  {
+    id: 300,
+    text: "The enemy's tactics were designed to be deliberately provocative.",
+    options: ["peaceful", "inflammatory", "defensive", "confusing", "traditional"],
+    correct: 1,
+    explanation: "Provocative means causing annoyance, anger, or another strong reaction; deliberately provoking."
   }
 ];
 

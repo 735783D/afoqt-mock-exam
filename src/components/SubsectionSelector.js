@@ -1,9 +1,5 @@
 import React from 'react';
 import { ArrowLeft, BookOpen, Calculator, Brain, Plane, Beaker, Cpu, Table, Gauge, Box, Users } from 'lucide-react';
-// import { AVIATION_MILITARY_CONFIG } from '../data/practiceSets/readingComp/aviation-military';
-// import { PHYSICAL_SCIENCE_CONFIG } from '../data/practiceSets/readingComp/physical-science';
-// import { TECHNOLOGY_ENGINEERING_CONFIG } from '../data/practiceSets/readingComp/technology-engineering';
-// import { GENERAL_TOPICS_CONFIG } from '../data/practiceSets/readingComp/general-topics';
 
 // Helper function to generate numbered sets
 const generateNumberedSets = (totalQuestions, questionsPerSet = 25, icon = BookOpen) => {
@@ -29,7 +25,7 @@ const subsectionData = {
   'reading-comp': generateNumberedSets(200, 25, Cpu),
   'arithmetic': generateNumberedSets(200, 25, Calculator),
   'math-knowledge': generateNumberedSets(200, 25, Brain),
-  'word-knowledge': generateNumberedSets(200, 25, BookOpen),
+  'word-knowledge': generateNumberedSets(300, 25, BookOpen),
   'verbal-analogies': generateNumberedSets(200, 25, Brain),
   'aviation-info': generateNumberedSets(200, 25, Plane),
   'physical-science': generateNumberedSets(200, 25, Beaker),
@@ -77,9 +73,9 @@ export default function SubsectionSelector({ sectionId, sectionName, onSelectSub
             Back to Section Selection
           </button>
           
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
+          <h2 className="text-4xl font-bold text-gray-900 mb-2">
             {sectionName}
-          </h1>
+          </h2>
           <p className="text-xl text-gray-600">
             Choose a subsection to practice
           </p>
