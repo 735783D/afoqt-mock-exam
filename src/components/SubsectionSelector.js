@@ -24,7 +24,7 @@ const generateNumberedSets = (totalQuestions, questionsPerSet = 25, icon = BookO
 const subsectionData = {
   'reading-comp': generateNumberedSets(200, 25, Cpu),
   'arithmetic': generateNumberedSets(200, 25, Calculator),
-  'math-knowledge': generateNumberedSets(200, 25, Brain),
+  'math-knowledge': generateNumberedSets(300, 25, Brain),
   'word-knowledge': generateNumberedSets(300, 25, BookOpen),
   'verbal-analogies': generateNumberedSets(200, 25, Brain),
   'aviation-info': generateNumberedSets(200, 25, Plane),

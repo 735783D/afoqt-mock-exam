@@ -145,28 +145,6 @@ const shuffleArray = (array) => {
   return shuffled;
 };
 
-// // Get randomized questions for a section
-// const getRandomizedQuestions = (data, count, isPassageBased) => {
-//   if (isPassageBased) {
-//     let selectedPassages = [];
-//     let totalQuestions = 0;
-//     const shuffledPassages = shuffleArray(data);
-    
-//     for (const passage of shuffledPassages) {
-//       if (totalQuestions >= count) break;
-//       selectedPassages.push(passage);
-//       totalQuestions += passage.questions.length;
-//     }
-    
-//     return selectedPassages;
-//   } else {
-//     const shuffled = shuffleArray(data);
-//     return shuffled.slice(0, count).map(q => ({
-//       id: q.id,
-//       questions: [q]
-//     }));
-//   }
-// };
 
 // Get randomized questions for a section
 const getRandomizedQuestions = (data, count, isPassageBased) => {
@@ -379,6 +357,7 @@ export default function FullExamMode({ onExit }) {
           <div className="bg-yellow-50 border-2 border-yellow-400 rounded-lg p-6 mb-6">
             <h3 className="font-bold text-lg text-yellow-900 mb-2">⚠️ Important Information</h3>
             <ul className="space-y-2 text-yellow-800">
+              <li>• This only scores for accuracy. The real AFOQT is scored on other factors as well. So this will not reflect what you would actually get on the real AFOQT.</li>
               <li>• This is a timed, full-length practice exam</li>
               <li>• Treat this as if it is the real thing!</li>
               <li>• DO NOT get up for section breaks. Only for Main 15-minute break</li>
@@ -387,9 +366,13 @@ export default function FullExamMode({ onExit }) {
               <li>• Questions are randomized for each attempt</li>
               <li>• 5-minute breaks between shorter sections</li>
               <li>• 10-minute breaks after longer sections (20+ minutes)</li>
-              <li>• 15-minute break after Self-Description Inventory (Section 7)</li>
-              <li>• You cannot go back to previous sections once completed</li>
+              <li>• 15-minute break where you can stand up and walk around if need be after Self-Description Inventory (Section 7)</li>
+              <li>• You CANNOT go back to previous sections once completed</li>
               <li>• Timer will automatically advance sections when time expires</li>
+              <li>• You can retake this test as many times as you like</li>
+              <li>• Self-Description Inventory and Situational Judgment sections are NOT scored in this mock exam.</li>
+              <li>• This is a marathon!</li>
+              <li>• <strong>Good luck!</strong></li>
             </ul>
           </div>
 
@@ -673,50 +656,6 @@ if (showResults) {
             </p>
           </div>
 
-          {/* <div className="bg-yellow-50 border border-yellow-300 rounded-lg p-4 mb-6">
-            <h4 className="font-semibold text-yellow-900 mb-2">📚 Study Recommendations:</h4>
-            <ul className="space-y-1 text-sm text-yellow-800">
-              {sectionResults.map((section, idx) => {
-                const questions = section.data.flatMap(p => p.questions || [p]);
-                const scoredQuestions = questions.filter(q => q.options);
-                if (scoredQuestions.length === 0) return null;
-
-                let correctCount = 0;
-                scoredQuestions.forEach(q => {
-                  const userAnswer = section.answers[q.id];
-                  const correctAnswer = q.correct ?? q.correctAnswer;
-                  if (userAnswer === correctAnswer) correctCount++;
-                });
-
-                const percentage = (correctCount / scoredQuestions.length) * 100;
-                
-                if (percentage < 70) {
-                  return (
-                    <li key={idx}>
-                      • <strong>{section.sectionName}:</strong> {percentage.toFixed(0)}% - Review recommended
-                    </li>
-                  );
-                }
-                return null;
-              }).filter(Boolean).length === 0 && (
-                <li className="text-green-700">✓ Great job! All sections above 70%</li>
-              )}
-            </ul>
-          </div> */}
-
-          {/* Individual section results */}
-          {/* <h3 className="font-bold text-2xl text-gray-900 mb-4">Detailed Section Reviews</h3>
-          {sectionResults.map((section, idx) => (
-            <div key={idx} className="mb-8">
-              <ExamResults
-                examData={section.data}
-                answers={section.answers}
-                onRetake={handleRetake}
-                sectionName={section.sectionName}
-              />
-            </div>
-          ))} */}
-
           <div className="flex gap-4 sticky bottom-4">
             <button
               onClick={handleRetake}
@@ -736,114 +675,6 @@ if (showResults) {
     </div>
   );
 }
-
-  // // Show current section
-  // const passage = currentSection.randomizedData[currentPassage];
-  // const totalQuestions = getTotalQuestions(currentSection.randomizedData);
-  // const currentQuestionIds = currentSection.randomizedData.flatMap(p =>
-  //   p.questions ? p.questions.map(q => q.id) : [p.id]
-  // );
-  // const answeredCount = Object.keys(answers).filter(id =>
-  //   currentQuestionIds.includes(parseInt(id))
-  // ).length;
-
-  // return (
-  //   <>
-  //     <ExamHeader
-  //       currentPassage={currentPassage}
-  //       totalPassages={currentSection.randomizedData.length}
-  //       timeRemaining={timeRemaining}
-  //       answeredCount={answeredCount}
-  //       totalQuestions={totalQuestions}
-  //       sectionName={`${currentSection.name} (${currentSectionIndex + 1}/${totalSections})`}
-  //       isPassageBased={currentSection.isPassageBased}
-  //     />
-
-  //     {currentSection.id === 'situational-judgment' ? (
-  //       <SituationalJudgmentQuestions
-  //         scenario={passage}
-  //         answers={answers}
-  //         onAnswer={(questionId, responseId, rating) => {
-  //           setAnswers(prev => ({
-  //             ...prev,
-  //             [questionId]: {
-  //               ...prev[questionId],
-  //               [responseId]: rating
-  //             }
-  //           }));
-  //         }}
-  //         onNavigate={handleNavigate}
-  //         isFirst={currentPassage === 0}
-  //         isLast={currentPassage === currentSection.randomizedData.length - 1}
-  //         onSubmit={handleSectionComplete}
-  //         answeredCount={answeredCount}
-  //         totalQuestions={totalQuestions}
-  //       />
-  //     ) : currentSection.id === 'table-reading' ? (
-  //       <TableReadingQuestion
-  //         tableQuestion={passage}
-  //         answers={answers}
-  //         onAnswer={handleAnswer}
-  //         onNavigate={handleNavigate}
-  //         isFirst={currentPassage === 0}
-  //         isLast={currentPassage === currentSection.randomizedData.length - 1}
-  //         onSubmit={handleSectionComplete}
-  //         answeredCount={answeredCount}
-  //         totalQuestions={totalQuestions}
-  //       />
-  //     ) : currentSection.id === 'self-description' ? (
-  //       <SelfDescriptionInventory
-  //         question={passage.questions[0]}
-  //         selectedAnswer={answers[passage.questions[0].id]}
-  //         onAnswerSelect={(value) => handleAnswer(passage.questions[0].id, value)}
-  //         questionNumber={currentPassage + 1}
-  //         totalQuestions={totalQuestions}
-  //         onNavigate={handleNavigate}
-  //         isFirst={currentPassage === 0}
-  //         isLast={currentPassage === currentSection.randomizedData.length - 1}
-  //         onSubmit={handleSectionComplete}
-  //         answeredCount={answeredCount}
-  //       />
-  //     ) : currentSection.id === 'instrument-comp' ? (
-  //       <InstrumentCompQuestion
-  //         question={passage}
-  //         answers={answers}
-  //         onAnswer={handleAnswer}
-  //         onNavigate={handleNavigate}
-  //         isFirst={currentPassage === 0}
-  //         isLast={currentPassage === currentSection.randomizedData.length - 1}
-  //         onSubmit={handleSectionComplete}
-  //         answeredCount={answeredCount}
-  //         totalQuestions={totalQuestions}
-  //       />
-  //     ) : currentSection.id === 'block-counting' ? (
-  //       <BlockCountingQuestion
-  //         question={passage}
-  //         answers={answers}
-  //         onAnswer={handleAnswer}
-  //         onNavigate={handleNavigate}
-  //         isFirst={currentPassage === 0}
-  //         isLast={currentPassage === currentSection.randomizedData.length - 1}
-  //         onSubmit={handleSectionComplete}
-  //         answeredCount={answeredCount}
-  //         totalQuestions={totalQuestions}
-  //       />
-  //     ) : (
-  //       <ExamQuestion
-  //         passage={passage}
-  //         answers={answers}
-  //         onAnswer={handleAnswer}
-  //         onNavigate={handleNavigate}
-  //         isFirst={currentPassage === 0}
-  //         isLast={currentPassage === currentSection.randomizedData.length - 1}
-  //         onSubmit={handleSectionComplete}
-  //         answeredCount={answeredCount}
-  //         totalQuestions={totalQuestions}
-  //         isPassageBased={currentSection.isPassageBased}
-  //       />
-  //     )}
-  //   </>
-  // );
 
   // Show current section
 const passage = currentSection.randomizedData[currentPassage];
@@ -967,77 +798,3 @@ return (
   </>
 );
 }
-
-// import React, { useState } from 'react';
-// import ExamWelcome from '../components/ExamWelcome';
-
-// export default function FullExamMode({ onExit }) {
-//   const [welcomeComplete, setWelcomeComplete] = useState(false);
-//   const [currentSection, setCurrentSection] = useState(0);
-
-//   // List of all 12 sections in order
-//   const sections = [
-//     'Verbal Analogies',
-//     'Arithmetic Reasoning',
-//     'Word Knowledge',
-//     'Math Knowledge',
-//     'Reading Comprehension',
-//     'Situational Judgment',
-//     'Self-Description Inventory',
-//     'Physical Science',
-//     'Table Reading',
-//     'Instrument Comprehension',
-//     'Block Counting',
-//     'Aviation Information'
-//   ];
-
-//   // Show welcome screen
-//   if (!welcomeComplete) {
-//     return (
-//       <div>
-//         <ExamWelcome onBegin={() => setWelcomeComplete(true)} />
-//         <div className="fixed bottom-4 left-4">
-//           <button
-//             onClick={onExit}
-//             className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-3 rounded-lg transition"
-//           >
-//             ← Back to Mode Selection
-//           </button>
-//         </div>
-//       </div>
-//     );
-//   }
-
-//   // TODO: Build out full exam flow with all sections
-//   // For now, just a placeholder
-//   return (
-//     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
-//       <div className="bg-white rounded-lg shadow-xl p-12 max-w-2xl text-center">
-//         <h1 className="text-3xl font-bold text-gray-900 mb-4">
-//           Full Exam Mode
-//         </h1>
-//         <p className="text-gray-600 mb-6">
-//           This mode will include all 12 sections in order with proper timing and breaks.
-//         </p>
-//         <p className="text-gray-600 mb-8">
-//           Currently under construction. Check back soon!
-//         </p>
-//         <button
-//           onClick={onExit}
-//           className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold transition"
-//         >
-//           Back to Mode Selection
-//         </button>
-
-//         <div className="mt-8 text-left">
-//           <h3 className="font-semibold mb-2">Planned sections:</h3>
-//           <ol className="list-decimal list-inside space-y-1 text-sm text-gray-600">
-//             {sections.map((section, idx) => (
-//               <li key={idx}>{section}</li>
-//             ))}
-//           </ol>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }

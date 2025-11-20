@@ -1,5 +1,6 @@
 import React from 'react';
 import { BookOpen, Target, Brain } from 'lucide-react';
+import DisclaimerModal from '../components/DisclaimerModal';
 
 export default function ModeSelector({ onSelectMode }) {
   return (
@@ -18,6 +19,16 @@ export default function ModeSelector({ onSelectMode }) {
           <p className="text-xl text-blue-200">
             Jason's Air Force Officer Qualifying Test Practice Platform
           </p>
+        </div>
+
+        {/* Disclaimer */}
+        <div className="to-blue-700 py-12 px-4">
+          <div className="max-w-5xl mx-auto">
+            
+            {/* Add this at the top */}
+            <DisclaimerModal />
+            
+          </div>
         </div>
 
         {/* Mode Cards */}

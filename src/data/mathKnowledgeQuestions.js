@@ -1472,6 +1472,1856 @@ export const mathKnowledgeData = [
     options: ["250 ft/mi", "275 ft/mi", "300 ft/mi", "325 ft/mi"],
     correct: 2,
     explanation: "9,000 - 3,000 = 6,000 ft. Divide by 20 = 300 ft/mi."
+  },
+  {
+    "id": 201,
+    "text": "A circle has radius 4. What is the area of a sector with a central angle of 90°?",
+    "options": [
+      "6.29π",
+      "18.86π",
+      "25.14π",
+      "12.57π"
+    ],
+    "correct": 3,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (90/360) × π(4)² = 12.57π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 4,
+        "angle": 90
+      }
+    }
+  },
+  {
+    "id": 202,
+    "text": "A circle has radius 6. What is the area of a sector with a central angle of 60°?",
+    "options": [
+      "37.70π",
+      "9.43π",
+      "28.28π",
+      "18.85π"
+    ],
+    "correct": 3,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (60/360) × π(6)² = 18.85π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 6,
+        "angle": 60
+      }
+    }
+  },
+  {
+    "id": 203,
+    "text": "A circle has radius 5. What is the area of a sector with a central angle of 120°?",
+    "options": [
+      "13.09π",
+      "52.36π",
+      "26.18π",
+      "39.27π"
+    ],
+    "correct": 2,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (120/360) × π(5)² = 26.18π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 5,
+        "angle": 120
+      }
+    }
+  },
+  {
+    "id": 204,
+    "text": "A circle has radius 8. What is the area of a sector with a central angle of 45°?",
+    "options": [
+      "25.13π",
+      "50.26π",
+      "12.56π",
+      "37.70π"
+    ],
+    "correct": 0,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (45/360) × π(8)² = 25.13π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 8,
+        "angle": 45
+      }
+    }
+  },
+  {
+    "id": 205,
+    "text": "A circle has radius 3. What is the area of a sector with a central angle of 180°?",
+    "options": [
+      "7.07π",
+      "28.28π",
+      "14.14π",
+      "21.21π"
+    ],
+    "correct": 2,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (180/360) × π(3)² = 14.14π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 3,
+        "angle": 180
+      }
+    }
+  },
+  {
+    "id": 206,
+    "text": "A circle has radius 10. What is the area of a sector with a central angle of 30°?",
+    "options": [
+      "39.27π",
+      "26.18π",
+      "13.09π",
+      "52.36π"
+    ],
+    "correct": 1,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (30/360) × π(10)² = 26.18π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 10,
+        "angle": 30
+      }
+    }
+  },
+  {
+    "id": 207,
+    "text": "A circle has radius 12. What is the area of a sector with a central angle of 90°?",
+    "options": [
+      "56.55π",
+      "113.10π",
+      "226.20π",
+      "169.65π"
+    ],
+    "correct": 1,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (90/360) × π(12)² = 113.10π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 12,
+        "angle": 90
+      }
+    }
+  },
+  {
+    "id": 208,
+    "text": "A circle has radius 4. What is the area of a sector with a central angle of 270°?",
+    "options": [
+      "75.40π",
+      "56.55π",
+      "37.70π",
+      "18.85π"
+    ],
+    "correct": 2,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (270/360) × π(4)² = 37.70π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 4,
+        "angle": 270
+      }
+    }
+  },
+  {
+    "id": 209,
+    "text": "A circle has radius 6. What is the area of a sector with a central angle of 135°?",
+    "options": [
+      "63.61π",
+      "42.41π",
+      "84.82π",
+      "21.20π"
+    ],
+    "correct": 1,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (135/360) × π(6)² = 42.41π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 6,
+        "angle": 135
+      }
+    }
+  },
+  {
+    "id": 210,
+    "text": "A circle has radius 5. What is the area of a sector with a central angle of 150°?",
+    "options": [
+      "65.44π",
+      "32.72π",
+      "49.08π",
+      "16.36π"
+    ],
+    "correct": 1,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (150/360) × π(5)² = 32.72π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 5,
+        "angle": 150
+      }
+    }
+  },
+  {
+    "id": 211,
+    "text": "A circle has radius 8. What is the area of a sector with a central angle of 60°?",
+    "options": [
+      "33.51π",
+      "50.27π",
+      "67.02π",
+      "16.75π"
+    ],
+    "correct": 0,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (60/360) × π(8)² = 33.51π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 8,
+        "angle": 60
+      }
+    }
+  },
+  {
+    "id": 212,
+    "text": "A circle has radius 3. What is the area of a sector with a central angle of 240°?",
+    "options": [
+      "9.43π",
+      "37.70π",
+      "18.85π",
+      "28.28π"
+    ],
+    "correct": 2,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (240/360) × π(3)² = 18.85π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 3,
+        "angle": 240
+      }
+    }
+  },
+  {
+    "id": 213,
+    "text": "A circle has radius 7. What is the area of a sector with a central angle of 45°?",
+    "options": [
+      "38.48π",
+      "9.62π",
+      "28.86π",
+      "19.24π"
+    ],
+    "correct": 3,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (45/360) × π(7)² = 19.24π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 7,
+        "angle": 45
+      }
+    }
+  },
+  {
+    "id": 214,
+    "text": "A circle has radius 9. What is the area of a sector with a central angle of 120°?",
+    "options": [
+      "127.23π",
+      "169.64π",
+      "84.82π",
+      "42.41π"
+    ],
+    "correct": 2,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (120/360) × π(9)² = 84.82π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 9,
+        "angle": 120
+      }
+    }
+  },
+  {
+    "id": 215,
+    "text": "A circle has radius 4. What is the area of a sector with a central angle of 180°?",
+    "options": [
+      "25.13π",
+      "37.70π",
+      "12.56π",
+      "50.26π"
+    ],
+    "correct": 0,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (180/360) × π(4)² = 25.13π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 4,
+        "angle": 180
+      }
+    }
+  },
+  {
+    "id": 216,
+    "text": "A circle has radius 6. What is the area of a sector with a central angle of 90°?",
+    "options": [
+      "42.41π",
+      "14.13π",
+      "28.27π",
+      "56.54π"
+    ],
+    "correct": 2,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (90/360) × π(6)² = 28.27π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 6,
+        "angle": 90
+      }
+    }
+  },
+  {
+    "id": 217,
+    "text": "A circle has radius 10. What is the area of a sector with a central angle of 72°?",
+    "options": [
+      "125.66π",
+      "31.41π",
+      "94.25π",
+      "62.83π"
+    ],
+    "correct": 3,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (72/360) × π(10)² = 62.83π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 10,
+        "angle": 72
+      }
+    }
+  },
+  {
+    "id": 218,
+    "text": "A circle has radius 5. What is the area of a sector with a central angle of 144°?",
+    "options": [
+      "62.84π",
+      "47.13π",
+      "15.71π",
+      "31.42π"
+    ],
+    "correct": 3,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (144/360) × π(5)² = 31.42π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 5,
+        "angle": 144
+      }
+    }
+  },
+  {
+    "id": 219,
+    "text": "A circle has radius 8. What is the area of a sector with a central angle of 225°?",
+    "options": [
+      "251.32π",
+      "125.66π",
+      "62.83π",
+      "188.49π"
+    ],
+    "correct": 1,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (225/360) × π(8)² = 125.66π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 8,
+        "angle": 225
+      }
+    }
+  },
+  {
+    "id": 220,
+    "text": "A circle has radius 12. What is the area of a sector with a central angle of 60°?",
+    "options": [
+      "113.10π",
+      "150.80π",
+      "75.40π",
+      "37.70π"
+    ],
+    "correct": 2,
+    "explanation": "Area of sector = (θ/360°) × πr². Calculation: (60/360) × π(12)² = 75.40π square units.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 12,
+        "angle": 60
+      }
+    }
+  },
+  {
+    "id": 221,
+    "text": "A ring (annulus) has an outer radius of 10 and an inner radius of 6. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "160.85",
+      "201.06",
+      "241.27",
+      "314.16"
+    ],
+    "correct": 1,
+    "explanation": "Area = π(R² - r²) = π(10² - 6²) = π(64) ≈ 201.06 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 10,
+        "innerRadius": 6
+      }
+    }
+  },
+  {
+    "id": 222,
+    "text": "A ring (annulus) has an outer radius of 8 and an inner radius of 5. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "98.02",
+      "201.06",
+      "147.02",
+      "122.52"
+    ],
+    "correct": 3,
+    "explanation": "Area = π(R² - r²) = π(8² - 5²) = π(39) ≈ 122.52 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 8,
+        "innerRadius": 5
+      }
+    }
+  },
+  {
+    "id": 223,
+    "text": "A ring (annulus) has an outer radius of 12 and an inner radius of 8. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "201.06",
+      "452.39",
+      "301.60",
+      "251.33"
+    ],
+    "correct": 3,
+    "explanation": "Area = π(R² - r²) = π(12² - 8²) = π(80) ≈ 251.33 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 12,
+        "innerRadius": 8
+      }
+    }
+  },
+  {
+    "id": 224,
+    "text": "A ring (annulus) has an outer radius of 15 and an inner radius of 10. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "471.24",
+      "706.86",
+      "392.70",
+      "314.16"
+    ],
+    "correct": 2,
+    "explanation": "Area = π(R² - r²) = π(15² - 10²) = π(125) ≈ 392.70 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 15,
+        "innerRadius": 10
+      }
+    }
+  },
+  {
+    "id": 225,
+    "text": "A ring (annulus) has an outer radius of 9 and an inner radius of 5. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "140.74",
+      "254.47",
+      "175.93",
+      "211.12"
+    ],
+    "correct": 2,
+    "explanation": "Area = π(R² - r²) = π(9² - 5²) = π(56) ≈ 175.93 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 9,
+        "innerRadius": 5
+      }
+    }
+  },
+  {
+    "id": 226,
+    "text": "A ring (annulus) has an outer radius of 7 and an inner radius of 4. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "153.94",
+      "124.40",
+      "82.94",
+      "103.67"
+    ],
+    "correct": 3,
+    "explanation": "Area = π(R² - r²) = π(7² - 4²) = π(33) ≈ 103.67 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 7,
+        "innerRadius": 4
+      }
+    }
+  },
+  {
+    "id": 227,
+    "text": "A ring (annulus) has an outer radius of 14 and an inner radius of 9. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "433.54",
+      "361.28",
+      "615.75",
+      "289.02"
+    ],
+    "correct": 1,
+    "explanation": "Area = π(R² - r²) = π(14² - 9²) = π(115) ≈ 361.28 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 14,
+        "innerRadius": 9
+      }
+    }
+  },
+  {
+    "id": 228,
+    "text": "A ring (annulus) has an outer radius of 11 and an inner radius of 7. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "380.13",
+      "226.19",
+      "180.95",
+      "271.43"
+    ],
+    "correct": 1,
+    "explanation": "Area = π(R² - r²) = π(11² - 7²) = π(72) ≈ 226.19 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 11,
+        "innerRadius": 7
+      }
+    }
+  },
+  {
+    "id": 229,
+    "text": "A ring (annulus) has an outer radius of 13 and an inner radius of 8. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "395.84",
+      "329.87",
+      "263.90",
+      "530.93"
+    ],
+    "correct": 1,
+    "explanation": "Area = π(R² - r²) = π(13² - 8²) = π(105) ≈ 329.87 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 13,
+        "innerRadius": 8
+      }
+    }
+  },
+  {
+    "id": 230,
+    "text": "A ring (annulus) has an outer radius of 16 and an inner radius of 12. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "281.49",
+      "804.25",
+      "351.86",
+      "422.23"
+    ],
+    "correct": 2,
+    "explanation": "Area = π(R² - r²) = π(16² - 12²) = π(112) ≈ 351.86 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 16,
+        "innerRadius": 12
+      }
+    }
+  },
+  {
+    "id": 231,
+    "text": "A ring (annulus) has an outer radius of 10 and an inner radius of 7. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "192.26",
+      "128.18",
+      "160.22",
+      "314.16"
+    ],
+    "correct": 2,
+    "explanation": "Area = π(R² - r²) = π(10² - 7²) = π(51) ≈ 160.22 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 10,
+        "innerRadius": 7
+      }
+    }
+  },
+  {
+    "id": 232,
+    "text": "A ring (annulus) has an outer radius of 8 and an inner radius of 4. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "150.80",
+      "180.96",
+      "120.64",
+      "201.06"
+    ],
+    "correct": 0,
+    "explanation": "Area = π(R² - r²) = π(8² - 4²) = π(48) ≈ 150.80 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 8,
+        "innerRadius": 4
+      }
+    }
+  },
+  {
+    "id": 233,
+    "text": "A ring (annulus) has an outer radius of 12 and an inner radius of 9. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "452.39",
+      "197.92",
+      "237.50",
+      "158.34"
+    ],
+    "correct": 1,
+    "explanation": "Area = π(R² - r²) = π(12² - 9²) = π(63) ≈ 197.92 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 12,
+        "innerRadius": 9
+      }
+    }
+  },
+  {
+    "id": 234,
+    "text": "A ring (annulus) has an outer radius of 18 and an inner radius of 14. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "402.12",
+      "482.54",
+      "1017.88",
+      "321.70"
+    ],
+    "correct": 0,
+    "explanation": "Area = π(R² - r²) = π(18² - 14²) = π(128) ≈ 402.12 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 18,
+        "innerRadius": 14
+      }
+    }
+  },
+  {
+    "id": 235,
+    "text": "A ring (annulus) has an outer radius of 20 and an inner radius of 15. What is its area? (Use π ≈ 3.14)",
+    "options": [
+      "439.82",
+      "659.74",
+      "1256.64",
+      "549.78"
+    ],
+    "correct": 3,
+    "explanation": "Area = π(R² - r²) = π(20² - 15²) = π(175) ≈ 549.78 square units.",
+    "diagram": {
+      "type": "annulus",
+      "props": {
+        "outerRadius": 20,
+        "innerRadius": 15
+      }
+    }
+  },
+  {
+    "id": 236,
+    "text": "A square has two opposite corners at (1, 1) and (4, 5). What is the area of the square?",
+    "options": [
+      "10.00",
+      "25.00",
+      "50.00",
+      "12.50"
+    ],
+    "correct": 1,
+    "explanation": "First find the diagonal: d = √[(4-1)² + (5-1)²] = 5.00. For a square, diagonal = side × √2, so side = 5.00/√2 = 3.54. Area = side² = 25.00 square units."
+  },
+  {
+    "id": 237,
+    "text": "A square has two opposite corners at (0, 0) and (3, 3). What is the area of the square?",
+    "options": [
+      "35.96",
+      "8.99",
+      "17.98",
+      "8.48"
+    ],
+    "correct": 2,
+    "explanation": "First find the diagonal: d = √[(3-0)² + (3-0)²] = 4.24. For a square, diagonal = side × √2, so side = 4.24/√2 = 3.00. Area = side² = 17.98 square units."
+  },
+  {
+    "id": 238,
+    "text": "A square has two opposite corners at (-2, 1) and (2, 5). What is the area of the square?",
+    "options": [
+      "16.02",
+      "64.08",
+      "11.32",
+      "32.04"
+    ],
+    "correct": 3,
+    "explanation": "First find the diagonal: d = √[(2--2)² + (5-1)²] = 5.66. For a square, diagonal = side × √2, so side = 5.66/√2 = 4.00. Area = side² = 32.04 square units."
+  },
+  {
+    "id": 239,
+    "text": "A square has two opposite corners at (1, 2) and (5, 6). What is the area of the square?",
+    "options": [
+      "64.08",
+      "32.04",
+      "16.02",
+      "11.32"
+    ],
+    "correct": 1,
+    "explanation": "First find the diagonal: d = √[(5-1)² + (6-2)²] = 5.66. For a square, diagonal = side × √2, so side = 5.66/√2 = 4.00. Area = side² = 32.04 square units."
+  },
+  {
+    "id": 240,
+    "text": "A square has two opposite corners at (-3, -3) and (1, 1). What is the area of the square?",
+    "options": [
+      "64.08",
+      "11.32",
+      "32.04",
+      "16.02"
+    ],
+    "correct": 2,
+    "explanation": "First find the diagonal: d = √[(1--3)² + (1--3)²] = 5.66. For a square, diagonal = side × √2, so side = 5.66/√2 = 4.00. Area = side² = 32.04 square units."
+  },
+  {
+    "id": 241,
+    "text": "A square has two opposite corners at (0, 2) and (4, 6). What is the area of the square?",
+    "options": [
+      "64.08",
+      "32.04",
+      "16.02",
+      "11.32"
+    ],
+    "correct": 1,
+    "explanation": "First find the diagonal: d = √[(4-0)² + (6-2)²] = 5.66. For a square, diagonal = side × √2, so side = 5.66/√2 = 4.00. Area = side² = 32.04 square units."
+  },
+  {
+    "id": 242,
+    "text": "A square has two opposite corners at (-1, -1) and (3, 3). What is the area of the square?",
+    "options": [
+      "32.04",
+      "16.02",
+      "11.32",
+      "64.08"
+    ],
+    "correct": 0,
+    "explanation": "First find the diagonal: d = √[(3--1)² + (3--1)²] = 5.66. For a square, diagonal = side × √2, so side = 5.66/√2 = 4.00. Area = side² = 32.04 square units."
+  },
+  {
+    "id": 243,
+    "text": "A square has two opposite corners at (2, 0) and (6, 4). What is the area of the square?",
+    "options": [
+      "64.08",
+      "16.02",
+      "32.04",
+      "11.32"
+    ],
+    "correct": 2,
+    "explanation": "First find the diagonal: d = √[(6-2)² + (4-0)²] = 5.66. For a square, diagonal = side × √2, so side = 5.66/√2 = 4.00. Area = side² = 32.04 square units."
+  },
+  {
+    "id": 244,
+    "text": "A square has two opposite corners at (-2, -2) and (2, 2). What is the area of the square?",
+    "options": [
+      "64.08",
+      "16.02",
+      "11.32",
+      "32.04"
+    ],
+    "correct": 3,
+    "explanation": "First find the diagonal: d = √[(2--2)² + (2--2)²] = 5.66. For a square, diagonal = side × √2, so side = 5.66/√2 = 4.00. Area = side² = 32.04 square units."
+  },
+  {
+    "id": 245,
+    "text": "A square has two opposite corners at (1, 0) and (5, 4). What is the area of the square?",
+    "options": [
+      "11.32",
+      "32.04",
+      "64.08",
+      "16.02"
+    ],
+    "correct": 1,
+    "explanation": "First find the diagonal: d = √[(5-1)² + (4-0)²] = 5.66. For a square, diagonal = side × √2, so side = 5.66/√2 = 4.00. Area = side² = 32.04 square units."
+  },
+  {
+    "id": 246,
+    "text": "A square has two opposite corners at (-4, 0) and (0, 4). What is the area of the square?",
+    "options": [
+      "16.02",
+      "11.32",
+      "64.08",
+      "32.04"
+    ],
+    "correct": 3,
+    "explanation": "First find the diagonal: d = √[(0--4)² + (4-0)²] = 5.66. For a square, diagonal = side × √2, so side = 5.66/√2 = 4.00. Area = side² = 32.04 square units."
+  },
+  {
+    "id": 247,
+    "text": "A square has two opposite corners at (0, 1) and (3, 4). What is the area of the square?",
+    "options": [
+      "8.99",
+      "35.96",
+      "8.48",
+      "17.98"
+    ],
+    "correct": 3,
+    "explanation": "First find the diagonal: d = √[(3-0)² + (4-1)²] = 4.24. For a square, diagonal = side × √2, so side = 4.24/√2 = 3.00. Area = side² = 17.98 square units."
+  },
+  {
+    "id": 248,
+    "text": "A square has two opposite corners at (-3, -1) and (1, 3). What is the area of the square?",
+    "options": [
+      "16.02",
+      "64.08",
+      "32.04",
+      "11.32"
+    ],
+    "correct": 2,
+    "explanation": "First find the diagonal: d = √[(1--3)² + (3--1)²] = 5.66. For a square, diagonal = side × √2, so side = 5.66/√2 = 4.00. Area = side² = 32.04 square units."
+  },
+  {
+    "id": 249,
+    "text": "A square has two opposite corners at (2, 1) and (6, 5). What is the area of the square?",
+    "options": [
+      "16.02",
+      "11.32",
+      "64.08",
+      "32.04"
+    ],
+    "correct": 3,
+    "explanation": "First find the diagonal: d = √[(6-2)² + (5-1)²] = 5.66. For a square, diagonal = side × √2, so side = 5.66/√2 = 4.00. Area = side² = 32.04 square units."
+  },
+  {
+    "id": 250,
+    "text": "A square has two opposite corners at (-2, 0) and (2, 4). What is the area of the square?",
+    "options": [
+      "32.04",
+      "16.02",
+      "64.08",
+      "11.32"
+    ],
+    "correct": 0,
+    "explanation": "First find the diagonal: d = √[(2--2)² + (4-0)²] = 5.66. For a square, diagonal = side × √2, so side = 5.66/√2 = 4.00. Area = side² = 32.04 square units."
+  },
+  {
+    "id": 251,
+    "text": "Factor the polynomial: x² + 5x + 6",
+    "options": [
+      "(x + 2)(x + 3)",
+      "(x + -1)(x + -2)",
+      "(x - 3)(x - 4)",
+      "(x + -2)(x + -1)"
+    ],
+    "correct": 0,
+    "explanation": "Find two numbers that multiply to give 6 and add to give +. These are -2 and -3, so the factorization is (x + 2)(x + 3)."
+  },
+  {
+    "id": 252,
+    "text": "Factor the polynomial: x² + 7x + 12",
+    "options": [
+      "(x + -3)(x + -2)",
+      "(x + 3)(x + 4)",
+      "(x + -2)(x + -3)",
+      "(x - 4)(x - 5)"
+    ],
+    "correct": 1,
+    "explanation": "Find two numbers that multiply to give 12 and add to give +. These are -3 and -4, so the factorization is (x + 3)(x + 4)."
+  },
+  {
+    "id": 253,
+    "text": "Factor the polynomial: x² - 5x + 6",
+    "options": [
+      "(x + 2)(x + 5)",
+      "(x - 2)(x - 3)",
+      "(x + 3)(x + 4)",
+      "(x - 3)(x - 4)"
+    ],
+    "correct": 1,
+    "explanation": "Find two numbers that multiply to give undefined and add to give +. These are 2 and 3, so the factorization is (x - 2)(x - 3)."
+  },
+  {
+    "id": 254,
+    "text": "Factor the polynomial: x² - 7x + 12",
+    "options": [
+      "(x - 4)(x - 5)",
+      "(x - 3)(x - 4)",
+      "(x + 3)(x + 6)",
+      "(x + 4)(x + 5)"
+    ],
+    "correct": 1,
+    "explanation": "Find two numbers that multiply to give undefined and add to give +. These are 3 and 4, so the factorization is (x - 3)(x - 4)."
+  },
+  {
+    "id": 255,
+    "text": "Factor the polynomial: x² + 6x + 8",
+    "options": [
+      "(x + -1)(x + -3)",
+      "(x - 3)(x - 5)",
+      "(x + -2)(x + -2)",
+      "(x + 2)(x + 4)"
+    ],
+    "correct": 3,
+    "explanation": "Find two numbers that multiply to give 8 and add to give +. These are -2 and -4, so the factorization is (x + 2)(x + 4)."
+  },
+  {
+    "id": 256,
+    "text": "Factor the polynomial: x² - 6x + 8",
+    "options": [
+      "(x + 3)(x + 5)",
+      "(x + 2)(x + 6)",
+      "(x - 2)(x - 4)",
+      "(x - 3)(x - 5)"
+    ],
+    "correct": 2,
+    "explanation": "Find two numbers that multiply to give undefined and add to give +. These are 2 and 4, so the factorization is (x - 2)(x - 4)."
+  },
+  {
+    "id": 257,
+    "text": "Factor the polynomial: x² + 8x + 15",
+    "options": [
+      "(x + -3)(x + -3)",
+      "(x - 4)(x - 6)",
+      "(x + -2)(x + -4)",
+      "(x + 3)(x + 5)"
+    ],
+    "correct": 3,
+    "explanation": "Find two numbers that multiply to give 15 and add to give +. These are -3 and -5, so the factorization is (x + 3)(x + 5)."
+  },
+  {
+    "id": 258,
+    "text": "Factor the polynomial: x² - 8x + 15",
+    "options": [
+      "(x - 3)(x - 5)",
+      "(x + 3)(x + 7)",
+      "(x + 4)(x + 6)",
+      "(x - 4)(x - 6)"
+    ],
+    "correct": 0,
+    "explanation": "Find two numbers that multiply to give undefined and add to give +. These are 3 and 5, so the factorization is (x - 3)(x - 5)."
+  },
+  {
+    "id": 259,
+    "text": "Factor the polynomial: x² + 9x + 20",
+    "options": [
+      "(x + -4)(x + -3)",
+      "(x + -3)(x + -4)",
+      "(x - 5)(x - 6)",
+      "(x + 4)(x + 5)"
+    ],
+    "correct": 3,
+    "explanation": "Find two numbers that multiply to give 20 and add to give +. These are -4 and -5, so the factorization is (x + 4)(x + 5)."
+  },
+  {
+    "id": 260,
+    "text": "Factor the polynomial: x² - 9x + 20",
+    "options": [
+      "(x - 5)(x - 6)",
+      "(x + 4)(x + 7)",
+      "(x + 5)(x + 6)",
+      "(x - 4)(x - 5)"
+    ],
+    "correct": 3,
+    "explanation": "Find two numbers that multiply to give undefined and add to give +. These are 4 and 5, so the factorization is (x - 4)(x - 5)."
+  },
+  {
+    "id": 261,
+    "text": "Factor the polynomial: x² + 11x + 24",
+    "options": [
+      "(x + -3)(x + -6)",
+      "(x + 3)(x + 8)",
+      "(x - 4)(x - 9)",
+      "(x + -2)(x + -7)"
+    ],
+    "correct": 1,
+    "explanation": "Find two numbers that multiply to give 24 and add to give +. These are -3 and -8, so the factorization is (x + 3)(x + 8)."
+  },
+  {
+    "id": 262,
+    "text": "Factor the polynomial: x² - 11x + 24",
+    "options": [
+      "(x + 3)(x + 10)",
+      "(x + 4)(x + 9)",
+      "(x - 4)(x - 9)",
+      "(x - 3)(x - 8)"
+    ],
+    "correct": 3,
+    "explanation": "Find two numbers that multiply to give undefined and add to give +. These are 3 and 8, so the factorization is (x - 3)(x - 8)."
+  },
+  {
+    "id": 263,
+    "text": "Factor the polynomial: x² + 10x + 21",
+    "options": [
+      "(x - 4)(x - 8)",
+      "(x + -2)(x + -6)",
+      "(x + 3)(x + 7)",
+      "(x + -3)(x + -5)"
+    ],
+    "correct": 2,
+    "explanation": "Find two numbers that multiply to give 21 and add to give +. These are -3 and -7, so the factorization is (x + 3)(x + 7)."
+  },
+  {
+    "id": 264,
+    "text": "Factor the polynomial: x² - 10x + 21",
+    "options": [
+      "(x + 3)(x + 9)",
+      "(x - 4)(x - 8)",
+      "(x - 3)(x - 7)",
+      "(x + 4)(x + 8)"
+    ],
+    "correct": 2,
+    "explanation": "Find two numbers that multiply to give undefined and add to give +. These are 3 and 7, so the factorization is (x - 3)(x - 7)."
+  },
+  {
+    "id": 265,
+    "text": "Factor the polynomial: x² + 12x + 35",
+    "options": [
+      "(x + 5)(x + 7)",
+      "(x + -5)(x + -5)",
+      "(x - 6)(x - 8)",
+      "(x + -4)(x + -6)"
+    ],
+    "correct": 0,
+    "explanation": "Find two numbers that multiply to give 35 and add to give +. These are -5 and -7, so the factorization is (x + 5)(x + 7)."
+  },
+  {
+    "id": 266,
+    "text": "Factor the polynomial: x² - 12x + 35",
+    "options": [
+      "(x + 5)(x + 9)",
+      "(x - 5)(x - 7)",
+      "(x - 6)(x - 8)",
+      "(x + 6)(x + 8)"
+    ],
+    "correct": 1,
+    "explanation": "Find two numbers that multiply to give undefined and add to give +. These are 5 and 7, so the factorization is (x - 5)(x - 7)."
+  },
+  {
+    "id": 267,
+    "text": "Factor the polynomial: x² + 13x + 36",
+    "options": [
+      "(x + 4)(x + 9)",
+      "(x + -4)(x + -7)",
+      "(x + -3)(x + -8)",
+      "(x - 5)(x - 10)"
+    ],
+    "correct": 0,
+    "explanation": "Find two numbers that multiply to give 36 and add to give +. These are -4 and -9, so the factorization is (x + 4)(x + 9)."
+  },
+  {
+    "id": 268,
+    "text": "Factor the polynomial: x² - 13x + 36",
+    "options": [
+      "(x + 4)(x + 11)",
+      "(x + 5)(x + 10)",
+      "(x - 5)(x - 10)",
+      "(x - 4)(x - 9)"
+    ],
+    "correct": 3,
+    "explanation": "Find two numbers that multiply to give undefined and add to give +. These are 4 and 9, so the factorization is (x - 4)(x - 9)."
+  },
+  {
+    "id": 269,
+    "text": "Factor the polynomial: x² + 14x + 45",
+    "options": [
+      "(x + -4)(x + -8)",
+      "(x - 6)(x - 10)",
+      "(x + 5)(x + 9)",
+      "(x + -5)(x + -7)"
+    ],
+    "correct": 2,
+    "explanation": "Find two numbers that multiply to give 45 and add to give +. These are -5 and -9, so the factorization is (x + 5)(x + 9)."
+  },
+  {
+    "id": 270,
+    "text": "Factor the polynomial: x² - 14x + 45",
+    "options": [
+      "(x - 5)(x - 9)",
+      "(x + 5)(x + 11)",
+      "(x - 6)(x - 10)",
+      "(x + 6)(x + 10)"
+    ],
+    "correct": 0,
+    "explanation": "Find two numbers that multiply to give undefined and add to give +. These are 5 and 9, so the factorization is (x - 5)(x - 9)."
+  },
+  {
+    "id": 271,
+    "text": "Solve the system of equations:\n2x + y = 10\nx - y = 2",
+    "options": [
+      "x = 4, y = 2",
+      "x = 3, y = 3",
+      "x = 5, y = 1",
+      "x = 2, y = 4"
+    ],
+    "correct": 0,
+    "explanation": "Using substitution or elimination method: x = 4 and y = 2. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 272,
+    "text": "Solve the system of equations:\nx + y = 8\nx - y = 2",
+    "options": [
+      "x = 3, y = 5",
+      "x = 6, y = 2",
+      "x = 4, y = 4",
+      "x = 5, y = 3"
+    ],
+    "correct": 3,
+    "explanation": "Using substitution or elimination method: x = 5 and y = 3. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 273,
+    "text": "Solve the system of equations:\n3x + 2y = 16\nx + y = 6",
+    "options": [
+      "x = 3, y = 3",
+      "x = 4, y = 2",
+      "x = 2, y = 4",
+      "x = 5, y = 1"
+    ],
+    "correct": 1,
+    "explanation": "Using substitution or elimination method: x = 4 and y = 2. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 274,
+    "text": "Solve the system of equations:\n2x + 3y = 13\nx + y = 5",
+    "options": [
+      "x = 3, y = 2",
+      "x = 1, y = 4",
+      "x = 2, y = 3",
+      "x = 3, y = 2"
+    ],
+    "correct": 2,
+    "explanation": "Using substitution or elimination method: x = 2 and y = 3. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 275,
+    "text": "Solve the system of equations:\nx + 2y = 11\nx - y = 2",
+    "options": [
+      "x = 4, y = 4",
+      "x = 5, y = 3",
+      "x = 6, y = 2",
+      "x = 3, y = 5"
+    ],
+    "correct": 1,
+    "explanation": "Using substitution or elimination method: x = 5 and y = 3. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 276,
+    "text": "Solve the system of equations:\n3x + y = 11\nx + y = 5",
+    "options": [
+      "x = 2, y = 3",
+      "x = 3, y = 2",
+      "x = 2, y = 3",
+      "x = 4, y = 1"
+    ],
+    "correct": 1,
+    "explanation": "Using substitution or elimination method: x = 3 and y = 2. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 277,
+    "text": "Solve the system of equations:\n2x + y = 9\nx + y = 6",
+    "options": [
+      "x = 2, y = 4",
+      "x = 4, y = 2",
+      "x = 3, y = 3",
+      "x = 3, y = 3"
+    ],
+    "correct": 2,
+    "explanation": "Using substitution or elimination method: x = 3 and y = 3. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 278,
+    "text": "Solve the system of equations:\nx + 3y = 14\nx + y = 6",
+    "options": [
+      "x = 4, y = 2",
+      "x = 1, y = 5",
+      "x = 2, y = 4",
+      "x = 3, y = 3"
+    ],
+    "correct": 2,
+    "explanation": "Using substitution or elimination method: x = 2 and y = 4. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 279,
+    "text": "Solve the system of equations:\n4x + y = 17\nx + y = 5",
+    "options": [
+      "x = 3, y = 2",
+      "x = 5, y = 0",
+      "x = 1, y = 4",
+      "x = 4, y = 1"
+    ],
+    "correct": 3,
+    "explanation": "Using substitution or elimination method: x = 4 and y = 1. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 280,
+    "text": "Solve the system of equations:\n2x + 3y = 16\nx - y = 1",
+    "options": [
+      "x = 3, y = 4",
+      "x = 4, y = 3",
+      "x = 3, y = 4",
+      "x = 5, y = 2"
+    ],
+    "correct": 1,
+    "explanation": "Using substitution or elimination method: x = 4 and y = 3. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 281,
+    "text": "Solve the system of equations:\n3x + 2y = 17\nx + y = 6",
+    "options": [
+      "x = 6, y = 0",
+      "x = 4, y = 2",
+      "x = 5, y = 1",
+      "x = 1, y = 5"
+    ],
+    "correct": 2,
+    "explanation": "Using substitution or elimination method: x = 5 and y = 1. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 282,
+    "text": "Solve the system of equations:\nx + 4y = 18\nx + y = 6",
+    "options": [
+      "x = 3, y = 3",
+      "x = 4, y = 2",
+      "x = 1, y = 5",
+      "x = 2, y = 4"
+    ],
+    "correct": 3,
+    "explanation": "Using substitution or elimination method: x = 2 and y = 4. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 283,
+    "text": "Solve the system of equations:\n5x + y = 21\nx + y = 5",
+    "options": [
+      "x = 1, y = 4",
+      "x = 5, y = 0",
+      "x = 4, y = 1",
+      "x = 3, y = 2"
+    ],
+    "correct": 2,
+    "explanation": "Using substitution or elimination method: x = 4 and y = 1. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 284,
+    "text": "Solve the system of equations:\n2x + 5y = 24\nx + y = 6",
+    "options": [
+      "x = 4, y = 2",
+      "x = 2, y = 4",
+      "x = 3, y = 3",
+      "x = 3, y = 3"
+    ],
+    "correct": 2,
+    "explanation": "Using substitution or elimination method: x = 3 and y = 3. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 285,
+    "text": "Solve the system of equations:\n3x + 4y = 25\nx + y = 7",
+    "options": [
+      "x = 4, y = 3",
+      "x = 4, y = 3",
+      "x = 3, y = 4",
+      "x = 2, y = 5"
+    ],
+    "correct": 2,
+    "explanation": "Using substitution or elimination method: x = 3 and y = 4. Verify: Substitute into both equations to confirm the solution."
+  },
+  {
+    "id": 286,
+    "text": "A circle has radius 8. A sector with central angle 90° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "180.96",
+      "201.06",
+      "150.80",
+      "120.64"
+    ],
+    "correct": 2,
+    "explanation": "Full circle area = π(8)² = 201.06. Sector removed = (90/360) × 201.06 = 50.27. Remaining = 201.06 - 50.27 = 150.80.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 8,
+        "angle": 90
+      }
+    }
+  },
+  {
+    "id": 287,
+    "text": "A circle has radius 10. A sector with central angle 60° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "314.16",
+      "314.16",
+      "261.80",
+      "209.44"
+    ],
+    "correct": 2,
+    "explanation": "Full circle area = π(10)² = 314.16. Sector removed = (60/360) × 314.16 = 52.36. Remaining = 314.16 - 52.36 = 261.80.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 10,
+        "angle": 60
+      }
+    }
+  },
+  {
+    "id": 288,
+    "text": "A circle has radius 6. A sector with central angle 120° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "90.48",
+      "60.32",
+      "75.40",
+      "113.10"
+    ],
+    "correct": 2,
+    "explanation": "Full circle area = π(6)² = 113.10. Sector removed = (120/360) × 113.10 = 37.70. Remaining = 113.10 - 37.70 = 75.40.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 6,
+        "angle": 120
+      }
+    }
+  },
+  {
+    "id": 289,
+    "text": "A circle has radius 12. A sector with central angle 45° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "395.84",
+      "452.39",
+      "475.01",
+      "316.67"
+    ],
+    "correct": 0,
+    "explanation": "Full circle area = π(12)² = 452.39. Sector removed = (45/360) × 452.39 = 56.55. Remaining = 452.39 - 56.55 = 395.84.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 12,
+        "angle": 45
+      }
+    }
+  },
+  {
+    "id": 290,
+    "text": "A circle has radius 5. A sector with central angle 90° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "58.90",
+      "70.68",
+      "47.12",
+      "78.54"
+    ],
+    "correct": 0,
+    "explanation": "Full circle area = π(5)² = 78.54. Sector removed = (90/360) × 78.54 = 19.63. Remaining = 78.54 - 19.63 = 58.90.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 5,
+        "angle": 90
+      }
+    }
+  },
+  {
+    "id": 291,
+    "text": "A circle has radius 9. A sector with central angle 60° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "212.06",
+      "254.47",
+      "169.65",
+      "254.47"
+    ],
+    "correct": 0,
+    "explanation": "Full circle area = π(9)² = 254.47. Sector removed = (60/360) × 254.47 = 42.41. Remaining = 254.47 - 42.41 = 212.06.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 9,
+        "angle": 60
+      }
+    }
+  },
+  {
+    "id": 292,
+    "text": "A circle has radius 7. A sector with central angle 135° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "96.21",
+      "76.97",
+      "153.94",
+      "115.45"
+    ],
+    "correct": 0,
+    "explanation": "Full circle area = π(7)² = 153.94. Sector removed = (135/360) × 153.94 = 57.73. Remaining = 153.94 - 57.73 = 96.21.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 7,
+        "angle": 135
+      }
+    }
+  },
+  {
+    "id": 293,
+    "text": "A circle has radius 4. A sector with central angle 180° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "50.27",
+      "30.16",
+      "25.13",
+      "20.10"
+    ],
+    "correct": 2,
+    "explanation": "Full circle area = π(4)² = 50.27. Sector removed = (180/360) × 50.27 = 25.13. Remaining = 50.27 - 25.13 = 25.13.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 4,
+        "angle": 180
+      }
+    }
+  },
+  {
+    "id": 294,
+    "text": "A circle has radius 15. A sector with central angle 30° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "777.54",
+      "647.95",
+      "706.86",
+      "518.36"
+    ],
+    "correct": 1,
+    "explanation": "Full circle area = π(15)² = 706.86. Sector removed = (30/360) × 706.86 = 58.90. Remaining = 706.86 - 58.90 = 647.95.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 15,
+        "angle": 30
+      }
+    }
+  },
+  {
+    "id": 295,
+    "text": "A circle has radius 8. A sector with central angle 120° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "201.06",
+      "134.04",
+      "107.23",
+      "160.85"
+    ],
+    "correct": 1,
+    "explanation": "Full circle area = π(8)² = 201.06. Sector removed = (120/360) × 201.06 = 67.02. Remaining = 201.06 - 67.02 = 134.04.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 8,
+        "angle": 120
+      }
+    }
+  },
+  {
+    "id": 296,
+    "text": "A circle has radius 10. A sector with central angle 90° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "314.16",
+      "235.62",
+      "282.74",
+      "188.50"
+    ],
+    "correct": 1,
+    "explanation": "Full circle area = π(10)² = 314.16. Sector removed = (90/360) × 314.16 = 78.54. Remaining = 314.16 - 78.54 = 235.62.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 10,
+        "angle": 90
+      }
+    }
+  },
+  {
+    "id": 297,
+    "text": "A circle has radius 6. A sector with central angle 150° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "113.10",
+      "79.16",
+      "65.97",
+      "52.78"
+    ],
+    "correct": 2,
+    "explanation": "Full circle area = π(6)² = 113.10. Sector removed = (150/360) × 113.10 = 47.12. Remaining = 113.10 - 47.12 = 65.97.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 6,
+        "angle": 150
+      }
+    }
+  },
+  {
+    "id": 298,
+    "text": "A circle has radius 12. A sector with central angle 60° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "301.59",
+      "452.39",
+      "376.99",
+      "452.39"
+    ],
+    "correct": 2,
+    "explanation": "Full circle area = π(12)² = 452.39. Sector removed = (60/360) × 452.39 = 75.40. Remaining = 452.39 - 75.40 = 376.99.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 12,
+        "angle": 60
+      }
+    }
+  },
+  {
+    "id": 299,
+    "text": "A circle has radius 14. A sector with central angle 45° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "646.54",
+      "615.75",
+      "431.02",
+      "538.78"
+    ],
+    "correct": 3,
+    "explanation": "Full circle area = π(14)² = 615.75. Sector removed = (45/360) × 615.75 = 76.97. Remaining = 615.75 - 76.97 = 538.78.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 14,
+        "angle": 45
+      }
+    }
+  },
+  {
+    "id": 300,
+    "text": "A circle has radius 5. A sector with central angle 270° is removed. What is the remaining area? (Use π ≈ 3.14)",
+    "options": [
+      "23.56",
+      "19.63",
+      "15.70",
+      "78.54"
+    ],
+    "correct": 1,
+    "explanation": "Full circle area = π(5)² = 78.54. Sector removed = (270/360) × 78.54 = 58.90. Remaining = 78.54 - 58.90 = 19.63.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 5,
+        "angle": 270
+      }
+    }
+  },
+  {
+    "id": 301,
+    "text": "A circle has radius 2π. A sector with central angle 90° is removed. What is the area of the remaining shape?",
+    "options": [
+      "1.50π³",
+      "3.00π³",
+      "4.00π³",
+      "4.50π³"
+    ],
+    "correct": 1,
+    "explanation": "With radius r = 2π, the area = πr² = π(2π)² = 4π³. The sector removed is (90/360) × 4π³ = 1.00π³. Remaining area = 4π³ - 1.00π³ = 3.00π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 6.28,
+        "angle": 90,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 302,
+    "text": "A circle has radius 3π. A sector with central angle 60° is removed. What is the area of the remaining shape?",
+    "options": [
+      "11.25π³",
+      "9.00π³",
+      "7.50π³",
+      "3.75π³"
+    ],
+    "correct": 2,
+    "explanation": "With radius r = 3π, the area = πr² = π(3π)² = 9π³. The sector removed is (60/360) × 9π³ = 1.50π³. Remaining area = 9π³ - 1.50π³ = 7.50π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 9.42,
+        "angle": 60,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 303,
+    "text": "A circle has radius 4π. A sector with central angle 90° is removed. What is the area of the remaining shape?",
+    "options": [
+      "6.00π³",
+      "16.00π³",
+      "18.00π³",
+      "12.00π³"
+    ],
+    "correct": 3,
+    "explanation": "With radius r = 4π, the area = πr² = π(4π)² = 16π³. The sector removed is (90/360) × 16π³ = 4.00π³. Remaining area = 16π³ - 4.00π³ = 12.00π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 12.56,
+        "angle": 90,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 304,
+    "text": "A circle has radius 5π. A sector with central angle 120° is removed. What is the area of the remaining shape?",
+    "options": [
+      "25.00π³",
+      "25.00π³",
+      "16.67π³",
+      "8.33π³"
+    ],
+    "correct": 2,
+    "explanation": "With radius r = 5π, the area = πr² = π(5π)² = 25π³. The sector removed is (120/360) × 25π³ = 8.33π³. Remaining area = 25π³ - 8.33π³ = 16.67π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 15.700000000000001,
+        "angle": 120,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 305,
+    "text": "A circle has radius 2π. A sector with central angle 180° is removed. What is the area of the remaining shape?",
+    "options": [
+      "2.00π³",
+      "3.00π³",
+      "1.00π³",
+      "4.00π³"
+    ],
+    "correct": 0,
+    "explanation": "With radius r = 2π, the area = πr² = π(2π)² = 4π³. The sector removed is (180/360) × 4π³ = 2.00π³. Remaining area = 4π³ - 2.00π³ = 2.00π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 6.28,
+        "angle": 180,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 306,
+    "text": "A circle has radius 6π. A sector with central angle 45° is removed. What is the area of the remaining shape?",
+    "options": [
+      "36.00π³",
+      "47.25π³",
+      "15.75π³",
+      "31.50π³"
+    ],
+    "correct": 3,
+    "explanation": "With radius r = 6π, the area = πr² = π(6π)² = 36π³. The sector removed is (45/360) × 36π³ = 4.50π³. Remaining area = 36π³ - 4.50π³ = 31.50π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 18.84,
+        "angle": 45,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 307,
+    "text": "A circle has radius 3π. A sector with central angle 135° is removed. What is the area of the remaining shape?",
+    "options": [
+      "9.00π³",
+      "8.44π³",
+      "5.63π³",
+      "2.81π³"
+    ],
+    "correct": 2,
+    "explanation": "With radius r = 3π, the area = πr² = π(3π)² = 9π³. The sector removed is (135/360) × 9π³ = 3.38π³. Remaining area = 9π³ - 3.38π³ = 5.63π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 9.42,
+        "angle": 135,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 308,
+    "text": "A circle has radius 4π. A sector with central angle 60° is removed. What is the area of the remaining shape?",
+    "options": [
+      "16.00π³",
+      "20.00π³",
+      "13.33π³",
+      "6.67π³"
+    ],
+    "correct": 2,
+    "explanation": "With radius r = 4π, the area = πr² = π(4π)² = 16π³. The sector removed is (60/360) × 16π³ = 2.67π³. Remaining area = 16π³ - 2.67π³ = 13.33π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 12.56,
+        "angle": 60,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 309,
+    "text": "A circle has radius 5π. A sector with central angle 90° is removed. What is the area of the remaining shape?",
+    "options": [
+      "28.13π³",
+      "25.00π³",
+      "18.75π³",
+      "9.38π³"
+    ],
+    "correct": 2,
+    "explanation": "With radius r = 5π, the area = πr² = π(5π)² = 25π³. The sector removed is (90/360) × 25π³ = 6.25π³. Remaining area = 25π³ - 6.25π³ = 18.75π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 15.700000000000001,
+        "angle": 90,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 310,
+    "text": "A circle has radius 2π. A sector with central angle 270° is removed. What is the area of the remaining shape?",
+    "options": [
+      "1.50π³",
+      "0.50π³",
+      "1.00π³",
+      "4.00π³"
+    ],
+    "correct": 2,
+    "explanation": "With radius r = 2π, the area = πr² = π(2π)² = 4π³. The sector removed is (270/360) × 4π³ = 3.00π³. Remaining area = 4π³ - 3.00π³ = 1.00π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 6.28,
+        "angle": 270,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 311,
+    "text": "A circle has radius 7π. A sector with central angle 45° is removed. What is the area of the remaining shape?",
+    "options": [
+      "21.44π³",
+      "42.88π³",
+      "49.00π³",
+      "64.31π³"
+    ],
+    "correct": 1,
+    "explanation": "With radius r = 7π, the area = πr² = π(7π)² = 49π³. The sector removed is (45/360) × 49π³ = 6.13π³. Remaining area = 49π³ - 6.13π³ = 42.88π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 21.98,
+        "angle": 45,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 312,
+    "text": "A circle has radius 3π. A sector with central angle 90° is removed. What is the area of the remaining shape?",
+    "options": [
+      "10.13π³",
+      "6.75π³",
+      "3.38π³",
+      "9.00π³"
+    ],
+    "correct": 1,
+    "explanation": "With radius r = 3π, the area = πr² = π(3π)² = 9π³. The sector removed is (90/360) × 9π³ = 2.25π³. Remaining area = 9π³ - 2.25π³ = 6.75π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 9.42,
+        "angle": 90,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 313,
+    "text": "A circle has radius 8π. A sector with central angle 60° is removed. What is the area of the remaining shape?",
+    "options": [
+      "26.67π³",
+      "80.00π³",
+      "64.00π³",
+      "53.33π³"
+    ],
+    "correct": 3,
+    "explanation": "With radius r = 8π, the area = πr² = π(8π)² = 64π³. The sector removed is (60/360) × 64π³ = 10.67π³. Remaining area = 64π³ - 10.67π³ = 53.33π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 25.12,
+        "angle": 60,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 314,
+    "text": "A circle has radius 4π. A sector with central angle 120° is removed. What is the area of the remaining shape?",
+    "options": [
+      "10.67π³",
+      "16.00π³",
+      "16.00π³",
+      "5.33π³"
+    ],
+    "correct": 0,
+    "explanation": "With radius r = 4π, the area = πr² = π(4π)² = 16π³. The sector removed is (120/360) × 16π³ = 5.33π³. Remaining area = 16π³ - 5.33π³ = 10.67π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 12.56,
+        "angle": 120,
+        "unit": ""
+      }
+    }
+  },
+  {
+    "id": 315,
+    "text": "A circle has radius 6π. A sector with central angle 90° is removed. What is the area of the remaining shape?",
+    "options": [
+      "40.50π³",
+      "27.00π³",
+      "36.00π³",
+      "13.50π³"
+    ],
+    "correct": 1,
+    "explanation": "With radius r = 6π, the area = πr² = π(6π)² = 36π³. The sector removed is (90/360) × 36π³ = 9.00π³. Remaining area = 36π³ - 9.00π³ = 27.00π³.",
+    "diagram": {
+      "type": "sector",
+      "props": {
+        "radius": 18.84,
+        "angle": 90,
+        "unit": ""
+      }
+    }
   }
 ];
 

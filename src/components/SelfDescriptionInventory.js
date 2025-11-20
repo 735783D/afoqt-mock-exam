@@ -20,9 +20,6 @@ const SelfDescriptionInventory = ({
           <div className="question-container">
             <div className="question-header">
               <h3>Question {questionNumber} of {totalQuestions}</h3>
-              {/* <p className="category-label">
-                {question.category.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase())}
-              </p> */}
             </div>
 
             <div className="sdi-statement">
@@ -43,12 +40,6 @@ const SelfDescriptionInventory = ({
                 Like Me
               </button>
             </div>
-
-            {/* {question.reverse && (
-              <div className="reverse-indicator">
-                <small>⟲ Reverse-scored item</small>
-              </div>
-            )} */}
 
             {/* Navigation Buttons */}
             <div className="flex justify-between items-center mt-8 pt-6 border-t">
