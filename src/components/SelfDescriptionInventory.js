@@ -20,6 +20,7 @@ const SelfDescriptionInventory = ({
           <div className="question-container">
             <div className="question-header">
               <h3>Question {questionNumber} of {totalQuestions}</h3>
+
             </div>
 
             <div className="sdi-statement">

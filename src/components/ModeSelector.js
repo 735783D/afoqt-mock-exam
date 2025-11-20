@@ -1,6 +1,8 @@
 import React from 'react';
 import { BookOpen, Target, Brain } from 'lucide-react';
+
 import DisclaimerModal from '../components/DisclaimerModal';
+
 
 export default function ModeSelector({ onSelectMode }) {
   return (

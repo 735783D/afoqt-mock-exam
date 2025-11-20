@@ -145,7 +145,6 @@ const shuffleArray = (array) => {
   return shuffled;
 };
 
-
 // Get randomized questions for a section
 const getRandomizedQuestions = (data, count, isPassageBased) => {
   if (isPassageBased) {
@@ -357,7 +356,9 @@ export default function FullExamMode({ onExit }) {
           <div className="bg-yellow-50 border-2 border-yellow-400 rounded-lg p-6 mb-6">
             <h3 className="font-bold text-lg text-yellow-900 mb-2">⚠️ Important Information</h3>
             <ul className="space-y-2 text-yellow-800">
+
               <li>• This only scores for accuracy. The real AFOQT is scored on other factors as well. So this will not reflect what you would actually get on the real AFOQT.</li>
+
               <li>• This is a timed, full-length practice exam</li>
               <li>• Treat this as if it is the real thing!</li>
               <li>• DO NOT get up for section breaks. Only for Main 15-minute break</li>
@@ -366,6 +367,7 @@ export default function FullExamMode({ onExit }) {
               <li>• Questions are randomized for each attempt</li>
               <li>• 5-minute breaks between shorter sections</li>
               <li>• 10-minute breaks after longer sections (20+ minutes)</li>
+
               <li>• 15-minute break where you can stand up and walk around if need be after Self-Description Inventory (Section 7)</li>
               <li>• You CANNOT go back to previous sections once completed</li>
               <li>• Timer will automatically advance sections when time expires</li>
@@ -373,6 +375,10 @@ export default function FullExamMode({ onExit }) {
               <li>• Self-Description Inventory and Situational Judgment sections are NOT scored in this mock exam.</li>
               <li>• This is a marathon!</li>
               <li>• <strong>Good luck!</strong></li>
+              <li>• 15-minute break after Self-Description Inventory (Section 7)</li>
+              <li>• You cannot go back to previous sections once completed</li>
+              <li>• Timer will automatically advance sections when time expires</li>
+
             </ul>
           </div>
 
@@ -655,7 +661,6 @@ if (showResults) {
               Review each section with lower accuracy and identify areas for improvement.
             </p>
           </div>
-
           <div className="flex gap-4 sticky bottom-4">
             <button
               onClick={handleRetake}
@@ -797,4 +802,4 @@ return (
     )}
   </>
 );
-}
+};
