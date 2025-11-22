@@ -321,7 +321,7 @@ export const aviationInfoData = [
   },
   {
     id: 35,
-    text: "A stall can occur at any",
+    text: "A stall can occur only by exceeding",
     options: ["Airspeed", "Angle of attack", "Altitude", "Throttle setting", "Temperature"],
     correct: 1,
     explanation: "Stalls are caused by exceeding the critical angle of attack, not by airspeed alone."
@@ -343,92 +343,92 @@ export const aviationInfoData = [
   {
     id: 38,
     text: "What does ATC stand for?",
-    options: ["Air Traffic Control", "Aircraft Technical Command", "Aviation Timing Center", "Air Turbine Chamber", "Altitude Training Center"],
-    correct: 0,
+    options: ["Aircraft Technical Command", "Aviation Timing Center", "Air Traffic Control", "Air Turbine Chamber", "Altitude Training Center"],
+    correct: 2,
     explanation: "ATC stands for Air Traffic Control."
   },
   {
     id: 39,
     text: "What is the main function of spoilers?",
-    options: ["Reduce lift and increase drag", "Increase lift", "Control yaw", "Provide thrust", "Stabilize pitch"],
-    correct: 0,
+    options: ["Increase lift", "Control yaw", "Provide thrust", "Reduce lift and increase drag", "Stabilize pitch"],
+    correct: 3,
     explanation: "Spoilers disrupt airflow, reducing lift and increasing drag."
   },
   {
     id: 40,
     text: "When flaps are extended, the aircraft can",
-    options: ["Fly slower without stalling", "Climb faster", "Descend faster", "Turn sharper", "Use less fuel"],
-    correct: 0,
+    options: ["Climb faster", "Descend faster", "Fly slower without stalling", "Turn sharper", "Use less fuel"],
+    correct: 2,
     explanation: "Flaps allow lower stall speeds and slower, more controlled flight."
   },
   {
     id: 41,
     text: "Which part of a plane controls pitch?",
-    options: ["Elevators", "Rudder", "Ailerons", "Spoilers", "Trim tab"],
-    correct: 0,
+    options: ["Rudder", "Ailerons", "Spoilers", "Elevators", "Trim tab"],
+    correct: 3,
     explanation: "Elevators control pitch about the lateral axis."
   },
   {
     id: 42,
     text: "What happens to takeoff distance at higher altitudes?",
-    options: ["It increases", "It decreases", "It remains constant", "It becomes unpredictable", "It reverses"],
-    correct: 0,
+    options: ["It decreases", "It increases", "It remains constant", "It becomes unpredictable", "It reverses"],
+    correct: 1,
     explanation: "Thinner air at high altitude reduces lift and thrust, increasing takeoff distance."
   },
   {
     id: 43,
     text: "The magnetic compass is affected by",
-    options: ["Acceleration and turning errors", "Humidity", "Air pressure", "Wind direction", "Altitude"],
-    correct: 0,
+    options: ["Humidity", "Air pressure", "Acceleration and turning errors", "Wind direction", "Altitude"],
+    correct: 2,
     explanation: "Compass readings can be distorted by acceleration and turns."
   },
   {
     id: 44,
     text: "Which flight control primarily affects yaw?",
-    options: ["Rudder", "Elevators", "Ailerons", "Flaps", "Spoilers"],
-    correct: 0,
+    options: ["Elevators", "Ailerons", "Flaps", "Rudder", "Spoilers"],
+    correct: 3,
     explanation: "The rudder controls yaw about the vertical axis."
   },
   {
     id: 45,
     text: "What is the primary purpose of the mixture control in piston aircraft?",
-    options: ["Adjust fuel-to-air ratio", "Control oil pressure", "Change propeller speed", "Regulate cabin temperature", "Activate de-icing"],
-    correct: 0,
+    options: ["Control oil pressure", "Change propeller speed", "Adjust fuel-to-air ratio", "Regulate cabin temperature", "Activate de-icing"],
+    correct: 2,
     explanation: "Mixture control adjusts the fuel-to-air ratio for efficient combustion."
   },
   {
     id: 46,
     text: "What does a tachometer indicate?",
-    options: ["Engine RPM", "Altitude", "Air temperature", "Airspeed", "Fuel flow"],
-    correct: 0,
+    options: ["Altitude", "Air temperature", "Airspeed", "Engine RPM", "Fuel flow"],
+    correct: 3,
     explanation: "The tachometer shows engine revolutions per minute."
   },
   {
     id: 47,
     text: "A stall warning horn typically activates when",
-    options: ["Approaching critical angle of attack", "Exceeding Vne", "Flaps are extended", "Power decreases", "Airspeed is maximum"],
-    correct: 0,
+    options: ["Exceeding Vne", "Approaching critical angle of attack", "Flaps are extended", "Power decreases", "Airspeed is maximum"],
+    correct: 1,
     explanation: "The stall horn sounds just before reaching the critical angle of attack."
   },
   {
     id: 48,
     text: "Which component allows an airplane to bank and turn?",
-    options: ["Ailerons", "Elevators", "Rudder", "Trim tab", "Spoilers"],
-    correct: 0,
+    options: ["Elevators", "Rudder", "Trim tab", "Ailerons", "Spoilers"],
+    correct: 3,
     explanation: "Ailerons raise and lower wings for turns."
   },
   {
     id: 49,
     text: "Thrust in a jet engine is produced by",
-    options: ["Expelling accelerated gases rearward", "Turning the propeller", "Heating the cockpit", "Changing the wing angle", "Increasing drag"],
-    correct: 0,
+    options: ["Turning the propeller", "Heating the cockpit", "Expelling accelerated gases rearward", "Changing the wing angle", "Increasing drag"],
+    correct: 2,
     explanation: "Thrust is generated when accelerated exhaust gases are expelled backward."
   },
   {
     id: 50,
     text: "The point where all forces on an aircraft are balanced is called the",
-    options: ["Center of gravity", "Center of pressure", "Lift vector", "Control point", "Static margin"],
-    correct: 0,
+    options: ["Center of pressure", "Lift vector", "Center of gravity", "Control point", "Static margin"],
+    correct: 2,
     explanation: "The center of gravity is where the aircraft balances in flight."
   },
   {

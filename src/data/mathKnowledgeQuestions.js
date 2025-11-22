@@ -41,8 +41,8 @@ export const mathKnowledgeData = [
     id: 6,
     text: "What is the volume of a cylinder with radius 5 cm and height 10 cm?",
     options: ["785.4 cm³", "1570.8 cm³", "314.16 cm³", "628.32 cm³"],
-    correct: 1,
-    explanation: "Volume = 3.1416 × 5² × 10 = 3.1416 × 25 × 10 = 785.4 × 2 = 1570.8 cm³.",
+    correct: 0,
+    explanation: "Volume = 3.1416 × 5² × 10 = 3.1416 × 25 × 10 = 785.4 cm³.",
     // diagram: "CylinderDiagram",
     // diagramProps: { radius: 5, height: 10 }
     diagram: {

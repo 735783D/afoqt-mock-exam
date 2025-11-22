@@ -23,5 +23,5 @@ yarn-debug.log*
 yarn-error.log*
 
 generate*.js
-convertBlockData*.js
+convertBlockData.js
 randomizeAnswers.js

@@ -1,70 +1,216 @@
-# Getting Started with Create React App
+# AFOQT Mock Exam
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive practice examination application for the Air Force Officer Qualifying Test (AFOQT), built with React and hosted on GitHub Pages.
 
-## Available Scripts
+**Created by Jason J. Whitby**
 
-In the project directory, you can run:
+![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red.svg)
+![React](https://img.shields.io/badge/react-18.x-blue.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
 
-### `npm start`
+## 🎯 Purpose
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This application provides a realistic practice environment for individuals preparing for the AFOQT. It includes all 12 test sections with hundreds of practice questions, timed exams, and detailed explanations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚠️ Important Disclaimer
 
-### `npm test`
+**This is NOT an official Air Force product.** This practice exam is:
+- ❌ NOT affiliated with the United States Air Force
+- ❌ NOT endorsed by the Department of Defense
+- ❌ NOT a guarantee of passing scores or military acceptance
+- ✅ An independent educational tool for practice purposes only
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For official AFOQT information, visit [airforce.com](https://www.airforce.com) or contact your local recruiter.
 
-### `npm run build`
+## 📚 Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Test Sections
+- **Verbal Analogies** (25 questions, 8 minutes)
+- **Arithmetic Reasoning** (25 questions, 29 minutes)
+- **Word Knowledge** (25 questions, 5 minutes)
+- **Math Knowledge** (25 questions, 22 minutes)
+- **Reading Comprehension** (25 questions, 38 minutes)
+- **Situational Judgment** (50 scenarios, 35 minutes)
+- **Self-Description Inventory** (220 statements, 40 minutes)
+- **Physical Science** (20 questions, 10 minutes)
+- **Table Reading** (40 questions, 7 minutes)
+- **Instrument Comprehension** (25 questions, 5 minutes)
+- **Block Counting** (30 questions, 4.5 minutes)
+- **Aviation Information** (20 questions, 8 minutes)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Practice Modes
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 📖 Practice Mode
+- Access individual sections
+- Subsections with 25-40 questions each
+- Untimed practice
+- Immediate feedback with explanations
+- Review answers and explanations
 
-### `npm run eject`
+#### ⏱️ Full Exam Mode
+- Complete 12-section exam experience
+- Realistic timing for each section
+- Randomized questions (different each attempt)
+- Scheduled breaks (5, 10, and 15-minute breaks)
+- Comprehensive results with detailed review
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Additional Features
+- **550+ practice questions** across all sections
+- **Visual diagrams** for geometry and instrument comprehension
+- **Interactive tables** for table reading section
+- **Progress tracking** during exams
+- **Responsive design** for desktop and mobile
+- **No login required** - instant access
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Live Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Access the application here:** [AFOQT Mock Exam](https://735783d.github.io/afoqt-mock-exam/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+No installation required - just click and start practicing!
 
-## Learn More
+## 🛠️ Technology Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Frontend**: React 18.x
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Hosting**: GitHub Pages
+- **Build Tool**: Create React App
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Project Structure
 
-### Code Splitting
+```
+afoqt-mock-exam/
+├── public/
+│   └── images/           # Image assets for questions
+│       ├── instruments/  # Instrument comprehension diagrams
+│       └── blocks/       # Block counting diagrams
+├── src/
+│   ├── components/       # React components
+│   │   ├── ExamQuestion.js
+│   │   ├── ExamResults.js
+│   │   ├── MathDiagrams.js
+│   │   └── ...
+│   ├── data/            # Question banks
+│   │   ├── arithmeticQuestions.js
+│   │   ├── mathKnowledgeQuestions.js
+│   │   └── ...
+│   ├── modes/           # Exam modes
+│   │   ├── PracticeMode.js
+│   │   └── FullExamMode.js
+│   ├── utils/           # Utility functions
+│   └── styles/          # CSS files
+└── package.json
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🎖️ About the Developer
 
-### Analyzing the Bundle Size
+**Jason J. Whitby** - Developer & Creator
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This application was developed to demonstrate technical proficiency and provide a valuable resource for individuals preparing for Air Force officer commissioning. The project showcases:
 
-### Making a Progressive Web App
+### Technical Skills Demonstrated
+- **Full-Stack Web Development**: React 18.x, JavaScript ES6+, modern web technologies
+- **3D Modeling & Rendering**: Created 500+ original diagrams using Blender for Instrument Comprehension and Block Counting sections
+- **Data Architecture**: Designed and implemented question banks with 550+ practice questions across 12 test sections
+- **Algorithm Development**: Built randomization algorithms, scoring systems, and timing logic for realistic exam simulation
+- **User Experience Design**: Responsive interface supporting both practice and full exam modes with intuitive navigation
+- **Project Management**: Comprehensive documentation, version control, and deployment pipeline
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Project Scope
+- **600+ hours** of development time
+- **550+ original questions** with detailed explanations
+- **500+ 3D-rendered images** for visual question types
+- **12 complete test sections** matching official AFOQT structure
+- **Responsive design** for desktop and mobile devices
 
-### Advanced Configuration
+This project represents a commitment to excellence and a dedication to helping future Air Force officers succeed in their commissioning journey.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🎨 Screenshots
 
-### Deployment
+*Coming soon - Add screenshots of your app here*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📝 Question Data
 
-### `npm run build` fails to minify
+All questions are stored in JavaScript files in the `src/data/` directory. Each question includes:
+- Question text
+- Multiple choice options
+- Correct answer index
+- Detailed explanation
+- Optional diagrams/visuals
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Data Format Example
+
+```javascript
+{
+  id: 1,
+  text: "What is 2 + 2?",
+  options: ["3", "4", "5", "6"],
+  correct: 1,
+  explanation: "2 + 2 = 4"
+}
+```
+
+## 🤝 Contributing
+
+This is a personal project and the source code is proprietary. While the application is freely available for use, the codebase is not open for contributions or forks without permission.
+
+**However**, if you find bugs or have suggestions, please feel free to open an issue!
+
+## 📜 License & Copyright
+
+**© 2025 Jason J. Whitby. All Rights Reserved.**
+
+### Usage Rights
+- ✅ **Free to use** the live application at the hosted URL
+- ✅ **Free to view** the source code for educational purposes
+- ✅ **Free to learn** from the implementation
+
+### Restrictions
+- ❌ **May NOT copy** the source code for commercial or personal projects
+- ❌ **May NOT redistribute** or republish this code
+- ❌ **May NOT claim** this work as your own
+- ❌ **May NOT create** derivative works without explicit written permission
+
+### Contact for Permissions
+If you wish to use portions of this code in your own project, please open an issue on GitHub to request permission.
+
+**Attribution Required**: Any permitted use must clearly credit Jason J. Whitby and link back to this repository.
+
+## ⚖️ Legal
+
+### Copyright Notice
+© 2025 Jason J. Whitby. All rights reserved.
+
+### Fair Use Statement
+This application uses publicly available information about the AFOQT format and structure. No actual AFOQT test questions are reproduced. All practice questions are original content created for educational purposes.
+
+### Image Assets
+- Instrument comprehension diagrams: Original 3D renders created in Blender
+- Block counting diagrams: Original 3D renders created in Blender
+- All visual assets are original work
+
+## 🙏 Acknowledgments
+
+- Built with Create React App
+- Icons by Lucide
+- Styling with Tailwind CSS
+- Hosted on GitHub Pages
+
+## 📧 Contact
+
+**Developer**: Jason J. Whitby  
+**GitHub**: [@735783D](https://github.com/735783D)
+
+For questions, feedback, or permission requests, please open an issue on GitHub.
+
+## 🔗 Useful Resources
+
+- [Official Air Force Website](https://www.airforce.com)
+- [AFOQT Study Guide (Official)](https://www.airforce.com/how-to-join/prepare-for-success/afoqt)
+- [Air Force Officer Training School](https://www.airforce.com/education/officer/ots)
+
+---
+
+**Remember**: This is a practice tool only. Always consult official Air Force resources for accurate, up-to-date information about the AFOQT and military service requirements.
+
+**Good luck with your preparation! 🎖️**
