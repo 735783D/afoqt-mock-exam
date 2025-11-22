@@ -110,7 +110,7 @@ This application was developed to demonstrate technical proficiency and provide 
 
 ### Technical Skills Demonstrated
 - **Full-Stack Web Development**: React 18.x, JavaScript ES6+, modern web technologies
-- **3D Modeling & Rendering**: Created 500+ original diagrams using Blender for Instrument Comprehension and Block Counting sections
+- **3D Modeling & Rendering**: Created 1000+ original diagrams using Blender for Instrument Comprehension and Block Counting sections
 - **Data Architecture**: Designed and implemented question banks with 550+ practice questions across 12 test sections
 - **Algorithm Development**: Built randomization algorithms, scoring systems, and timing logic for realistic exam simulation
 - **User Experience Design**: Responsive interface supporting both practice and full exam modes with intuitive navigation
@@ -127,7 +127,20 @@ This project represents a commitment to excellence and a dedication to helping f
 
 ## 🎨 Screenshots
 
-*Coming soon - Add screenshots of your app here*
+### Landing Page
+![Landing Page](screenshots/landing_page.webp)
+
+### Practice Mode
+![Practice Mode](screenshots/practice-mode.webp)
+
+### Full Exam Mode
+![Full Exam Mode](screenshots/full_exam.webp)
+
+### Instrument Comprehension
+![Instrument Comprehension](screenshots/instrument_comp.webp)
+
+### Results & Review
+![Results Page](screenshots/results_page.webp)
 
 ## 📝 Question Data
 
